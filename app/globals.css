@@ -17,16 +17,21 @@
 html {
   scroll-behavior: smooth;
   background: var(--ink);
+  overflow-x: clip;
 }
 
 body {
+  min-width: 0;
   margin: 0;
   color: var(--ink);
   background: var(--paper);
   font-family: var(--body);
   line-height: 1.65;
+  overflow-x: clip;
   text-rendering: optimizeLegibility;
 }
+
+main { min-width: 0; }
 
 a {
   color: inherit;

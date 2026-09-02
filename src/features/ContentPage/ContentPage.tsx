@@ -8,6 +8,7 @@ import { PioneersPage } from '@/features/PioneersPage';
 import { RecoveredPage } from '@/features/RecoveredPage';
 import { StepsPage } from '@/features/StepsPage';
 import { TheLockersPage } from '@/features/TheLockersPage';
+import { TimelinePage } from '@/features/TimelinePage';
 import { pageBySlug } from '@/content/site';
 import { readDanceSteps, readPioneers, readRecoveredPage } from '@/lib/content';
 import { isLocale } from '@/lib/i18n';
@@ -51,6 +52,9 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       break;
     case 'steps-and-moves':
       content = <StepsPage steps={await readDanceSteps()} lang={lang} />;
+      break;
+    case 'timeline':
+      content = <TimelinePage lang={lang} />;
       break;
     default:
       content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source) : ''} lang={lang} />;

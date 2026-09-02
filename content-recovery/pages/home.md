@@ -72,7 +72,7 @@ In that time There was also a new generation of early rap and revolutionary poet
 
 
 
-The BOLD generation of the 1970’s was now free to express itself. SOUL TRAIN became the portal and revealed to the world its’ creativity. Funk music spearheaded the charge and Afro American youth boldly displayed their pride, with large Afro hair styles and colorful creative clothing. During this time, an art form was born.
+The BOLD generation of the 1970’s was now free to express itself. SOUL TRAIN became the portal and revealed to the world its’ creativity. Funk music spearheaded the charge and African American youth boldly displayed their pride, with large Afro hair styles and colorful creative clothing. During this time, an art form was born.
 
 
 

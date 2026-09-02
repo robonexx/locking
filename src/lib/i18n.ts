@@ -20,7 +20,7 @@ export const ui = {
     contact: 'Kontakt',
     sourceLabel: 'Originalmaterial',
     sourceNotice:
-      'Originaltexten är tills vidare på engelska. Den svenska översättningen ska faktagranskas innan publicering.',
+      'Detta är återvunnet engelskt källmaterial. Språk och benämningar bearbetas varsamt, medan sakuppgifter fortfarande behöver faktagranskas.',
     readMore: 'Utforska sidan',
   },
   en: {
@@ -35,7 +35,7 @@ export const ui = {
     contact: 'Contact',
     sourceLabel: 'Original material',
     sourceNotice:
-      'This is recovered source copy. Spelling and historical claims have not yet been edited.',
+      'This is recovered source copy. Language and terminology are being reviewed with care; historical claims still require fact-checking.',
     readMore: 'Explore the page',
   },
 } satisfies Record<Locale, Record<string, string>>;

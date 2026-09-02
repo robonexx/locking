@@ -34,6 +34,10 @@ This is the new, independent Locking / Campbellocking website for `locking.se`. 
 
 - Preserve cultural context, source attribution and distinctions between pioneers from Locking's original Los Angeles era and pioneers of later local scenes.
 - Avoid unsupported claims and vague labels. Use precise, respectful language in both Swedish and English.
+- Use `afroamerikansk` / `African American` for the specific United States history, communities and cultural settings from which Locking emerged.
+- Use `afrodiasporisk` only for broader transnational contexts, and `afro-latinamerikansk` only when that identity or cultural connection is relevant and supported by a source.
+- Do not use `urban` as a euphemism that obscures African American origins. Retain `Black` in established historical names, quotations and self-identification where it is contextually accurate.
+- Prefer a person's or community's documented self-identification. Do not infer ethnic identity from appearance, name or geography.
 - Keep external research links in the content source lists.
 - Do not introduce a WordPress dependency.
 

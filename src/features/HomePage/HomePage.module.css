@@ -74,16 +74,32 @@
 @media (max-width: 680px) {
   .hero { min-height: 760px; }
   .heroContent { padding-bottom: 48px; }
-  .hero h1 { font-size: clamp(3.7rem,19vw,6rem); }
+  .hero h1 {
+    font-size: clamp(3rem, 15.5vw, 5rem);
+    overflow-wrap: anywhere;
+  }
+  .hero h1 span:last-child {
+    color: var(--acid);
+    -webkit-text-stroke: 0;
+  }
   .verticalTag { display: none; }
   .manifesto { grid-template-columns: 1fr; }
   .sectionNumber { padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
-  .manifesto h2 { font-size: clamp(3.6rem,18vw,6rem); }
+  .manifesto h2 {
+    font-size: clamp(2.9rem, 14.5vw, 5rem);
+    overflow-wrap: anywhere;
+  }
+  .sectionHeading { align-items: start; }
+  .sectionHeading h2 {
+    min-width: 0;
+    font-size: clamp(2.35rem, 11.5vw, 4.25rem);
+    overflow-wrap: anywhere;
+  }
   .featureGrid { grid-template-columns: 1fr; }
   .featureCard, .featureCard:last-child { grid-column: auto; min-height: 460px; }
-  .storiesInner { grid-template-columns: 1fr auto; gap: 22px; padding-block: 54px; }
+  .storiesInner { grid-template-columns: minmax(0, 1fr); gap: 22px; padding-block: 54px; }
   .storiesInner > svg { display: none; }
-  .storiesBand h2 { font-size: clamp(2.8rem,14vw,4.6rem); }
+  .storiesBand h2 { font-size: clamp(2.65rem,13vw,4.6rem); overflow-wrap: anywhere; }
   .circleLink { width: 64px; height: 64px; }
 }
 
