@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-09-02T08:04:28.107Z",
+  "legacyRoot": "legacy-import/lockerlegends2022-main",
+  "pages": [
+    {
+      "source": "src/pages/about/index.js",
+      "output": "pages/about.md",
+      "visibleBlocks": 4,
+      "staticAttributes": 4
+    },
+    {
+      "source": "src/pages/blog/index.js",
+      "output": "pages/blog-index.md",
+      "visibleBlocks": 11,
+      "staticAttributes": 1
+    },
+    {
+      "source": "src/pages/blog/[slug].js",
+      "output": "pages/blog-template.md",
+      "visibleBlocks": 3,
+      "staticAttributes": 0
+    },
+    {
+      "source": "src/pages/contact/index.js",
+      "output": "pages/contact.md",
+      "visibleBlocks": 7,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/gogobrothers/index.js",
+      "output": "pages/gogo-brothers.md",
+      "visibleBlocks": 12,
+      "staticAttributes": 5
+    },
+    {
+      "source": "src/pages/groups/index.js",
+      "output": "pages/groups-and-dancers.md",
+      "visibleBlocks": 53,
+      "staticAttributes": 12
+    },
+    {
+      "source": "src/pages/history/index.js",
+      "output": "pages/history.md",
+      "visibleBlocks": 23,
+      "staticAttributes": 6
+    },
+    {
+      "source": "src/pages/index.js",
+      "output": "pages/home.md",
+      "visibleBlocks": 42,
+      "staticAttributes": 11
+    },
+    {
+      "source": "src/pages/memorial/index.js",
+      "output": "pages/memorial.md",
+      "visibleBlocks": 2,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/memorial/[id].js",
+      "output": "pages/memorial-template.md",
+      "visibleBlocks": 1,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/pioneers/index.js",
+      "output": "pages/pioneers-page.md",
+      "visibleBlocks": 2,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/socialparty/index.js",
+      "output": "pages/social-party.md",
+      "visibleBlocks": 49,
+      "staticAttributes": 4
+    },
+    {
+      "source": "src/pages/soultrain/index.js",
+      "output": "pages/soul-train.md",
+      "visibleBlocks": 26,
+      "staticAttributes": 7
+    },
+    {
+      "source": "src/pages/steps/index.js",
+      "output": "pages/steps-page.md",
+      "visibleBlocks": 9,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/terminology/index.js",
+      "output": "pages/terminology.md",
+      "visibleBlocks": 12,
+      "staticAttributes": 4
+    },
+    {
+      "source": "src/pages/timeline/index.js",
+      "output": "pages/timeline.md",
+      "visibleBlocks": 4,
+      "staticAttributes": 2
+    },
+    {
+      "source": "src/pages/wattsstaxx/index.js",
+      "output": "pages/wattsstax.md",
+      "visibleBlocks": 18,
+      "staticAttributes": 9
+    }
+  ],
+  "structuredCounts": {
+    "pioneers": 20,
+    "steps": 30,
+    "items": 5
+  },
+  "totalStringLiterals": 1107,
+  "totalMediaFiles": 81
+}

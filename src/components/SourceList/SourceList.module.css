@@ -1,0 +1,26 @@
+.sources {
+  margin-top: 90px;
+  padding-top: 40px;
+  border-top: 2px solid var(--ink);
+}
+
+.sources h2 {
+  margin: 0 0 22px;
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.sources ul { margin: 0; padding: 0; list-style: none; }
+.sources li { border-bottom: 1px solid var(--line); }
+
+.sources a {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 0;
+  font-weight: 800;
+}
+
+.sources a::after { content: "↗"; }

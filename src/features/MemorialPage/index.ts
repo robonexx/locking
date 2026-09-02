@@ -1,0 +1,1 @@
+export { MemorialPage } from './MemorialPage';

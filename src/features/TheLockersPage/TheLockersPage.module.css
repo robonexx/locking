@@ -1,0 +1,65 @@
+.members,
+.legacy { margin-top: 90px; }
+
+.members h2,
+.fabulous h2,
+.legacy h2 {
+  margin: 0 0 22px;
+  font-family: var(--display);
+  font-size: clamp(2.7rem, 6vw, 5.2rem);
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.members > p:not(:global(.eyebrow)),
+.legacy p,
+.fabulous > p:not(:global(.eyebrow)) {
+  max-width: 770px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+}
+
+.memberList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: members;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+}
+
+.memberList li {
+  min-height: 94px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 22px;
+  background: var(--white);
+  counter-increment: members;
+  font-weight: 900;
+}
+
+.memberList li::before {
+  content: counter(members, decimal-leading-zero);
+  color: var(--violet);
+  font-family: var(--display);
+  font-size: 1.4rem;
+}
+
+.memberList li:last-child { color: var(--ink); background: var(--acid); }
+
+.fabulous {
+  margin-top: 90px;
+  padding: clamp(34px, 7vw, 76px);
+  color: var(--white);
+  background: var(--violet);
+  border: 2px solid var(--ink);
+  box-shadow: 12px 12px 0 var(--orange);
+}
+
+@media (max-width: 680px) {
+  .memberList { grid-template-columns: 1fr; }
+}

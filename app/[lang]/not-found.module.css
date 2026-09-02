@@ -1,0 +1,4 @@
+.notFound { min-height: 70vh; }
+.notFound h1 { margin: 0 0 30px; font-family: var(--display); font-size: clamp(4rem, 12vw, 10rem); line-height: 0.9; text-transform: uppercase; }
+.button { min-height: 52px; display: inline-flex; align-items: center; padding: 12px 20px; color: var(--ink); background: var(--acid); border: 2px solid var(--acid); font-size: .88rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; text-decoration: none; }
+.button:hover, .button:focus-visible { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 var(--orange); }

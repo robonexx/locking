@@ -1,0 +1,20 @@
+.note {
+  margin-top: 76px;
+  padding: clamp(28px, 5vw, 52px);
+  background: #ffc55c;
+  border-left: 12px solid var(--ink);
+}
+
+.note h2 {
+  margin: 0 0 22px;
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.note p {
+  max-width: 770px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+}

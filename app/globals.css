@@ -1,0 +1,103 @@
+:root {
+  --ink: #11110f;
+  --paper: #f3efe5;
+  --paper-deep: #e4ddce;
+  --acid: #d7ff3f;
+  --orange: #ff6534;
+  --violet: #7757ff;
+  --white: #fffdf7;
+  --line: rgba(17, 17, 15, 0.2);
+  --shell: min(1180px, calc(100vw - 40px));
+  --display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --body: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  background: var(--ink);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--body);
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+button,
+summary { font: inherit; }
+img { max-width: 100%; }
+
+.shell {
+  width: var(--shell);
+  margin-inline: auto;
+}
+
+.section-space { padding-block: clamp(72px, 10vw, 132px); }
+
+.eyebrow {
+  margin: 0 0 18px;
+  color: var(--acid);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.eyebrow-dark { color: var(--ink); }
+
+.card-index {
+  font-family: var(--display);
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  left: 16px;
+  top: 16px;
+  padding: 10px 16px;
+  color: var(--ink);
+  background: var(--acid);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+
+@media (max-width: 680px) {
+  :root { --shell: min(100% - 28px, 1180px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

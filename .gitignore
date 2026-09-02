@@ -1,0 +1,73 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js and production output
+/.next/
+/out/
+/build/
+/.vercel/
+/.turbo/
+
+# Tests and generated reports
+/coverage/
+/playwright-report/
+/test-results/
+
+# Local environment and secrets
+.env*
+!.env.example
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Unpacked 2022 source. Required content has been recovered separately.
+/legacy-import/
+
+# Legacy media copies not used by the current site. Originals remain in legacy-import.
+/public/media/33rpm2.png
+/public/media/alphabetkids.png
+/public/media/barkeyspng.png
+/public/media/captaincrunch.png
+/public/media/dancemasterscompton.png
+/public/media/funkywomanwattsconcert.png
+/public/media/ghettodancers.png
+/public/media/jodyjeffrey.png
+/public/media/lockerslate70s2png.png
+/public/media/roblogo.png
+/public/media/rufusthomas.png
+/public/media/socialdance2.png
+/public/media/socialdance3.png
+/public/media/socialdance4.png
+/public/media/somethingspecial.png
+/public/media/soultrain2.png
+/public/media/soultrainlogo.png
+/public/media/staples.png
+/public/media/terminology.png
+/public/media/tonyg.webp
+/public/media/wattsfist.png
+/public/media/wattsriots.png
+/public/media/wildandpeaceful.png
+/public/media/wildandpeaceful2.png

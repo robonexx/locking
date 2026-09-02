@@ -1,0 +1,5537 @@
+[
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 3,
+    "value": "../../styles/components/Banner.module.scss"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 4,
+    "value": "../../styles/components/Sidescroll.module.scss"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 36,
+    "value": "THE&nbsp;GOGO"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 37,
+    "value": "BROTHERS&nbsp;"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 38,
+    "value": "Watts, CA"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 47,
+    "value": "initial"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 48,
+    "value": "animate"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 94,
+    "value": "${styles.banner_row} ${styles.bottom}"
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 103,
+    "value": "${styles.banner_row} ${stylee.sideScroll}  ${\n        sideScroll && "
+  },
+  {
+    "source": "src/components/banner/Banner.js",
+    "line": 104,
+    "value": "\n      }"
+  },
+  {
+    "source": "src/components/contactBtn/ContactBtn.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/contactBtn/ContactBtn.js",
+    "line": 2,
+    "value": "../../styles/components/ContactBtn.module.scss"
+  },
+  {
+    "source": "src/components/faqbox/FaqItem.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/faqbox/FaqItem.js",
+    "line": 2,
+    "value": "react-icons/fi"
+  },
+  {
+    "source": "src/components/faqbox/FaqItem.js",
+    "line": 3,
+    "value": "react-icons/fi"
+  },
+  {
+    "source": "src/components/faqbox/FaqItem.js",
+    "line": 5,
+    "value": "../../styles/components/Faq.module.scss"
+  },
+  {
+    "source": "src/components/faqbox/FaqItem.js",
+    "line": 11,
+    "value": "${styles.faq} ${styles.active}"
+  },
+  {
+    "source": "src/components/faqbox/FaqList.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/faqbox/FaqList.js",
+    "line": 2,
+    "value": "../../content/steps"
+  },
+  {
+    "source": "src/components/faqbox/FaqList.js",
+    "line": 3,
+    "value": "./FaqItem"
+  },
+  {
+    "source": "src/components/faqbox/FaqList.js",
+    "line": 9,
+    "value": ""
+  },
+  {
+    "source": "src/components/Grid/Grid.js",
+    "line": 1,
+    "value": "../../styles/components/Grid.module.scss"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 3,
+    "value": "next/link"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 4,
+    "value": "../../utils/functions"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 6,
+    "value": "../../../public/images/33rpm.png"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 8,
+    "value": "../../styles/components/Grid.module.scss"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 34,
+    "value": "fill"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 35,
+    "value": "cover"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 36,
+    "value": "blog post image"
+  },
+  {
+    "source": "src/components/Grid/GridItem.js",
+    "line": 41,
+    "value": "/blog/"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 3,
+    "value": "next/image"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 4,
+    "value": "../../content/pioneers"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 5,
+    "value": "../../styles/components/Hof.module.scss"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 25,
+    "value": "/images/${img}"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 27,
+    "value": "fill"
+  },
+  {
+    "source": "src/components/Hof/Hof.js",
+    "line": 29,
+    "value": "image of ${name}"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 2,
+    "value": "react"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 3,
+    "value": "../../utils/scrollToTop/ScrollToTop"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 4,
+    "value": "../../layouts/footer/Footer"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 5,
+    "value": "../../layouts/header/Header"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 10,
+    "value": "en-EN"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 11,
+    "value": "UTF-8"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 12,
+    "value": "viewport"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 12,
+    "value": "width=device-width, initial-scale=1.0"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 14,
+    "value": "The Streetdance called Locking | Streetdance,\n          HipHop,Lockers,Campbellocking, Locking &amp; Locking pioneers and\n          history\n        </title>\n        <meta property='og:type' content='website'></meta>\n        <meta\n          property='og:description'\n          key='desc'\n          content='Streetdance, HipHop,Lockers,Campbellocking, Locking &amp; Locking pioneers and history'\n        />\n        <meta\n          property='og:title'\n          content='LOCKERLEGENDS "
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 26,
+    "value": "\n        />\n        <meta property="
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 28,
+    "value": " content="
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 29,
+    "value": "og:url"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 29,
+    "value": "https://www.lockerlegends.org/"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 31,
+    "value": "og:site_name"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 32,
+    "value": "LOCKERLEGENDS \"The Streetdance called Locking"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 35,
+    "value": "keywords"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 36,
+    "value": "LOCKING,CAMPBELLOCKING,STREETDANCE,HIPHOP,CULTURE,HISTORY,KNOWLEDGE,LEARNING,SOUL TRAIN,WATTSTAXX,SOCIAL PARTY,BATTLES,PERFORMANCE,EDITORIALS,BLOG,AFRO AMEICAN HERITAGE, FUNK, SOUL"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 39,
+    "value": "og:image"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 40,
+    "value": "https://www.lockerlegends.org/lockerlegendshome.png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 42,
+    "value": "og:image:type"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 42,
+    "value": "image/png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 43,
+    "value": "og:image:width"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 43,
+    "value": "400"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 44,
+    "value": "og:image:height"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 44,
+    "value": "195"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 46,
+    "value": "og:image:alt"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 47,
+    "value": "The Official Locking pioneers website - LOCKERLEGENDS"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 49,
+    "value": "apple-mobile-web-app-capable"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 49,
+    "value": "yes"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 50,
+    "value": "apple-mobile-web-app-status-bar-style"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 50,
+    "value": "black"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 51,
+    "value": "HandheldFriendly"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 51,
+    "value": "true"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 52,
+    "value": "og:locale"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 52,
+    "value": "en_US"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 53,
+    "value": "icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 53,
+    "value": "%PUBLIC_URL%/favicon.ico"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 55,
+    "value": "apple-touch-icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 56,
+    "value": "180x180"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 57,
+    "value": "/apple-touch-icon.png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 60,
+    "value": "icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 61,
+    "value": "image/png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 62,
+    "value": "32x32"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 63,
+    "value": "/favicon-32x32.png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 66,
+    "value": "icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 67,
+    "value": "image/png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 68,
+    "value": "16x16"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 69,
+    "value": "/favicon-16x16.png"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 71,
+    "value": "manifest"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 71,
+    "value": "/site.webmanifest"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 72,
+    "value": "mask-icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 72,
+    "value": "/safari-pinned-tab.svg"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 72,
+    "value": "#5bbad5"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 73,
+    "value": "msapplication-TileColor"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 73,
+    "value": "#da532c"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 74,
+    "value": "theme-color"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 74,
+    "value": "#ffffff"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 75,
+    "value": "shortcut icon"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 75,
+    "value": "/favicon.ico"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 76,
+    "value": "robots"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 76,
+    "value": "max-image-preview:large"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 77,
+    "value": "canonical"
+  },
+  {
+    "source": "src/components/layout/Layout.js",
+    "line": 77,
+    "value": "https://www.lockerlegends.org/"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 2,
+    "value": "../../styles/components/Logo.module.scss"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 7,
+    "value": "273"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 8,
+    "value": "46"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 9,
+    "value": "0 0 273 46"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 10,
+    "value": "none"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 11,
+    "value": "http://www.w3.org/2000/svg"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 14,
+    "value": "M4.98755 26.4703V1.93342H9.65761V21.1614H26.6807V26.4703H4.98755Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 15,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 18,
+    "value": "M32.6553 26.4703C31.8719 26.4703 31.1488 26.2434 30.486 25.7897C29.8231 25.3359 29.2908 24.7347 28.8891 23.986C28.4874 23.2373 28.2865 22.4205 28.2865 21.5357V11.6665C28.2865 10.7817 28.4874 9.96491 28.8891 9.21622C29.2908 8.46752 29.8231 7.86629 30.486 7.41253C31.1488 6.95878 31.8719 6.7319 32.6553 6.7319H41.6338C42.4373 6.7319 43.1704 6.95878 43.8333 7.41253C44.4961 7.86629 45.0184 8.46752 45.4 9.21622C45.8017 9.96491 46.0026 10.7817 46.0026 11.6665V21.5357C46.0026 22.4205 45.8017 23.2373 45.4 23.986C45.0184 24.7347 44.4961 25.3359 43.8333 25.7897C43.1704 26.2434 42.4373 26.4703 41.6338 26.4703H32.6553ZM32.8963 21.2635H41.3928V11.9388H32.8963V21.2635Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 19,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 22,
+    "value": "M53.5164 26.4703C52.733 26.4703 52.0099 26.2434 51.347 25.7897C50.6842 25.3359 50.1519 24.7347 49.7502 23.986C49.3485 23.2373 49.1476 22.4205 49.1476 21.5357V11.6665C49.1476 10.7817 49.3485 9.96491 49.7502 9.21622C50.1519 8.46752 50.6842 7.86629 51.347 7.41253C52.0099 6.95878 52.733 6.7319 53.5164 6.7319H66.8336V11.9388H53.7574V21.2635H66.8637V26.4703H53.5164Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 23,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 26,
+    "value": "M69.3341 26.4703V0.265869H73.9439V13.9807H76.294L82.2295 6.7319H86.8694V8.50155L80.3614 16.6011L86.8694 24.7007V26.4703H82.2295L76.294 19.2215H73.9439V26.4703H69.3341Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 27,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 30,
+    "value": "M93.0906 26.4703C92.3073 26.4703 91.5842 26.2434 90.9213 25.7897C90.2585 25.3359 89.7262 24.7347 89.3245 23.986C88.9227 23.2373 88.7219 22.4205 88.7219 21.5357V11.6665C88.7219 10.7817 88.9227 9.96491 89.3245 9.21622C89.7262 8.46752 90.2585 7.86629 90.9213 7.41253C91.5842 6.95878 92.3073 6.7319 93.0906 6.7319H102.069C102.873 6.7319 103.606 6.95878 104.269 7.41253C104.931 7.86629 105.454 8.46752 105.835 9.21622C106.237 9.96491 106.438 10.7817 106.438 11.6665V19.2215H93.3317V21.2635H106.438V26.4703H93.0906ZM93.3317 14.6613H101.828V11.9388H93.3317V14.6613Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 31,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 34,
+    "value": "M109.407 26.4703V11.6665C109.407 10.7817 109.608 9.96491 110.01 9.21622C110.411 8.46752 110.944 7.86629 111.607 7.41253C112.269 6.95878 113.003 6.7319 113.806 6.7319H123.447V11.9388H114.017V26.4703H109.407Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 35,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 38,
+    "value": "M125.417 26.4703V1.93342H130.087V21.1614H147.11V26.4703H125.417Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 39,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 42,
+    "value": "M153.085 26.4703C152.301 26.4703 151.578 26.2434 150.915 25.7897C150.252 25.3359 149.72 24.7347 149.318 23.986C148.917 23.2373 148.716 22.4205 148.716 21.5357V11.6665C148.716 10.7817 148.917 9.96491 149.318 9.21622C149.72 8.46752 150.252 7.86629 150.915 7.41253C151.578 6.95878 152.301 6.7319 153.085 6.7319H162.063C162.867 6.7319 163.6 6.95878 164.263 7.41253C164.925 7.86629 165.448 8.46752 165.829 9.21622C166.231 9.96491 166.432 10.7817 166.432 11.6665V19.2215H153.326V21.2635H166.432V26.4703H153.085ZM153.326 14.6613H161.822V11.9388H153.326V14.6613Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 43,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 46,
+    "value": "M171.753 34.2636V29.0227H182.118V26.4703H173.38C172.577 26.4703 171.844 26.2434 171.181 25.7897C170.518 25.3359 169.986 24.7347 169.584 23.986C169.182 23.2373 168.981 22.4205 168.981 21.5357V11.6665C168.981 10.7817 169.182 9.96491 169.584 9.21622C169.986 8.46752 170.518 7.86629 171.181 7.41253C171.844 6.95878 172.577 6.7319 173.38 6.7319H182.359C183.162 6.7319 183.895 6.95878 184.558 7.41253C185.221 7.86629 185.743 8.46752 186.125 9.21622C186.527 9.96491 186.728 10.7817 186.728 11.6665V29.329C186.728 30.2365 186.527 31.0646 186.125 31.8133C185.743 32.562 185.221 33.1519 184.558 33.5829C183.895 34.0367 183.162 34.2636 182.359 34.2636H171.753ZM173.591 21.2635H182.118V11.9388H173.591V21.2635Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 47,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 50,
+    "value": "M193.542 26.4703C192.758 26.4703 192.035 26.2434 191.372 25.7897C190.709 25.3359 190.177 24.7347 189.775 23.986C189.374 23.2373 189.173 22.4205 189.173 21.5357V11.6665C189.173 10.7817 189.374 9.96491 189.775 9.21622C190.177 8.46752 190.709 7.86629 191.372 7.41253C192.035 6.95878 192.758 6.7319 193.542 6.7319H202.52C203.324 6.7319 204.057 6.95878 204.72 7.41253C205.382 7.86629 205.905 8.46752 206.286 9.21622C206.688 9.96491 206.889 10.7817 206.889 11.6665V19.2215H193.783V21.2635H206.889V26.4703H193.542ZM193.783 14.6613H202.279V11.9388H193.783V14.6613Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 51,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 54,
+    "value": "M210.124 26.4703V6.7319H223.472C224.275 6.7319 225.008 6.95878 225.671 7.41253C226.334 7.86629 226.856 8.46752 227.238 9.21622C227.64 9.96491 227.84 10.7817 227.84 11.6665V26.4703H223.231V11.9388H214.734V26.4703H210.124Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 55,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 58,
+    "value": "M234.538 26.4703C233.734 26.4703 233.001 26.2434 232.338 25.7897C231.676 25.3359 231.143 24.7347 230.741 23.986C230.36 23.2373 230.169 22.4205 230.169 21.5357V11.6665C230.169 10.7817 230.36 9.96491 230.741 9.21622C231.143 8.46752 231.676 7.86629 232.338 7.41253C233.001 6.95878 233.734 6.7319 234.538 6.7319H243.305V0.265869H247.915V26.4703H234.538ZM234.809 21.2635H243.305V11.9388H234.809V21.2635Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 59,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 62,
+    "value": "M255.387 26.4703C254.604 26.4703 253.881 26.2434 253.218 25.7897C252.555 25.3359 252.023 24.7347 251.621 23.986C251.219 23.2373 251.018 22.4205 251.018 21.5357V20.5488H255.628V21.2635H264.125V19.2215H255.387C254.604 19.2215 253.881 18.9947 253.218 18.5409C252.555 18.0872 252.023 17.4859 251.621 16.7372C251.219 15.9885 251.018 15.1718 251.018 14.2869V11.6665C251.018 10.7817 251.219 9.96491 251.621 9.21622C252.023 8.46752 252.555 7.86629 253.218 7.41253C253.881 6.95878 254.604 6.7319 255.387 6.7319H264.366C265.169 6.7319 265.902 6.95878 266.565 7.41253C267.228 7.86629 267.76 8.46752 268.162 9.21622C268.564 9.96491 268.765 10.7817 268.765 11.6665V12.6534H264.125V11.9388H255.628V13.9807H264.366C265.169 13.9807 265.902 14.2075 266.565 14.6613C267.228 15.1151 267.76 15.7163 268.162 16.465C268.564 17.2137 268.765 18.0304 268.765 18.9153V21.5357C268.765 22.4205 268.564 23.2373 268.162 23.986C267.76 24.7347 267.228 25.3359 266.565 25.7897C265.902 26.2434 265.169 26.4703 264.366 26.4703H255.387Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 63,
+    "value": "#ffc13b"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 66,
+    "value": "M4 45.68V26.5371H7.6014V45.68H4Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 66,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 68,
+    "value": "M10.506 45.68V30.2593H20.9336C21.5613 30.2593 22.1341 30.4366 22.6519 30.7911C23.1698 31.1456 23.5778 31.6153 23.876 32.2002C24.1898 32.7851 24.3467 33.4232 24.3467 34.1145V45.68H20.7453V34.3272H14.1074V45.68H10.506Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 69,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 72,
+    "value": "M30.7796 45.68C30.1519 45.68 29.5791 45.5027 29.0612 45.1482C28.5434 44.7937 28.1275 44.324 27.8137 43.7391C27.4999 43.1542 27.3429 42.5161 27.3429 41.8248V25.6863H30.9443V30.2593H36.0051V34.3272H30.9443V41.6121H36.0051V45.68H30.7796Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 73,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 76,
+    "value": "M41.7997 45.68C41.1877 45.68 40.6227 45.5027 40.1049 45.1482C39.587 44.7937 39.1712 44.324 38.8573 43.7391C38.5435 43.1542 38.3866 42.5161 38.3866 41.8248V34.1145C38.3866 33.4232 38.5435 32.7851 38.8573 32.2002C39.1712 31.6153 39.587 31.1456 40.1049 30.7911C40.6227 30.4366 41.1877 30.2593 41.7997 30.2593H48.8142C49.4419 30.2593 50.0146 30.4366 50.5325 30.7911C51.0503 31.1456 51.4583 31.6153 51.7565 32.2002C52.0703 32.7851 52.2273 33.4232 52.2273 34.1145V40.0169H41.988V41.6121H52.2273V45.68H41.7997ZM41.988 36.4542H48.6259V34.3272H41.988V36.4542Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 77,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 80,
+    "value": "M55.0177 45.68V34.1145C55.0177 33.4232 55.1746 32.7851 55.4885 32.2002C55.8023 31.6153 56.2182 31.1456 56.736 30.7911C57.2539 30.4366 57.8266 30.2593 58.4543 30.2593H65.9867V34.3272H58.6191V45.68H55.0177Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 81,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 84,
+    "value": "M68.3852 45.68V30.2593H78.8128C79.4405 30.2593 80.0133 30.4366 80.5311 30.7911C81.049 31.1456 81.457 31.6153 81.7551 32.2002C82.069 32.7851 82.2259 33.4232 82.2259 34.1145V45.68H78.6245V34.3272H71.9866V45.68H68.3852Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 85,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 88,
+    "value": "M88.6117 45.68C87.984 45.68 87.4112 45.5027 86.8934 45.1482C86.3755 44.7937 85.9597 44.324 85.6458 43.7391C85.3477 43.1542 85.1986 42.5161 85.1986 41.8248V35.9224H95.4379V34.3272H85.1986V30.2593H95.6262C96.2539 30.2593 96.8266 30.4366 97.3445 30.7911C97.8623 31.1456 98.2703 31.6153 98.5685 32.2002C98.8823 32.7851 99.0393 33.4232 99.0393 34.1145V45.68H88.6117ZM88.8 41.6121H95.4379V39.4851H88.8V41.6121Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 89,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 92,
+    "value": "M105.473 45.68C104.846 45.68 104.273 45.5027 103.755 45.1482C103.237 44.7937 102.821 44.324 102.507 43.7391C102.193 43.1542 102.037 42.5161 102.037 41.8248V25.6863H105.638V30.2593H110.699V34.3272H105.638V41.6121H110.699V45.68H105.473Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 93,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 96,
+    "value": "M113.104 45.68V30.2593H116.705V45.68H113.104ZM113.104 29.3022V25.2077H116.705V29.3022H113.104Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 97,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 100,
+    "value": "M122.343 45.68C121.731 45.68 121.166 45.5027 120.648 45.1482C120.13 44.7937 119.715 44.324 119.401 43.7391C119.087 43.1542 118.93 42.5161 118.93 41.8248V34.1145C118.93 33.4232 119.087 32.7851 119.401 32.2002C119.715 31.6153 120.13 31.1456 120.648 30.7911C121.166 30.4366 121.731 30.2593 122.343 30.2593H129.358C129.985 30.2593 130.558 30.4366 131.076 30.7911C131.594 31.1456 132.002 31.6153 132.3 32.2002C132.614 32.7851 132.771 33.4232 132.771 34.1145V41.8248C132.771 42.5161 132.614 43.1542 132.3 43.7391C132.002 44.324 131.594 44.7937 131.076 45.1482C130.558 45.5027 129.985 45.68 129.358 45.68H122.343ZM122.531 41.6121H129.169V34.3272H122.531V41.6121Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 101,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 104,
+    "value": "M135.102 45.68V30.2593H145.53C146.158 30.2593 146.73 30.4366 147.248 30.7911C147.766 31.1456 148.174 31.6153 148.472 32.2002C148.786 32.7851 148.943 33.4232 148.943 34.1145V45.68H145.342V34.3272H138.704V45.68H135.102Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 105,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 108,
+    "value": "M155.329 45.68C154.701 45.68 154.128 45.5027 153.611 45.1482C153.093 44.7937 152.677 44.324 152.363 43.7391C152.065 43.1542 151.916 42.5161 151.916 41.8248V35.9224H162.155V34.3272H151.916V30.2593H162.343C162.971 30.2593 163.544 30.4366 164.062 30.7911C164.58 31.1456 164.988 31.6153 165.286 32.2002C165.6 32.7851 165.756 33.4232 165.756 34.1145V45.68H155.329ZM155.517 41.6121H162.155V39.4851H155.517V41.6121Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 109,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 112,
+    "value": "M171.523 45.68C170.911 45.68 170.346 45.5027 169.828 45.1482C169.31 44.7937 168.894 44.324 168.58 43.7391C168.267 43.1542 168.11 42.5161 168.11 41.8248V25.1812H171.735V41.6121H174.489V45.68H171.523Z"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 113,
+    "value": "#ff6e40"
+  },
+  {
+    "source": "src/components/logo/LockerlegendsLogo.js",
+    "line": 122,
+    "value": "/"
+  },
+  {
+    "source": "src/components/navbar/DropDown.js",
+    "line": 3,
+    "value": "../../styles/components/DropDown.module.scss"
+  },
+  {
+    "source": "src/components/navbar/DropDownItem.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/navbar/DropDownItem.js",
+    "line": 2,
+    "value": "next/router"
+  },
+  {
+    "source": "src/components/navbar/DropDownItem.js",
+    "line": 4,
+    "value": "../../styles/components/DropDown.module.scss"
+  },
+  {
+    "source": "src/components/navbar/DropDownItem.js",
+    "line": 18,
+    "value": "routeChangeStart"
+  },
+  {
+    "source": "src/components/navbar/DropDownItem.js",
+    "line": 21,
+    "value": "routeChangeStart"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 2,
+    "value": "react-icons/fi"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 3,
+    "value": "react-icons/fi"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 5,
+    "value": "../navBtn/NavBtn"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 8,
+    "value": "../../styles/components/Navbar.module.scss"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 9,
+    "value": "../../styles/components/NavBtn.module.scss"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 31,
+    "value": "${styles.navbar && styles.bgorange}"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 32,
+    "value": "${styles.hide}"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 34,
+    "value": "${styles.hide}"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 36,
+    "value": "${styles.navbar && styles.bgorange}"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 41,
+    "value": "scroll"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 43,
+    "value": "scroll"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 56,
+    "value": "${styles.nav_menu} ${styles.active}"
+  },
+  {
+    "source": "src/components/navbar/Nav.js",
+    "line": 56,
+    "value": "${styles.nav_menu}"
+  },
+  {
+    "source": "src/components/navbar/NavItem.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/navbar/NavItem.js",
+    "line": 2,
+    "value": "next/router"
+  },
+  {
+    "source": "src/components/navbar/NavItem.js",
+    "line": 3,
+    "value": "../../styles/components/Navbar.module.scss"
+  },
+  {
+    "source": "src/components/navbar/NavItem.js",
+    "line": 32,
+    "value": "routeChangeStart"
+  },
+  {
+    "source": "src/components/navbar/NavItem.js",
+    "line": 35,
+    "value": "routeChangeStart"
+  },
+  {
+    "source": "src/components/navBtn/NavBtn.js",
+    "line": 1,
+    "value": "../../styles/components/NavBtn.module.scss"
+  },
+  {
+    "source": "src/components/navBtn/NavBtn.js",
+    "line": 16,
+    "value": " ${styles.navBtn} ${navActive ? styles.open : styles.navBtn} "
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnIn.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnIn.js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnIn.js",
+    "line": 3,
+    "value": "../../styles/components/ReadMoreBtn.module.scss"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnOut.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnOut.js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnOut.js",
+    "line": 3,
+    "value": "../../styles/components/ReadMoreBtn.module.scss"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnOut.js",
+    "line": 8,
+    "value": "noopener noreferrer nofollow"
+  },
+  {
+    "source": "src/components/readmorebtn/ReadMoreBtnOut.js",
+    "line": 8,
+    "value": "_blank"
+  },
+  {
+    "source": "src/components/responsiveGrid/ResponsiveGrid.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/responsiveGrid/ResponsiveGrid.js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/components/responsiveGrid/ResponsiveGrid.js",
+    "line": 3,
+    "value": "next/image"
+  },
+  {
+    "source": "src/components/responsiveGrid/ResponsiveGrid.js",
+    "line": 7,
+    "value": "../../styles/components/ResponsiveGrid.module.scss"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 3,
+    "value": "next/link"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 5,
+    "value": "../../styles/components/ResponsiveGrid.module.scss"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 13,
+    "value": "/images/${featuredImage}"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 15,
+    "value": "fill"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 16,
+    "value": "cover"
+  },
+  {
+    "source": "src/components/responsiveGrid/RGridItem.js",
+    "line": 17,
+    "value": "image of ${title}"
+  },
+  {
+    "source": "src/components/Sidebar/Sidebar.js",
+    "line": 1,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/components/Sidebar/Sidebar.js",
+    "line": 2,
+    "value": "../../content/pioneers"
+  },
+  {
+    "source": "src/components/Sidebar/Sidebar.js",
+    "line": 4,
+    "value": "../../styles/components/Sidebar.module.scss"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 1,
+    "value": "../logo/LockerlegendsLogo"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 2,
+    "value": "../contactBtn/ContactBtn"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 3,
+    "value": "react-icons/ai"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 6,
+    "value": "../../styles/components/TopMenu.module.scss"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 13,
+    "value": "Contact"
+  },
+  {
+    "source": "src/components/topmenu/TopMenu.js",
+    "line": 13,
+    "value": "/contact"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 3,
+    "value": "History of Locking"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 4,
+    "value": "history"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 5,
+    "value": "mavericksflat.png"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 6,
+    "value": "#"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 10,
+    "value": "Soul Train"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 11,
+    "value": "soultrain"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 12,
+    "value": "soultrain.png"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 13,
+    "value": "#"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 17,
+    "value": "Wattsstax"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 18,
+    "value": "wattsstaxx"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 19,
+    "value": "wattsstaxx.png"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 20,
+    "value": "#"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 24,
+    "value": "Groups & Dancers"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 25,
+    "value": "groups"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 26,
+    "value": "33rpm.png"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 27,
+    "value": "#"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 31,
+    "value": "Memorial page"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 32,
+    "value": "memorial"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 33,
+    "value": "penguinscene.png"
+  },
+  {
+    "source": "src/content/items.js",
+    "line": 34,
+    "value": "#"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 3,
+    "value": "Introduction"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 4,
+    "value": "THE ORIGINAL ERA HALL OF FAME"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 5,
+    "value": "The Artform of Locking now has several decades of contributors, Each decade has Locking dancers who are now icons in the world of Streetdance, However this room is dedicated to the Many ORIGINAL pioneers,  who deserve recognition for their contribution to the Art and Sub-Culture of Locking.\nMany of these dancers we refer to as Masters or Ogs were around before the Group ‘The Lockers “were presented as a group to the public in 1973. They were there during the sharing and development stages of the dance. These are the dancers who were on Soul Train and in the nightclubs of Los Angeles.\nYES There are many people with different levels of contributions to the history of the art, And lockerlegends looks forward to expanding our Hall to include various phases of contributions, but these are some the ORIGINAL, main & true old school pioneers who contributed steps, style and the attitude which created and contributed to the evolution of the entire sub-culture we know as “Locking”"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 6,
+    "value": "#Introduction"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 7,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 8,
+    "value": "mavericksflat.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 9,
+    "value": "Introduction"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 12,
+    "value": "The term OG"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 13,
+    "value": "OG what does it mean?"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 14,
+    "value": "The term OG in the street dance of Locking refers to ORIGINAL GENERATION, therefor we acknowledge those who contributed within that era as ORIGINAL OG’s, OG LEGENDS or simply OGs. The  others who did the dance of locking from other eras or decades within locking we refer to as 70s ,80s & 90s 0ldSchool or new school pioneers , or simply BG’s , this terminology is in direct connection with street respect terminology."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 15,
+    "value": "#The_term_OG"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 16,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 17,
+    "value": "wattshandshake.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 18,
+    "value": "The_term_OG"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 21,
+    "value": "Don Campbell"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 22,
+    "value": "Campbellock"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 23,
+    "value": "The creator and Known as the Godfather of Locking & originator of the first Locking moves, combined with gestures That he adapted to his unique rhythm, created the style of dance first known as Campbellocking, and later as it evolved into a dance art form became known as Locking . He was a original member the Soul Train Gang, And established the first improvisational group Called “The Campbellockers”or  Campbellock dancers, Then Later Her was the organizing force behind the group “The Original Lockers” A dynamic soloist, known for his show stoping dives and splits."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 24,
+    "value": "#Don_Campbell"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 25,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 26,
+    "value": "campbell.jpg"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 27,
+    "value": "Don_Campbell"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 30,
+    "value": "Damita Jo Freeman"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 31,
+    "value": "Damita Jo"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 32,
+    "value": "An Original Soul Train Gang member and the first lady of Locking. She was Don Campbells’ first dance partner on the show.  She later won the second Soul Train Dance contest, displaying her unique Locking style with then partner Jimmy “Scooby doo” Foster. Known for her high leg kicks, she went on to become one of the industries most noted choreographers"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 33,
+    "value": "#Damita_Jo_Freeman"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 34,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 35,
+    "value": "damita.jpg"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 36,
+    "value": "Damita_Jo_Freeman"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 39,
+    "value": "Greg Pope"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 40,
+    "value": "Campbellock Jr"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 41,
+    "value": "Greg was not related to Don Campbell but given the name because of his creativity with locking movements. A member of the Soul Train Gang and Locking Dance group from  The watts writers workshop “Creative Generation” before joining the Original Lockers in 1973. Greg helped to create several steps, moves, handshakes and routines associated with Locking."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 42,
+    "value": "#Greg_Pope"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 43,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 44,
+    "value": "greg.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 45,
+    "value": "Greg_Pope"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 48,
+    "value": "Fred Berry"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 49,
+    "value": "Rerun / Penguin"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 50,
+    "value": "He is also known as Rerun on the 1970’s TV sitcom “Whats Happening”. A Soul Train Dancer and member of the first improvistional group “The Cambellockers”and a member of the Original Lockers.  His wide body and smile was associated with his introduction of the slow motion and his signature move the master butt drop."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 51,
+    "value": "#Fred_Berry"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 52,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 53,
+    "value": "Fredberry.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 54,
+    "value": "Fred_Berry"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 57,
+    "value": "Leo Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 58,
+    "value": "Fluky Luke"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 59,
+    "value": "A soul train dancer and original member of the Lockers  was known for his double jointed locks known as “Leo locks”.  He also contributed various sychronized steps such as the which-a-way to the locking sub-culture."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 60,
+    "value": "#Leo_Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 61,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 62,
+    "value": "flukyluke.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 63,
+    "value": "Leo_Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 66,
+    "value": "Jimmy Foster"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 67,
+    "value": "Scoo B Doo"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 68,
+    "value": "A member of the Original Soul Train Gang, along with then Partner Damito Jo Freeman used their Locking styles to win the second Soul Train Dance contest. He Later bacame a member of the Watts Writers “Creative Generation”1972-1973 and went on to dance with “Something Special” and become one of the first Chip”n”dale dancers. Scooby was a long tall animated dancer, who was often seen developing locking handshakes and steps along with Greg Campbellock Jr. but probaly the most noted for the step he created known as the Scoobydoo."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 69,
+    "value": "#Jimmy_Foster"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 70,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 71,
+    "value": "scoobdoo.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 72,
+    "value": "Jimmy_Foster"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 75,
+    "value": "James Higgins"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 76,
+    "value": "O.G Skeeter Rabbit"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 77,
+    "value": "Is an early Soul Train Dancer and member of several early locking groups. The Original Go-Go Brothers 1971 to 1973, Watts Writers  “Creative Generation” 1972 to 1973 and the Original Lockers 1973 to 1974. He also danced with the Ghetto Dancers in 1975 and was also known as an outstanding master robot. He later organized and toured with the Locking group 33rpm in late 1975.  He was most known for his creation of the dance step done in most syncronized locking routines called “The skeeterrabbit”."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 78,
+    "value": "#James_Higgins"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 79,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 80,
+    "value": "Skeet.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 81,
+    "value": "James_Higgins"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 84,
+    "value": "Arnetta Johnson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 85,
+    "value": "Netta Bug"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 86,
+    "value": "An Original Locking Streetdancer, and the very First female dancer to dance in a Locking group, NettaBug was very instramental with her strong fundamental Locking, She was a high school chearleader and was often sceen at the clubs as well as the streetparties and high school dances along with the GoGo brothers , here connection with the watts writers workshop prompted the Organization of the First unisex Locking Group “Creative Generation” She was also a member of the First all Female Locking group “The Toota Woota Sisters” Many who saw the Lockers believe Tony Basil to have been a first. but these females came years before."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 87,
+    "value": "#Arnetta_Johnson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 88,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 89,
+    "value": "ArnettaJohnsson.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 90,
+    "value": "Arnetta_Johnson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 93,
+    "value": "Anthony Lewis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 94,
+    "value": "Tony Gogo"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 95,
+    "value": " An early Soul Train Dancer and a founding member of the Go Go Brothers dance group in the early 1970s’.  He also danced with groups like 33rpm and was a member of the “Original Lockers”.  Tony had a quick acrobatic style. He and other Go Go Brother members are credited with the first sycronized locking group 1971. Tony went on to introduce and establish locking styles and instruction in Japan"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 96,
+    "value": " #Anthony_Lewis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 97,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 98,
+    "value": "tonygogo.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 99,
+    "value": "Anthony_Lewis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 102,
+    "value": "Adolfo Quinones"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 103,
+    "value": "Shabba-Doo"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 104,
+    "value": "Originally from Chicago, one of the Original members of The Lockers Group. He was also known for his charactor “O Zone” in the “Breaking movies. Shab was one of the last to be introduced into the original locking circuit in 1973.Two years after the evolutionary stage had began. but He quicky became one of the quickest and smoothest dancers around. His first nickname was “King Rookie” because of his ability to absorb routeins at a quick pace."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 105,
+    "value": "#Adolfo_Quinones"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 106,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 107,
+    "value": "Shabbadoo.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 108,
+    "value": "Adolfo_Quinones"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 111,
+    "value": "Bill Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 112,
+    "value": "Slim The Robot"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 113,
+    "value": "Early Soul Train Dancer who was known for doing the Robot. Slim went on to tour with the improvistional dancers known as the “Campbellock dancers” and was an Original Member of the “Original Lockers”. He reinovated the basic robot style into a quick karate style robot movement and was also known for introducing a colored light suit and flame throwing capabilities into his act."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 114,
+    "value": "#Bill_Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 115,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 116,
+    "value": "billwilliams.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 117,
+    "value": "Bill_Williams"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 120,
+    "value": "Edwin Lombard"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 121,
+    "value": "Buddy Go-Go"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 122,
+    "value": "Edwin was another member of the Go-Go brothers dance group also a member of the first unisex Locking group Watts Writers’ Creative Generation, Buddy with other Tony Go-Go and Skeeter Rabbit implimented many early sychronized steps and skits"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 123,
+    "value": "#Edwin_Lombard"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 124,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 125,
+    "value": "edwinlombard.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 126,
+    "value": "Edwin_Lombard"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 129,
+    "value": "Freddie Maxie"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 130,
+    "value": "Freddie Maxie"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 131,
+    "value": "She was an early street dancer from the Compton street dance era,who became a soul train dancer , and has been the dance partner to many legendary Lockers, she was one of the earliest Female Lockers , who spent time both in the clubs, street parties and in various performance groups like “something special” & “The soul Train Gang”"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 132,
+    "value": "#Freddie_Maxie"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 133,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 134,
+    "value": "freddiemaxie.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 135,
+    "value": "Freddie_Maxie"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 138,
+    "value": "Alpha Andersson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 139,
+    "value": "Alpha Omega"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 140,
+    "value": "Is a unique style Locking dancer, Alpha was an early 1970s’ soul train dancer,who created a unique style of Russian kicks by bouncing back on  hands between kicks, This step known as    “Alphas” are still done by many lockers  Alpha was a member of the second generation of the Group “The Lockers"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 141,
+    "value": "#Alpha_Andersson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 142,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 143,
+    "value": "alpha.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 144,
+    "value": "Alpha_Andersson"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 147,
+    "value": "Toni Basil"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 148,
+    "value": "Toni"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 149,
+    "value": "She was an already accomplished choreograher when she learned to lock from Don Campbell and was an organizing force in development of the Group the “Original Lockers”.  Toni had an extensive ballet background and eventually became the only female in the original Lockers Group, although Basil is not from the Original Movement of Locking her contribution as a manager should be acknowledged, without her connections and showbussiness expierience the Lockers would not have been able to obtain the professional , or reach the commercial Level of acceptance as they did, she is most noted for incorperating her ballet into locking and her continuous spins."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 150,
+    "value": "#Toni_Basil"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 151,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 152,
+    "value": "tonib.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 153,
+    "value": "Toni_Basil"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 156,
+    "value": "Pat Davis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 157,
+    "value": "Butterfly"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 158,
+    "value": "Another early soultrain dancer whos influence on Locking was imeasureable, with her rendition of the Robot and early butterfly arm moves which later became known as leolocks. In the 70s she was also  a member of A unique group called \" The Something Special\"  a dance group of soul train dancers which featured early Locking icons  Jimmy Foster \"Scoooby Doo , although this group was not a classical Locking crew , as they exhibited many of the early dancing styles"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 159,
+    "value": "#Pat_Davis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 160,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 161,
+    "value": "patd.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 162,
+    "value": "Pat_Davis"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 165,
+    "value": "Charles Washington"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 166,
+    "value": "Charles the Robot"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 167,
+    "value": "He was around from the very beginning. when Robots & Locking was both classified as Lockers, Charles is considered the Godfather of the Party dance of the  Robot style within Locking. Prior to its evolution into the Popping scene. He was  a member of the first Soul Train Gang, and toured with the improvisation dancers known as The “Campbellock Dancers” in 1972. He was the originator of the Robot style of rythimic dancing and organized the group, “The Robot Brothers” in the late 1960s’."
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 168,
+    "value": "#Charles_Washington"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 169,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 170,
+    "value": "charlesrobot.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 171,
+    "value": "Charles_Washington"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 174,
+    "value": "Others"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 175,
+    "value": "(Image is not connected to the names"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 176,
+    "value": "Kevin “YoYo” Lombard :see the GoGo Brothers page, \n Sambo Lock - Johnnie McCloud \n Eugine Henderson “F&M”,\n Steve Crane ” Sinbad” see:The Ghetto dancers,\n Greg Dandridge “Captain,\n Crunch”see The Ghetto Dancers,\n Mike Frenke “Peekaboo” see: 33rpm & YoYo brothers,\n Guy Evan “Shocklock”,\n John “OkieDoke” Wilson see 33rpm,\n Jeffrey Daniel,\n Tito Collins see: The Alphebet kids & 33rom,\n Jeffery McKintire “Cat Man”,\n Bishop “CoCo” Hall,\n Tick, Sneaky T,\n Enock “Elmer Fud” Smith (RIP),\n"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 177,
+    "value": "#Others"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 178,
+    "value": ""
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 179,
+    "value": "others.png"
+  },
+  {
+    "source": "src/content/pioneers.js",
+    "line": 180,
+    "value": "Others"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 3,
+    "value": "BASIC LOCK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 4,
+    "value": "The hesitating or Freezing of the Arms to the beats of the music, where created By Don Campbell the Late 1960s, early 1970s as he paused or froze while trying to do a popular social dance called the 'funky chicken' between doing this and various other social dances and stunts.The pauses became known as locks or locking up.Later in the development Leo” Flukey Luke Williamson”introduced a unique Lock by placing the outer ridge of both of his hands on his waist and locking his elbows forward this became known as the 'Leo Lock'"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 5,
+    "value": "Don Campbellock Campbell"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 6,
+    "value": "1"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 9,
+    "value": "GIVING OR ASKING FOR FIVE"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 10,
+    "value": "This is a hand slap that acknowledges an agreement either between Two people or oneself while dancing , Don Campbell incorporated this in between his Locks and social dances, The origin of Giving Five or Receiving Five had long been a tradition of acknowledgement in the Afro American community. This was an established ritual prior to Don incorporating it into his dancing. As people would smile and acknowledge there approval of a move, Don and other pioneers would often offer there hand (to recieve five),accepting a hand slap back was accepting approval. For a move or step. Giving Five is acknowledging something good taking place. Points."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 11,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 12,
+    "value": "2"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 15,
+    "value": "LOCKING POINTS"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 16,
+    "value": "Later refered to as Uncle Sam points, for the U.S. armed forces recruiting poster, which featured the Uncle Sam caricature recruiting by pointing out a message .. Also pointing at a friend or partner was also a message or an acknowledgement in the African American Community, This was also a ritual of communication and was often done when two people had to greet across a distance even prior to it being incorperated, by Don Campbell into his dance style. The story goes , that while Don was dancing, a lady at a table was laughing at his unique style, So Don did what everyone was doing, he pointed at her to let her know that he saw her. and this was the very first and basic Locking point.Later as the dance developed double and triple points were introduced by other pioneers causing a more free flowing rythem to Locking."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 17,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 18,
+    "value": "3"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 21,
+    "value": "HAND CLAPS"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 22,
+    "value": "Back hand claps and Backfront hand claps were also very basic in the beginning , stopping and starting abruptly, they were often done alone while pacing or in-between other moves, Don also incoorperated the very first wristrolls into his style. later various combinations of wrist rolls and other moves were incorporated and done before backfront hand claps, Again this contributed to the continuity and evolution of the dance."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 23,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 24,
+    "value": "4"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 27,
+    "value": "UPLOCK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 28,
+    "value": "The UPLOCK or what is today refered to as the Muscle man, is the throwing up of both arms usually the start of a locking move, This move was an announcement ,Much like gesture used on the streets as a greeting, saying “Hey” or “whats up on the street”"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 29,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 30,
+    "value": "5,"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 33,
+    "value": "THE DON CAMPBELL WALK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 34,
+    "value": "This was created by Don Campbell, himself it was  sliding stepping movement used by Don to move forward in between Locks and stunts"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 35,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 36,
+    "value": "6"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 39,
+    "value": "THE SCOOBY DOO"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 40,
+    "value": "created by Jimmy “Scooby doo “Foster, the basic scooby doo,is two handed up lock anouncement followed by a kick, step"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 41,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 42,
+    "value": "7"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 45,
+    "value": "THE SCOOBOT"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 46,
+    "value": "Also by Jimmy “Scooby doo “Foster, the basic scoobot, is a unique step that "
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 47,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 48,
+    "value": "8"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 51,
+    "value": "THE HITCHHIKE"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 52,
+    "value": "Imitating hitchhike:in, sideways with a thumbs up and mixing with rocksteady:s funky hip groove"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 53,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 54,
+    "value": "9"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 57,
+    "value": "THE SCOOBY WALK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 58,
+    "value": "Jimmy Fosters way of walking, similar to what Greg called the pimpwalk"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 59,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 60,
+    "value": "10"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 63,
+    "value": "THE PIMP WALK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 64,
+    "value": "Created by Greg “Campbellock Jr. “ Pope , many of the move Greg instituted into locking helped promote the free flow and continunity into the style, Greg also modified the scoobot into a hop move, some of the above mentioned moves such as the Sneek & The stop n go (Quickies) where created by Jimmie “Scoobydo” Foster , with impute from Greg Campbellock Jr. and many of these moves were named by Damita Jo Freeman"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 65,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 66,
+    "value": "11"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 69,
+    "value": "SNEEK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 70,
+    "value": "The sneek was a variation of the soul dance the breakdown ,but the upper body twisted from side to side swinging the outside arms up in a searching motion, later the inside arm was used by the lockers  to allow camera angles during commercial performances."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 71,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 72,
+    "value": "12"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 75,
+    "value": "QUICKIES /STOP N GO"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 76,
+    "value": "Qickies, (sometimes called stop n go's) became a variation of the old sara walk dance move, but the quick movement imitaded the rubberband up move of a cartoon character."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 77,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 78,
+    "value": "13"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 81,
+    "value": "THE SKEETERRABBIT"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 82,
+    "value": "created by James “Skeeter Rabbit “Higgins, This step was inspired by the shuffle moves of the nicholas brothers , and the street game of hop scottch, as skeeter added this ending onto the scoobydoo ,it became a continuous movement,that he did various ways. Also variations of skeeterrabbit shuffles added by several other pioneers. The most notable was in the mid 1970s with the blending and acceptance of the street gang culture dance movement with Locking when the streetdance known as the CRIP WALK was first introduced as a finishing move added on to the Skeeterrabbit by Micheal “Peekaboo” Frenke and Leo “Shaboo” Walker "
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 83,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 84,
+    "value": "14"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 87,
+    "value": "HAT TWIRLES"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 88,
+    "value": "introduced into Locking, Had been done by various entertainers in history. ,The move was adapted by several locking dancers ,the most notables were “Sneeky T” and John “Okey Doke” Wilson” It Later became known as one of Don Campbells signiture moves , but the basic hat spin was first taught to Don in 1974 by SKEETER RABBIT, while on the Lockers first major tour."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 89,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 90,
+    "value": "15"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 93,
+    "value": "THE WHICH A WAY"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 94,
+    "value": "The WhichaWay introduced by Leo “ Flukey Luke “ Williamson into a signature , locking move, However it was originally created as a social party dance step By Damita Jo Freeman who did a modified style of the step by turning her hips in a slower motion than done by Flukey . she originally called this version the “DJ which a way,”she can be seen doing this version on various soul train clips"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 95,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 96,
+    "value": "16"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 99,
+    "value": "THE LEO LOCK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 100,
+    "value": "The Leo Lock was done by Leo and other double jointed Lockers who were able to lock their arms with their hands on their hips and their elbows in front of them. "
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 101,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 102,
+    "value": "17"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 105,
+    "value": "LEO WALK"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 106,
+    "value": "Leo walk is a side to side stepping and rocking motion"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 107,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 108,
+    "value": "18"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 111,
+    "value": "KILLING ROACHES"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 112,
+    "value": "Killing roaches ws inspired from ghetto living, as one would slap the floor as if trying to kill bugs to the rythem of the music"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 113,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 114,
+    "value": "19"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 117,
+    "value": "THE SLOW MOTION"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 118,
+    "value": "introduced in Locking by Fred “ Mr. Penguin “ Berry, the slowmotion was a mime style imitation of locking, where everthing was slowed down and facial expressions was emphisized,"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 119,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 120,
+    "value": "20"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 123,
+    "value": "THE VOLKSWAGON"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 124,
+    "value": "the volkswagon was inspired by the driving of an mannual shift car, it imitated shifting and the lunging of a car to the rythem of the music, "
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 125,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 126,
+    "value": "21"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 129,
+    "value": "THE HELICOPTOR"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 130,
+    "value": "The helecopter was Pinguins way of pointing and acknowledging everyone around him in one continuous move"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 131,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 132,
+    "value": "22"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 135,
+    "value": "THE KEEPA RUNNIN"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 136,
+    "value": "created by Tony Lewis and Buddy Lombard ( GoGo Bros) the keepa runnin was a footwork, kick step slide move"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 137,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 138,
+    "value": "23"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 141,
+    "value": "The Sara Walk"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 142,
+    "value": "the sara walk was a front back pace move,"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 143,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 144,
+    "value": "24"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 147,
+    "value": "THE SUPER FLY"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 148,
+    "value": "A Hat move, where you shake your head and reseble a Fly buzzin"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 149,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 150,
+    "value": "25"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 153,
+    "value": "THE “ALPHA”"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 154,
+    "value": "A Fall back handspring type Floormove  created and introduced into a unique style of of Locking by Alpha Omega Anderson, This included a spinning fast corkscrew style of Locking"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 155,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 156,
+    "value": "26"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 159,
+    "value": "STUNTS & SPLITS"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 160,
+    "value": "Half Splits had often been done while dancing by previous entertainers, both singers and dancers , Dance groups like the Nicholas Brothers and The Sammy Davis Jr. Trio. In the 1960s/ 70s James Brown made the half split popular. Imitating The James Brown Dance and Steps that he did on stage was widely done in African American Social Parties this included half splits and floor moves called “The Alligator” Many moves and styles, such as the “camel walk“, the “mash potatoes” were incorporated from James Browns act.He was a tremendous influence Don Campbell also following the party influence, continued to do Half Splits and floor moves like Knee dropsin between his social Dancing and Locks, KICK SPLITS introduced into Locking by Don Campbell but done by James Brown , many tap dancers and party dancers prior. HIGH FLYING KNEE DROPS RUNNING KNEE DROPS as well as The SWAN Dive became part of Don Campbell instituted this into his style."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 161,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 162,
+    "value": "27"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 165,
+    "value": "BUTT DROPS"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 166,
+    "value": "created by John “ Sambo Lock “ McCloud, a dynamic and daring stunt, where the dancer would jump and leve both feet out in front of him , landing on his but in time with a beat in the music"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 167,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 168,
+    "value": "28"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 171,
+    "value": "LOCKING HAND SHAKES"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 172,
+    "value": "First seen done by Damita Jo Freeman and Jimmy “Scooby Doo Foster during The soul train Dance contest, Some Locking Handshakes were created by Greg “Campbellock “ Pope , First done by Greg Cambellock Jr and Flukey Luke (see the video Watts Stax.) Several other handshakes were introduced by the ( GoGo Brothers)These hand shakes were representing the unity handshakes done on the streets of the inner city."
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 173,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 174,
+    "value": "29"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 177,
+    "value": "THE ROBOT"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 178,
+    "value": "Although technically The Robot is not a Lock, Roboting has always been a part of Locking from the friendship of Don Campbell and Charles “ROBOT” Washington, It was incorporated into both the evolutionary Locking movement and in the commercial Locking Performances.. so it will be forever linked Roboting was introduces as a dance and into the Locking Subculture by Charles “Robot “Washington"
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 179,
+    "value": ""
+  },
+  {
+    "source": "src/content/steps.js",
+    "line": 180,
+    "value": "30"
+  },
+  {
+    "source": "src/layouts/footer/Footer.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/layouts/footer/Footer.js",
+    "line": 3,
+    "value": "../../styles/layout/Footer.module.scss"
+  },
+  {
+    "source": "src/layouts/footer/Footer.js",
+    "line": 13,
+    "value": "/images/roblogo.png"
+  },
+  {
+    "source": "src/layouts/footer/Footer.js",
+    "line": 13,
+    "value": "logo robertwagar@gmail.com"
+  },
+  {
+    "source": "src/layouts/footer/Footer.js",
+    "line": 13,
+    "value": "png"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 1,
+    "value": "../../components/topmenu/TopMenu"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 2,
+    "value": "../../components/navbar/Nav"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 3,
+    "value": "../../components/navbar/NavItem"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 4,
+    "value": "../../components/navbar/DropDown"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 5,
+    "value": "../../components/navbar/DropDownItem"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 8,
+    "value": "../../styles/layout/Header.module.scss"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 10,
+    "value": "react-icons/ai"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 11,
+    "value": "react-icons/ri"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 12,
+    "value": "react-icons/si"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 17,
+    "value": "react-icons/md"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 18,
+    "value": "react-icons/gi"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 19,
+    "value": "react-icons/wi"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 20,
+    "value": "react-icons/fi"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 21,
+    "value": "react-icons/fa"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 28,
+    "value": "home"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 28,
+    "value": "/"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 30,
+    "value": "about"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 32,
+    "value": "/about"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 35,
+    "value": "history"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 35,
+    "value": ""
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 38,
+    "value": "History Of Locking"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 40,
+    "value": "/history"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 43,
+    "value": "Memorial Page"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 45,
+    "value": "/memorial"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 48,
+    "value": "Groups & Dancers"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 50,
+    "value": "/groups"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 53,
+    "value": "Soul Train"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 55,
+    "value": "/soultrain"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 58,
+    "value": "Wattsstaxx"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 60,
+    "value": "/wattsstaxx"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 64,
+    "value": "knowledge"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 64,
+    "value": ""
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 67,
+    "value": "O.G Pioneers"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 69,
+    "value": "/pioneers"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 72,
+    "value": "none"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 73,
+    "value": "Timeline of Locking"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 75,
+    "value": "/timeline"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 78,
+    "value": "Steps & Moves"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 80,
+    "value": "/steps"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 83,
+    "value": "Street terminology"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 85,
+    "value": "/terminology"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 88,
+    "value": "Social Party"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 90,
+    "value": "/socialparty"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 93,
+    "value": "The Gogo Brothers"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 95,
+    "value": "/gogobrothers"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 99,
+    "value": "editorials"
+  },
+  {
+    "source": "src/layouts/header/Header.js",
+    "line": 99,
+    "value": "/blog"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 1,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 3,
+    "value": "../../styles/layout/Hero.module.scss"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 7,
+    "value": "100%"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 7,
+    "value": "100%"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 8,
+    "value": "/video/lavid.mp4"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 8,
+    "value": "video/mp4"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 32,
+    "value": "/svg/LOGO_HERO.svg"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 33,
+    "value": "fill"
+  },
+  {
+    "source": "src/layouts/hero/Hero.js",
+    "line": 34,
+    "value": "logo"
+  },
+  {
+    "source": "src/layouts/pagelayout/PageLayout.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/layouts/pagelayout/PageLayout.js",
+    "line": 2,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/layouts/pagelayout/Section_top.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/layouts/pagelayout/Section_top.js",
+    "line": 3,
+    "value": "../../styles/layout/Section_top.module.scss"
+  },
+  {
+    "source": "src/lib/api.js",
+    "line": 4,
+    "value": "Content-Type"
+  },
+  {
+    "source": "src/lib/api.js",
+    "line": 4,
+    "value": "application/json"
+  },
+  {
+    "source": "src/lib/api.js",
+    "line": 6,
+    "value": "${URL}/graphql"
+  },
+  {
+    "source": "src/lib/api.js",
+    "line": 7,
+    "value": "POST"
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 1,
+    "value": "../api"
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 6,
+    "value": "\n      {\n          posts(first: 100, where: { orderby: { field: DATE, order: DESC } }) {\n              edges {\n                  node {\n                      title\n                      excerpt\n                      slug\n                      date\n                      \n                      featuredImage {\n                          node {\n                              sourceUrl\n                          }\n                      }\n                      categories {\n                          nodes {\n                              name\n                              slug\n                          }\n                      }\n                  }\n              }\n          }\n      }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 37,
+    "value": "\n       {\n           posts(first: 10) {\n               edges {\n                   node {\n                       slug\n                   }\n               }\n           }\n       }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 54,
+    "value": "\n    {\n      posts(first: 3, where: { orderby: { field: DATE, order: DESC } }) {\n          edges {\n              node {\n                  title\n                  slug\n                  date\n                  author{\n                    node {\n                      name\n                    }\n                  }\n\n                  featuredImage {\n                    node {\n                        sourceUrl\n                    }\n                }\n                categories {\n                    nodes {\n                        name\n                        slug\n                    }\n                }\n                  \n              }\n          }\n      }\n  }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 92,
+    "value": "\n      {\n          posts(where: {categoryName: \"social-party-era\"}, first: 5) {\n              edges {\n                  node {\n                      title\n                      slug\n                      date\n  \n                      featuredImage {\n                          node {\n                              sourceUrl\n                          }\n                      }\n                      \n                  }\n              }\n            }\n          }\n        "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 116,
+    "value": "\n      {\n          posts(where: {categoryName: \"performance-entertainment-era\"}, first: 5) {\n              edges {\n                  node {\n                      title\n                      slug\n                      date\n  \n                      featuredImage {\n                          node {\n                              sourceUrl\n                          }\n                      }\n                      \n                  }\n              }\n            }\n          }\n        "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 139,
+    "value": "\n      {\n          posts(where: {categoryName: \"battle-era\"}, first: 5) {\n              edges {\n                  node {\n                      title\n                      slug\n                      date\n  \n                      featuredImage {\n                          node {\n                              sourceUrl\n                          }\n                      }\n                      \n                  }\n              }\n            }\n          }\n        "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 165,
+    "value": "\n    {\n        posts(where: {categoryName: \"interviews\"}, first: 5) {\n            edges {\n                node {\n                    title\n                    slug\n                    date\n\n                    featuredImage {\n                        node {\n                            sourceUrl\n                        }\n                    }\n                    \n                }\n            }\n          }\n        }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 190,
+    "value": "\n    {\n        posts(where: {categoryName: \"culture\"}, first: 5) {\n            edges {\n                node {\n                    title\n                    slug\n                    date\n\n                    featuredImage {\n                        node {\n                            sourceUrl\n                        }\n                    }\n                    \n                }\n            }\n          }\n        }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 215,
+    "value": "\n    {\n        posts(where: {categoryName: \"streetdance\"}, first: 5) {\n            edges {\n                node {\n                    title\n                    slug\n                    date\n\n                    featuredImage {\n                        node {\n                            sourceUrl\n                        }\n                    }\n                    \n                }\n            }\n          }\n        }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 243,
+    "value": "\n\n      fragment PostFields on Post {\n          title\n          excerpt\n          slug\n          date\n          \n          featuredImage {\n              node {\n                  sourceUrl\n                  mediaDetails {\n                      height\n                      width\n                  }\n              }\n          }\n      }\n      query PostBySlug($id: ID!, $idType: PostIdType!) {\n          post(id: $id, idType: $idType) {\n              ...PostFields\n              content\n          }\n          posts(first: 4, where: { orderby: { field: DATE, order: DESC } }) {\n              edges {\n                  node {\n                      ...PostFields\n                  }\n              }\n          }\n      }\n      "
+  },
+  {
+    "source": "src/lib/posts/get-posts.js",
+    "line": 278,
+    "value": "SLUG"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 3,
+    "value": "../../layouts/pagelayout/Section_top"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 6,
+    "value": "../../styles/pages/About.module.scss"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 11,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 14,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 15,
+    "value": "About lockerlegends review and purpose "
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 17,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 17,
+    "value": "About us and our purpose"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 27,
+    "value": "..."
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 28,
+    "value": "lockerlegends"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 29,
+    "value": "15 year Review & Purpose!"
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 53,
+    "value": " "
+  },
+  {
+    "source": "src/pages/about/index.js",
+    "line": 114,
+    "value": " "
+  },
+  {
+    "source": "src/pages/api/hello.js",
+    "line": 4,
+    "value": "John Doe"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 11,
+    "value": "../../lib/posts/get-posts"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 12,
+    "value": "../../components/Grid/Grid"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 13,
+    "value": "../../components/Grid/GridItem"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 16,
+    "value": "../../styles/pages/Blog.module.scss"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 32,
+    "value": "Editorials, blog page containing all blog posts"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 33,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 55,
+    "value": " "
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 67,
+    "value": "#888"
+  },
+  {
+    "source": "src/pages/blog/index.js",
+    "line": 76,
+    "value": " "
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 3,
+    "value": "next/error"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 4,
+    "value": "next/router"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 8,
+    "value": "../../lib/posts/get-posts"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 10,
+    "value": "../../utils/functions"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 11,
+    "value": "html-react-parser"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 12,
+    "value": "../../utils/functions"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 14,
+    "value": "../../styles/pages/BlogSlug.module.scss"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 38,
+    "value": "dns-prefetch"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 38,
+    "value": "//i0.wp.com"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 39,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 63,
+    "value": "/blog/"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 69,
+    "value": "/blog"
+  },
+  {
+    "source": "src/pages/blog/[slug].js",
+    "line": 93,
+    "value": "/blog/${node.slug}"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 4,
+    "value": "../../styles/pages/Contact.module.scss"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 9,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 11,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 11,
+    "value": "contact information "
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 12,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/contact/index.js",
+    "line": 12,
+    "value": "Contact lockerlegends"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 4,
+    "value": "../../styles/pages/Gogo.module.scss"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 5,
+    "value": "../../components/banner/Banner"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 7,
+    "value": "k3zHrVyfKGM"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 18,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 21,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 22,
+    "value": "The GoGo Brothers Legacy \"A REAL STREET LEGEND” from Watts, California and Verbum Dei High School to around the world"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 25,
+    "value": "keywords"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 26,
+    "value": "LOCKING, GOGO BROHTERS, VERBUM DEI HIGH SCHOOL, WATTS WRITERS WORKSHOP, COCO BROTHERS, LEGACY, OG SKEETER RABBAT, TONY GOGO, BUDDY GOGO, LOOSE CABOOSE"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 29,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 30,
+    "value": "History about the Gogo Brothers family and legacy"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 52,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 54,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 55,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 56,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 57,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidGogoBros}"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 58,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 76,
+    "value": "right"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 80,
+    "value": "/images/gogobrotherswatts.png"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 81,
+    "value": "fill"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 82,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 83,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 85,
+    "value": "gogo brohters at wattsstaxx concert"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 129,
+    "value": "/images/tonyg.webp"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 130,
+    "value": "fill"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 131,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 132,
+    "value": "center top"
+  },
+  {
+    "source": "src/pages/gogobrothers/index.js",
+    "line": 134,
+    "value": "tony gogo"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 3,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 5,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 10,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 13,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 14,
+    "value": "Information history about the dancers and groups that was active in the 70s"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 17,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 18,
+    "value": "Information about groups and dancers"
+  },
+  {
+    "source": "src/pages/groups/index.js",
+    "line": 39,
+    "value": " ACKNOWLEDGEMENT ROOM\n          </motion.h2>\n        </motion.header>\n\n        <motion.div className={styles.image}>\n          <Image\n            src='/images/wildandpeaceful.png'\n            width='100%'\n            height='100%'\n            layout='responsive'\n            objectFit='cover'\n            objectPosition='center'\n            priority\n            alt='wild & peaceful'\n          />\n        </motion.div>\n        <p>\n          Many of these groups and dancers were lost in the history, As most of\n          he time we only recognized those we have seen on television or in\n          movies, But many of these are real street pioneers. Some of which\n          existed before The Group “The Lockers” ever formed. These dancers were\n          actually the inspirations from the streets, They inspired the\n          performances of Locking that you were able to see on stage and screen,\n          Many were dancers who were influenced by the social movement of the\n          1960s, and passed on that inspiration, Others were inspired by some of\n          the pioneer dancers who became, commercial professional performers,and\n          only after the stage had been developed. But they all deserve\n          recognition for there contributions…On this page you will find both\n          the recognition for what was done on the streets and parties, as well\n          as what was done on the stage.\n        </p>\n        <h1>CREATIVE GENERATION</h1>\n        <p>\n          In the 1960’s The Watts Writers Workshop was formed to develop\n          entertainment talent in the inner cities of Watts, Compton and Los\n          Angeles. In 1972 they recognized the beginning stages of the artform\n          of locking. The Watts Writers Workshop invited several known Locking\n          dancers to study, teach and perform for their workshop. This was to be\n          the first unisex locking dance group and the creation of many\n          synchronized routines Members : Tony Lewis, Edwin Lombard ( The GoGo\n          Bros), James Higgins( Skeeter Rabbit), Greg Pope (Campbellock Jr,),\n          Jimmy Foster (Scooby Doo), Arnetta Johnson, (NettaBug) Fredie Maxie,\n          Lorna Dune & Shelly Cepeda ( These Female Lockers were known as the\n          Toota Woota Sisters).\n        </p>\n\n        <h2>Ghetto Dancers</h2>\n        <motion.div className={styles.image}>\n          <Image\n            src='/images/ghettodancers.png'\n            width='100%'\n            height='100%'\n            layout='responsive'\n            objectFit='cover'\n            objectPosition='center'\n            priority\n            alt='ghetto dancers'\n          />\n        </motion.div>\n        <div className={styles.wrapper_col_2}>\n          <p>\n            Formed in 1973. These locking dancers were pioneers who came from\n            the true source. They performed (as a group) on the TV show American\n            Bandstand and were well respected in the inner city nightclubs and\n            on the locking dance circuit. They were often seen at Maverick’s\n            Flat, The Summit on the Hill and Blueberry Hill Nightclubs. This\n            group performed with Kool and the Gang and at the tribute to Quincy\n            Jones celebration.and “The Tonight Show” Hosted by Steve Allen\n            Members: Greg Dandridge ” Captain Crunch”, Eugene Henderson “F&M”,\n            Steve Crane “Sinbad” Morris Bailey “Cisco Kid”, Kenny Henderson\n            “FleaLock”\n          </p>\n          <p>\n            In 1975 members F & M and FleaLock left the group and The original\n            Skeeter Rabbit performed two shows with the Ghetto Dancers Group,\n            The picture above was taken at A tribute show for Quincy Jones Show,\n            Standing, Steve “Sinbad” Crane, Morris “Cisco Kid” Bailey. Greg\n            “Captain Crunch” Dandridge, (Floor) James “Skeeter Rabbit” Higgins\n          </p>\n        </div>\n\n        <motion.div className={styles.wrapper}>\n          <p>\n            Morris Bailey better Known as “Cisco Kid” with the Early Pioneer\n            Locking group “The GhettoDancers” He was an Early Soul Train Dancer\n            and a regular at Clubs like Blueberry Hill and Mavricks Flats in the\n            Early 70s he will be forever missed by those that were there from\n            the beginning of the Locking movement and were able to see his\n            energy,love and contribution to the Dance of Locking.\n          </p>\n        </motion.div>\n\n        <div className={styles.wrapper_col_2}>\n          <motion.div className={styles.image}>\n            <Image\n              src='/images/33rpm.png'\n              layout='responsive'\n              height='100%'\n              width='100%'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='33 rpm'\n            />\n          </motion.div>\n          <p>\n            The Group 33 RPM organized in 1974 toured with Sid and Marty Kroft\n            and performed on the wide world of sports Globe Trotters anniversary\n            show. This group performed high level quick moving synchronized\n            routines. right picture: ( Pictured left to right) “The Lionel (”Big\n            D” ) Douglas, James Higgins (Skeeter Rabbit) “John Wilson (”Okie\n            Doke”) Michael Frenke (”Peek a boo” ), ,(single picture)Haywood\n            (”Tito”) Collins . (Not Pictured), Tony “Go Go” Lewis, Also not\n            pictured is manager and alternate dancer Cameron “Cam” Walker\n          </p>\n        </div>\n        <h2>The Alphabet Kids</h2>\n        <div className={styles.wrapper_2_col}>\n          <p>\n            This group was formed by Haywood “Tito” Collins Pictured (on the far\n            right) in 1974 this group was significant in the early locking\n            market showing how locking had affected the younger generation and\n            had become a movement , this group was the first Locking group to\n            compete and WIN the Television Gong Show in 1975 , shown here with\n            dancer John St Cier ( far left) the group would often incorporate\n            various soul train dancers such as “Tick” and Mr. X into their act.\n            They were managed by AIMEE ENTERTAINMEN\n          </p>\n          <div className={styles.image}>\n            <Image\n              src='/images/alphabetkids.png'\n              width='100%'\n              height='100%'\n              layout='responsive'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='alphabet kids'\n            />\n          </div>\n        </div>\n        <h2>“THE SOMETHING SPECIAL” dance group</h2>\n        <p>\n          A unique group of soul train dancers which featured early Locking\n          icons Jimmy “Scooby Doo Foster ” & Pat Davis, although this group was\n          not a classical Locking crew , as they exhibited many of the early\n          dancing styles , Locking was featured by two of the best,\n        </p>\n        <div className={styles.image}>\n          <Image\n            src='/images/somethingspecial.png'\n            width='100%'\n            height='100%'\n            layout='responsive'\n            objectFit='cover'\n            objectPosition='center'\n            priority\n            alt='something special'\n          />\n        </div>\n        <h2>Wild And Peaceful</h2>\n        <div className={styles.wrapper_2_Col}>\n          <p>\n            The above Group Formed in 1974 out of LA Jefferson High School, with\n            streetdancers from South central Los Angeles, They became well known\n            throughout the Los Angeles Street circuit for their involvement with\n            High school show competitions\n          </p>\n          <div className={styles.image}>\n            <Image\n              src='/images/wildandpeaceful2.png'\n              width='100%'\n              height='100%'\n              layout='responsive'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='wild & peaceful'\n            />\n          </div>\n        </div>\n\n        <div className={styles.wrapper}>\n          <div className={styles.image}>\n            <Image\n              src='/images/thelockerslline.png'\n              width='100'\n              height='100'\n              layout='responsive'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='the lockers'\n            />\n          </div>\n          <p>\n            MANY HAVE DANCED AND HAVE EARNED THE RIGHT TO TELL THE WORLD THEY\n            WERE WITH THE LOCKERS GROUP\n          </p>\n          <p>\n            There were several generations which had members who danced with the\n            group “the Lockers” In 1974 James “SkeeterRabbit’ Higgins was added\n            and performed with them during the “Frank Sanatra” Tour 1974, In\n            1976 Tony GoGo was added and performed with the group,\n          </p>\n        </div>\n        <div className={styles.wrapper_2_col}>\n          <div className={styles.image}>\n            <Image\n              src='/images/thelockerslate.png'\n              width='100'\n              height='100'\n              layout='responsive'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='the lockers late 70'\n            />\n          </div>\n          <p>\n            Although the Original Professional Group was legally signed to ICM\n            management. Don Campbell would sometimes assemble impromptu groups\n            of pioneers together to perform live, at various functions, often at\n            Hollywood Funtions such as the Hollywood Theater owners Christmas\n            Events and the Friers club parties,They would perform as “The\n            Lockers” This included pioneers such as Fred Berry, Mike “Peekaboo”\n            Frenke, Tito Collins, Skeeter Rabbit, Tick, Mr X and others , By the\n            end of the 1970’s The original Group had gone through various\n            changes, and The name “The Lockers had been used by various members\n            of the Original Group. during the late 70s up until resent times,\n            They have assembled to perform at various times in history. using\n            names like “The Original or Fabulous LOCKERS, also during the 1980s\n            several other combinations of originals and post Soul Train dancers\n            was put together, Below see some of the Later generations..\n          </p>\n        </div>\n\n        <p>\n          The above group formed in the late 1970s after Fred Berry & Toni Basil\n          left ,and when the Original Lockers Trio of Greg Cambellock Jr, Leo\n          Flukey Luke & Shabbadoo, broke away forming their own faction of\n          Lockers , in the above group you see Original early 70s Members Slim,\n          Tony GoGo & Don Campbell, along with original era pioneer Alpha\n          Anderson, and Orange County talent Lewis “The Deputy” Green. “Stan the\n          man”\n        </p>\n\n        <div className={styles.wrapper}>\n          <p>\n            Later in the early 1980s , by that time Don Campbell re constructed\n            several versions ,with several members under the Group name “THE\n            LOCKERS”\n            <br /> <br />\n            TOP: Lional “BigD” Douglas, Don Campbell,BELOW” Lewis “Deputy Green,\n            Anna “Lollipop” Sanchez, Greg Campbellock Jr. and Alpha Anderson..\n            This group was put together in the Late 1970s after the evolutionary\n            period\n          </p>\n          <div className={styles.image}>\n            <Image\n              src='/images/lockerslate70s2png.png'\n              width='100'\n              height='100'\n              layout='responsive'\n              objectFit='cover'\n              objectPosition='center'\n              priority\n              alt='the lockers late 70 pt2'\n            />\n          </div>\n        </div>\n        <h1>THERE WERE MANY OTHERS</h1>\n        <p>\n          who were from the inner city or soul train scene before the dance\n          desegregated and migrated to suburban cities like Orange County & The\n          San Fernando Valley\n        </p>\n        <div className={styles.wrapper_2_col}>\n          <p>\n            Here is a list of other Pre commercial era dancers They are\n            ORIGINALS from the early Locking stages. They are either connected\n            by there involvement with Soul Train or the initial Night Clubs of\n            that era. Some are only known by nickname but we want to recognize\n            their involvement in the evolution of the art.\n          </p>\n          <p>\n            Leo Walker “Shaboo” second generation Yo-Yo brother , Singer and\n            choreographer , Pat Davis – original Member of the Soul Train Gang\n            ,Sneaky T – Early original pioneer ,Jeffery “Cat Man”Macintire –\n            Early 70s pioneer ,Roy “LieLock” Early Pioneer ,SamboLock “one of\n            the first Pioneers ,Bishop Hall & Reggie Co-Co “Bang Bang” very\n            early locking pioneer “,Sweet T” early soul Train and locking dancer\n            ,Guy “Shocklock” Evans , Jackie Penn, Rose January, Arnetta Johnson,\n            Shelly Cepeda, Lorna Dune, Seaside,Hotdog, Bob “Fuji Malone, Enoch\n            “Elmer Fud” & Peter G and the mid 70s “Which a Way dancers” many\n            members of the early GoGo & YoYo brothers family ,..\n          </p>\n        </div>\n        <h2>ALL REAL STREET LEGENDS - from the original era</h2>\n        <p>\n          After the evolutionary period in the early 1970s the dance was\n          spreading, by two means, personal migration opened the doors in\n          Southern California, with the acceptance of integration, but it also\n          continued to be passed down in the Original inner-city areas where it\n          originated, 80s Old school legends can be found in Orange County,\n          Ventura Valley and South Central Los Angeles hoods as well as other\n          cities throughout the USA\n        </p>\n        <p>Where dancers saw and imitated the lockers 7 their performances</p>\n        <p>It’s called “THE POST ERA GENERATION OF LOCKING”</p>\n        <p>\n          Below are a list of dancers who came after the original era, some were\n          from areas which had now opened up from prior segregation and made\n          names for themselves in their locking communities\n          <br />\n          These are The Old schoolers from different generations of Los Angeles\n        </p>\n        <h2>AFTER THE ORIGINAL EVOLUTIONARY ERA</h2>\n        <p>Cam Walker</p>\n        <p>Denny Terrio</p>\n        <p>\n          The Late 70s & 80s Inner City Oldschooles from Watts,Compton & South\n          Central & Long Beach as the dance migrated to the suburbs it was also\n          passed down to inner city groups\n        </p>\n        <p>\n          Lockers from late 70s & 80s , who went on to become members of the\n          Electric Boogaloos\n        </p>\n        <p>Suga Pop</p>\n        <p>Stephan Nichols</p>\n        <p>KAPTIN KRUNCH & THE FUNKY BUNCH (1980s Compton)</p>\n        <div className={styles.image}>\n          <Image\n            src='/images/captaincrunch.png'\n            width='100'\n            height='100'\n            layout='responsive'\n            objectFit='cover'\n            objectPosition='center'\n            priority\n            alt='captain crunch'\n          />\n        </div>\n        <p>Charles (Kaptin Krunch) Washington</p>\n        <p>John “Scooby Two”Robinson</p>\n        <p>\n          The Orange County (OC) Generation of Locking scene began around 1973\n          and after the initial & original inner-city movement created a locking\n          market,Its exposure came through soul train, & the migration to\n          suburban eras by some original Soul Train & Lockers members .. The\n          Orange county scene also produced commercial oportunity, for groupd\n          like (OC) Funky Bunch, Dance Machine, leading into the Las Vegas\n          dancing scene of the 1980s, The many notables from that performance\n          era were\n        </p>\n        <p>Lewis Green “Deputy”</p>\n        <p>Lional Douglas “Big D”</p>\n        <p>Anna “Lollipop” Sanchez</p>\n        <p>Manny “Loose Caboose” Tristan</p>\n        <p>Steve ” Sugarfoot” Notario</p>\n        <p>Tony “Crackerjack” Pierce</p>\n        <p>Vince Harper</p>\n\n        <div className={styles.wrapper}>\n          <p>\n            The San Fernando Valley locking scene took flight beginning in the\n            late 1970s after exposure to locking through soul train & Locking\n            performances, this locking scene opened the door by its close\n            connection to entertainment industry of Hollywood, That Valley style\n            of Locking influenced the Michael Jackson style & the Breaking\n            movies of the 1980s, which featured original Locker Adolpho “Shabba\n            doo” Queonneis\n            <br />\n            <br />\n            Paul & Tom Sanchez\n            <br />\n            <br />\n            Richard “Richie Rich”Lenchner\n            <br />\n            <br />\n            Shawn “panda’ Whittington\n          </p>\n\n          <p>\n            Although many were not from the ORIGINAL ERA which produced &\n            created Locking , these dancers contributed to the continued\n            evolving of the dance throughout the later 70s into the 80s & shy\n            todays standards are still considerers “OLD SCHOOL PIONEERS”…much\n            respect to these other dances\n          </p>\n          <p>\n            By Mid to late1970’s the dance had also migrated from Orange County\n            to Las Vegas, through the production of groups by promoter Jeff\n            Kutiage, who formed the group Dance Machine , and later produced the\n            Las Vegas Show Splash, through this Dancers like Frank Sundance Sams\n            ,Ricochet Rabbit, Steve Notorio, Tony Crackerjack pierce, Vince\n            Happer and others were developed this show ran for over 20yrs\n          </p>\n        </div>\n        <p>\n          Anyone with information on any of these dancers or any forgotten “True\n          Pioneers”\n          <br />\n          <br />\n          Please send any info or comments to feedback@lockerlegends.net\n        </p>\n      </section>\n    </div>\n  );\n}\n"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 6,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 9,
+    "value": "RoH1VGA9-oE"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 12,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 15,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 16,
+    "value": "History about the artform and dance style locking"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 18,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 18,
+    "value": "locking history"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 45,
+    "value": "\n         ${styles.highligh_o} ${styles.big_text} ${styles.text_center}"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 73,
+    "value": "/images/gogobrotherswatts.png"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 74,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 75,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 76,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 77,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 78,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 79,
+    "value": "gogo brothers at wattsstaxx concert"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 121,
+    "value": "${styles.highligh_o} ${styles.big_text}"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 127,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 129,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 130,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 131,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 132,
+    "value": "https://www.youtube-nocookie.com/embed/${soultrain}"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 133,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 151,
+    "value": "/images/mavericksflat.png"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 152,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 153,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 154,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 155,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 156,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 157,
+    "value": "mavericks flat"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 246,
+    "value": "/images/lockerslate70s.png"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 247,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 248,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 249,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 250,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 251,
+    "value": "the lockers late 70"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 282,
+    "value": "/images/33rpm.png"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 283,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 284,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 285,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 286,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 287,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 288,
+    "value": "33 rpm"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 302,
+    "value": "${styles.big_text}"
+  },
+  {
+    "source": "src/pages/history/index.js",
+    "line": 388,
+    "value": "${styles.big_text}"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 3,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 8,
+    "value": "../lib/posts/get-posts"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 9,
+    "value": "../layouts/hero/Hero"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 10,
+    "value": "../components/Grid/GridItem"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 11,
+    "value": "../components/Grid/Grid"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 13,
+    "value": "react-icons/ai"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 14,
+    "value": "react-icons/ai"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 15,
+    "value": "react-icons/gi"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 18,
+    "value": "../styles/pages/Home.module.scss"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 19,
+    "value": "../components/readmorebtn/ReadMoreBtnOut"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 20,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 25,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 28,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 29,
+    "value": "The official locking website of the streetdance pioneers hiphop streetdance funk soul history knowledge curriculum"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 30,
+    "value": "desc"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 62,
+    "value": "What is funk?"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 63,
+    "value": "/blog/what-does-funk-or-funky-really-mean"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 80,
+    "value": "/images/socialdance2.png"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 81,
+    "value": "social party dancing"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 82,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 83,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 84,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 85,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 86,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 91,
+    "value": "/socialparty"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 92,
+    "value": "Click! to read about the social party era!"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 94,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 109,
+    "value": "/images/donflying.jpg"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 110,
+    "value": "Don flying"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 111,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 112,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 113,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 114,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 115,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 120,
+    "value": "/history"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 121,
+    "value": "Learn more about LOCKING!"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 152,
+    "value": "/gogobrothers"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 152,
+    "value": "The GOGO BROTHERS"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 158,
+    "value": "#888"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 196,
+    "value": "/wattsstaxx"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 197,
+    "value": "Read about... WHATTSSTAXX"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 200,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 200,
+    "value": "0 auto"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 203,
+    "value": "/images/wattsriots.png"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 204,
+    "value": "watts riots"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 205,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 206,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 207,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 208,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 209,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 216,
+    "value": "left"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 217,
+    "value": "white"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 218,
+    "value": "0 0 2rem 4rem"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 219,
+    "value": "90%"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 227,
+    "value": "right"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 228,
+    "value": "white"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 229,
+    "value": "0 4rem 2rem 0"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 305,
+    "value": "/soultrain"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 306,
+    "value": "Check out the SOUL TRAIN page here..."
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 346,
+    "value": "/memorial"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 346,
+    "value": "Memorial page"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 361,
+    "value": "https://www.facebook.com/groups/158481954185947"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 363,
+    "value": "_blank"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 383,
+    "value": "2rem 0"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 384,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 385,
+    "value": "#888"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 386,
+    "value": "black"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 387,
+    "value": "4px 8px"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 393,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/index.js",
+    "line": 393,
+    "value": "2rem"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 2,
+    "value": "next/link"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 3,
+    "value": "isomorphic-unfetch"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 4,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 6,
+    "value": "../../styles/pages/Memorial.module.scss"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 43,
+    "value": "initial"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 44,
+    "value": "animate"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 48,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 51,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 52,
+    "value": "Memorial page for the legends that has passed. Paying our respects and memorizing their existance"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 55,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 56,
+    "value": "Memorial page for the one that has passed on"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 71,
+    "value": "/memorial/[id]"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 72,
+    "value": "/memorial/${pioneer.id}"
+  },
+  {
+    "source": "src/pages/memorial/index.js",
+    "line": 104,
+    "value": "https://my-json-server.typicode.com/robonexx/db/pioneers"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 2,
+    "value": "isomorphic-unfetch"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 4,
+    "value": "next/link"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 6,
+    "value": "../../styles/pages/Memorial.module.scss"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 36,
+    "value": "initial"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 36,
+    "value": "animate"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 37,
+    "value": "en-EN"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 40,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 41,
+    "value": "Memorial for the legends who has passed and contributed to locking dance"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 43,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 43,
+    "value": "Memorial page"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 46,
+    "value": "/memorial"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 64,
+    "value": "../${props.pioneer.image}"
+  },
+  {
+    "source": "src/pages/memorial/[id].js",
+    "line": 95,
+    "value": "https://my-json-server.typicode.com/robonexx/db/pioneers/${id}"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 3,
+    "value": "../../components/Sidebar/Sidebar"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 4,
+    "value": "../../components/Hof/Hof"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 6,
+    "value": "../../styles/pages/Pioneers.module.scss"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 13,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 16,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 17,
+    "value": "The hall of fame O.G pioneers of the artform locking"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 19,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/pioneers/index.js",
+    "line": 19,
+    "value": "Knowledge about the pioneers"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 5,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 6,
+    "value": "react"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 8,
+    "value": "xbK0C9AYMd8"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 9,
+    "value": "Zdz88MBWomo"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 10,
+    "value": "_PIcqzPNKKw"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 11,
+    "value": "Wro3bqi4Eb8"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 12,
+    "value": "wygKLT4cb8g"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 13,
+    "value": "KCFyKRtlLOI"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 14,
+    "value": "BEjSUZ-BPN8"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 15,
+    "value": "M6AZNywvF-s"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 16,
+    "value": "uSjkoY9IWXQ"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 24,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 27,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 28,
+    "value": "Information about the social party Era"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 30,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 30,
+    "value": "Social party"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 61,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 110,
+    "value": "/images/socialdance2.png"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 111,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 112,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 113,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 114,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 115,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 116,
+    "value": "social dances"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 155,
+    "value": "/images/socialdance.png"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 156,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 157,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 158,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 159,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 160,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 161,
+    "value": "social dances"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 214,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 216,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 217,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 218,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 219,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidJB1}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 220,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 233,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 235,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 236,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 237,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 238,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidJB2}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 239,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 252,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 278,
+    "value": "transparent"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 278,
+    "value": "white"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 279,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 286,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 288,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 289,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 290,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 291,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVid1}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 292,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 296,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 302,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 310,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 315,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 323,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 331,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 335,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 337,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 338,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 339,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 340,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidTight}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 341,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 347,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 348,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 349,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 354,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 364,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 366,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 367,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 368,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 369,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidTexas}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 370,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 375,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 376,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 391,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 392,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 396,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 397,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 402,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 404,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 405,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 406,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 407,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidBreakdown}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 408,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 412,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 413,
+    "value": "#ee4e34"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 419,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 421,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 422,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 423,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 424,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidRocksteady}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 425,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 429,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 431,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 432,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 433,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 434,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidWalkingthedog}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 435,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 438,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 439,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 446,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 447,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 453,
+    "value": "ytplayer"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 455,
+    "value": "text/html"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 456,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 457,
+    "value": "360"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 458,
+    "value": "https://www.youtube-nocookie.com/embed/${ytVidBump}"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 459,
+    "value": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture full"
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 463,
+    "value": " "
+  },
+  {
+    "source": "src/pages/socialparty/index.js",
+    "line": 464,
+    "value": "#fff"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 6,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 11,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 14,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 15,
+    "value": "History about the soul train televsion program that was a plattform for afro americans"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 18,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 19,
+    "value": "History about soul train the tv show"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 51,
+    "value": "/images/soultrain.png"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 52,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 53,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 54,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 55,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 56,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 58,
+    "value": "soultrain"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 98,
+    "value": "/images/soultrain2.png"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 99,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 100,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 101,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 102,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 103,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 105,
+    "value": "soultrain"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 131,
+    "value": "/gif/soultrainline.gif"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 132,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 133,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 134,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 135,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 136,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 138,
+    "value": "soultrain line"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 200,
+    "value": "/images/soultrainlogo.png"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 201,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 202,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 203,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 204,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 205,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 207,
+    "value": "soultrain logo"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 224,
+    "value": " "
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 312,
+    "value": "/images/jodyjeffrey.png"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 313,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 314,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 315,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 316,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 317,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/soultrain/index.js",
+    "line": 319,
+    "value": "jody & jeffrey at soultrain"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 2,
+    "value": "../../components/faqbox/FaqList"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 3,
+    "value": "../../styles/pages/StepsAndMoves.module.scss"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 8,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 11,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 12,
+    "value": "The locking curriculum dance steps and moves"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 14,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/steps/index.js",
+    "line": 14,
+    "value": "Dance steps and moves of locking"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 4,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 7,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 15,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 18,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 19,
+    "value": "Street terminlogy the vocabulary used on the streets"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 21,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 21,
+    "value": "street terminology vocabulary"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 41,
+    "value": " "
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 60,
+    "value": "/images/streetTerm.png"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 61,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 62,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 63,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 64,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 65,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 67,
+    "value": "street terminology"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 121,
+    "value": "/images/terminology.png"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 122,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 123,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 124,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 125,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 126,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/terminology/index.js",
+    "line": 128,
+    "value": "terminology"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 3,
+    "value": "../../components/responsiveGrid/ResponsiveGrid"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 4,
+    "value": "../../components/responsiveGrid/RGridItem"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 5,
+    "value": "../../content/items"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 8,
+    "value": "../../styles/pages/Timeline.module.scss"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 13,
+    "value": "en"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 16,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 17,
+    "value": "the locking time line and evolution"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 19,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/timeline/index.js",
+    "line": 19,
+    "value": "About locking history timeline of the artform"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 1,
+    "value": "next/head"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 3,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 4,
+    "value": "../../styles/layout/PageLayout.module.scss"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 9,
+    "value": "en-EN"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 12,
+    "value": "description"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 13,
+    "value": "history about the wattsriots the concert and importance of the movement"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 15,
+    "value": "og:title"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 15,
+    "value": "wattsstaxx the concert"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 41,
+    "value": "/images/staples.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 42,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 43,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 44,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 45,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 46,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 48,
+    "value": "staples"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 70,
+    "value": "/images/wattsfist.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 71,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 72,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 73,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 74,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 75,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 77,
+    "value": "watts concert power fist"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 114,
+    "value": "/images/wattshandshake.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 115,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 116,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 117,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 118,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 119,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 121,
+    "value": "lockers handshake"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 175,
+    "value": "/images/barkeyspng.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 176,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 177,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 178,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 179,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 180,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 182,
+    "value": "barkeys"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 218,
+    "value": "/images/funkywomanwattsconcert.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 219,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 220,
+    "value": "100%"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 221,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 222,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 223,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 225,
+    "value": "funky lady at watts concert"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 254,
+    "value": "/images/rufusthomas.png"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 255,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 256,
+    "value": "100"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 257,
+    "value": "responsive"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 258,
+    "value": "cover"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 259,
+    "value": "center"
+  },
+  {
+    "source": "src/pages/wattsstaxx/index.js",
+    "line": 261,
+    "value": "Mr Rufus Thomas"
+  },
+  {
+    "source": "src/pages/_app.js",
+    "line": 1,
+    "value": "../components/layout/Layout"
+  },
+  {
+    "source": "src/pages/_app.js",
+    "line": 2,
+    "value": "framer-motion"
+  },
+  {
+    "source": "src/pages/_app.js",
+    "line": 3,
+    "value": "../styles/globals.scss"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 1,
+    "value": "html-react-parser"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 2,
+    "value": "next/image"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 5,
+    "value": "../styles/pages/BlogSlug.module.scss"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 10,
+    "value": "figure"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 14,
+    "value": "img"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 21,
+    "value": "cover"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 22,
+    "value": "responsive"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 24,
+    "value": "please ad featured image "
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 36,
+    "value": "long"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 37,
+    "value": "numeric"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 38,
+    "value": "long"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 39,
+    "value": "numeric"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 43,
+    "value": "sv-SV"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 49,
+    "value": "$1"
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 49,
+    "value": "..."
+  },
+  {
+    "source": "src/utils/functions.js",
+    "line": 54,
+    "value": ""
+  },
+  {
+    "source": "src/utils/scrollToTop/ScrollToTop.js",
+    "line": 1,
+    "value": "react"
+  },
+  {
+    "source": "src/utils/scrollToTop/ScrollToTop.js",
+    "line": 2,
+    "value": "next/router"
+  }
+]

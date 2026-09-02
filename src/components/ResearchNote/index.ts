@@ -1,0 +1,1 @@
+export { ResearchNote } from './ResearchNote';

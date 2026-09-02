@@ -1,0 +1,7 @@
+.intro {
+  max-width: 820px;
+  margin: 0 0 70px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 3vw, 2.25rem);
+  line-height: 1.38;
+}

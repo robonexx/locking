@@ -1,0 +1,119 @@
+.group { margin-top: 90px; }
+
+.groupTitle {
+  max-width: 850px;
+  margin: 0 0 26px;
+  font-family: var(--display);
+  font-size: clamp(2.8rem, 6vw, 5.4rem);
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.card {
+  color: var(--white);
+  background: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 8px 8px 0 var(--orange);
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 280ms ease;
+}
+
+.card:hover { transform: translateY(-5px); box-shadow: 12px 13px 0 var(--orange); }
+.card summary { cursor: pointer; list-style: none; }
+.card summary::-webkit-details-marker { display: none; }
+
+.image {
+  position: relative;
+  min-height: 340px;
+  overflow: hidden;
+  background: var(--orange);
+}
+
+.image img {
+  object-fit: contain;
+  object-position: center bottom;
+  filter: grayscale(1) contrast(1.08);
+  transition: transform 650ms cubic-bezier(0.22, 1, 0.36, 1), filter 300ms ease;
+}
+
+.card:hover .image img,
+.card[open] .image img { transform: scale(1.04); filter: grayscale(0.18) contrast(1.04); }
+
+.heading { position: relative; min-height: 190px; padding: 26px; }
+
+.heading::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  height: 10px;
+  content: "";
+  background: var(--acid);
+}
+
+.heading p {
+  margin: 0 0 9px;
+  color: var(--acid);
+  font-size: 0.73rem;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.heading h3 {
+  margin: 0 0 26px;
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.openLabel,
+.closeLabel {
+  font-size: 0.77rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.closeLabel,
+.card[open] .openLabel { display: none; }
+.card[open] .closeLabel { display: inline; }
+
+.copy {
+  padding: 0 26px 28px;
+  animation: copyIn 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.copy > p:first-child {
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+}
+
+.contribution {
+  padding-top: 18px;
+  color: var(--acid);
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@keyframes copyIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 680px) {
+  .grid { grid-template-columns: 1fr; }
+  .image { min-height: 300px; }
+}

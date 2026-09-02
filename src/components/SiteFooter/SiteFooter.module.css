@@ -1,0 +1,31 @@
+.footer {
+  padding-block: 58px;
+  color: var(--white);
+  background: var(--ink);
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.mark {
+  margin: 0;
+  color: var(--acid);
+  font-family: var(--display);
+  font-size: 1.5rem;
+}
+
+.line {
+  margin: 0;
+}
+
+.links {
+  display: grid;
+  gap: 6px;
+}
+
+@media (max-width: 680px) {
+  .grid { flex-direction: column; }
+}

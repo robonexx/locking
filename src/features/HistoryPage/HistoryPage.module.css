@@ -1,0 +1,53 @@
+.panel {
+  margin-top: 90px;
+  padding: clamp(34px, 7vw, 76px);
+  border: 2px solid var(--ink);
+}
+
+.world {
+  background: var(--acid);
+  box-shadow: 12px 12px 0 var(--orange);
+}
+
+.context {
+  position: relative;
+  overflow: hidden;
+  color: var(--white);
+  background: var(--violet);
+}
+
+.context::after {
+  position: absolute;
+  right: -65px;
+  bottom: -65px;
+  width: 190px;
+  height: 190px;
+  content: "";
+  background: var(--orange);
+  border: 24px solid var(--acid);
+  border-radius: 50%;
+  opacity: 0.88;
+}
+
+.panel h2 {
+  position: relative;
+  z-index: 1;
+  max-width: 850px;
+  margin: 0 0 26px;
+  font-family: var(--display);
+  font-size: clamp(2.8rem, 6vw, 5.4rem);
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.panel > p:not(:global(.eyebrow)) {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+}
+
+@media (max-width: 680px) {
+  .panel { margin-top: 64px; padding: 30px 24px; }
+}

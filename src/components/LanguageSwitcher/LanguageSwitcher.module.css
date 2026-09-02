@@ -1,0 +1,19 @@
+.switcher {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  background: var(--orange);
+  border-radius: 50%;
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1), background 180ms ease;
+}
+
+.switcher:hover,
+.switcher:focus-visible {
+  background: var(--acid);
+  transform: rotate(-8deg) scale(1.08);
+}

@@ -1,0 +1,30 @@
+.prose {
+  max-width: 780px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin: 2.2em 0 0.55em;
+  font-family: var(--display);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.prose h1,
+.prose h2 { font-size: clamp(2.4rem, 5vw, 4.4rem); }
+.prose h3 { font-size: clamp(1.8rem, 3vw, 2.8rem); }
+.prose p { margin: 0 0 1.25em; }
+
+.prose blockquote {
+  margin: 2em 0;
+  padding: 20px 24px;
+  font-family: var(--body);
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: var(--acid);
+  border-left: 8px solid var(--ink);
+}

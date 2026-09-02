@@ -1,0 +1,1 @@
+export { RecoveredPage } from './RecoveredPage';
