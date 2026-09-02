@@ -48,7 +48,7 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       content = <TheLockersPage lang={lang} />;
       break;
     case 'pioneers':
-      content = <PioneersPage pioneers={await readPioneers()} />;
+      content = <PioneersPage pioneers={await readPioneers()} lang={lang} />;
       break;
     case 'steps-and-moves':
       content = <StepsPage steps={await readDanceSteps()} lang={lang} />;

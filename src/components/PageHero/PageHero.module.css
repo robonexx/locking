@@ -57,6 +57,7 @@
 }
 
 .content h1 {
+  width: 100%;
   max-width: 950px;
   margin: 0;
   font-family: var(--display);
@@ -85,7 +86,8 @@
   .hero { min-height: 470px; }
   .content { min-width: 0; }
   .content h1 {
-    font-size: clamp(2.75rem, 13.5vw, 4.75rem);
+    max-width: 100%;
+    font-size: clamp(2.45rem, 11.5vw, 4.75rem);
     overflow-wrap: anywhere;
   }
 }

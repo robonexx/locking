@@ -43,10 +43,12 @@
 }
 
 .card h2 {
+  max-width: 100%;
   margin: 14px 0 0;
   font-family: var(--display);
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 0.95;
+  overflow-wrap: anywhere;
   text-transform: uppercase;
 }
 
@@ -63,6 +65,7 @@
   max-width: 68ch;
   font-size: 1rem;
   line-height: 1.65;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 760px) {
@@ -73,7 +76,12 @@
     min-height: 0;
   }
 
-  .copy { padding: 28px 24px 30px; }
+  .copy {
+    width: 100%;
+    padding: 28px 24px 30px;
+  }
+
+  .card h2 { font-size: clamp(1.9rem, 9vw, 2.65rem); }
 
   .imageWrap {
     min-height: clamp(300px, 105vw, 520px);

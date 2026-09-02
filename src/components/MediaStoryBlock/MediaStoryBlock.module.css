@@ -23,22 +23,30 @@
 }
 
 .block:hover .image img { transform: scale(1.035); }
-.copy { padding: clamp(30px, 5vw, 62px); }
+.copy {
+  min-width: 0;
+  padding: clamp(30px, 5vw, 62px);
+}
 
 .copy h2 {
+  max-width: 100%;
   margin: 0 0 24px;
   font-family: var(--display);
   font-size: clamp(3rem, 6vw, 5.6rem);
   line-height: 0.92;
+  overflow-wrap: anywhere;
   text-transform: uppercase;
 }
 
 .copy > p:not(:global(.eyebrow)) {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 680px) {
   .block { grid-template-columns: 1fr; }
   .image { min-height: 390px; border-right: 0; border-bottom: 2px solid var(--ink); }
+  .copy { width: 100%; padding: 30px 24px 34px; }
+  .copy h2 { font-size: clamp(2.3rem, 11vw, 3.45rem); }
 }

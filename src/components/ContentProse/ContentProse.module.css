@@ -15,8 +15,16 @@
 }
 
 .prose h1,
-.prose h2 { font-size: clamp(2.4rem, 5vw, 4.4rem); }
-.prose h3 { font-size: clamp(1.8rem, 3vw, 2.8rem); }
+.prose h2 {
+  max-width: 100%;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  overflow-wrap: anywhere;
+}
+.prose h3 {
+  max-width: 100%;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  overflow-wrap: anywhere;
+}
 .prose p { margin: 0 0 1.25em; }
 
 .prose blockquote {
@@ -27,4 +35,11 @@
   font-weight: 800;
   background: var(--acid);
   border-left: 8px solid var(--ink);
+}
+
+@media (max-width: 680px) {
+  .prose h1,
+  .prose h2 { font-size: clamp(2.05rem, 10.5vw, 3.2rem); }
+
+  .prose h3 { font-size: clamp(1.65rem, 8.5vw, 2.4rem); }
 }

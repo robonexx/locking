@@ -75,7 +75,8 @@
   .hero { min-height: 760px; }
   .heroContent { padding-bottom: 48px; }
   .hero h1 {
-    font-size: clamp(3rem, 15.5vw, 5rem);
+    max-width: 100%;
+    font-size: clamp(2.8rem, 13vw, 5rem);
     overflow-wrap: anywhere;
   }
   .hero h1 span:last-child {
