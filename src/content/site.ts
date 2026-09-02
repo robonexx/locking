@@ -4,6 +4,10 @@ export type ContentPage = {
   slug: string;
   source?: string;
   image: string;
+  imageFit?: 'cover' | 'contain';
+  imagePosition?: string;
+  imageScale?: number;
+  imageTransformOrigin?: string;
   kicker: Record<Locale, string>;
   title: Record<Locale, string>;
   summary: Record<Locale, string>;
@@ -18,8 +22,8 @@ export const contentPages: ContentPage[] = [
     kicker: { sv: 'Min väg till Locking', en: 'My journey into Locking' },
     title: { sv: 'Om Locking.se', en: 'About Locking.se' },
     summary: {
-      sv: 'Från Breakin’ på 1980-talet till Los Angeles, Funkcamp och dagens svenska generation.',
-      en: 'From Breakin’ in the 1980s to Los Angeles, Funkcamp and today’s Swedish generation.',
+      sv: 'Min historia och koppling till Locking i Sverige – från 1980-talet till Funkcamp och dagens generation.',
+      en: 'My story and connection to Locking in Sweden – from the 1980s to Funkcamp and today’s generation.',
     },
     group: 'main',
   },
@@ -92,6 +96,21 @@ export const contentPages: ContentPage[] = [
     summary: {
       sv: 'Personerna vars steg, attityd, rytm och skaparkraft byggde grunden.',
       en: 'The people whose steps, attitude, rhythm and creativity built the foundation.',
+    },
+    group: 'knowledge',
+  },
+  {
+    slug: 'the-line-captain',
+    image: '/media/web_greg.png',
+    imageFit: 'contain',
+    imagePosition: 'right top',
+    imageScale: 0.82,
+    imageTransformOrigin: 'right top',
+    kicker: { sv: 'Campbellock Jr. · Mentor · Pionjär', en: 'Campbellock Jr. · Mentor · Pioneer' },
+    title: { sv: 'The Line Captain', en: 'The Line Captain' },
+    summary: {
+      sv: 'Dave Gregory Pope, hans mentorskap och den pedagogiska struktur han byggde för Locking.',
+      en: 'Dave Gregory Pope, his mentorship and the educational structure he built for Locking.',
     },
     group: 'knowledge',
   },
@@ -180,13 +199,12 @@ export const contentPages: ContentPage[] = [
   },
   {
     slug: 'contact',
-    source: 'contact.md',
     image: '/media/wattshandshake.png',
     kicker: { sv: 'Hör av dig', en: 'Get in touch' },
     title: { sv: 'Kontakt', en: 'Contact' },
     summary: {
-      sv: 'Frågor, rättelser eller material till arkivet är välkomna.',
-      en: 'Questions, corrections and contributions to the archive are welcome.',
+      sv: 'Kontakta mig med frågor, rättelser eller berättelser till Locking.se.',
+      en: 'Contact me with questions, corrections or stories for Locking.se.',
     },
     group: 'main',
   },

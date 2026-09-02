@@ -1,0 +1,358 @@
+.mentor {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(32px, 7vw, 90px);
+  align-items: end;
+  margin-top: 70px;
+  padding: clamp(28px, 6vw, 70px);
+  overflow: hidden;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 12% 12%, rgba(119, 87, 255, 0.6), transparent 32%),
+    var(--ink);
+  border-bottom: 12px solid var(--orange);
+}
+
+.mentorPortrait {
+  align-self: stretch;
+  display: flex;
+  align-items: end;
+  min-height: 430px;
+}
+
+.mentorPortrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(16px 13px 0 rgba(215, 255, 63, 0.8));
+}
+
+.mentorCopy h2,
+.life h2,
+.curriculum h2,
+.sectionHeading h2,
+.equationSection h2,
+.archive h2 {
+  margin: 0;
+  font-family: var(--display);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.mentorCopy h2 { max-width: 700px; font-size: clamp(3rem, 7vw, 6.4rem); }
+
+.mentorCopy blockquote {
+  max-width: 720px;
+  margin: 32px 0;
+  padding-left: 22px;
+  border-left: 7px solid var(--acid);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.mentorCopy > p:not(:global(.eyebrow)) {
+  max-width: 720px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.06rem;
+}
+
+.life { margin-top: clamp(100px, 14vw, 170px); }
+.life h2 { max-width: 900px; font-size: clamp(3rem, 7vw, 6rem); }
+
+.proseColumns {
+  columns: 2 330px;
+  column-gap: clamp(34px, 7vw, 90px);
+  margin-top: 36px;
+}
+
+.proseColumns p {
+  max-width: 760px;
+  margin-top: 0;
+  break-inside: avoid;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+}
+
+.curriculum {
+  margin-top: clamp(100px, 14vw, 170px);
+  padding: clamp(32px, 7vw, 80px);
+  color: var(--ink);
+  background: var(--acid);
+  border: 3px solid var(--ink);
+  box-shadow: 14px 14px 0 var(--orange);
+}
+
+.curriculum h2 { max-width: 930px; font-size: clamp(3rem, 7vw, 6.5rem); }
+.curriculum > p:not(:global(.eyebrow)) {
+  max-width: 800px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+}
+
+.attributes,
+.movements { margin-top: clamp(120px, 16vw, 190px); }
+
+.sectionHeading {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: clamp(18px, 4vw, 46px);
+  align-items: start;
+  margin-bottom: 54px;
+  padding-bottom: 30px;
+  border-bottom: 5px solid var(--ink);
+}
+
+.sectionHeading > span {
+  color: var(--orange);
+  font-family: var(--display);
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.sectionHeading h2 { max-width: 920px; font-size: clamp(3rem, 7vw, 6rem); }
+.sectionHeading p { max-width: 800px; margin: 22px 0 0; font-size: 1.06rem; }
+
+.frameworkGrid,
+.movementLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(34px, 6vw, 76px);
+  align-items: start;
+}
+
+.document {
+  min-width: 0;
+  padding: 14px;
+  background: var(--white);
+  border: 2px solid var(--ink);
+  box-shadow: 11px 12px 0 var(--violet);
+  transform: rotate(-1.2deg);
+}
+
+.document a,
+.equationImage a,
+.archiveGrid a {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.document img,
+.equationImage img,
+.archiveGrid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.document a > span,
+.equationImage a > span,
+.archiveGrid a > span {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 6px 2px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.document svg,
+.equationImage svg,
+.archiveGrid svg { width: 18px; height: 18px; flex: 0 0 auto; }
+
+.attributeList,
+.movementList {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.attributeCard,
+.movementCard {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 18px;
+  padding: 24px;
+  background: var(--white);
+  border: 2px solid var(--ink);
+}
+
+.attributeCard:nth-child(2n) { box-shadow: 7px 7px 0 var(--acid); }
+.attributeCard > span,
+.movementCard > span {
+  color: var(--violet);
+  font-family: var(--display);
+  font-size: 1.35rem;
+}
+
+.attributeCard div > p:first-child,
+.movementCard div > p:first-child {
+  margin: 0 0 4px;
+  color: var(--violet);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.attributeCard h3,
+.movementCard h3 {
+  margin: 0 0 10px;
+  font-family: var(--display);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.attributeCard div > p:last-child,
+.movementCard div > p:last-child { margin: 0; }
+
+.equationSection {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: clamp(36px, 7vw, 90px);
+  align-items: center;
+  margin-top: clamp(120px, 16vw, 190px);
+  padding: clamp(30px, 6vw, 70px);
+  color: var(--white);
+  background: var(--violet);
+  border: 3px solid var(--ink);
+}
+
+.equationSection h2 { max-width: 780px; font-size: clamp(3rem, 7vw, 6rem); }
+.equationCopy > p:not(:global(.eyebrow)) { max-width: 720px; font-family: Georgia, "Times New Roman", serif; }
+
+.equation {
+  display: grid;
+  gap: 10px;
+  margin-top: 36px;
+}
+
+.equationPart {
+  position: relative;
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 2px 16px;
+  padding: 16px 18px;
+  color: var(--ink);
+  background: var(--white);
+}
+
+.equationPart strong {
+  grid-row: 1 / span 2;
+  font-family: var(--display);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.equationPart > span:not(.operator) { font-size: 0.78rem; font-weight: 900; text-transform: uppercase; }
+.equationPart p { margin: 3px 0 0; font-size: 0.86rem; }
+
+.operator {
+  position: absolute;
+  z-index: 2;
+  top: -20px;
+  left: 28px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  background: var(--acid);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+.equals { justify-self: center; font-family: var(--display); font-size: 2.4rem; line-height: 1; }
+.result {
+  padding: 19px;
+  color: var(--ink);
+  background: var(--acid);
+  border: 3px solid var(--ink);
+  font-family: var(--display);
+  font-size: clamp(2rem, 5vw, 4.2rem);
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.equationImage {
+  padding: 13px;
+  background: var(--white);
+  border: 2px solid var(--ink);
+  box-shadow: 11px 12px 0 var(--orange);
+  transform: rotate(1.4deg);
+}
+
+.movementLayout { grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); }
+.movementCard:nth-child(odd) { background: var(--paper-deep); }
+.movementCard:last-child { color: var(--white); background: var(--ink); }
+.movementCard:last-child > span,
+.movementCard:last-child div > p:first-child { color: var(--acid); }
+.movementDocument { position: sticky; top: 110px; transform: rotate(0.8deg); box-shadow: 11px 12px 0 var(--orange); }
+
+.archive {
+  margin-top: clamp(120px, 16vw, 190px);
+  padding: clamp(30px, 6vw, 70px);
+  color: var(--white);
+  background: var(--ink);
+  border-top: 12px solid var(--acid);
+}
+
+.archive h2 { max-width: 900px; font-size: clamp(3rem, 7vw, 6rem); }
+.archive > p:not(:global(.eyebrow)) { max-width: 780px; font-family: Georgia, "Times New Roman", serif; font-size: 1.06rem; }
+
+.archiveGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+  margin-top: 48px;
+}
+
+.archiveGrid figure { min-width: 0; margin: 0; }
+.archiveGrid figure:nth-child(even) { margin-top: 46px; }
+.archiveGrid a { padding: 10px; background: var(--white); }
+.archiveGrid figcaption { margin-top: 12px; color: rgba(255, 255, 255, 0.76); font-size: 0.8rem; }
+
+@media (max-width: 860px) {
+  .mentor,
+  .frameworkGrid,
+  .equationSection,
+  .movementLayout { grid-template-columns: minmax(0, 1fr); }
+
+  .mentorPortrait { max-width: 430px; min-height: 0; }
+  .document,
+  .equationImage { max-width: 620px; margin-inline: auto; transform: none; }
+  .movementDocument { position: static; }
+  .archiveGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  .mentor { margin-inline: calc((var(--shell) - 100vw) / 2); padding-inline: 22px; }
+  .mentorCopy h2,
+  .life h2,
+  .curriculum h2,
+  .sectionHeading h2,
+  .equationSection h2,
+  .archive h2 { overflow-wrap: anywhere; font-size: clamp(2.55rem, 13vw, 4rem); }
+
+  .sectionHeading { grid-template-columns: 1fr; gap: 10px; }
+  .attributeCard,
+  .movementCard { grid-template-columns: 42px minmax(0, 1fr); gap: 10px; padding: 20px 16px; }
+  .equationPart { grid-template-columns: 66px minmax(0, 1fr); }
+  .archiveGrid { grid-template-columns: minmax(0, 1fr); }
+  .archiveGrid figure:nth-child(even) { margin-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .document,
+  .equationImage { transform: none; }
+}

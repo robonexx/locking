@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageHero } from '@/components/PageHero';
 import { AboutPage } from '@/features/AboutPage';
+import { CampbellockJrPage } from '@/features/CampbellockJrPage';
+import { ContactPage } from '@/features/ContactPage';
 import { HistoryPage } from '@/features/HistoryPage';
 import { MemorialPage } from '@/features/MemorialPage';
 import { PioneersPage } from '@/features/PioneersPage';
@@ -37,6 +39,12 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
   switch (slug) {
     case 'about':
       content = <AboutPage lang={lang} />;
+      break;
+    case 'contact':
+      content = <ContactPage lang={lang} />;
+      break;
+    case 'the-line-captain':
+      content = <CampbellockJrPage lang={lang} />;
       break;
     case 'history':
       content = <HistoryPage lang={lang} />;

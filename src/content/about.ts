@@ -12,14 +12,14 @@ type AboutStory = {
   dedicationTitle: string;
   dedication: string[];
   closing: string;
-  tributeTitle: string;
-  tribute: string[];
+  acknowledgementsTitle: string;
+  acknowledgements: string[];
 };
 
 export const aboutStory: Record<Locale, AboutStory> = {
   sv: {
     intro:
-      'Det här är berättelsen om min koppling till Locking – från filmerna på 1980-talet till möten med pionjärer, resan till Los Angeles och skapandet av Funkcamp.',
+      'Det här är min berättelse om hur jag mötte Locking och hur min koppling till dansen växte fram här i Sverige – från filmerna på 1980-talet till möten med pionjärer, resan till Los Angeles och skapandet av Funkcamp.',
     sections: [
       {
         period: '1980-talet',
@@ -55,20 +55,22 @@ export const aboutStory: Record<Locale, AboutStory> = {
     ],
     dedicationTitle: 'Varför den här sidan finns',
     dedication: [
+      'Locking.se utgår från min egen historia och min koppling till Locking i Sverige. Det är inte en fullständig berättelse om hela kulturen, utan ett perspektiv format av det jag själv har upplevt, lärt mig och fått berättat för mig.',
       'Den här sidan är dedikerad till dansstilen Locking – eller Campbellocking, som det ursprungligen kallades efter Don Campbells personliga freestyle. Från en människas sätt att röra sig växte en dans fram genom en hel grupp av kreativa människor. Den spreds genom USA och vidare ut i världen via tv, media och film. Här står vi idag.',
       'Sidan finns för att lyfta fram historien, människornas egna berättelser och dansen som den faktiskt är: energifylld, funkig, rå och skapad av folket. Från klubbar och sociala dansgolv till dansskolor och stora event.',
+      'Framöver kan sidan växa successivt med berättelser från andra lockare och tidslinjer från fler länder. På så sätt kan fler perspektiv, lokala scener och personliga kopplingar få en tydlig plats i den större historien.',
     ],
     closing: 'Mer kärlek och själ. Till döden skiljer oss åt.',
-    tributeTitle: 'En tribute till O.G. Skeeter Rabbit',
-    tribute: [
-      'En stor del av den historiska information som har format och inspirerat den här sidan kommer från O.G. Skeeter Rabbit och hans arbete med LockerLegends.',
-      'Hans vilja att dokumentera kulturen, människorna och deras egna berättelser har inspirerat mig att föra historien vidare – inte bara hans historia, utan allas. De röster som byggde kulturen ska få höras, minnas och leva vidare för kommande generationer.',
-      'Tack, Skeeter, för kunskapen, arbetet och inspirationen.',
+    acknowledgementsTitle: 'Kunskap som har delats vidare',
+    acknowledgements: [
+      'En stor del av den historiska information jag har fått kommer från O.G. Skeeter Rabbit, Greg “Campbellock Jr.” Pope och Tony GoGo – genom deras berättelser, undervisning, samtal och dokumentation.',
+      'De ska få ett tydligt erkännande för kunskapen de har delat. Deras arbete och vilja att berätta om kulturen, människorna och sammanhangen har hjälpt mig att förstå historien och föra den vidare från mitt perspektiv här i Sverige.',
+      'Tack för kunskapen, arbetet och inspirationen.',
     ],
   },
   en: {
     intro:
-      'This is the story of my connection to Locking – from the films of the 1980s to meeting pioneers, traveling to Los Angeles and creating Funkcamp.',
+      'This is my story of discovering Locking and developing my connection to the dance here in Sweden – from the films of the 1980s to meeting pioneers, traveling to Los Angeles and creating Funkcamp.',
     sections: [
       {
         period: 'The 1980s',
@@ -104,15 +106,17 @@ export const aboutStory: Record<Locale, AboutStory> = {
     ],
     dedicationTitle: 'Why this site exists',
     dedication: [
+      'Locking.se is grounded in my own history and my connection to Locking in Sweden. It is not a complete account of the entire culture, but one perspective shaped by what I have experienced, learned and been told.',
       'This site is dedicated to the dance style Locking – or Campbellocking, as it was originally called after Don Campbell’s personal freestyle. One person’s way of moving grew into a dance through an entire group of creative people. It spread across the United States and then around the world through television, media and film. This is where we stand today.',
       'The site exists to bring forward the history, people’s own stories and the dance as it really is: energetic, funky, raw and created by the people. From clubs and social dance floors to dance schools and major events.',
+      'Over time, the site can grow with stories from other lockers and timelines from more countries. This can give more perspectives, local scenes and personal connections a clear place within the wider history.',
     ],
     closing: 'More love and soul. Until death do us part.',
-    tributeTitle: 'A tribute to O.G. Skeeter Rabbit',
-    tribute: [
-      'A large part of the historical information that shaped and inspired this site comes from O.G. Skeeter Rabbit and his work with LockerLegends.',
-      'His commitment to documenting the culture, its people and their own stories inspired me to carry the history forward – not only his story, but everyone’s. The voices that built the culture deserve to be heard, remembered and kept alive for future generations.',
-      'Thank you, Skeeter, for the knowledge, the work and the inspiration.',
+    acknowledgementsTitle: 'Knowledge passed forward',
+    acknowledgements: [
+      'Much of the historical information I have received comes from O.G. Skeeter Rabbit, Greg “Campbellock Jr.” Pope and Tony GoGo – through their stories, teaching, conversations and documentation.',
+      'They deserve clear recognition for the knowledge they shared. Their work and commitment to documenting the culture, its people and its contexts have helped me understand the history and carry it forward from my perspective here in Sweden.',
+      'Thank you for the knowledge, the work and the inspiration.',
     ],
   },
 };

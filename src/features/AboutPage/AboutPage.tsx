@@ -21,9 +21,9 @@ export function AboutPage({ lang }: { lang: Locale }) {
       </Reveal>
 
       <Reveal as="section" className={styles.tribute}>
-        <p className="eyebrow">O.G. / Historian / Inspiration</p>
-        <h2>{story.tributeTitle}</h2>
-        {story.tribute.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        <p className="eyebrow">Knowledge / Stories / Respect</p>
+        <h2>{story.acknowledgementsTitle}</h2>
+        {story.acknowledgements.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </Reveal>
     </div>
   );

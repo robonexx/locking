@@ -6,6 +6,8 @@ const pages = [
   '/sv/history',
   '/en/history',
   '/sv/pioneers',
+  '/sv/the-line-captain',
+  '/en/the-line-captain',
   '/sv/steps-and-moves',
   '/sv/stories',
   '/sv/contact',

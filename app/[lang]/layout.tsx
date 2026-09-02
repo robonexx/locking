@@ -8,10 +8,10 @@ import '../globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://locking.se'),
   title: {
-    default: 'Locking · Campbellocking — Educate before you recreate',
-    template: '%s | Locking · Campbellocking',
+    default: 'Locking.se',
+    template: '%s | Locking.se',
   },
-  description: 'The history, people and cultural roots of Campbellocking and Locking.',
+  description: 'Locking.se – for the lockers around the world.',
 };
 
 export function generateStaticParams() {

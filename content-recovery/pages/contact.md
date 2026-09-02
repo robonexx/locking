@@ -4,21 +4,14 @@ Källa: `src/pages/contact/index.js`
 
 > Automatiskt återvunnen originaltext. Stavning och sakuppgifter är inte redigerade.
 
-Contact Us - LockerLegends
+Contact Locking.se
 
-### This page will be updated shortly
+## All contact goes through me
 
-## CONTACT US!
-
-### OG SKEETER RABBIT
-
-skeeterrabbit@lockerlegends.net
-
-### If you have issues with the website or any questions about the site
+If you have questions, corrections or a story you would like to share with Locking.se, please get in touch.
 
 robertwagar@gmail.com
 
 ## Metadata och gränssnittstext
 
-- content: contact information
-- content: Contact lockerlegends
+- content: Contact Locking.se

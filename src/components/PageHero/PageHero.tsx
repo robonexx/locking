@@ -7,7 +7,20 @@ export function PageHero({ page, lang }: { page: ContentPage; lang: Locale }) {
   return (
     <header className={`${styles.hero} ${page.image ? '' : styles.placeholder}`}>
       {page.image && (
-        <Image src={page.image} alt="" fill priority sizes="100vw" className={styles.image} />
+        <Image
+          src={page.image}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className={styles.image}
+          style={{
+            objectFit: page.imageFit,
+            objectPosition: page.imagePosition,
+            transform: page.imageScale ? `scale(${page.imageScale})` : undefined,
+            transformOrigin: page.imageTransformOrigin,
+          }}
+        />
       )}
       <div className={styles.noise} aria-hidden="true" />
       <div className={`shell ${styles.content}`}>
