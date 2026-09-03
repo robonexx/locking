@@ -26,11 +26,13 @@ export async function getContentPageMetadata(params: LocaleParams, slug: string)
     title: page.title[lang],
     description: page.summary[lang],
     alternates: {
+      canonical: `/${lang}/${slug}`,
       languages: {
         sv: `/sv/${slug}`,
         en: `/en/${slug}`,
         fr: `/fr/${slug}`,
         fi: `/fi/${slug}`,
+        'x-default': `/sv/${slug}`,
       },
     },
   };
