@@ -72,10 +72,79 @@ const swedishCopy: Record<string, Partial<PioneerCopy> & Pick<PioneerCopy, 'desc
   },
 };
 
+const frenchCopy: Record<string, Partial<PioneerCopy> & Pick<PioneerCopy, 'desc'>> = {
+  Introduction: {
+    name: 'Introduction',
+    aka: 'LE HALL OF FAME DE LA PÉRIODE FONDATRICE',
+    desc: 'Le Locking en tant que forme artistique compte aujourd’hui plusieurs décennies de pratique. Chaque décennie a vu émerger des lockers devenus des icônes de la street dance. Cette présentation est toutefois consacrée aux nombreux pionniers originaux qui méritent d’être reconnus pour leur contribution au Locking comme forme artistique et subculture. Beaucoup des danseurs appelés ici maîtres ou OG étaient actifs avant que The Lockers ne soient présentés publiquement comme groupe en 1973. Ils étaient présents lorsque la danse se partageait et se développait, sur Soul Train et dans les clubs de Los Angeles. De nombreuses personnes ont contribué de différentes façons à l’histoire de cette forme. Cette sélection met en lumière quelques pionniers majeurs de la période fondatrice, dont les pas, le style et l’attitude ont participé au développement de la subculture que nous connaissons sous le nom de Locking.',
+  },
+  The_term_OG: {
+    name: 'Le terme OG',
+    aka: 'Que signifie OG ?',
+    desc: 'Dans le contexte du Locking, OG est employé ici au sens d’Original Generation. Les personnes ayant contribué pendant la période fondatrice sont ainsi appelées Original OGs, OG Legends ou simplement OGs. Les danseurs des décennies et périodes ultérieures sont décrits dans le matériau original comme des pionniers old school ou new school des années 1970, 1980 et 1990, parfois aussi comme des BGs. Cette terminologie est liée à la culture du respect présente dans la rue.',
+  },
+  Don_Campbell: {
+    desc: 'Don Campbell a créé la danse d’abord appelée Campbellocking puis, à mesure qu’elle s’est développée en forme artistique, connue sous le nom de Locking. Il a façonné les premiers mouvements en associant des gestes à son propre rythme. Campbell faisait partie du Soul Train Gang original et a fondé le premier groupe d’improvisation, The Campbellockers, aussi appelé Campbellock Dancers. Il devint ensuite la force fédératrice de The Original Lockers. Danseur solo dynamique, il était connu pour ses dives et ses splits spectaculaires.',
+  },
+  Damita_Jo_Freeman: {
+    desc: 'Damita Jo Freeman faisait partie du Soul Train Gang original et compte parmi les premières pionnières du Locking. Elle fut la première partenaire de danse de Don Campbell dans l’émission. Elle remporta ensuite le deuxième concours de danse de Soul Train avec Jimmy « Scooby Doo » Foster, en y présentant son style de Locking singulier. Connue pour ses coups de pied très hauts, elle poursuivit une carrière de chorégraphe reconnue.',
+  },
+  Greg_Pope: {
+    desc: 'Greg Pope n’avait aucun lien de parenté avec Don Campbell, mais reçut le nom Campbellock Jr. en raison de sa créativité dans les mouvements de Locking. Il fit partie du Soul Train Gang et de Creative Generation au Watts Writers Workshop avant de rejoindre The Original Lockers en 1973. Greg contribua à plusieurs pas, mouvements, poignées de main et routines associés au Locking.',
+  },
+  Fred_Berry: {
+    desc: 'Fred Berry devint également célèbre sous le nom de Rerun dans la série télévisée des années 1970 What’s Happening!!. Il dansa dans Soul Train, fit partie du premier groupe d’improvisation The Campbellockers, puis de The Original Lockers. Son expression, son langage corporel et son sourire furent associés au slow motion et à son mouvement signature, le Master Butt Drop.',
+  },
+  Leo_Williams: {
+    desc: 'Leo Williams était danseur dans Soul Train et membre original de The Lockers. Il était connu pour ses locks réalisés avec une souplesse articulaire exceptionnelle, appelés « Leo Locks ». Il a aussi apporté à la culture Locking des pas synchronisés, dont le Which-A-Way.',
+  },
+  Jimmy_Foster: {
+    desc: 'Jimmy Foster faisait partie du Soul Train Gang original. Avec sa partenaire de l’époque, Damita Jo Freeman, il remporta le deuxième concours de danse de Soul Train grâce à leurs styles de Locking. Il rejoignit ensuite Creative Generation au Watts Writers Workshop de 1972 à 1973, dansa avec Something Special et devint plus tard l’un des premiers danseurs des Chippendales. Grand danseur très expressif, « Scooby Doo » développait souvent des poignées de main et des pas avec Greg Campbellock Jr. Il est particulièrement associé au pas Scooby Doo.',
+  },
+  James_Higgins: {
+    desc: 'James Higgins fut l’un des premiers danseurs de Soul Train et membre de plusieurs groupes pionniers du Locking : The Original Go-Go Brothers de 1971 à 1973, Creative Generation au Watts Writers Workshop de 1972 à 1973 et The Original Lockers de 1973 à 1974. Il dansa aussi avec Ghetto Dancers en 1975 et était reconnu comme excellent danseur de Robot. Il organisa ensuite des tournées avec le groupe 33 RPM. Il reste surtout associé au pas Skeeter Rabbit, utilisé dans de nombreuses routines de Locking synchronisées.',
+  },
+  Arnetta_Johnson: {
+    desc: 'Arnetta « Netta Bug » Johnson fut l’une des premières street dancers du Locking et est présentée dans le matériau original comme la première femme d’un groupe de Locking. Son Locking fondamental était puissant et on la voyait souvent dans les clubs, les fêtes de rue et les bals scolaires avec les Go-Go Brothers. Par son lien avec le Watts Writers Workshop, elle contribua à l’organisation de Creative Generation, groupe mixte. Elle fit également partie du premier groupe féminin de Locking, The Toota Woota Sisters.',
+  },
+  Anthony_Lewis: {
+    desc: 'Anthony « Tony Go-Go » Lewis fut l’un des premiers danseurs de Soul Train et l’un des fondateurs des Go-Go Brothers au début des années 1970. Il dansa aussi avec des groupes comme 33 RPM et fit partie de The Original Lockers. Tony possédait un style rapide et acrobatique. Avec d’autres membres des Go-Go Brothers, il est associé aux premiers groupes de Locking synchronisé autour de 1971. Plus tard, il introduisit et établit les styles et l’enseignement du Locking au Japon.',
+  },
+  Adolfo_Quinones: {
+    desc: 'Originaire de Chicago, Adolfo « Shabba-Doo » Quinones fut l’un des membres originaux de The Lockers. Il devint aussi célèbre dans le rôle d’Ozone dans les films Breakin’. Shabba-Doo entra dans le cercle originel du Locking en 1973, environ deux ans après le début de la première phase de développement de la danse, mais devint rapidement l’un des danseurs les plus rapides et les plus fluides. Son premier surnom était « King Rookie », car il apprenait les routines très vite.',
+  },
+  Bill_Williams: {
+    desc: 'Bill « Slim the Robot » Williams fut l’un des premiers danseurs de Soul Train, connu pour son Robot. Il partit en tournée avec les danseurs d’improvisation Campbellock Dancers et fut membre original de The Original Lockers. Il transforma le style Robot de base en un mouvement rapide influencé par le karaté et devint également célèbre pour un costume lumineux et des effets de feu dans son numéro.',
+  },
+  Edwin_Lombard: {
+    desc: 'Edwin « Buddy Go-Go » Lombard fit partie des Go-Go Brothers et de Creative Generation au Watts Writers Workshop, le premier groupe de Locking mixte. Avec Tony Go-Go, Skeeter Rabbit et d’autres, il développa plusieurs des premiers pas synchronisés et sketches.',
+  },
+  Freddie_Maxie: {
+    desc: 'Freddie Maxie fut l’une des premières street dancers de la scène de Compton avant de devenir danseuse dans Soul Train. Partenaire de plusieurs lockers légendaires, elle comptait parmi les premières danseuses de Locking. Elle était active dans les clubs, les fêtes de rue et des groupes comme Something Special et Soul Train Gang.',
+  },
+  Alpha_Andersson: {
+    desc: 'Alpha Andersson était une locker au style singulier qui dansait dans Soul Train au début des années 1970. Elle créa une variante des Russian kicks dans laquelle elle rebondissait vers l’arrière sur les mains entre les coups de pied. Le pas, connu sous le nom « Alphas », est encore utilisé par de nombreux lockers. Alpha fit partie de la deuxième génération de The Lockers.',
+  },
+  Toni_Basil: {
+    desc: 'Toni Basil était déjà une chorégraphe établie lorsqu’elle apprit le Locking auprès de Don Campbell et devint une force organisatrice dans le développement de The Original Lockers. Forte d’une solide formation en ballet, elle devint finalement la seule femme de la formation professionnelle originale. Bien qu’elle ne soit pas issue du mouvement fondateur du Locking, sa contribution comme manager fut importante. Ses contacts et son expérience de l’industrie du spectacle aidèrent le groupe à accéder aux milieux professionnels et commerciaux. Comme danseuse, elle était connue pour intégrer des éléments de ballet et des tours répétés à son Locking.',
+  },
+  Pat_Davis: {
+    desc: 'Pat Davis fut l’une des premières danseuses de Soul Train et exerça une influence importante sur le Locking. Elle était connue pour sa version du Robot et pour de premiers mouvements de bras en forme de papillon, plus tard appelés Leo Locks. Dans les années 1970, elle fit également partie de Something Special, un groupe de danseurs de Soul Train comprenant notamment Jimmy « Scooby Doo » Foster. Ce n’était pas exclusivement un groupe de Locking : il présentait plusieurs styles de danse de l’époque.',
+  },
+  Charles_Washington: {
+    desc: 'Charles « Charles the Robot » Washington était présent dès la première période, lorsque Robot et Locking pouvaient tous deux être réunis sous l’appellation Lockers. Il est considéré comme un pionnier majeur du Robot comme party dance au sein du Locking, avant que le style ne se développe ensuite dans la scène Popping. Il fit partie du premier Soul Train Gang et partit en tournée avec Campbellock Dancers en 1972. Il développa un style Robot rythmique et organisa le groupe The Robot Brothers à la fin des années 1960.',
+  },
+  Others: {
+    name: 'Autres pionniers',
+    aka: 'L’image n’est pas liée aux noms',
+    desc: 'Kevin « Yo-Yo » Lombard — voir la page sur les Go-Go Brothers ; Sambo Lock ; Johnnie McCloud ; Eugene « F&M » Henderson ; Steve « Sinbad » Crane — voir Ghetto Dancers ; Greg « Captain Crunch » Dandridge — voir Ghetto Dancers ; Mike « Peekaboo » Frenke — voir 33 RPM et Yo-Yo Brothers ; Guy « Shocklock » Evan ; John « Okie Doke » Wilson — voir 33 RPM ; Jeffrey Daniel ; Tito Collins — voir Alphabet Kids et 33 RPM ; Jeffrey « Cat Man » McKintire ; Bishop « CoCo » Hall ; Tick ; Sneaky T ; Enock « Elmer Fudd » Smith (RIP).',
+  },
+};
+
 export function getPioneerCopy(pioneer: Pioneer, lang: Locale): PioneerCopy {
   if (lang === 'en') return pioneer;
 
-  const translation = swedishCopy[pioneer.id];
+  const translation = (lang === 'fr' ? frenchCopy : swedishCopy)[pioneer.id];
   return {
     name: translation?.name ?? pioneer.name,
     aka: translation?.aka ?? pioneer.aka,

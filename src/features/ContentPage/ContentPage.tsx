@@ -25,7 +25,13 @@ export async function getContentPageMetadata(params: LocaleParams, slug: string)
   return {
     title: page.title[lang],
     description: page.summary[lang],
-    alternates: { languages: { sv: `/sv/${slug}`, en: `/en/${slug}` } },
+    alternates: {
+      languages: {
+        sv: `/sv/${slug}`,
+        en: `/en/${slug}`,
+        fr: `/fr/${slug}`,
+      },
+    },
   };
 }
 
@@ -68,7 +74,7 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       content = null;
       break;
     default:
-      content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source) : ''} lang={lang} />;
+      content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source, lang) : ''} lang={lang} />;
   }
 
   return (

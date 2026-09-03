@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { SourceList } from '@/components/SourceList';
-import { stepsSources, stepsStory } from '@/content/steps';
+import { getDanceStepCopy, stepsSources, stepsStory } from '@/content/steps';
 import type { DanceStep } from '@/lib/content';
 import type { Locale } from '@/lib/i18n';
 import styles from './StepsPage.module.css';
@@ -22,7 +22,9 @@ export function StepsPage({ steps, lang }: { steps: DanceStep[]; lang: Locale })
         </div>
       </Reveal>
       <div className={styles.list}>
-        {steps.map((step, index) => (
+        {steps.map((sourceStep, index) => {
+          const step = getDanceStepCopy(sourceStep, lang);
+          return (
           <Fragment key={`${step.id}-${index}`}>
             <Reveal as="section" className={styles.item} distance="short">
               <p className="card-index">{String(index + 1).padStart(2, '0')}</p>
@@ -71,7 +73,8 @@ export function StepsPage({ steps, lang }: { steps: DanceStep[]; lang: Locale })
               </section>
             )}
           </Fragment>
-        ))}
+          );
+        })}
       </div>
       <p className={styles.listNote}>{story.listNote}</p>
       <SourceList title={story.sourcesTitle} sources={stepsSources} />

@@ -1,4 +1,4 @@
-export const locales = ['sv', 'en'] as const;
+export const locales = ['sv', 'en', 'fr'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'sv';
@@ -37,5 +37,20 @@ export const ui = {
     sourceNotice:
       'This is recovered source copy. Language and terminology are being reviewed with care; historical claims still require fact-checking.',
     readMore: 'Explore the page',
+  },
+  fr: {
+    skip: 'Aller au contenu',
+    menu: 'Menu',
+    close: 'Fermer le menu',
+    home: 'Accueil',
+    about: 'À propos',
+    history: 'Histoire',
+    knowledge: 'Ressources',
+    stories: 'Entretiens & articles',
+    contact: 'Contact',
+    sourceLabel: 'Matériau d’origine',
+    sourceNotice:
+      'Cette page est traduite à partir du texte d’archive récupéré. La langue et la terminologie sont examinées avec soin ; les affirmations historiques doivent encore être vérifiées.',
+    readMore: 'Découvrir la page',
   },
 } satisfies Record<Locale, Record<string, string>>;

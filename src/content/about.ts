@@ -119,4 +119,55 @@ export const aboutStory: Record<Locale, AboutStory> = {
       'Thank you for the knowledge, the work and the inspiration.',
     ],
   },
+  fr: {
+    intro:
+      'Voici mon histoire : comment j’ai découvert le Locking et construit mon lien avec cette danse en Suède, des films des années 1980 aux rencontres avec les pionniers, en passant par mon voyage à Los Angeles et la création de Funkcamp.',
+    sections: [
+      {
+        period: 'Les années 1980',
+        title: 'Tout a commencé avec les films',
+        paragraphs: [
+          'Mon intérêt pour le Locking est né dans les années 1980, grâce à des films comme Breakin’. Depuis, ce style me tient particulièrement à cœur. Les pas étaient déjà là lorsque j’ai vu Breakin’ pour la première fois, même si je ne connaissais pas encore toute l’histoire ni les noms exacts de ce que je regardais.',
+        ],
+      },
+      {
+        period: 'Les années 1990',
+        title: 'Vidéos, conversations et nouvelles connaissances',
+        paragraphs: [
+          'Ce n’est que dans les années 1990 que j’ai commencé à recevoir des informations précises sur ce style. J’ai trouvé des vidéos et échangé avec des personnes comme Damon Frost, Patrik Helge aka Prime, Be-bop, Karl Dyall, Micke Strandljung et bien d’autres.',
+          'Plus tard, j’ai découvert des images de The Lockers, Don Campbell, Suga-Pop, Skeeter Rabbit et d’autres danseurs. Les mouvements me semblaient déjà familiers, mais les personnes, les racines et le contexte culturel qui les entouraient devenaient enfin visibles.',
+        ],
+      },
+      {
+        period: '2005',
+        title: 'Los Angeles et la naissance de Funkcamp',
+        paragraphs: [
+          'En 2005, nous sommes partis aux États-Unis et avons suivi des cours avec Don Campbell et d’autres pionniers à Los Angeles. Dès l’automne suivant, nous avons créé l’événement Funkcamp. Il est devenu un point de rencontre pour des personnes profondément passionnées par le Locking, venues de toute la Suède puis, avec le temps, d’autres régions du monde.',
+          'Parmi celles et ceux d’entre nous qui ont approfondi cette passion jusque dans les fondements et les racines du style figuraient Emenuell Schutt, Oskar Pitre, Chalire Prag et Patrik Helge. Beaucoup d’autres méritent également d’être cités, notamment Isse Omari, Karim Carlsson, Joe Jobe et Benke.',
+        ],
+      },
+      {
+        period: 'Aujourd’hui',
+        title: 'Une nouvelle génération fait vivre la culture',
+        paragraphs: [
+          'Depuis la création de Funkcamp en 2005, de jeunes générations continuent de faire avancer la culture en Suède. Funky 4 Brothers a profondément marqué la scène. Arvidos, Yared, Akira, Jörgen et Mimmi comptent parmi celles et ceux qui ont poursuivi ce travail — et ils sont aujourd’hui bien plus nombreux.',
+          'Chaque génération trouve sa propre expression, mais le lien avec la musique, les personnes et l’histoire doit rester vivant.',
+        ],
+      },
+    ],
+    dedicationTitle: 'Pourquoi ce site existe',
+    dedication: [
+      'Locking.se prend appui sur mon histoire personnelle et mon lien avec le Locking en Suède. Il ne prétend pas raconter toute la culture de manière exhaustive, mais présente un point de vue façonné par ce que j’ai vécu, appris et entendu.',
+      'Ce site est consacré à la danse Locking — ou Campbellocking, comme on l’appelait à l’origine d’après le freestyle personnel de Don Campbell. La manière de bouger d’une personne est devenue une danse grâce à tout un groupe de créateurs. Elle s’est diffusée aux États-Unis, puis dans le monde entier par la télévision, les médias et le cinéma. Voilà où nous en sommes aujourd’hui.',
+      'Le site existe pour mettre en lumière l’histoire, les récits des personnes concernées et la danse telle qu’elle est réellement : énergique, funky, brute et créée par le peuple. Des clubs et pistes de danse sociales jusqu’aux écoles de danse et aux grands événements.',
+      'Avec le temps, le site pourra s’enrichir de récits d’autres lockers et de chronologies provenant de nouveaux pays. D’autres perspectives, scènes locales et liens personnels pourront ainsi trouver une place claire dans cette histoire plus vaste.',
+    ],
+    closing: 'Plus d’amour et de soul. Jusqu’à ce que la mort nous sépare.',
+    acknowledgementsTitle: 'Un savoir transmis',
+    acknowledgements: [
+      'Une grande partie des informations historiques que j’ai reçues provient d’O.G. Skeeter Rabbit, Greg « Campbellock Jr. » Pope et Tony GoGo, à travers leurs récits, leur enseignement, leurs conversations et leur documentation.',
+      'Ils méritent d’être clairement reconnus pour le savoir qu’ils ont partagé. Leur travail et leur volonté de documenter la culture, ses acteurs et ses contextes m’ont aidé à comprendre cette histoire et à la transmettre depuis mon point de vue en Suède.',
+      'Merci pour le savoir, le travail et l’inspiration.',
+    ],
+  },
 };

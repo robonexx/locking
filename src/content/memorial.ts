@@ -161,4 +161,54 @@ export const memorial: Record<Locale, MemorialPage> = {
       },
     ],
   },
+  fr: {
+    intro:
+      'L’ancienne page se présentait comme une série de cartes commémoratives personnelles. Cette idée se poursuit ici : un espace dédié aux personnes dont la danse, la musique, le travail et la générosité restent présents dans la culture.',
+    pioneersTitle: 'Les pionniers originaux dont nous nous souvenons',
+    inspirationsTitle: 'La musique et les plateformes qui ont porté le mouvement',
+    openLabel: 'Lire l’hommage',
+    closeLabel: 'Fermer',
+    people: [
+      {
+        id: 'don-campbell', name: 'Don Campbell', role: 'The Godfather · The Campbellock', image: '/media/web_don.png',
+        contribution: 'The Lock · Pacing · Hand Slaps · Campbell Walk · Splits',
+        text: 'Don a créé The Campbellock, l’expression personnelle et improvisée devenue la danse que nous connaissons sous le nom de Locking. Ses arrêts rythmiques, ses gestes et son lien avec le public ont offert au monde une nouvelle forme de danse. Sans son idée et son courage, aucun de nous n’aurait la même danse à pratiquer, développer et aimer.', group: 'pioneer',
+      },
+      {
+        id: 'fred-berry', name: 'Fred « Mr. Penguin » Berry', role: 'The Lockers · Danseur · Acteur', image: '/media/web_fred.png',
+        contribution: 'The Helicopter · Slow Motion · Master Butt Drop',
+        text: 'Beaucoup connaissaient Fred sous le nom de Rerun dans What’s Happening!!, mais pour la famille du Locking, il était aussi « Ping » : un ami, un artiste et un danseur puissant au sein de The Lockers. Il maniait son corps avec humour, grâce et fierté, et reste dans les mémoires comme une personne généreuse. Son sourire et ses réceptions tonitruantes ne sont pas oubliés.', group: 'pioneer',
+      },
+      {
+        id: 'shabba-doo', name: 'Adolfo « Shabba-Doo » Quiñones', role: 'The Lockers · Danseur · Chorégraphe · Acteur', image: '/media/web_shab.png',
+        contribution: 'Sway · Précision scénique · Rayonnement mondial',
+        text: 'Shabba-Doo était un membre explosif et fluide de The Lockers. Il est ensuite devenu célèbre dans le rôle d’Ozone dans Breakin’ et Breakin’ 2. Par la danse, la chorégraphie et le cinéma, il a contribué à faire connaître le Locking et les street dances de la côte Ouest dans le monde entier.', group: 'pioneer',
+      },
+      {
+        id: 'greg-pope', name: 'Greg « Campbellock Jr. » Pope', role: 'Pionnier · Chorégraphe · Historien', image: '/media/web_greg.png',
+        contribution: 'Stop & Go · Poignées de main · Routines et enseignement',
+        text: 'Greg comptait parmi les personnes à l’origine de LockerLegends lors du lancement du site en 2004. Il voulait rendre visibles à la fois le Locking et ses nombreux acteurs et contextes. Dans ses workshops, il partageait des pas, des concepts et l’histoire. Nous nous souvenons d’un grand danseur, chorégraphe et défenseur d’une histoire exacte et inclusive.', group: 'pioneer',
+      },
+      {
+        id: 'don-cornelius', name: 'Don Cornelius', role: 'Soul Train · Producteur · Présentateur', image: '/media/web_doncorne.png', contribution: 'La plateforme Soul Train',
+        text: 'Créateur et présentateur de Soul Train, Don Cornelius a ouvert une fenêtre sur la musique, la mode, la créativité et la danse afro-américaines. L’émission a offert une scène nationale aux artistes et aux street dancers, permettant au Locking d’inspirer bien au-delà de Los Angeles.', group: 'inspiration',
+      },
+      {
+        id: 'james-brown', name: 'James Brown', role: 'The Godfather of Soul', image: '/media/web_theboss.png', contribution: 'Funk · Rythme · Attitude · Énergie',
+        text: 'La musique, l’énergie et le mouvement de James Brown ont constitué une force puissante pour le funk et pour les danseurs. Sa musique a donné au Locking du rythme, de la fierté et une puissance dépassant le simple divertissement. Son influence demeure chaque fois qu’un locker répond à un break, un hit ou un cri dans la musique.', group: 'inspiration',
+      },
+      {
+        id: 'aretha-franklin', name: 'Aretha Franklin', role: 'The Queen of Soul', image: '/media/web_aretha.png', contribution: 'Soul · Soutien · Scène',
+        text: 'Aretha Franklin fut l’une des plus grandes voix de la soul. Elle a soutenu The Lockers, partageant avec le groupe des scènes et des moments importants. Sa musique et sa présence appartiennent au son qui a donné au mouvement sa force et son âme.', group: 'inspiration',
+      },
+      {
+        id: 'prince', name: 'Prince', role: 'Artiste · Compositeur · Multi-instrumentiste', image: '/media/web_prince.png', contribution: 'Minneapolis sound · Funk · Liberté',
+        text: 'Prince a créé un univers musical mêlant funk, soul, rock, pop et individualité sans compromis. Son rythme, sa présence scénique et sa créativité continuent d’autoriser les danseurs à être originaux.', group: 'inspiration',
+      },
+      {
+        id: 'michael-jackson', name: 'Michael Jackson', role: 'Artiste · Danseur · Inspiration mondiale', image: '/media/web_mj.png', contribution: 'Musicalité · Scène · Rayonnement mondial',
+        text: 'Michael Jackson a porté sa musique et son expression dansée auprès d’un public d’une ampleur exceptionnelle. Ses tours, ses glides, sa précision et ses interprétations des street dances ont rendu ces formes visibles à des millions de personnes. Pour la culture Locking, il est devenu à la fois une inspiration musicale et un pont entre les espaces de danse sociale, la scène et le monde.', group: 'inspiration',
+      },
+    ],
+  },
 };

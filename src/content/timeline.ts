@@ -356,6 +356,168 @@ export const timelineContent: Record<Locale, TimelineContent> = {
       },
     ],
   },
+  fr: {
+    introTitle: 'Une carte des personnes, des lieux et de la transmission',
+    intro: [
+      'Cette chronologie est une adaptation éditoriale du Locking History Chart, attribué à Steven Notario dans les métadonnées du PDF. Le diagramme ne se contente pas d’ordonner des dates : il retrace la circulation de la danse à travers les clubs, les productions télévisées, les workshops, les ensembles et les rencontres personnelles.',
+      'Pour faciliter la lecture, ses nombreuses flèches ont été organisées en trois périodes. Les événements suivent les dates et les intitulés du diagramme, tandis que le texte a été soigneusement résumé et replacé dans son contexte afro-américain à Los Angeles.',
+    ],
+    keyEventLabel: 'Événement clé',
+    branchLabel: 'Branche du diagramme',
+    peopleLabel: 'Noms dans le diagramme',
+    sourceTitle: 'À propos du diagramme original',
+    sourceText: [
+      'L’original contient des dates précises, des listes de noms et des lignées d’enseignement. Il s’agit d’une source importante, proche des participants, mais aucun diagramme ne constitue à lui seul un récit historique définitif. Par exemple, celui-ci situe le début de The Campbellock en juillet 1970, tandis que l’histoire documentaire de The Lockers indique la fin de 1969. Les souvenirs, les orthographes et les dates peuvent varier selon les sources.',
+      'Vous pouvez ouvrir les deux pages du diagramme en plein format ou télécharger le PDF original ci-dessous afin de comparer cette version éditoriale au document source.',
+    ],
+    openImage: 'Ouvrir la page en plein format',
+    downloadPdf: 'Télécharger le diagramme original au format PDF',
+    chartAlt: [
+      'Première page du Locking History Chart, présentant les événements de 1970 à 1972.',
+      'Deuxième page du Locking History Chart, présentant les groupes et lignées d’enseignement de 1973 à 2007.',
+    ],
+    chartCaption: [
+      'Page 1 — la création, les clubs, Soul Train, Wattstax et les premiers groupes, 1970–1972.',
+      'Page 2 — The Lockers, les groupes parallèles et la transmission internationale, 1973–2007.',
+    ],
+    sourcesTitle: 'Sources et lectures complémentaires',
+    eras: [
+      {
+        range: '1970–1972',
+        title: 'De The Campbellock à une scène en plein essor',
+        intro: 'Ces premières années relient l’expression personnelle de Don Campbell aux clubs, aux danseurs et aux espaces culturels afro-américains dans lesquels le Locking est devenu un mouvement partagé.',
+        events: [
+          {
+            period: 'Juillet 1970',
+            title: 'The Campbellock prend forme',
+            description: 'Le diagramme situe le début au Trade Tech College. Don Campbell s’arrête en essayant les danses sociales de l’époque et on l’encourage à répéter cette pause inhabituelle. Le mouvement reçoit le nom de « the Lock » et son style improvisé devient la base du Campbellocking.',
+            names: ['Don Campbell', 'Sam Washington', 'Elroy Skifford'],
+            keyEvent: true,
+          },
+          {
+            period: 'Novembre 1970',
+            title: 'Les premiers danseurs apprennent à The Citadel',
+            description: 'Don rencontre d’autres danseurs lors de concours organisés plusieurs soirs par semaine. Ils échangent de nouveaux pas et développent des locks rapides, des points, des hand slaps et des splits. Le diagramme nomme 22 danseurs de la première heure et en identifie plusieurs comme créateurs de pas encore utilisés aujourd’hui.',
+            names: ['Arnetta Johnson', 'Damita Jo Freeman', 'Charles « Robot » Washington', 'Fred « Mr. Penguin » Berry', 'Greg « Campbellock Jr. » Pope', 'Jimmy « Scooby-Doo » Foster'],
+            keyEvent: true,
+          },
+          {
+            period: 'Mars 1971',
+            title: 'La scène s’étend à d’autres clubs',
+            description: 'À mesure que la scène underground se développe, davantage de danseurs circulent entre les clubs pour se rencontrer et apprendre. Le deuxième groupe du diagramme montre que le savoir se diffuse au-delà du cercle qui deviendra ensuite le plus visible dans les médias.',
+            names: ['Alpha « Omega » Anderson', 'Greg « Captain Crunch » Daindridge', 'Haywood « Tito » Collins', 'John « Okie Doke » Wilson', 'Pat « Madam Butterfly » Davis'],
+          },
+          {
+            period: 'Juin–août 1971',
+            title: 'Go Go et Yo Yo Brothers s’organisent et enseignent',
+            description: 'Les Go Go Brothers et Yo Yo Brothers se produisent dans des écoles et lors d’événements communautaires, enseignent le Locking et développent des chorégraphies à l’unisson. Le diagramme les décrit comme les premiers groupes organisés autour de cette transmission.',
+            names: ['James « Skeeter Rabbit » Higgins', 'Edwin « Buddy Go Go » Lombard', 'Kevin « Yo Yo » Higgins', 'Tony « Go Go » Lewis', 'Jimmy « Scooby-Doo » Foster'],
+          },
+          {
+            period: '2 octobre 1971',
+            title: 'Soul Train commence ses enregistrements à Los Angeles',
+            description: 'Lorsque la production de Soul Train s’installe à Los Angeles, Don Campbell invite des amis rencontrés dans des lieux comme The Summit on the Hill, The Citadel, Maverick’s Flat et Blueberry Hill. Le Locking bénéficie régulièrement d’une visibilité nationale à la télévision, et un cercle Soul Train plus large se forme.',
+            keyEvent: true,
+          },
+          {
+            period: 'Mars 1972',
+            title: 'Watts Writers Workshop et Creative Generation',
+            description: 'Des danseurs sont invités à enseigner au Watts Writers Workshop et y découvrent écriture, chorégraphie, danse, musique, éclairage et travail scénique. Selon le diagramme, Creative Generation s’y forme en réunissant chorégraphies solo et à l’unisson au sein d’un même groupe.',
+            names: ['Edwin « Buddy Go Go » Lombard', 'James « Skeeter Rabbit » Higgins', 'Jimmy « Scooby-Doo » Foster', 'Arnetta Johnson', 'Shelly Cepeda', 'Lorna Dune'],
+          },
+          {
+            period: 'Juin–août 1972',
+            title: 'Tournée, Soul Train et Wattstax',
+            description: 'The Soul Train Gang part en tournée en juin. Le 20 août, Wattstax offre une autre grande scène publique au Campbellocking/Locking. Le diagramme situe clairement la danse au cœur du mouvement musical et culturel de 1972.',
+            keyEvent: true,
+          },
+          {
+            period: 'Septembre 1972',
+            title: 'The Campbellockers commencent à être engagés comme groupe',
+            description: 'Sonny Craver, le manager de Don Campbell, engage The Campbellockers, encore présentés comme de puissants danseurs solistes plutôt que comme un ensemble fondé sur des routines. Durant cette période, Don rencontre Toni Basil à The Citadel ; le diagramme explique qu’elle devient ensuite manager, développe les possibilités de spectacle et contribue à façonner le groupe nommé The Lockers.',
+            names: ['Don Campbell', 'Johnnie « Sambo-Lock » McCloud', 'Bill « Slim the Robot » Williams', 'Charles « Robot » Washington', 'Fred « Mr. Penguin » Berry', 'Toni Basil'],
+            keyEvent: true,
+          },
+        ],
+      },
+      {
+        range: '1973–1979',
+        title: 'Groupes, concours et transmission directe',
+        intro: 'La deuxième partie du diagramme se ramifie. The Lockers en constitue une ligne centrale, mais plusieurs ensembles, enseignants et scènes se développent simultanément.',
+        events: [
+          {
+            period: 'Février 1973',
+            title: 'La rencontre d’Orange County',
+            description: 'Un concours de danse à Cal State Fullerton crée un contact entre des pionniers afro-américains de South Central Los Angeles et des danseurs d’Orange County. Le diagramme souligne l’importance des échanges personnels et de l’enseignement direct dans le passage de la danse au-delà des frontières géographiques et sociales.',
+            names: ['James « Skeeter Rabbit » Higgins', 'Edwin « Buddy Go Go » Lombard', 'Kevin « Yo Yo » Higgins', 'Tony « Go Go » Lewis', 'Leo « Fluky Luke » Williamson', 'Greg « Campbellock Jr. » Pope'],
+            keyEvent: true,
+          },
+          {
+            period: 'Février 1973–1977',
+            title: 'The Lockers avec Toni Basil',
+            description: 'Le diagramme suit la formation bien connue de The Lockers sous la direction de Toni Basil. Le groupe associe des personnages individuels distincts à la chorégraphie et développe une importante carrière scénique et télévisuelle.',
+            names: ['Don Campbell', 'Greg « Campbellock Jr. » Pope', 'Leo « Fluky Luke » Williamson', 'Adolfo « Shabba-Doo » Quiñones', 'Fred « Mr. Penguin » Berry', 'Bill « Slim the Robot » Williams', 'Toni Basil'],
+          },
+          {
+            period: '1972–1979',
+            title: 'De nouveaux ensembles professionnels émergent de la scène',
+            description: 'La filière de production de Jeff Kutash est reliée dans le diagramme à The Greasy Kids et à Dancin Machine A, B et C. The Funky Bunch se développe autour de The Citadel et du Grand Hotel. Ces branches montrent le passage du Locking entre club, enseignement et scène professionnelle.',
+            names: ['Jeff Kutash', 'Tony « Crackerjack » Pierce', 'Steve « Sugarfoot » Notario', 'Vince « Sherlock » Harper', 'Steve « Shooka Boo » Wallace', 'Nanette « No No » Martin'],
+          },
+          {
+            period: 'Février 1974–1979',
+            title: 'The Ghetto Dancers et The Lockers enseignent à The Funky Bunch',
+            description: 'Le diagramme documente plusieurs relations nommées entre enseignants pionniers et membres de The Funky Bunch. La transmission incarnée, de personne à personne — qui a réellement enseigné à qui — devient centrale dans cette partie de la chronologie.',
+            names: ['James « Skeeter Rabbit » Higgins', 'Greg « Campbellock Jr. » Pope', 'Greg « Captain Crunch » Daindridge', 'Don Campbell', 'Jimmy « Scooby-Doo » Foster'],
+          },
+          {
+            period: '1975–1979',
+            title: 'Something Special part en tournée au Japon',
+            description: 'Something Special transmet le Locking par ses spectacles internationaux. Le diagramme cite notamment Jimmy « Scooby-Doo » Foster et Pat « Madam Butterfly » Davis, reliant cette branche de tournée aux développements ultérieurs au Japon.',
+            names: ['Jimmy « Scooby-Doo » Foster', 'Pat « Madam Butterfly » Davis', 'Eddie Cole', 'Wanda Fuller'],
+          },
+        ],
+      },
+      {
+        range: '1976–2007',
+        title: 'Des lignées durables et une transmission internationale',
+        intro: 'Les dernières cases retracent les groupes qui ont poursuivi la danse aux États-Unis et les personnes qui l’ont enseignée au-delà. Les dates se chevauchent, car plusieurs lignées avancent en parallèle.',
+        events: [
+          {
+            period: '1976–1995',
+            title: 'Las Vegas Lockers',
+            description: 'Las Vegas Lockers devient une branche scénique durable. Le diagramme relie le groupe à la lignée Dancin Machine et à des danseurs qui poursuivent leur parcours dans plusieurs autres ensembles.',
+            names: ['Frank « Sundance » Sams', 'Robbie « Smokey Jr. » LaBlanc', 'Robert « Shoebox » Huffman', 'Martin « Ric-O-Shay Rabbit » Mancuso', 'Steve « Sugarpop » Bernier'],
+          },
+          {
+            period: '1978',
+            title: 'Dance Class réunit davantage d’artistes',
+            description: 'La branche brièvement datée Dance Class réunit des danseurs issus de plusieurs autres lignées du diagramme. Elle illustre le chevauchement continu entre enseignement et nouveaux ensembles.',
+            names: ['Nanette « No No » Martin', 'Steve « Sugarfoot » Notario', 'Adolfo « Shabba-Doo » Quiñones', 'Anna « Lollipop » Sanchez', 'Dallas Winkler'],
+          },
+          {
+            period: '1979–1995',
+            title: 'Plusieurs groupes portent la forme vers l’avenir',
+            description: 'Locking, The Ecoto Lockers, The Untouchables et Dancin Machine C représentent des réseaux parallèles dans les années 1980 et 1990. Le diagramme les présente comme reliés par des danseurs récurrents, plutôt que comme une simple succession.',
+            names: ['Steve « SugarPop » DeSilva', 'Steve « Sugarfoot » Notario', 'Steve « Sugarpop » Bernier', 'Robert « Shoebox » Huffman', 'Martin « Ric-A-Shay Rabbit » Mancuso'],
+          },
+          {
+            period: '1980–2007',
+            title: 'Tony Go Go construit une lignée d’enseignement au Japon',
+            description: 'Le diagramme indique que Tony « Go Go » Lewis ouvre une école de Locking au Japon. Avec les tournées antérieures et les rencontres pédagogiques, cela devient un lien durable et important entre la période de Los Angeles et la scène Locking japonaise.',
+            names: ['Tony « Go Go » Lewis'],
+            keyEvent: true,
+          },
+          {
+            period: '1995–2007',
+            title: 'Une lignée documentée se poursuit en Europe',
+            description: 'La dernière case datée montre Steve « SugarPop » Bernier enseignant le Locking à un danseur français pour The Untouchables. Il s’agit d’une lignée européenne clairement indiquée dans le diagramme, et non d’une histoire complète du Locking en Europe.',
+            names: ['Steve « SugarPop » Bernier'],
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export const timelineSources = [

@@ -3,16 +3,22 @@ import type { Locale } from '@/lib/i18n';
 import styles from './SiteFooter.module.css';
 
 export function SiteFooter({ lang }: { lang: Locale }) {
+  const copy = {
+    sv: { line: 'För lockers runt om i världen.', about: 'Om sidan', contact: 'Kontakt' },
+    en: { line: 'For the lockers around the world.', about: 'About the site', contact: 'Contact' },
+    fr: { line: 'Pour les lockers du monde entier.', about: 'À propos du site', contact: 'Contact' },
+  }[lang];
+
   return (
     <footer className={styles.footer}>
       <div className={`shell ${styles.grid}`}>
         <div>
           <p className={styles.mark}>LOCKING.SE</p>
-          <p className={styles.line}>For the lockers around the world.</p>
+          <p className={styles.line}>{copy.line}</p>
         </div>
         <div className={styles.links}>
-          <Link href={`/${lang}/about`}>{lang === 'sv' ? 'Om sidan' : 'About the site'}</Link>
-          <Link href={`/${lang}/contact`}>{lang === 'sv' ? 'Kontakt' : 'Contact'}</Link>
+          <Link href={`/${lang}/about`}>{copy.about}</Link>
+          <Link href={`/${lang}/contact`}>{copy.contact}</Link>
         </div>
       </div>
     </footer>

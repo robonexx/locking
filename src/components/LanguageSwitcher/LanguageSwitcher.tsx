@@ -2,20 +2,82 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import type { Locale } from '@/lib/i18n';
+import { ChevronDown } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { locales, type Locale } from '@/lib/i18n';
 import styles from './LanguageSwitcher.module.css';
+
+const languageNames: Record<Locale, string> = {
+  sv: 'Svenska',
+  en: 'English',
+  fr: 'Français',
+};
+
+const chooserLabels: Record<Locale, string> = {
+  sv: 'Välj språk',
+  en: 'Choose language',
+  fr: 'Choisir la langue',
+};
 
 export function LanguageSwitcher({ lang }: { lang: Locale }) {
   const pathname = usePathname();
-  const target = lang === 'sv' ? 'en' : 'sv';
-  const href = pathname.replace(/^\/(sv|en)(?=\/|$)/, `/${target}`);
+  const [open, setOpen] = useState(false);
+  const switcherRef = useRef<HTMLDivElement>(null);
+  const localePattern = new RegExp(`^/(${locales.join('|')})(?=/|$)`);
+
+  useEffect(() => {
+    function closeOnOutsideClick(event: PointerEvent) {
+      if (!switcherRef.current?.contains(event.target as Node)) setOpen(false);
+    }
+
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === 'Escape') setOpen(false);
+    }
+
+    document.addEventListener('pointerdown', closeOnOutsideClick);
+    document.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.removeEventListener('pointerdown', closeOnOutsideClick);
+      document.removeEventListener('keydown', closeOnEscape);
+    };
+  }, []);
 
   return (
-    <Link className={styles.switcher} href={href || `/${target}`} lang={target}>
-      <span aria-hidden="true">{target.toUpperCase()}</span>
-      <span className="sr-only">
-        {lang === 'sv' ? 'Switch to English' : 'Byt till svenska'}
-      </span>
-    </Link>
+    <div className={styles.languageSwitcher} ref={switcherRef}>
+      <button
+        className={styles.trigger}
+        type="button"
+        aria-label={chooserLabels[lang]}
+        aria-expanded={open}
+        aria-controls="language-menu"
+        onClick={() => setOpen((current) => !current)}
+      >
+        <span>{lang.toUpperCase()}</span>
+        <ChevronDown aria-hidden="true" />
+      </button>
+
+      {open && (
+        <ul className={styles.menu} id="language-menu">
+          {locales.map((locale) => {
+            const href = pathname.replace(localePattern, `/${locale}`) || `/${locale}`;
+            return (
+              <li key={locale}>
+                <Link
+                  className={locale === lang ? styles.current : undefined}
+                  href={href}
+                  hrefLang={locale}
+                  lang={locale}
+                  aria-current={locale === lang ? 'page' : undefined}
+                  onClick={() => setOpen(false)}
+                >
+                  <span>{languageNames[locale]}</span>
+                  <small>{locale.toUpperCase()}</small>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
   );
 }

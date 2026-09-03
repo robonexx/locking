@@ -1,16 +1,27 @@
 const base = process.env.SITE_URL ?? 'http://localhost:3000';
+const locales = ['sv', 'en', 'fr'];
+const slugs = [
+  '',
+  'about',
+  'contact',
+  'gogo-brothers',
+  'groups-and-dancers',
+  'history',
+  'memorial',
+  'pioneers',
+  'social-party',
+  'soul-train',
+  'steps-and-moves',
+  'stories',
+  'terminology',
+  'the-line-captain',
+  'the-lockers',
+  'timeline',
+  'wattstax',
+];
 const pages = [
   '/',
-  '/sv',
-  '/en',
-  '/sv/history',
-  '/en/history',
-  '/sv/pioneers',
-  '/sv/the-line-captain',
-  '/en/the-line-captain',
-  '/sv/steps-and-moves',
-  '/sv/stories',
-  '/sv/contact',
+  ...locales.flatMap((locale) => slugs.map((slug) => `/${locale}${slug ? `/${slug}` : ''}`)),
 ];
 
 let failed = false;
@@ -23,7 +34,11 @@ for (const pathname of pages) {
   const lang = body.match(/<html lang="([^"]+)/)?.[1] ?? '-';
   const headingCount = (body.match(/<h1/g) ?? []).length;
 
-  if (response.status !== expected || (pathname !== '/' && headingCount !== 1)) {
+  const expectedLang = pathname.split('/')[1];
+  if (
+    response.status !== expected
+    || (pathname !== '/' && (headingCount !== 1 || lang !== expectedLang))
+  ) {
     failed = true;
   }
 

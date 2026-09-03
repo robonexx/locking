@@ -162,4 +162,75 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
       { label: 'Campbellock.dance', url: 'https://campbellock.dance/' },
     ],
   },
+  fr: {
+    intro:
+      'Le Locking est né dans les espaces de danse sociale afro-américains et la culture funk de Los Angeles au tournant des années 1970. Il ne s’agissait pas d’un vocabulaire achevé inventé en un jour, mais d’un style personnel qui a rencontré une piste de danse vivante et s’est développé grâce à la créativité de nombreuses personnes.',
+    originTitle: 'Don Campbell et The Campbellock',
+    origin: [
+      'Don Campbell a créé l’expression d’abord appelée The Campbellock au Los Angeles Trade-Technical College. L’histoire racontée par The Lockers situe ses débuts à la fin de 1969, tandis que d’autres chronologies proches des participants indiquent 1970. Ses arrêts soudains, ses pauses rythmiques, ses regards, ses points et ses gestes amples sont devenus une manière singulière de répondre à la musique et au public. C’est ici que commence l’histoire du Locking.',
+      'Ce style portait en lui les social party dances, la soul, le funk, l’improvisation, l’humour et la fierté présents dans de nombreux lieux de rencontre afro-américains de Los Angeles. Don en fut l’initiateur ; les échanges avec d’autres danseurs ont rendu cette forme plus vaste, plus riche et transmissible.',
+    ],
+    sections: [
+      {
+        period: '1969–1971',
+        title: 'Les clubs et la scène originelle',
+        paragraphs: [
+          'Dans des lieux comme The Citadel, The Summit on the Hill et Maverick’s Flat, des danseurs de Watts, South Central, Compton, Inglewood et d’ailleurs échangeaient idées, pas, attitude et musicalité. Chacun possédait son propre personnage, et l’improvisation occupait une place centrale.',
+          'Parmi les premiers noms figurent Don Campbell, Damita Jo Freeman, Greg « Campbellock Jr. » Pope, Jimmy « Scoo B Doo » Foster, Fred « Mr. Penguin » Berry, Leo « Fluky Luke » Williamson, Tony et Buddy GoGo, Kevin « YoYo » Lombard, James « O.G. Skeeter Rabbit » Higgins, Arnetta « Netta Bug » Johnson et bien d’autres. La scène dépassait largement le groupe de personnes qui allait plus tard devenir le plus visible dans les médias.',
+        ],
+      },
+      {
+        period: 'À partir du 2 octobre 1971',
+        title: 'Une expression locale devient visible',
+        paragraphs: [
+          'Le 2 octobre 1971, Soul Train a commencé sa diffusion nationale depuis Los Angeles. L’émission a offert aux danseurs et à la musique une scène bien plus vaste. Locks, points, hand slaps, splits et personnages très affirmés sont devenus visibles bien au-delà des clubs où le style s’était développé.',
+          'La télévision a diffusé l’inspiration, mais une image à l’écran ne pouvait transmettre tout le savoir social. Les pas sont donc indissociables des personnes, des lieux, de la musique et de la culture qui leur ont donné leur sens.',
+        ],
+      },
+      {
+        period: '1972–1973',
+        title: 'Des styles individuels aux groupes',
+        paragraphs: [
+          'Les GoGo Brothers et la famille élargie GoGo/YoYo ont développé des pas synchronisés, des poignées de main, des sketches et des routines. De 1972 à 1973, Creative Generation a réuni femmes et hommes par l’intermédiaire du Watts Writers Workshop, en associant enseignement, scène et communauté.',
+          'D’après l’histoire de The Lockers, le groupe qui allait devenir The Lockers est apparu le 19 juin 1973 dans une émission spéciale d’ABC avec Roberta Flack. Il fut d’abord annoncé sous le nom de The Campbellockers, alors que la composition évoluait encore. La même source date le changement officiel de nom au 23 octobre, la prestation commune des sept membres originaux sous le nom The Lockers au 23 novembre, et la signature du contrat avec CMA au 14 décembre 1973.',
+        ],
+      },
+      {
+        period: 'Milieu des années 1970',
+        title: 'Davantage de groupes, davantage de voix',
+        paragraphs: [
+          'The Lockers n’ont jamais représenté toute la scène Locking. Des groupes comme 33RPM, The Ghetto Dancers et Something Special, ainsi que des danseurs indépendants issus des clubs et de la rue, ont poursuivi son développement.',
+          'À mesure que le Locking se diffusait des quartiers du sud de Los Angeles vers d’autres parties de la Californie du Sud et des États-Unis, il suscitait de nouvelles rencontres, mais aussi des malentendus. Un savoir transmis directement de personne à personne pouvait préserver davantage du contexte de la danse qu’un mouvement reproduit uniquement à partir de la télévision ou du cinéma.',
+        ],
+      },
+      {
+        period: 'À partir des années 1980',
+        title: 'Le cinéma, les voyages et une danse mondiale',
+        paragraphs: [
+          'Breakin’ et Breakin’ 2 ont donné une immense visibilité internationale aux street dances de la côte Ouest. Ils ont également contribué au mélange de différentes formes et appellations, ce qui explique en partie pourquoi locking, popping, breaking et « poplocking » sont encore parfois employés de manière imprécise.',
+          'Les échanges directs ont compté. Something Special, avec Jimmy « Scoo B Doo » Foster, a présenté le Locking au Japon dans les années 1970. Tony GoGo s’y est ensuite installé et y a enseigné pendant des décennies. Voyages, workshops, cassettes VHS, films puis Internet ont créé des ponts entre Los Angeles et les scènes du monde entier.',
+        ],
+      },
+    ],
+    worldTitle: 'Le Locking développe des histoires locales',
+    world: [
+      'Il existe aujourd’hui de fortes cultures Locking au Japon, au Royaume-Uni, en France, au Danemark, en Suède, en Corée, au Brésil, en Allemagne, aux Pays-Bas, en Chine et dans bien d’autres pays. Chaque lieu possède sa propre histoire : qui a montré la danse en premier, qui est allé chercher le savoir à la source, quels crews et clubs ont bâti une scène et quels événements ont rassemblé la génération suivante.',
+      'Ces histoires locales méritent elles aussi d’être documentées. Elles montrent comment une culture voyage, est interprétée et trouve de nouvelles expressions tout en préservant son lien avec ses origines. L’histoire suédoise fait donc partie du parcours continu du Locking ; elle ne remplace pas son histoire fondatrice à Los Angeles.',
+    ],
+    distinctionTitle: 'Pionnier — mais dans quel contexte ?',
+    distinction: [
+      'Sur ce site, nous distinguons les pionniers de la période fondatrice du Locking à Los Angeles — celles et ceux qui ont créé ou développé la danse à ses débuts — des pionniers qui ont ensuite établi le Locking dans un pays ou une scène locale donnée. Une personne ayant contribué à bâtir le Locking en Suède peut à juste titre être qualifiée de pionnière suédoise du Locking, sans être présentée comme étant à l’origine de la danse elle-même.',
+      'Ces deux types de contribution méritent d’être reconnus. Un contexte clair permet d’honorer à la fois la source de la danse et celles et ceux qui ont enseigné, organisé et construit de nouvelles scènes pour les générations suivantes.',
+    ],
+    sourceNoteTitle: 'Une histoire vivante',
+    sourceNote:
+      'Cette histoire s’appuie sur des documents, des témoignages directs et des souvenirs qui ne concordent pas toujours. Les sites gérés par des pionniers, des groupes ou leurs familles constituent de précieuses sources proches des participants, mais peuvent aussi refléter un point de vue particulier ; les dates précises et les attributions doivent donc être comparées à d’autres archives indépendantes. Cette page continuera d’évoluer à mesure que de nouvelles voix et sources seront ajoutées.',
+    sourcesTitle: 'Sources et lectures complémentaires',
+    sources: [
+      { label: 'LockerLegends – Our Story of the History of Locking', url: 'https://www.lockerlegends.net/history-of-locking/' },
+      { label: 'LockerLegends – The Time Line of Locking', url: 'https://www.lockerlegends.net/the-time-line-of-locking/' },
+      { label: 'The Lockers – About', url: 'https://www.thelockersdance.com/about' },
+      { label: 'Campbellock.dance', url: 'https://campbellock.dance/' },
+    ],
+  },
 };

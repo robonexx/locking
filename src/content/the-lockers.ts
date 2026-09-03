@@ -206,4 +206,82 @@ export const theLockersStory: Record<Locale, LockersStory> = {
     sourcesTitle: 'Sources and further reading',
     sources,
   },
+  fr: {
+    intro:
+      'The Lockers ont rendu visible à la télévision, sur scène et dans toute la culture populaire une danse née dans les espaces sociaux de Los Angeles. Le groupe ne représente pas le début de toute l’histoire du Locking, mais il a joué un rôle décisif dans la manière dont la danse fut présentée à un public plus large.',
+    donEyebrow: 'Créateur / Fondateur',
+    donTitle: 'Don « Campbellock » Campbell',
+    don: [
+      'Don Campbell a créé The Campbellock — la danse qui allait ensuite être connue dans le monde entier sous le nom de Locking. Elle est née de son mouvement personnel, de sa musicalité et des arrêts, ou « locks », devenus la base du style.',
+      'Don a fondé le groupe et en fut la force créative centrale. Il a commencé à réunir des danseurs autour de son style et posé les bases de The Campbellockers. Avec Toni Basil, le groupe est devenu en 1973 un ensemble professionnel destiné à la scène, avant que son nom ne soit raccourci en The Lockers.',
+      'L’histoire du groupe est donc indissociable de Don : d’abord sa danse personnelle, puis les personnes qui l’ont développée, façonnée et portée ensemble.',
+    ],
+    sections: [
+      {
+        period: '1969–1972',
+        title: 'Le chemin vers The Campbellockers',
+        paragraphs: [
+          'L’histoire de The Lockers situe à la fin de 1969 le développement par Don Campbell de sa danse singulière au Los Angeles Trade-Technical College ; d’autres chronologies proches des participants indiquent 1970. Le mouvement et le style sont devenus connus sous le nom de The Campbellock. Lorsque Don a rejoint la scène de Soul Train et enregistré « The Campbellock » en 1972, l’idée de présenter cette danse au sein d’un groupe a elle aussi pris forme.',
+          'La chronologie de Don Campbell mentionne également des tournées avec différents danseurs autour de la sortie du morceau. Ces premières prestations ont précédé le groupe qui allait bientôt se constituer sous le nom de The Campbellockers.',
+        ],
+      },
+      {
+        period: '19 juin 1973',
+        title: 'La formation de The Campbellockers',
+        paragraphs: [
+          'Avec la chorégraphe et manager Toni Basil, des danseurs ont été réunis pour une émission spéciale avec Roberta Flack, diffusée pour la première fois sur ABC le 19 juin 1973. Le groupe est d’abord apparu sous le nom The Campbell-Lockers dans les documents imprimés et fut annoncé sur scène comme The Campbellockers.',
+          'La composition du groupe a changé au fil des premières prestations. L’histoire de The Lockers souligne que les sept membres qui formeraient ensuite le groupe établi n’étaient pas encore tous réunis dans les premières émissions de The Campbellockers.',
+        ],
+      },
+      {
+        period: '23 octobre–14 décembre 1973',
+        title: 'The Campbellockers deviennent The Lockers',
+        paragraphs: [
+          'À la suite d’un différend sur les droits liés au mot Campbellock, le nom du groupe fut raccourci de The Campbellockers à The Lockers. Le nouveau nom conservait un lien avec Don Campbell et les origines de la danse, tout en permettant au groupe de poursuivre son activité professionnelle.',
+          'L’histoire de The Lockers date le changement officiel de nom au 23 octobre 1973. Le 23 novembre, les sept membres originaux se produisirent ensemble sous le nom The Lockers dans In Concert sur ABC et, le 14 décembre, le groupe signa avec l’agence artistique CMA.',
+        ],
+      },
+      {
+        period: 'Les années 1970',
+        title: 'De la rue à la scène mondiale',
+        paragraphs: [
+          'The Lockers associaient des personnages individuels puissants et l’improvisation à un spectacle scénique soigneusement construit. Leurs vêtements, leur humour, leur timing musical, leurs poses, leurs gestes et leurs mouvements explosifs formaient une présentation immédiatement reconnaissable.',
+          'Le groupe est apparu à de nombreuses reprises à la télévision américaine et sur de grandes scènes. Le Los Angeles Times l’a ensuite décrit comme la première troupe de street dance à connaître un large succès. La documentation du groupe recense plus de cent apparitions télévisées et prestations live au cours de ses trois premières années.',
+        ],
+      },
+      {
+        period: 'À partir de 1976',
+        title: 'De nouvelles formations, un même héritage',
+        paragraphs: [
+          'La composition a changé après le départ de Fred Berry et Toni Basil. Anthony « Tony GoGo » Lewis a rejoint le groupe à la fin de 1976 et s’est produit avec les cinq membres restants dans Van Dyke and Company. D’autres formations ont utilisé le nom The Lockers à la fin des années 1970 et dans les années 1980.',
+          'Il est donc important de distinguer les sept personnes désignées comme membres originaux dans l’histoire du groupe, les membres engagés ultérieurement et les nombreux autres pionniers ayant contribué au Locking avant, pendant et après l’existence du groupe professionnel.',
+        ],
+      },
+    ],
+    membersTitle: 'Les sept membres originaux',
+    membersIntro:
+      'D’après l’histoire de The Lockers et la déclaration approuvée en 2009 par les membres originaux et les ayants droit de Fred Berry :',
+    members: [
+      'Don « Campbellock » Campbell',
+      'Toni Basil',
+      'Dave « Greg Campbellock Jr. » Pope',
+      'Fred « Mr. Penguin / Rerun » Berry',
+      'Leo « Fluky Luke » Williamson',
+      'Bill « Slim the Robot » Williams',
+      'Adolfo « Shabba-Doo » Quinones',
+    ],
+    fabulousTitle: 'The Fabulous Lockers',
+    fabulous: [
+      'Le groupe s’appelait The Lockers, après avoir d’abord été connu sous le nom de The Campbellockers. L’appellation « The Fabulous Lockers » apparaît également dans certaines présentations et dans des contextes ultérieurs.',
+      'LockerLegends indique que différentes formations et réunions ont, au fil des années, été présentées comme The Original Lockers ou The Fabulous Lockers. Cette page utilise toujours The Lockers comme nom principal du groupe.',
+    ],
+    sourceNoteTitle: 'Les noms et les changements de formation',
+    sourceNote:
+      'The Campbellockers et The Lockers désignent deux périodes dans l’évolution du nom d’un même groupe pendant sa formation. Les premiers danseurs ayant tourné autour de Don Campbell appartiennent à son histoire, tandis que les formations ultérieures utilisant le nom The Lockers doivent être distinguées des sept membres originaux.',
+    legacyTitle: 'Un groupe — et un mouvement plus vaste',
+    legacy:
+      'The Lockers ont joué un rôle décisif en amenant le Locking sur la scène professionnelle. Dans le même temps, le langage de la danse fut créé par un réseau plus large de danseurs sociaux, de danseurs de Soul Train, de groupes et de pionniers locaux. Raconter l’histoire du groupe signifie à la fois donner à The Lockers la place qui leur revient et continuer à rendre visible la culture plus vaste qui les entourait.',
+    sourcesTitle: 'Sources et lectures complémentaires',
+    sources,
+  },
 };

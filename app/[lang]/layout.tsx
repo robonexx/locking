@@ -2,17 +2,34 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
-import { isLocale, locales } from '@/lib/i18n';
+import { isLocale, locales, ui } from '@/lib/i18n';
 import '../globals.css';
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://locking.se'),
-  title: {
-    default: 'Locking.se',
-    template: '%s | Locking.se',
-  },
-  description: 'Locking.se – for the lockers around the world.',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang: candidate } = await params;
+  const lang = isLocale(candidate) ? candidate : 'sv';
+  const descriptions = {
+    sv: 'Locking.se – för lockers runt om i världen.',
+    en: 'Locking.se – for the lockers around the world.',
+    fr: 'Locking.se – pour les lockers du monde entier.',
+  };
+
+  return {
+    metadataBase: new URL('https://locking.se'),
+    title: {
+      default: 'Locking.se',
+      template: '%s | Locking.se',
+    },
+    description: descriptions[lang],
+    alternates: {
+      languages: { sv: '/sv', en: '/en', fr: '/fr' },
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -29,7 +46,7 @@ export default async function LocaleLayout({
     <html lang={lang}>
       <body>
         <a className="skip-link" href="#main-content">
-          {lang === 'sv' ? 'Hoppa till innehållet' : 'Skip to content'}
+          {ui[lang].skip}
         </a>
         <SiteHeader lang={lang} />
         <main id="main-content">{children}</main>

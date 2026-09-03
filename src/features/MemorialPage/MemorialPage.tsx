@@ -18,7 +18,9 @@ export function MemorialPage({ lang }: { lang: Locale }) {
       {(['pioneer', 'inspiration'] as const).map((group) => (
         <section className={styles.group} key={group}>
           <Reveal distance="short">
-            <p className="eyebrow eyebrow-dark">R.I.P. / Forever in the groove</p>
+            <p className="eyebrow eyebrow-dark">
+              {lang === 'sv' ? 'R.I.P. / För alltid i groovet' : lang === 'fr' ? 'R.I.P. / À jamais dans le groove' : 'R.I.P. / Forever in the groove'}
+            </p>
             <h2 className={styles.groupTitle}>
               {group === 'pioneer' ? page.pioneersTitle : page.inspirationsTitle}
             </h2>

@@ -1,45 +1,154 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowDownRight, Mic2, Sparkles } from 'lucide-react';
-import { ContentProse } from '@/components/ContentProse';
+import { ArrowDownRight, ArrowUpRight, Mail, Mic2, Sparkles } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
-import { SourceNotice } from '@/components/SourceNotice';
 import { contentPages } from '@/content/site';
-import { readRecoveredPage } from '@/lib/content';
 import type { Locale } from '@/lib/i18n';
 import styles from './HomePage.module.css';
 
-export async function HomePage({ lang }: { lang: Locale }) {
-  const originalHome = await readRecoveredPage('home.md');
-  const featured = contentPages.filter((page) => ['history', 'soul-train', 'pioneers'].includes(page.slug));
+const primarySlugs = ['history', 'soul-train', 'pioneers'] as const;
+
+const featuredSlugs = [
+  'steps-and-moves',
+  'groups-and-dancers',
+  'the-line-captain',
+  'the-lockers',
+  'gogo-brothers',
+] as const;
+
+const cultureSources = [
+  {
+    label: 'Los Angeles Times — A hoofer’s place in history',
+    url: 'https://www.latimes.com/archives/la-xpm-1995-07-23-tm-26818-story.html',
+  },
+  {
+    label: 'National Museum of African American History & Culture — Black is Beautiful',
+    url: 'https://nmaahc.si.edu/explore/stories/black-beautiful-emergence-black-culture-and-identity-60s-and-70s',
+  },
+  {
+    label: 'Smithsonian — The Will to Adorn: African American Dress and Identity',
+    url: 'https://folklife.si.edu/will-to-adorn',
+  },
+];
+
+export function HomePage({ lang }: { lang: Locale }) {
+  const primaryPages = primarySlugs
+    .map((slug) => contentPages.find((page) => page.slug === slug))
+    .filter((page): page is NonNullable<typeof page> => Boolean(page));
+  const featured = featuredSlugs
+    .map((slug) => contentPages.find((page) => page.slug === slug))
+    .filter((page): page is NonNullable<typeof page> => Boolean(page));
+
   const copy = lang === 'sv'
     ? {
-        eyebrow: 'Street history · Los Angeles · 1960–70-tal', titleTop: 'Känn rytmen.', titleBottom: 'Lär historien.',
-        lead: 'Ett levande kulturarkiv om människorna, platserna och rörelsen bakom Campbellocking och Locking.',
-        cta: 'Börja med historien', archive: 'Utforska arkivet', manifesto: 'Mer än steg.',
-        manifestoBody: 'Locking föddes ur musik, gemenskap, stolthet och kreativt motstånd. Här står rösterna från den ursprungliga eran i centrum.',
-        featured: 'Tre vägar in', stories: 'Nya röster. Verkliga berättelser.',
-        storiesBody: 'Intervjuer, artiklar och senare nyheter får en egen, enkel redaktionell del — den enda delen som behöver CMS.',
-        original: 'Räddat från 2022-sidan',
+        eyebrow: 'Campbellocking · Locking · Los Angeles',
+        titleLines: ['Kulturen.', 'Dansen.', 'Historien.'],
+        lead: 'Ett levande kulturarkiv om människorna, platserna, musiken och rörelsen bakom Campbellocking och Locking.',
+        cta: 'Börja med historien',
+        archive: 'Möt pionjärerna',
+        heroAlt: 'Dansare på Soul Trains dansgolv',
+        manifestoEyebrow: 'Kultur / Kontext / Erkännande',
+        manifesto: 'Mer än en dansstil.',
+        manifestoBody: 'Locking växte fram ur musik, gemenskap, personligt uttryck, stolthet och kreativitet. Här får människorna, sammanhangen och rörelsen ta plats tillsammans.',
+        rhythm: 'Känn rytmen. Lär historien.',
+        rhythmEyebrow: 'Kultur i rörelse',
+        rhythmIntro: 'För att förstå Locking behöver man både höra musiken och se den kultur som dansen växte ur. Groove, kläder, karaktär och socialt samspel är inte dekoration runt stegen – de hjälper till att bära uttrycket.',
+        musicEyebrow: 'Soul / Funk / Musicality',
+        musicTitle: 'Musiken är en byggsten',
+        musicBody: 'Soul och funk gav dansgolvet groove, puls och attityd. Basgångar, trummor, breaks och tydliga accenter skapar platser att stanna, explodera, leka och svara på. Locking ligger inte ovanpå musiken; dansaren för ett samtal med den.',
+        clothesEyebrow: 'Style / Character / Identity',
+        clothesTitle: 'Kläderna förstärker uttrycket',
+        clothesBody: 'Stora hattar, randiga strumpor, uppvikta eller korta byxor, färgstarka skjortor, flugor och handskar blev delar av Lockingens visuella språk. På scen kunde de förstärka linjer, hat tricks och karaktär. Stilen är ett kulturhistoriskt uttryck och en form av självpresentation – inte en uniform som krävs för att dansa.',
+        musicAlt: 'Dansare på Soul Trains dansgolv',
+        clothesAlt: 'The Lockers i sina karaktäristiska scenkläder',
+        sources: 'Kulturkällor och vidare läsning',
+        ways: 'Tre vägar in',
+        featured: 'Utforska dansen',
+        stories: 'Nya röster. Verkliga berättelser.',
+        storiesEyebrow: 'Intervjuer / Redaktionellt / Nyheter',
+        storiesBody: 'Intervjuer och artiklar kommer att ge fler människor och perspektiv en egen plats på Locking.se.',
+        contactEyebrow: 'Frågor / Rättelser / Berättelser',
+        contactTitle: 'Hjälp historien att fortsätta röra sig.',
+        contactBody: 'Har du kunskap, en rättelse eller en berättelse som borde finnas här? Hör av dig. Du kan också följa arbetet och mötena kring dansen genom Funkcamp.',
+        contact: 'Kontakta Locking.se',
+        funkcamp: 'Besök Funkcamp.se',
       }
-    : {
-        eyebrow: 'Street history · Los Angeles · 1960s–70s', titleTop: 'Feel the rhythm.', titleBottom: 'Know the history.',
-        lead: 'A living cultural archive about the people, places and movement behind Campbellocking and Locking.',
-        cta: 'Start with the history', archive: 'Explore the archive', manifesto: 'More than steps.',
-        manifestoBody: 'Locking grew from music, community, pride and creative resistance. The voices of the original era stay at the center here.',
-        featured: 'Three ways in', stories: 'New voices. Real stories.',
-        storiesBody: 'Interviews, articles and later news get one focused editorial area — the only part that needs a CMS.',
-        original: 'Recovered from the 2022 site',
+    : lang === 'fr'
+      ? {
+          eyebrow: 'Campbellocking · Locking · Los Angeles',
+          titleLines: ['La culture.', 'La danse.', 'L’histoire.'],
+          lead: 'Une archive culturelle vivante consacrée aux personnes, aux lieux, à la musique et au mouvement derrière le Campbellocking et le Locking.',
+          cta: 'Commencer par l’histoire',
+          archive: 'Rencontrer les pionniers',
+          heroAlt: 'Des danseurs sur la piste de Soul Train',
+          manifestoEyebrow: 'Culture / Contexte / Reconnaissance',
+          manifesto: 'Plus qu’un style de danse.',
+          manifestoBody: 'Le Locking est né de la musique, de la communauté, de l’expression personnelle, de la fierté et de la créativité. Ici, les personnes, les contextes et le mouvement trouvent ensemble toute leur place.',
+          rhythm: 'Ressentez le rythme. Découvrez l’histoire.',
+          rhythmEyebrow: 'La culture en mouvement',
+          rhythmIntro: 'Pour comprendre le Locking, il faut entendre la musique et voir la culture dont la danse est issue. Le groove, les vêtements, le personnage et l’échange social ne sont pas de simples ornements autour des pas : ils contribuent à porter toute l’expression.',
+          musicEyebrow: 'Soul / Funk / Musicalité',
+          musicTitle: 'La musique est un élément fondateur',
+          musicBody: 'La soul et le funk ont donné à la piste de danse son groove, sa pulsation et son attitude. Lignes de basse, batterie, breaks et accents marqués créent des moments où s’arrêter, exploser, jouer et répondre. Le Locking ne se pose pas sur la musique : le danseur dialogue avec elle.',
+          clothesEyebrow: 'Style / Personnage / Identité',
+          clothesTitle: 'Les vêtements amplifient l’expression',
+          clothesBody: 'Grands chapeaux, chaussettes rayées, pantalons resserrés ou raccourcis, chemises colorées, nœuds papillon et gants ont intégré le langage visuel du Locking. Sur scène, ils pouvaient accentuer les lignes, les hat tricks et les personnages. Ce style est une expression culturelle et une forme de présentation de soi — pas un uniforme indispensable pour danser.',
+          musicAlt: 'Des danseurs sur la piste de Soul Train',
+          clothesAlt: 'The Lockers dans leurs tenues de scène caractéristiques',
+          sources: 'Sources culturelles et lectures complémentaires',
+          ways: 'Trois portes d’entrée',
+          featured: 'Explorer la danse',
+          stories: 'De nouvelles voix. Des histoires vécues.',
+          storiesEyebrow: 'Entretiens / Éditorial / Actualités',
+          storiesBody: 'Les entretiens et les articles offriront une place dédiée à davantage de personnes et de perspectives sur Locking.se.',
+          contactEyebrow: 'Questions / Corrections / Histoires',
+          contactTitle: 'Aidez l’histoire à rester en mouvement.',
+          contactBody: 'Vous détenez un savoir, une correction ou une histoire qui mérite d’être ici ? Écrivez-nous. Vous pouvez aussi suivre le travail et les rencontres autour de la danse par l’intermédiaire de Funkcamp.',
+          contact: 'Contacter Locking.se',
+          funkcamp: 'Visiter Funkcamp.se',
+        }
+      : {
+        eyebrow: 'Campbellocking · Locking · Los Angeles',
+        titleLines: ['The culture.', 'The dance.', 'The history.'],
+        lead: 'A living cultural archive about the people, places, music and movement behind Campbellocking and Locking.',
+        cta: 'Start with the history',
+        archive: 'Meet the pioneers',
+        heroAlt: 'Dancers on the Soul Train dance floor',
+        manifestoEyebrow: 'Culture / Context / Credit',
+        manifesto: 'More than a dance style.',
+        manifestoBody: 'Locking grew from music, community, personal expression, pride and creativity. Here, the people, contexts and movement are given space together.',
+        rhythm: 'Feel the rhythm. Know the history.',
+        rhythmEyebrow: 'Culture in motion',
+        rhythmIntro: 'To understand Locking, we need to hear the music and see the culture from which the dance grew. Groove, clothing, character and social exchange are not decoration around the steps – they help carry the form.',
+        musicEyebrow: 'Soul / Funk / Musicality',
+        musicTitle: 'Music is a building block',
+        musicBody: 'Soul and funk gave the dance floor groove, pulse and attitude. Bass lines, drums, breaks and sharp accents create places to stop, explode, play and answer back. Locking does not sit on top of the music; the dancer is in conversation with it.',
+        clothesEyebrow: 'Style / Character / Identity',
+        clothesTitle: 'Clothing amplifies expression',
+        clothesBody: 'Large hats, striped socks, pegged or cropped trousers, colorful shirts, bow ties and gloves became part of Locking’s visual language. On stage they could emphasize lines, hat tricks and character. The style is a cultural expression and a form of self-presentation – not a uniform required in order to dance.',
+        musicAlt: 'Dancers on the Soul Train dance floor',
+        clothesAlt: 'The Lockers in their characteristic stage clothing',
+        sources: 'Cultural sources and further reading',
+        ways: 'Three ways in',
+        featured: 'Explore the dance',
+        stories: 'New voices. Real stories.',
+        storiesEyebrow: 'Interviews / Editorials / News',
+        storiesBody: 'Interviews and articles will give more people and perspectives a dedicated place on Locking.se.',
+        contactEyebrow: 'Questions / Corrections / Stories',
+        contactTitle: 'Help keep the history moving.',
+        contactBody: 'Do you have knowledge, a correction or a story that belongs here? Get in touch. You can also follow the work and gatherings around the dance through Funkcamp.',
+        contact: 'Contact Locking.se',
+        funkcamp: 'Visit Funkcamp.se',
       };
 
   return (
     <>
       <section className={styles.hero}>
-        <Image src="/media/soultrain.png" alt="Soul Train dance floor" fill priority sizes="100vw" className={styles.heroImage} />
+        <Image src="/media/soultrain.png" alt={copy.heroAlt} fill priority sizes="100vw" className={styles.heroImage} />
         <div className={styles.noise} aria-hidden="true" />
         <div className={`shell ${styles.heroContent}`}>
           <p className="eyebrow">{copy.eyebrow}</p>
-          <h1><span>{copy.titleTop}</span><span>{copy.titleBottom}</span></h1>
+          <h1>{copy.titleLines.map((line) => <span key={line}>{line}</span>)}</h1>
           <p className={styles.heroLead}>{copy.lead}</p>
           <div className={styles.actions}>
             <Link className={`${styles.button} ${styles.primary}`} href={`/${lang}/history`}>
@@ -54,7 +163,7 @@ export async function HomePage({ lang }: { lang: Locale }) {
       <Reveal as="section" className={`shell section-space ${styles.manifesto}`}>
         <div className={styles.sectionNumber}>01</div>
         <div>
-          <p className="eyebrow eyebrow-dark">Culture / Context / Credit</p>
+          <p className="eyebrow eyebrow-dark">{copy.manifestoEyebrow}</p>
           <h2>{copy.manifesto}</h2>
           <p className={styles.largeCopy}>{copy.manifestoBody}</p>
         </div>
@@ -63,12 +172,92 @@ export async function HomePage({ lang }: { lang: Locale }) {
 
       <section className={`${styles.featureSection} section-space`}>
         <Reveal className="shell">
-          <div className={styles.sectionHeading}><span>02</span><h2>{copy.featured}</h2></div>
+          <div className={styles.sectionHeading}><span>02</span><h2>{copy.ways}</h2></div>
+          <div className={styles.waysGrid}>
+            {primaryPages.map((page, index) => (
+              <Link className={`${styles.featureCard} ${styles[`card${index + 1}`]}`} href={`/${lang}/${page.slug}`} key={page.slug}>
+                <div className={styles.cardImageWrap}>
+                  <Image
+                    src={page.image}
+                    alt=""
+                    fill
+                    sizes="(max-width: 800px) 100vw, 33vw"
+                    className={styles.cardImage}
+                    style={{ objectFit: page.imageFit, objectPosition: page.imagePosition }}
+                  />
+                </div>
+                <p>{page.kicker[lang]}</p><h3>{page.title[lang]}</h3><ArrowDownRight aria-hidden="true" />
+              </Link>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
+      <section className={`${styles.rhythmSection} section-space`}>
+        <div className="shell">
+          <Reveal className={styles.rhythmHeading} distance="short">
+            <span>03</span>
+            <div>
+              <p className="eyebrow">{copy.rhythmEyebrow}</p>
+              <h2>{copy.rhythm}</h2>
+              <p>{copy.rhythmIntro}</p>
+            </div>
+          </Reveal>
+
+          <div className={styles.cultureGrid}>
+            <Reveal as="article" className={styles.cultureCard} distance="short">
+              <div className={styles.cultureImage}>
+                <Image src="/media/soultrain.png" alt={copy.musicAlt} fill sizes="(max-width: 760px) 100vw, 50vw" />
+              </div>
+              <div className={styles.cultureCopy}>
+                <p className="eyebrow">{copy.musicEyebrow}</p>
+                <h3>{copy.musicTitle}</h3>
+                <p>{copy.musicBody}</p>
+              </div>
+            </Reveal>
+
+            <Reveal as="article" className={`${styles.cultureCard} ${styles.clothesCard}`} distance="short">
+              <div className={styles.cultureImage}>
+                <Image src="/media/thelockerslline.png" alt={copy.clothesAlt} fill sizes="(max-width: 760px) 100vw, 50vw" />
+              </div>
+              <div className={styles.cultureCopy}>
+                <p className="eyebrow">{copy.clothesEyebrow}</p>
+                <h3>{copy.clothesTitle}</h3>
+                <p>{copy.clothesBody}</p>
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal className={styles.researchLinks} distance="short">
+            <h3>{copy.sources}</h3>
+            <ul>
+              {cultureSources.map((source) => (
+                <li key={source.url}>
+                  <a href={source.url} target="_blank" rel="noreferrer">
+                    {source.label}<ArrowUpRight aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className={`${styles.featureSection} section-space`}>
+        <Reveal className="shell">
+          <div className={styles.sectionHeading}><span>04</span><h2>{copy.featured}</h2></div>
           <div className={styles.featureGrid}>
             {featured.map((page, index) => (
               <Link className={`${styles.featureCard} ${styles[`card${index + 1}`]}`} href={`/${lang}/${page.slug}`} key={page.slug}>
                 <div className={styles.cardImageWrap}>
-                  <Image src={page.image} alt="" fill sizes="(max-width: 800px) 100vw, 33vw" className={styles.cardImage} />
+                  <Image
+                    src={page.image}
+                    alt=""
+                    fill
+                    sizes="(max-width: 800px) 100vw, 33vw"
+                    className={styles.cardImage}
+                    style={{ objectFit: page.imageFit, objectPosition: page.imagePosition }}
+                  />
                 </div>
                 <p>{page.kicker[lang]}</p><h3>{page.title[lang]}</h3><ArrowDownRight aria-hidden="true" />
               </Link>
@@ -80,16 +269,29 @@ export async function HomePage({ lang }: { lang: Locale }) {
       <section className={styles.storiesBand}>
         <Reveal className={`shell ${styles.storiesInner}`} distance="short">
           <Mic2 aria-hidden="true" />
-          <div><p className="eyebrow">Interviews / Editorials / News</p><h2>{copy.stories}</h2><p>{copy.storiesBody}</p></div>
+          <div><p className="eyebrow">{copy.storiesEyebrow}</p><h2>{copy.stories}</h2><p>{copy.storiesBody}</p></div>
           <Link className={styles.circleLink} href={`/${lang}/stories`} aria-label={copy.stories}><ArrowDownRight aria-hidden="true" /></Link>
         </Reveal>
       </section>
 
-      <Reveal as="section" className={`shell section-space ${styles.archive}`}>
-        <div className={styles.sectionHeading}><span>03</span><h2>{copy.original}</h2></div>
-        <SourceNotice lang={lang} />
-        <ContentProse>{originalHome}</ContentProse>
-      </Reveal>
+      <section className={styles.contactBand}>
+        <Reveal className={`shell ${styles.contactInner}`} distance="short">
+          <Mail aria-hidden="true" />
+          <div>
+            <p className="eyebrow">{copy.contactEyebrow}</p>
+            <h2>{copy.contactTitle}</h2>
+            <p>{copy.contactBody}</p>
+            <div className={styles.contactActions}>
+              <Link className={`${styles.button} ${styles.contactPrimary}`} href={`/${lang}/contact`}>
+                {copy.contact}<ArrowDownRight aria-hidden="true" />
+              </Link>
+              <a className={`${styles.button} ${styles.contactGhost}`} href="https://funkcamp.se" target="_blank" rel="noreferrer">
+                {copy.funkcamp}<ArrowUpRight aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+        </Reveal>
+      </section>
     </>
   );
 }

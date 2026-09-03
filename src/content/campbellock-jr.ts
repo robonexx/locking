@@ -233,4 +233,89 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
     sourcesTitle: 'Sources and further reading',
     sources,
   },
+  fr: {
+    intro:
+      'Dave Gregory « Greg Campbellock Jr. » Pope était un maître de l’improvisation, chorégraphe et enseignant. Pour moi, il était plus encore : mon mentor. Cette page est consacrée à l’homme, au visionnaire et à la structure pédagogique qu’il a créée pour aider les lockers à comprendre la danse en profondeur.',
+    mentorEyebrow: 'Souvenir personnel / Suède',
+    mentorTitle: 'Mon mentor — et celui de beaucoup d’autres',
+    mentorQuote:
+      'Greg était mon mentor. À mes yeux, il comptait parmi les meilleurs — un esprit visionnaire capable de voir à la fois la danse et la personne qui se trouvait derrière.',
+    mentor: [
+      'Il a accompagné des danseurs dans le monde entier. Je pense que beaucoup d’entre nous n’auraient jamais appris le Locking avec la même profondeur sans lui. Il transmettait plus que des mouvements : il nous donnait une manière de penser, d’écouter, de nous entraîner et de découvrir notre propre personnage.',
+      'C’est aussi une part importante de mon lien suédois avec le Locking. Je n’ai pas seulement rapporté des pas, mais sa compréhension de la danse comme un langage complet — avec contrôle du corps, musicalité, précision, attitude, imagination et funk.',
+    ],
+    lifeTitle: 'Du pionnier à l’enseignant',
+    life: [
+      'Greg dansait dans les clubs de Los Angeles et devint un danseur régulier de Soul Train. En 1972, il fit partie de Creative Generation au Watts Writers Workshop, aux côtés de plusieurs autres lockers de la première heure. Le groupe associait improvisation, routines synchronisées et travail scénique.',
+      'En 1973, il devint l’un des sept membres originaux de The Lockers. Les sources le décrivent comme le « line captain » du groupe et comme un lien essentiel entre la danse sociale, les pas des pionniers et la forme chorégraphiée destinée à la scène.',
+      'L’enseignement prit une place croissante dans sa vie au cours des années 1990. Autour de l’an 2000, il voyagea dans le monde entier comme enseignant, juge et artiste. Son héritage vit donc non seulement dans sa manière de danser, mais aussi chez toutes les personnes qu’il a formées, encouragées et auxquelles il a fait confiance pour transmettre le savoir.',
+    ],
+    curriculumEyebrow: 'Structure / Vision / Pédagogie',
+    curriculumTitle: 'Un programme pour une danse vivante',
+    curriculum: [
+      'Greg a grandement contribué à formuler un programme pédagogique du Locking. Ses notes révèlent un enseignant qui voulait rendre visible l’invisible : comment contrôler le corps, comment la musique devient mouvement, comment créer un personnage et comment différentes composantes s’unissent dans un style funky.',
+      'Cette structure ne fige pas la danse. Elle aide le danseur à comprendre ce qu’il peut faire varier. La technique devient une base pour l’improvisation, l’imagination et l’expression personnelle — elle ne les remplace pas.',
+    ],
+    attributesTitle: 'Les 4 attributs du Locking',
+    attributesIntro:
+      'Dans ce matériel, Greg distingue quatre attributs qui se rejoignent chez un locker. Il ne s’agit pas de quatre pas séparés, mais de quatre qualités destinées à vivre dans toute la danse.',
+    attributes: [
+      {
+        title: 'Attitude',
+        original: 'Attitude',
+        text: 'Présence, conviction et point de vue affirmé. Le danseur montre qui il est et projette son énergie vers l’extérieur.',
+      },
+      {
+        title: 'Style et grâce',
+        original: 'Style and Grace · Body control',
+        text: 'Le contrôle du corps crée lignes, équilibre et intention. Le style réside dans la manière de façonner un mouvement, et pas seulement dans le mouvement choisi.',
+      },
+      {
+        title: 'Caractérisation',
+        original: 'Become animated',
+        text: 'Le locker s’anime et permet au visage, aux gestes, à l’humour et à la personnalité de participer pleinement à la danse.',
+      },
+      {
+        title: 'Pure Funk',
+        original: 'Hear every instrument',
+        text: 'Entendre les instruments et répondre aux rythmes, aux couches et aux accents de la musique. La musicalité guide les choix dans l’instant.',
+      },
+    ],
+    equationTitle: 'La formule du « Funky Style » selon Greg',
+    equationIntro:
+      'Une autre image résume la méthode sous forme d’équation. Elle complète les quatre attributs en rendant explicites trois domaines de pratique :',
+    equation: [
+      {
+        title: 'BC',
+        original: 'Body Control',
+        text: 'Maîtrise des formes, des directions, de l’équilibre et des arrêts.',
+      },
+      {
+        title: 'EC',
+        original: 'Enthusiastic Character',
+        text: 'Un personnage vivant et engagé qui communique avec le public.',
+      },
+      {
+        title: 'PMw/m',
+        original: 'Precision Moves with music',
+        text: 'Un mouvement placé avec précision dans la musique et avec elle.',
+      },
+    ],
+    equationResult: 'Funky Style',
+    archiveTitle: 'Les idées sur le papier',
+    archiveIntro:
+      'Les illustrations conservées montrent la pensée visuelle de Greg : une clé entre « no lock » et « lock », différents degrés de précision, des lignes traversant le corps et une imagination qui naît de la capacité à ressentir la musique.',
+    openImage: 'Ouvrir l’image originale',
+    imageCaptions: [
+      'La clé entre « no lock » et « lock ».',
+      'Trois niveaux visuels de précision.',
+      'Un dessin permettant d’analyser le contrôle du corps de face et de profil.',
+      '« Feel the music » comme point de départ de l’imagination.',
+    ],
+    sourceNoteTitle: 'À propos du matériel pédagogique',
+    sourceNote:
+      'Les photographies montrent un support de cours conservé dans une collection privée, portant la mention « Greg Campbellock Jr. & Associates » et partagé avec Locking.se. Le texte français de cette page est une lecture éditoriale de ce matériel. Le mot programme décrit l’enseignement méthodique de Greg ; il ne prétend pas constituer une norme de certification universelle pour tous les lockers.',
+    sourcesTitle: 'Sources et lectures complémentaires',
+    sources,
+  },
 };

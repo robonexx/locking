@@ -24,13 +24,17 @@ export function HistoryPage({ lang }: { lang: Locale }) {
       <StoryTimeline sections={story.sections} />
 
       <Reveal as="section" className={`${styles.panel} ${styles.world}`}>
-        <p className="eyebrow eyebrow-dark">Los Angeles → världen</p>
+        <p className="eyebrow eyebrow-dark">
+          {lang === 'sv' ? 'Los Angeles → världen' : lang === 'fr' ? 'Los Angeles → le monde' : 'Los Angeles → the world'}
+        </p>
         <h2>{story.worldTitle}</h2>
         {story.world.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </Reveal>
 
       <Reveal as="section" className={`${styles.panel} ${styles.context}`}>
-        <p className="eyebrow">Credit / Context</p>
+        <p className="eyebrow">
+          {lang === 'sv' ? 'Erkännande / Kontext' : lang === 'fr' ? 'Reconnaissance / Contexte' : 'Credit / Context'}
+        </p>
         <h2>{story.distinctionTitle}</h2>
         {story.distinction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </Reveal>

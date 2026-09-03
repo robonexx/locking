@@ -1,19 +1,100 @@
-.switcher {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  color: var(--ink);
-  background: var(--orange);
-  border-radius: 50%;
-  font-size: 0.74rem;
-  font-weight: 900;
-  text-decoration: none;
-  transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1), background 180ms ease;
+.languageSwitcher {
+  position: relative;
+  z-index: 60;
+  justify-self: end;
 }
 
-.switcher:hover,
-.switcher:focus-visible {
+.trigger {
+  min-width: 64px;
+  height: 42px;
+  padding: 0 11px 0 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--ink);
+  background: var(--orange);
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.trigger svg {
+  width: 15px;
+  height: 15px;
+  transition: transform 180ms ease;
+}
+
+.trigger[aria-expanded='true'] svg {
+  transform: rotate(180deg);
+}
+
+.trigger:hover,
+.trigger:focus-visible {
   background: var(--acid);
-  transform: rotate(-8deg) scale(1.08);
+  transform: translateY(-2px);
+}
+
+.menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 190px;
+  margin: 0;
+  padding: 7px;
+  list-style: none;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 11px;
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus-visible,
+.menu .current {
+  background: var(--acid);
+}
+
+.menu small {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  opacity: 0.62;
+}
+
+@media (max-width: 680px) {
+  .trigger {
+    min-width: 58px;
+    height: 38px;
+    padding-inline: 11px 8px;
+  }
+
+  .menu {
+    position: fixed;
+    top: 72px;
+    right: 14px;
+    width: min(190px, calc(100vw - 28px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trigger,
+  .trigger svg {
+    transition: none;
+  }
 }

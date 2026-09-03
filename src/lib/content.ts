@@ -1,5 +1,6 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
+import type { Locale } from '@/lib/i18n';
 
 export type Pioneer = {
   name: string;
@@ -19,8 +20,12 @@ export type DanceStep = {
 
 const recoveryRoot = path.join(process.cwd(), 'content-recovery');
 
-export async function readRecoveredPage(fileName: string) {
-  const value = await fs.readFile(path.join(recoveryRoot, 'pages', fileName), 'utf8');
+export async function readRecoveredPage(fileName: string, lang: Locale = 'en') {
+  const sourcePath = lang === 'fr'
+    ? path.join(recoveryRoot, 'translations', 'fr', fileName)
+    : path.join(recoveryRoot, 'pages', fileName);
+  const value = await fs.readFile(sourcePath, 'utf8');
+  if (lang === 'fr') return value;
   return value.replace(
     /^# .*?\n\nKälla:.*?\n\n> Automatiskt återvunnen originaltext\..*?\n\n/s,
     ''
