@@ -6,12 +6,6 @@ type Attribute = {
   text: string;
 };
 
-type MovementFamily = {
-  title: string;
-  original: string;
-  text: string;
-};
-
 type Source = {
   label: string;
   url: string;
@@ -35,9 +29,6 @@ type CampbellockJrStory = {
   equationIntro: string;
   equation: Attribute[];
   equationResult: string;
-  movementTitle: string;
-  movementIntro: string;
-  movements: MovementFamily[];
   archiveTitle: string;
   archiveIntro: string;
   openImage: string;
@@ -141,36 +132,6 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
       },
     ],
     equationResult: 'Funky Style',
-    movementTitle: 'Fem rörelsefamiljer',
-    movementIntro:
-      'Gregs text “The Locking artform and movement” sorterar materialet i fem familjer. Poängen är inte att varje del ensam är Locking, utan att konstformen uppstår när de kombineras med förståelse.',
-    movements: [
-      {
-        title: 'Improvisation och teknisk grund',
-        original: 'Improvisational Locking',
-        text: 'Locks, points, hand slaps, wrist rolls, freezes och andra grundrörelser som kan användas i fri dans.',
-      },
-      {
-        title: 'Synkroniserade Lockingsteg',
-        original: 'Synchronized Locking Steps',
-        text: 'Steg utvecklade av flera pionjärer och använda individuellt, i duos och grupper för att bygga rutiner.',
-      },
-      {
-        title: 'Stunts och tricks',
-        original: 'Show-stopping moves',
-        text: 'Splits, knee drops, dives, flips och rekvisitatrick som får sin plats i Locking när de integreras med dansens övriga språk.',
-      },
-      {
-        title: 'Sociala partydanser',
-        original: 'Social Party Dances',
-        text: 'Tidens sociala danser ger groove, timing och övergångar mellan Lockingrörelserna och håller kopplingen till dansgolvet levande.',
-      },
-      {
-        title: 'Specialiserade danser',
-        original: 'Specialty dances',
-        text: 'Robot, slow motion och mime är egna uttryck som kan vävas in för kontrast, animation och nya kombinationer.',
-      },
-    ],
     archiveTitle: 'Idéerna på papper',
     archiveIntro:
       'De bevarade illustrationerna visar hur Greg tänkte visuellt: en nyckel mellan “no lock” och “lock”, olika grader av precision, kroppens linjer samt fantasin som växer ur förmågan att känna musiken.',
@@ -256,36 +217,6 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
       },
     ],
     equationResult: 'Funky Style',
-    movementTitle: 'Five movement families',
-    movementIntro:
-      'Greg’s text “The Locking artform and movement” organizes the material into five families. The point is not that every part alone is Locking, but that the art form emerges when they are combined with understanding.',
-    movements: [
-      {
-        title: 'Improvisation and technical foundation',
-        original: 'Improvisational Locking',
-        text: 'Locks, points, hand slaps, wrist rolls, freezes and other foundational movements used within freestyle.',
-      },
-      {
-        title: 'Synchronized Locking steps',
-        original: 'Synchronized Locking Steps',
-        text: 'Steps developed by several pioneers and used by individuals, duos and groups to construct routines.',
-      },
-      {
-        title: 'Stunts and tricks',
-        original: 'Show-stopping moves',
-        text: 'Splits, knee drops, dives, flips and prop tricks that find their place in Locking when integrated with the rest of its language.',
-      },
-      {
-        title: 'Social party dances',
-        original: 'Social Party Dances',
-        text: 'The social dances of the time provide groove, timing and transitions between Locking movements while keeping the dance-floor connection alive.',
-      },
-      {
-        title: 'Specialty dances',
-        original: 'Specialty dances',
-        text: 'Robot, slow motion and mime are distinct forms that can be woven in to create contrast, animation and new combinations.',
-      },
-    ],
     archiveTitle: 'The ideas on paper',
     archiveIntro:
       'The preserved illustrations show Greg thinking visually: a key between “no lock” and “lock”, different degrees of precision, lines through the body and imagination growing from the ability to feel the music.',

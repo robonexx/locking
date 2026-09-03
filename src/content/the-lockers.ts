@@ -65,24 +65,24 @@ export const theLockersStory: Record<Locale, LockersStory> = {
         period: '1969–1972',
         title: 'Vägen fram till The Campbellockers',
         paragraphs: [
-          'Don Campbell utvecklade sin säregna dans i slutet av 1969 vid Los Angeles Trade-Technical College. Rörelsen och stilen kom att kallas The Campbellock. När Don blev en del av Soul Train-scenen och spelade in låten “The Campbellock” 1972 växte också möjligheten att presentera dansen genom en grupp.',
+          'The Lockers egen historiesida daterar Don Campbells utveckling av sin säregna dans vid Los Angeles Trade-Technical College till slutet av 1969; andra deltagarnära tidslinjer anger 1970. Rörelsen och stilen kom att kallas The Campbellock. När Don blev en del av Soul Train-scenen och spelade in låten “The Campbellock” 1972 växte också möjligheten att presentera dansen genom en grupp.',
           'Don Campbells egen tidslinje berättar också om turnéer med olika dansare kring låten. Dessa tidiga framträdanden var en föregångare till den grupp som snart skulle ta form som The Campbellockers.',
         ],
       },
       {
-        period: 'Juni 1973',
+        period: '19 juni 1973',
         title: 'The Campbellockers bildas',
         paragraphs: [
-          'Tillsammans med koreografen och managern Toni Basil samlades dansare till en tv-special med Roberta Flack på ABC. Gruppen presenterades först som The Campbell-Lockers i tryckt material och annonserades vid framträdanden som The Campbellockers.',
+          'Tillsammans med koreografen och managern Toni Basil samlades dansare till en tv-special med Roberta Flack som hade premiär på ABC den 19 juni 1973. Gruppen presenterades först som The Campbell-Lockers i tryckt material och annonserades vid framträdanden som The Campbellockers.',
           'Uppsättningen förändrades under de första framträdandena. The Lockers egen historiesida betonar att den senare fastslagna gruppen på sju personer ännu inte stod komplett tillsammans under de första programmen som The Campbellockers.',
         ],
       },
       {
-        period: 'Oktober 1973',
+        period: '23 oktober–14 december 1973',
         title: 'The Campbellockers blir The Lockers',
         paragraphs: [
           'Efter en rättighetskonflikt kring ordet Campbellock kortades gruppnamnet från The Campbellockers till The Lockers. Namnbytet behöll kopplingen till Don Campbell och dansens ursprung, samtidigt som gruppen kunde fortsätta sitt professionella arbete.',
-          'The Lockers egen historiesida daterar den officiella namnändringen till den 23 oktober 1973. Den 23 november uppträdde de sju originalmedlemmarna tillsammans under namnet The Lockers i ABC-programmet In Concert.',
+          'The Lockers egen historiesida daterar den officiella namnändringen till den 23 oktober 1973. Den 23 november uppträdde de sju originalmedlemmarna tillsammans under namnet The Lockers i ABC-programmet In Concert, och den 14 december skrev gruppen kontrakt med talangagenturen CMA.',
         ],
       },
       {
@@ -143,24 +143,24 @@ export const theLockersStory: Record<Locale, LockersStory> = {
         period: '1969–1972',
         title: 'The road to The Campbellockers',
         paragraphs: [
-          'Don Campbell developed his distinctive dance at Los Angeles Trade-Technical College in late 1969. The movement and style became known as The Campbellock. As Don joined the Soul Train scene and recorded “The Campbellock” in 1972, the possibility of presenting the dance through a group also grew.',
+          'The Lockers’ own history dates Don Campbell’s development of his distinctive dance at Los Angeles Trade-Technical College to late 1969; other participant-adjacent timelines give 1970. The movement and style became known as The Campbellock. As Don joined the Soul Train scene and recorded “The Campbellock” in 1972, the possibility of presenting the dance through a group also grew.',
           'Don Campbell’s own timeline also records tours with different dancers around the release of the song. These early performances were a precursor to the group that would soon take shape as The Campbellockers.',
         ],
       },
       {
-        period: 'June 1973',
+        period: 'June 19, 1973',
         title: 'The Campbellockers are formed',
         paragraphs: [
-          'Together with choreographer and manager Toni Basil, dancers were assembled for an ABC television special featuring Roberta Flack. The group first appeared as The Campbell-Lockers in printed material and was announced in performances as The Campbellockers.',
+          'Together with choreographer and manager Toni Basil, dancers were assembled for a television special featuring Roberta Flack that premiered on ABC on June 19, 1973. The group first appeared as The Campbell-Lockers in printed material and was announced in performances as The Campbellockers.',
           'The lineup changed during the first performances. The Lockers’ own history emphasizes that the later established group of seven did not yet appear together in full during the first programs as The Campbellockers.',
         ],
       },
       {
-        period: 'October 1973',
+        period: 'October 23–December 14, 1973',
         title: 'The Campbellockers become The Lockers',
         paragraphs: [
           'Following a rights dispute concerning the word Campbellock, the group name was shortened from The Campbellockers to The Lockers. The new name retained a connection to Don Campbell and the dance’s origin while allowing the group to continue its professional work.',
-          'The Lockers’ own history dates the official name change to October 23, 1973. On November 23, the seven original members performed together under the name The Lockers on ABC’s In Concert.',
+          'The Lockers’ own history dates the official name change to October 23, 1973. On November 23, the seven original members performed together under the name The Lockers on ABC’s In Concert, and on December 14 the group signed with talent agency CMA.',
         ],
       },
       {

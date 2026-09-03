@@ -1,12 +1,14 @@
 .intro {
-  display: flex;
-  justify-content: space-between;
-  gap: 36px;
-  align-items: end;
-  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: minmax(180px, 0.45fr) minmax(0, 1.55fr);
+  gap: clamp(32px, 7vw, 90px);
+  align-items: start;
+  margin-bottom: clamp(58px, 9vw, 100px);
 }
 
-.intro p { max-width: 620px; margin-top: 0; }
+.intro p { margin-top: 0; }
+.intro div { max-width: 820px; }
+.intro div p { font-family: Georgia, "Times New Roman", serif; font-size: 1.08rem; }
 .list { border-top: 2px solid var(--ink); }
 
 .item {
@@ -30,8 +32,116 @@
 
 .item p:last-child { max-width: 760px; }
 
+.framework {
+  margin-block: clamp(70px, 10vw, 120px);
+  padding: clamp(28px, 6vw, 70px);
+  color: var(--white);
+  background: var(--ink);
+  border-block: 12px solid var(--orange);
+}
+
+.frameworkHeading { margin-bottom: 50px; }
+.frameworkHeading h2 {
+  max-width: 900px;
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.frameworkHeading > p:last-child { max-width: 780px; font-family: Georgia, "Times New Roman", serif; font-size: 1.06rem; }
+
+.frameworkLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: clamp(34px, 6vw, 76px);
+  align-items: start;
+}
+
+.frameworkList {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.frameworkCard {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 18px;
+  padding: 24px;
+  color: var(--ink);
+  background: var(--white);
+  border: 2px solid var(--ink);
+}
+
+.frameworkCard:nth-child(odd) { background: var(--paper-deep); }
+.frameworkCard:last-child { color: var(--white); background: var(--violet); border-color: var(--white); }
+.frameworkCard > span { color: var(--violet); font-family: var(--display); font-size: 1.35rem; }
+.frameworkCard:last-child > span,
+.frameworkCard:last-child div > p:first-child { color: var(--acid); }
+.frameworkCard div > p:first-child {
+  margin: 0 0 4px;
+  color: var(--violet);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.frameworkCard h3 {
+  margin: 0 0 10px;
+  font-family: var(--display);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.frameworkCard div > p:last-child { margin: 0; }
+
+.document {
+  position: sticky;
+  top: 110px;
+  min-width: 0;
+  margin: 0;
+  padding: 14px;
+  color: var(--ink);
+  background: var(--white);
+  border: 2px solid var(--ink);
+  box-shadow: 11px 12px 0 var(--acid);
+  transform: rotate(0.8deg);
+}
+
+.document a { display: block; color: var(--ink); text-decoration: none; }
+.document img { display: block; width: 100%; height: auto; }
+.document a > span {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 6px 2px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.document svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.document figcaption { padding: 13px 6px 2px; color: rgba(28, 27, 34, 0.68); font-size: 0.8rem; }
+.listNote { max-width: 760px; margin: 36px 0 0; font-style: italic; }
+
 @media (max-width: 680px) {
-  .intro { display: block; }
+  .intro,
+  .frameworkLayout { grid-template-columns: minmax(0, 1fr); }
   .intro :global(.eyebrow) { margin-bottom: 12px; }
   .item { grid-template-columns: 48px 1fr; gap: 14px; }
+  .framework { margin-inline: calc((var(--shell) - 100vw) / 2); padding-inline: 22px; }
+  .frameworkHeading h2 { overflow-wrap: anywhere; font-size: clamp(2.55rem, 13vw, 4rem); }
+  .frameworkCard { grid-template-columns: 42px minmax(0, 1fr); gap: 10px; padding: 20px 16px; }
+  .document { position: static; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .document { transform: none; }
 }

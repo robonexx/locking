@@ -64,6 +64,9 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
     case 'timeline':
       content = <TimelinePage lang={lang} />;
       break;
+    case 'stories':
+      content = null;
+      break;
     default:
       content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source) : ''} lang={lang} />;
   }
@@ -71,7 +74,7 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
   return (
     <article>
       <PageHero page={page} lang={lang} />
-      <div className={`shell section-space ${styles.content}`}>{content}</div>
+      {content && <div className={`shell section-space ${styles.content}`}>{content}</div>}
     </article>
   );
 }

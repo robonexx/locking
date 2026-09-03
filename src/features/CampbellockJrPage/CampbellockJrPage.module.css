@@ -91,8 +91,7 @@
   font-size: 1.1rem;
 }
 
-.attributes,
-.movements { margin-top: clamp(120px, 16vw, 190px); }
+.attributes { margin-top: clamp(120px, 16vw, 190px); }
 
 .sectionHeading {
   display: grid;
@@ -114,8 +113,7 @@
 .sectionHeading h2 { max-width: 920px; font-size: clamp(3rem, 7vw, 6rem); }
 .sectionHeading p { max-width: 800px; margin: 22px 0 0; font-size: 1.06rem; }
 
-.frameworkGrid,
-.movementLayout {
+.frameworkGrid {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: clamp(34px, 6vw, 76px);
@@ -164,8 +162,7 @@
 .equationImage svg,
 .archiveGrid svg { width: 18px; height: 18px; flex: 0 0 auto; }
 
-.attributeList,
-.movementList {
+.attributeList {
   display: grid;
   gap: 16px;
   margin: 0;
@@ -173,8 +170,7 @@
   list-style: none;
 }
 
-.attributeCard,
-.movementCard {
+.attributeCard {
   display: grid;
   grid-template-columns: 58px minmax(0, 1fr);
   gap: 18px;
@@ -184,15 +180,13 @@
 }
 
 .attributeCard:nth-child(2n) { box-shadow: 7px 7px 0 var(--acid); }
-.attributeCard > span,
-.movementCard > span {
+.attributeCard > span {
   color: var(--violet);
   font-family: var(--display);
   font-size: 1.35rem;
 }
 
-.attributeCard div > p:first-child,
-.movementCard div > p:first-child {
+.attributeCard div > p:first-child {
   margin: 0 0 4px;
   color: var(--violet);
   font-size: 0.72rem;
@@ -201,8 +195,7 @@
   text-transform: uppercase;
 }
 
-.attributeCard h3,
-.movementCard h3 {
+.attributeCard h3 {
   margin: 0 0 10px;
   font-family: var(--display);
   font-size: clamp(1.8rem, 3vw, 2.6rem);
@@ -210,8 +203,7 @@
   text-transform: uppercase;
 }
 
-.attributeCard div > p:last-child,
-.movementCard div > p:last-child { margin: 0; }
+.attributeCard div > p:last-child { margin: 0; }
 
 .equationSection {
   display: grid;
@@ -291,13 +283,6 @@
   transform: rotate(1.4deg);
 }
 
-.movementLayout { grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); }
-.movementCard:nth-child(odd) { background: var(--paper-deep); }
-.movementCard:last-child { color: var(--white); background: var(--ink); }
-.movementCard:last-child > span,
-.movementCard:last-child div > p:first-child { color: var(--acid); }
-.movementDocument { position: sticky; top: 110px; transform: rotate(0.8deg); box-shadow: 11px 12px 0 var(--orange); }
-
 .archive {
   margin-top: clamp(120px, 16vw, 190px);
   padding: clamp(30px, 6vw, 70px);
@@ -325,13 +310,11 @@
 @media (max-width: 860px) {
   .mentor,
   .frameworkGrid,
-  .equationSection,
-  .movementLayout { grid-template-columns: minmax(0, 1fr); }
+  .equationSection { grid-template-columns: minmax(0, 1fr); }
 
   .mentorPortrait { max-width: 430px; min-height: 0; }
   .document,
   .equationImage { max-width: 620px; margin-inline: auto; transform: none; }
-  .movementDocument { position: static; }
   .archiveGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -345,8 +328,7 @@
   .archive h2 { overflow-wrap: anywhere; font-size: clamp(2.55rem, 13vw, 4rem); }
 
   .sectionHeading { grid-template-columns: 1fr; gap: 10px; }
-  .attributeCard,
-  .movementCard { grid-template-columns: 42px minmax(0, 1fr); gap: 10px; padding: 20px 16px; }
+  .attributeCard { grid-template-columns: 42px minmax(0, 1fr); gap: 10px; padding: 20px 16px; }
   .equationPart { grid-template-columns: 66px minmax(0, 1fr); }
   .archiveGrid { grid-template-columns: minmax(0, 1fr); }
   .archiveGrid figure:nth-child(even) { margin-top: 0; }

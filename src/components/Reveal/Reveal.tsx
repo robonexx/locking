@@ -4,7 +4,7 @@ import type { CSSProperties, ReactNode } from 'react';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Reveal.module.css';
 
-type RevealElement = 'div' | 'section' | 'article' | 'aside' | 'li';
+type RevealElement = 'div' | 'section' | 'article' | 'aside' | 'figure' | 'li';
 
 type RevealProps = {
   as?: RevealElement;

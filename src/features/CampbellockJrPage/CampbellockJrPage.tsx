@@ -125,43 +125,6 @@ export function CampbellockJrPage({ lang }: { lang: Locale }) {
         </div>
       </Reveal>
 
-      <section className={styles.movements}>
-        <Reveal className={styles.sectionHeading} distance="short">
-          <span>05</span>
-          <div>
-            <h2>{story.movementTitle}</h2>
-            <p>{story.movementIntro}</p>
-          </div>
-        </Reveal>
-
-        <div className={styles.movementLayout}>
-          <ol className={styles.movementList}>
-            {story.movements.map((movement, index) => (
-              <Reveal as="li" className={styles.movementCard} delay={(index % 2) * 60} key={movement.title}>
-                <span>{String(index + 1).padStart(2, '0')}</span>
-                <div>
-                  <p>{movement.original}</p>
-                  <h3>{movement.title}</h3>
-                  <p>{movement.text}</p>
-                </div>
-              </Reveal>
-            ))}
-          </ol>
-          <Reveal className={`${styles.document} ${styles.movementDocument}`} distance="short">
-            <a href="/media/campbellock-jr/movement-categories.jpg" target="_blank" rel="noreferrer">
-              <Image
-                src="/media/campbellock-jr/movement-categories.jpg"
-                alt="Greg Campbellock Jr:s text The Locking artform and movement"
-                width={1820}
-                height={2507}
-                sizes="(max-width: 860px) calc(100vw - 40px), 42vw"
-              />
-              <span>{story.openImage}<ArrowUpRight aria-hidden="true" /></span>
-            </a>
-          </Reveal>
-        </div>
-      </section>
-
       <Reveal as="section" className={styles.archive}>
         <p className="eyebrow">Greg Campbellock Jr. &amp; Associates</p>
         <h2>{story.archiveTitle}</h2>

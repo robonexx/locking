@@ -43,7 +43,7 @@ export const timelineContent: Record<Locale, TimelineContent> = {
     peopleLabel: 'Namn i diagrammet',
     sourceTitle: 'Om originaldiagrammet',
     sourceText: [
-      'Originalet innehåller specifika datum, namnlistor och undervisningslinjer. Det är en viktig deltagarnära källa, men en sådan karta är inte samma sak som en slutgiltig historisk facitlista. Minnesbilder, stavningar och dateringar kan skilja sig mellan förstahandsberättelser.',
+      'Originalet innehåller specifika datum, namnlistor och undervisningslinjer. Det är en viktig deltagarnära källa, men en sådan karta är inte samma sak som en slutgiltig historisk facitlista. Exempelvis anger diagrammet juli 1970 för The Campbellocks början, medan The Lockers dokumentbaserade historiesida anger slutet av 1969. Minnesbilder, stavningar och dateringar kan skilja sig mellan källor.',
       'Nedan kan du öppna båda diagramsidorna i full storlek eller ladda ned PDF-originalet. På så sätt går det alltid att jämföra webbversionens sammanfattningar med källmaterialet.',
     ],
     openImage: 'Öppna sidan i full storlek',
@@ -205,7 +205,7 @@ export const timelineContent: Record<Locale, TimelineContent> = {
     peopleLabel: 'Names in the chart',
     sourceTitle: 'About the original chart',
     sourceText: [
-      'The original contains specific dates, name lists and teaching lineages. It is an important participant-adjacent source, but no single chart is a final historical record. Memories, spellings and dates can differ across first-hand accounts.',
+      'The original contains specific dates, name lists and teaching lineages. It is an important participant-adjacent source, but no single chart is a final historical record. For example, the chart dates the beginning of The Campbellock to July 1970, while The Lockers’ document-based history gives late 1969. Memories, spellings and dates can differ across sources.',
       'You can open both chart pages at full size or download the original PDF below, making it possible to compare this editorial version with the source material.',
     ],
     openImage: 'Open page at full size',

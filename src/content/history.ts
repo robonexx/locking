@@ -22,15 +22,15 @@ type HistoryStory = {
 export const lockingHistory: Record<Locale, HistoryStory> = {
   sv: {
     intro:
-      'Locking växte fram ur afroamerikanska sociala dansmiljöer och 1970-talets funkkultur i Los Angeles. Det här är inte historien om ett färdigt rörelsespråk som uppstod på en dag, utan om en personlig stil som mötte ett levande dansgolv och utvecklades genom många människors kreativitet.',
+      'Locking växte fram ur afroamerikanska sociala dansmiljöer och funkkulturen i Los Angeles kring skiftet mellan 1960- och 1970-talet. Det här är inte historien om ett färdigt rörelsespråk som uppstod på en dag, utan om en personlig stil som mötte ett levande dansgolv och utvecklades genom många människors kreativitet.',
     originTitle: 'Don Campbell och The Campbellock',
     origin: [
-      'Don Campbell skapade det uttryck som först kallades The Campbellock. Hans plötsliga stopp, rytmiska pauser, blickar, pekningar och stora gester blev ett eget sätt att svara på musiken och publiken. Där börjar berättelsen om Locking.',
+      'Don Campbell skapade det uttryck som först kallades The Campbellock vid Los Angeles Trade-Technical College. The Lockers egen historiesida daterar början till slutet av 1969, medan andra deltagarnära tidslinjer anger 1970. Hans plötsliga stopp, rytmiska pauser, blickar, pekningar och stora gester blev ett eget sätt att svara på musiken och publiken. Där börjar berättelsen om Locking.',
       'Stilen formades inte i ett vakuum. Den bar med sig tidens sociala partydanser, soul, funk, improvisation, humor och den stolthet som präglade många afroamerikanska mötesplatser i Los Angeles. Don var upphovspersonen, medan mötena med andra dansare gjorde uttrycket större, rikare och möjligt att föra vidare.',
     ],
     sections: [
       {
-        period: 'Tidigt 1970-tal',
+        period: '1969–1971',
         title: 'Klubbarna och den ursprungliga scenen',
         paragraphs: [
           'På platser som The Citadel, The Summit on the Hill och Maverick’s Flat möttes dansare från bland annat Watts, South Central, Compton och Inglewood. Där delades idéer, steg, attityd och musikalitet. Varje dansare hade sin karaktär, och improvisationen var central.',
@@ -38,10 +38,10 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
         ],
       },
       {
-        period: 'Soul Train',
+        period: 'Från 2 oktober 1971',
         title: 'Ett lokalt uttryck blir synligt',
         paragraphs: [
-          'Soul Train gav dansarna och musiken en scen inför en mycket större publik. Lock, points, hand slaps, splits och starka individuella karaktärer blev synliga långt utanför de klubbar där stilen hade vuxit fram.',
+          'Den 2 oktober 1971 började Soul Train sändas nationellt från Los Angeles. Programmet gav dansarna och musiken en scen inför en mycket större publik. Locks, points, hand slaps, splits och starka individuella karaktärer blev synliga långt utanför de klubbar där stilen hade vuxit fram.',
           'TV-exponeringen spred inspiration, men en bild på en skärm kunde inte bära hela den sociala kunskapen. Därför behöver stegen alltid förstås tillsammans med människorna, platserna, musiken och den kultur som gav dem mening.',
         ],
       },
@@ -49,8 +49,8 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
         period: '1972–1973',
         title: 'Från individuella stilar till grupper',
         paragraphs: [
-          'GoGo Brothers och den större GoGo/YoYo-familjen utvecklade synkroniserade steg, handskakningar, sketcher och rutiner. Creative Generation samlade därefter kvinnliga och manliga dansare genom Watts Writers Workshop och förde samman undervisning, scenarbete och gemenskap.',
-          'Sommaren 1973 organiserade Don Campbell och Toni Basil gruppen som först presenterades som The Campbellockers och sedan blev The Lockers. Gruppen förenade starka solister med koreografi och scenisk precision. Genom TV, shower och turnéer blev The Lockers en avgörande länk mellan den lokala rörelsen och en internationell publik.',
+          'GoGo Brothers och den större GoGo/YoYo-familjen utvecklade synkroniserade steg, handskakningar, sketcher och rutiner. Under 1972 och in i 1973 samlade Creative Generation kvinnliga och manliga dansare genom Watts Writers Workshop och förde samman undervisning, scenarbete och gemenskap.',
+          'Enligt The Lockers egen historiesida framträdde gruppen som blev The Lockers i en ABC-special med Roberta Flack den 19 juni 1973. Den annonserades först som The Campbellockers medan uppsättningen fortfarande förändrades. Samma källa daterar det officiella namnbytet till den 23 oktober, de sju originalmedlemmarnas gemensamma framträdande under namnet The Lockers till den 23 november och CMA-kontraktet till den 14 december 1973.',
         ],
       },
       {
@@ -72,7 +72,7 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
     ],
     worldTitle: 'Locking får lokala historier',
     world: [
-      'I dag finns starka Locking-kulturer i bland annat Japan, Korea, Frankrike, Sverige, Spanien och många andra länder. Varje plats har sin egen berättelse: vem som först visade dansen, vilka som sökte kunskap vid källan, vilka crews och klubbar som byggde en scen och vilka events som samlade nästa generation.',
+      'I dag finns starka Locking-kulturer i bland annat Japan, Storbritannien, Frankrike, Danmark, Sverige, Korea, Brasilien, Tyskland, Nederländerna, Kina och många andra länder. Varje plats har sin egen berättelse: vem som först visade dansen, vilka som sökte kunskap vid källan, vilka crews och klubbar som byggde en scen och vilka events som samlade nästa generation.',
       'De lokala berättelserna är också värda att dokumentera. De visar hur en kultur färdas, tolkas och får nya uttryck, samtidigt som kopplingen till ursprunget kan bevaras. Sveriges historia är därför en del av Lockingens fortsatta resa, inte en ersättning för historien från Los Angeles.',
     ],
     distinctionTitle: 'Pionjär – men i vilket sammanhang?',
@@ -82,7 +82,7 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
     ],
     sourceNoteTitle: 'En levande historia',
     sourceNote:
-      'Historien bygger på dokumentation, förstahandsberättelser och minnen som ibland skiljer sig åt. Sidan kommer därför att fortsätta utvecklas när fler röster, källor och lokala berättelser tillkommer.',
+      'Historien bygger på dokumentation, förstahandsberättelser och minnen som ibland skiljer sig åt. Pionjär-, grupp- och familjedrivna webbplatser är värdefulla deltagarnära källor men kan också representera ett särskilt perspektiv; exakta datum och upphovsuppgifter behöver därför jämföras med fler oberoende dokument. Sidan fortsätter att utvecklas när fler röster och källor tillkommer.',
     sourcesTitle: 'Källor och vidare läsning',
     sources: [
       { label: 'LockerLegends – Our Story of the History of Locking', url: 'https://www.lockerlegends.net/history-of-locking/' },
@@ -93,15 +93,15 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
   },
   en: {
     intro:
-      'Locking grew from African American social dance spaces and the funk culture of 1970s Los Angeles. It was not a finished vocabulary invented in one day, but a personal style meeting a living dance floor and expanding through the creativity of many people.',
+      'Locking grew from African American social dance spaces and the funk culture of Los Angeles around the turn of the 1970s. It was not a finished vocabulary invented in one day, but a personal style meeting a living dance floor and expanding through the creativity of many people.',
     originTitle: 'Don Campbell and The Campbellock',
     origin: [
-      'Don Campbell created the expression first called The Campbellock. His sudden stops, rhythmic pauses, looks, points and large gestures became a distinct way of answering the music and the audience. This is where the story of Locking begins.',
+      'Don Campbell created the expression first called The Campbellock at Los Angeles Trade-Technical College. The Lockers’ own history dates its beginning to late 1969, while other participant-adjacent timelines give 1970. His sudden stops, rhythmic pauses, looks, points and large gestures became a distinct way of answering the music and the audience. This is where the story of Locking begins.',
       'The style carried the social party dances, soul, funk, improvisation, humour and pride found in many African American gathering places in Los Angeles. Don was the originator; encounters with other dancers made the form larger, richer and possible to pass on.',
     ],
     sections: [
       {
-        period: 'Early 1970s',
+        period: '1969–1971',
         title: 'The clubs and the original scene',
         paragraphs: [
           'At places including The Citadel, The Summit on the Hill and Maverick’s Flat, dancers from Watts, South Central, Compton, Inglewood and beyond exchanged ideas, steps, attitude and musicality. Each dancer had a character of their own, and improvisation was central.',
@@ -109,10 +109,10 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
         ],
       },
       {
-        period: 'Soul Train',
+        period: 'From October 2, 1971',
         title: 'A local expression becomes visible',
         paragraphs: [
-          'Soul Train gave the dancers and the music a much larger stage. Locks, points, hand slaps, splits and strong individual characters became visible far beyond the clubs where the style had grown.',
+          'On October 2, 1971, Soul Train began its national run from Los Angeles. The program gave the dancers and the music a much larger stage. Locks, points, hand slaps, splits and strong individual characters became visible far beyond the clubs where the style had grown.',
           'Television spread inspiration, but an image on a screen could not carry all of the social knowledge. The steps therefore belong together with the people, places, music and culture that gave them meaning.',
         ],
       },
@@ -120,8 +120,8 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
         period: '1972–1973',
         title: 'From individual styles to groups',
         paragraphs: [
-          'The GoGo Brothers and the wider GoGo/YoYo family developed synchronized steps, handshakes, skits and routines. Creative Generation then brought women and men together through the Watts Writers Workshop, joining teaching, performance and community.',
-          'In the summer of 1973, Don Campbell and Toni Basil organized the group first presented as The Campbellockers and later known as The Lockers. The group joined powerful soloists with choreography and stage precision, becoming an important bridge between the local movement and an international audience.',
+          'The GoGo Brothers and the wider GoGo/YoYo family developed synchronized steps, handshakes, skits and routines. During 1972 and into 1973, Creative Generation brought women and men together through the Watts Writers Workshop, joining teaching, performance and community.',
+          'According to The Lockers’ own history, the group that became The Lockers appeared in an ABC special featuring Roberta Flack on June 19, 1973. It was first announced as The Campbellockers while the lineup was still changing. The same source dates the official name change to October 23, the seven original members’ joint performance under The Lockers name to November 23, and the CMA contract to December 14, 1973.',
         ],
       },
       {
@@ -143,7 +143,7 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
     ],
     worldTitle: 'Locking develops local histories',
     world: [
-      'Today there are strong Locking cultures in Japan, Korea, France, Sweden, Spain and many other countries. Each place has its own story: who first showed the dance, who sought knowledge at the source, which crews and clubs built a scene and which events gathered the next generation.',
+      'Today there are strong Locking cultures in Japan, the United Kingdom, France, Denmark, Sweden, Korea, Brazil, Germany, the Netherlands, China and many other countries. Each place has its own story: who first showed the dance, who sought knowledge at the source, which crews and clubs built a scene and which events gathered the next generation.',
       'These local stories also deserve documentation. They show how a culture travels, is interpreted and finds new expressions while its connection to the origin can be preserved. Sweden’s history is therefore part of Locking’s continuing journey, not a replacement for its Los Angeles origin story.',
     ],
     distinctionTitle: 'A pioneer—but in which context?',
@@ -153,7 +153,7 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
     ],
     sourceNoteTitle: 'A living history',
     sourceNote:
-      'This history draws on documentation, first-hand accounts and memories that do not always agree. The page will keep developing as more voices, sources and local histories are added.',
+      'This history draws on documentation, first-hand accounts and memories that do not always agree. Pioneer-, group- and family-run websites are valuable participant-adjacent sources, but they may also represent a particular perspective; exact dates and creator claims should therefore be compared with further independent records. This page will keep developing as more voices and sources are added.',
     sourcesTitle: 'Sources and further reading',
     sources: [
       { label: 'LockerLegends – Our Story of the History of Locking', url: 'https://www.lockerlegends.net/history-of-locking/' },

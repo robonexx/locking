@@ -187,13 +187,12 @@ export const contentPages: ContentPage[] = [
   },
   {
     slug: 'stories',
-    source: 'blog-index.md',
     image: '/media/interview.webp',
     kicker: { sv: 'Röster från kulturen', en: 'Voices from the culture' },
     title: { sv: 'Intervjuer & artiklar', en: 'Interviews & articles' },
     summary: {
-      sv: 'Det här blir den redaktionella delen som senare kopplas till det lilla CMS:et.',
-      en: 'This will become the editorial section connected to the small CMS later.',
+      sv: 'Coming soon.',
+      en: 'Coming soon.',
     },
     group: 'main',
   },
