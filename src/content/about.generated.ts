@@ -57,7 +57,8 @@ export const aboutSv = {
         "Vi tränade tillsammans, uppträdde, undervisade, reste och fortsatte framför allt att söka efter mer kunskap om Locking.",
         "Det var också under den här perioden som kontakten med dansens ursprung började komma allt närmare.",
         "Vi fick kontakt med Don Campbell själv."
-      ]
+      ],
+      "media": [{ "src": "/media/about/funkademics-performance.jpg", "alt": "Funkademics under ett framträdande", "caption": "Funkademics under ett framträdande." }]
     },
     {
       "period": "2004",
@@ -72,6 +73,11 @@ export const aboutSv = {
         "Plötsligt var det inte längre namn på ett VHS-band.",
         "Det var människor framför oss, med egna röster, historier, personligheter och olika perspektiv på samma kultur.",
         "Något förändrades för mig där."
+      ],
+      "media": [
+        { "src": "/media/about/los-angeles-2004-funkademics-don.jpg", "alt": "Funkademics tillsammans med Don Campbell i Los Angeles 2004", "caption": "Funkademics tillsammans med Don Campbell i Los Angeles, 2004." },
+        { "src": "/media/about/los-angeles-2004-oskar-manne-sundance-cracker-jack.jpg", "alt": "Oskar, Manne, Sundance och Cracker Jack i Los Angeles 2004", "caption": "Oskar, Manne, Sundance och Cracker Jack i Los Angeles, 2004." },
+        { "src": "/media/about/los-angeles-2004-chain-reaction.jpg", "alt": "Chain Reaction tillsammans med Robert Rob-One Wägar, Oskar och Charlie i Los Angeles 2004", "caption": "Chain Reaction tillsammans med Robert “Rob-One” Wägar, Oskar och Charlie i Los Angeles, 2004." }
       ]
     },
     {
@@ -81,18 +87,7 @@ export const aboutSv = {
         "När vi kom hem från Los Angeles var vi inspirerade. Väldigt inspirerade.",
         "Vi började lägga ännu mer tid på Original Style Locking, på grunderna, musiken, känslan och historien bakom rörelserna. Vi tränade mycket och började också undervisa mer.",
         "Det handlade inte längre bara om att kunna göra steg.",
-        "Jag ville förstå varför de såg ut som de gjorde, vem de kom ifrån och vilket sammanhang de hade vuxit fram ur.",
-        "Ungefär samtidigt, under 2004–2005, växte en ny generation fram i Sverige.",
-        "Fyra unga dansare bildade Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist och Joel Mäki.",
-        "De var unga, hungriga och passionerade för Locking och gav den svenska scenen en ny energi. Vi reste bland annat till Frankrike, och det blev tydligt att den svenska Locking-scenen började få en helt annan rörelse och kontakt med världen utanför Sverige.",
-        "De kom att göra ett stort avtryck, inte bara här hemma utan även internationellt."
-      ],
-      "media": [
-        {
-          "src": "/media/about/funky-paris-2006.jpg",
-          "alt": "Funky 4 Brothers tillsammans i Paris 2006",
-          "caption": "Funky 4 Brothers i Paris, 2006."
-        }
+        "Jag ville förstå varför de såg ut som de gjorde, vem de kom ifrån och vilket sammanhang de hade vuxit fram ur."
       ]
     },
     {
@@ -107,6 +102,25 @@ export const aboutSv = {
         "Vi hade redan träffat Don Campbell i Los Angeles året innan, men flera personer hade också rekommenderat att vi skulle lära från Greg och Skeeter.",
         "FunkCamp blev därför aldrig bara ett dansläger för mig. Det blev en plats för kunskapsöverföring.",
         "Klasser var naturligtvis en stor del av det, men minst lika viktigt var samtalen, historierna, musiken, jamsen och tiden mellan klasserna. Att faktiskt få sitta ner med människor och höra deras version av det som hänt gav en helt annan förståelse än att bara kopiera rörelser från en video."
+      ],
+      "mediaAfterParagraph": 2,
+      "media": [
+        { "src": "/media/about/funkcamp-2005-group.jpg", "alt": "Deltagare samlade på det första FunkCamp 2005", "caption": "Deltagare och gäster samlade på det första FunkCamp, 2005." },
+        { "src": "/media/about/funkcamp-2005-rob-greg-skeeter.jpg", "alt": "Greg Campbellock Jr Pope, Robert Rob-One Wägar och O.G. Skeeter Rabbit på FunkCamp 2005", "caption": "Greg “Campbellock Jr.” Pope, Robert “Rob-One” Wägar och O.G. Skeeter Rabbit på FunkCamp, 2005." }
+      ]
+    },
+    {
+      "period": "2004–2006",
+      "title": "Funky 4 Brothers och en ny generation",
+      "paragraphs": [
+        "Ungefär samtidigt, under 2004–2005, växte en ny generation fram i Sverige.",
+        "Fyra unga dansare bildade Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist och Joel Mäki.",
+        "De var unga, hungriga och passionerade för Locking och gav den svenska scenen en ny energi. Vi reste bland annat till Juste Debout i Paris 2006, och det blev tydligt att den svenska Locking-scenen började få en helt annan rörelse och kontakt med världen utanför Sverige.",
+        "De kom att göra ett stort avtryck, inte bara här hemma utan även internationellt."
+      ],
+      "media": [
+        { "src": "/media/about/funky-paris-2006.jpg", "alt": "Funky 4 Brothers på Juste Debout i Paris 2006", "caption": "Funky 4 Brothers på Juste Debout i Paris, 2006." },
+        { "src": "/media/about/paris-2006-funky-4-rob.jpg", "alt": "Funky 4 Brothers tillsammans med Robert Rob-One Wägar på Juste Debout i Paris 2006", "caption": "Funky 4 Brothers tillsammans med Robert “Rob-One” Wägar på Juste Debout i Paris, 2006." }
       ]
     },
     {
@@ -152,6 +166,21 @@ export const aboutSv = {
           "src": "/media/about/generations-arnetta-rob.jpg",
           "alt": "Arnetta Johnson och Robert Rob-One Wägar på Generations",
           "caption": "Arnetta Johnson och Robert “Rob-One” Wägar på Generations i Los Angeles."
+        },
+        {
+          "src": "/media/about/vegas-2011-group.jpg",
+          "alt": "Abdul, Robert Rob-One Wägar, Scoo B Doo, Nathan, Tash och Jr Boogaloo i Las Vegas 2011",
+          "caption": "Abdul, Robert “Rob-One” Wägar, Scoo B Doo, Nathan, Tash och Jr Boogaloo i Las Vegas, 2011."
+        },
+        {
+          "src": "/media/about/gogo-yoyo-brothers.jpg",
+          "alt": "GoGo och YoYo Brothers under USA-resan 2011",
+          "caption": "GoGo och YoYo Brothers under USA-resan, 2011."
+        },
+        {
+          "src": "/media/about/on-the-one-skeeter-caboose-tony-fluky-luke.jpg",
+          "alt": "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo och Fluky Luke vid On The One",
+          "caption": "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo och Fluky Luke vid On The One i Los Angeles, 2011."
         }
       ]
     },
@@ -191,7 +220,7 @@ export const aboutSv = {
     "Inte för att frysa den.",
     "Inte för att säga att det bara finns en version.",
     "Utan för att historier försvinner om ingen frågar, dokumenterar och fortsätter samtalet.",
-    "Jag vill lyfta människornas egna berättelser och dansen som den faktiskt är för mig: energifylld, funkig, rå, lekfull och skapad av människor.",
+    "Jag vill lyfta människornas egna berättelser och dansen som den faktiskt är för mig: energifylld, funkig, rå, lekfull och skapad inom afroamerikanska gemenskaper i USA.",
     "Från sociala dansgolv och klubbar till dansskolor, battles och stora internationella events.",
     "Förhoppningen är att sidan fortsätter växa med fler intervjuer, fler perspektiv, fler länder och fler människors personliga koppling till Locking."
   ],
@@ -214,8 +243,9 @@ export const aboutSv = {
     "Jag har säkert glömt namn, årtal, events eller människor som borde ha nämnts. Om du är en av dem ber jag om ursäkt – det är aldrig min mening att skriva bort någon ur historien.",
     "Hör gärna av er om något saknas, behöver rättas eller om ni har material och berättelser som kan bidra. Locking.se kan och ska fortsätta uppdateras.",
     "Mer kunskap. Mer respekt. Mer kärlek och soul.",
-    "Till döden skiljer oss åt.",
-    "— Robert “Rob-One” Wägar"
+    "Keep on keepin’ on.",
+    "Educate before you Recreate.",
+    "/ Robert “Rob-One” Wägar"
   ]
 } as const;
 
@@ -262,7 +292,8 @@ export const aboutEn = {
       paragraphs: [
         "In the early 2000s we formed Funktastics, which later became Funkademics. The group included me, Manne, Oskar, Charlie, Patrik, Isse, Karim, and Lil-Putte, among others.",
         "We trained, performed, taught, travelled, and above all continued searching for deeper knowledge of Locking. During this period, contact with the dance’s origins began to feel much closer. We made contact with Don Campbell himself."
-      ]
+      ],
+      media: [{ src: "/media/about/funkademics-performance.jpg", alt: "Funkademics performing", caption: "Funkademics performing." }]
     },
     {
       period: "2004",
@@ -271,21 +302,19 @@ export const aboutEn = {
         "In 2004 we travelled to Los Angeles. We took a class with Don Campbell, the creator of Campbellocking, and encountered in person a reality we had previously known mainly through videotapes, stories, and fragments of information.",
         "Through a contact Charlie had made, we also took a class with Chain Reaction, including T-Bopper and Cool Pockets. We met Flo-Master and Sundance and watched Tash, Jimmy Soul, P-Lock, Loose Caboose, Frank Ejara, and many others dance in the circles.",
         "Most powerful of all was standing in the same room as the people behind so much of the history we had tried to understand. A panel included Don Campbell, Greg “Campbellock Jr.” Pope, O.G. Skeeter Rabbit, Tony GoGo, and Tony’s sons. They were no longer names on a VHS tape, but people in front of us with their own voices, stories, personalities, and different perspectives on the same culture. Something changed for me there."
+      ],
+      media: [
+        { src: "/media/about/los-angeles-2004-funkademics-don.jpg", alt: "Funkademics with Don Campbell in Los Angeles in 2004", caption: "Funkademics with Don Campbell in Los Angeles, 2004." },
+        { src: "/media/about/los-angeles-2004-oskar-manne-sundance-cracker-jack.jpg", alt: "Oskar, Manne, Sundance, and Cracker Jack in Los Angeles in 2004", caption: "Oskar, Manne, Sundance, and Cracker Jack in Los Angeles, 2004." },
+        { src: "/media/about/los-angeles-2004-chain-reaction.jpg", alt: "Chain Reaction with Robert Rob-One Wägar, Oskar, and Charlie in Los Angeles in 2004", caption: "Chain Reaction with Robert “Rob-One” Wägar, Oskar, and Charlie in Los Angeles, 2004." }
       ]
     },
     {
       period: "2004–2006",
       title: "Home from LA — back to the foundations",
       paragraphs: [
-        "We returned from Los Angeles deeply inspired and spent even more time on Original Style Locking: the foundations, the music, the feeling, and the history behind the movements. It was no longer enough merely to perform the steps. I wanted to understand why they looked the way they did, who they came from, and the context in which they had grown.",
-        "At the same time, around 2004–2005, a new generation emerged in Sweden. Four young dancers formed Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist, and Joel Mäki. They were young, hungry, and passionate about Locking, bringing new energy to the Swedish scene.",
-        "We travelled to France, among other places, and it became clear that Swedish Locking was developing a new momentum and a stronger connection with the world beyond Sweden. Funky 4 Brothers made a major impact both at home and internationally."
-      ],
-      media: [{
-        src: "/media/about/funky-paris-2006.jpg",
-        alt: "Funky 4 Brothers together in Paris in 2006",
-        caption: "Funky 4 Brothers in Paris, 2006."
-      }]
+        "We returned from Los Angeles deeply inspired and spent even more time on Original Style Locking: the foundations, the music, the feeling, and the history behind the movements. It was no longer enough merely to perform the steps. I wanted to understand why they looked the way they did, who they came from, and the context in which they had grown."
+      ]
     },
     {
       period: "2005",
@@ -294,6 +323,23 @@ export const aboutEn = {
         "In 2005 Greg “Campbellock Jr.” Pope and O.G. Skeeter Rabbit came to Sweden for the first time. We could learn directly from two people who had lived the culture and taken part in its history. It was also the year I founded FunkCamp.",
         "The idea was simple: if we wanted to understand Locking for real, we needed to meet the people who had lived it, danced it, developed it, and carried its history forward. We had met Don Campbell in Los Angeles the year before, and several people had also recommended that we learn from Greg and Skeeter.",
         "For me, FunkCamp was never only a dance camp. It became a place for passing on knowledge. Classes were central, but so were conversations, stories, music, jams, and the time between classes. Sitting down with people and hearing their account of events created an entirely different understanding from copying movements from a video."
+      ],
+      mediaAfterParagraph: 0,
+      media: [
+        { src: "/media/about/funkcamp-2005-group.jpg", alt: "Participants gathered at the first FunkCamp in 2005", caption: "Participants and guests gathered at the first FunkCamp, 2005." },
+        { src: "/media/about/funkcamp-2005-rob-greg-skeeter.jpg", alt: "Greg Campbellock Jr Pope, Robert Rob-One Wägar, and O.G. Skeeter Rabbit at FunkCamp in 2005", caption: "Greg “Campbellock Jr.” Pope, Robert “Rob-One” Wägar, and O.G. Skeeter Rabbit at FunkCamp, 2005." }
+      ]
+    },
+    {
+      period: "2004–2006",
+      title: "Funky 4 Brothers and a new generation",
+      paragraphs: [
+        "At the same time, around 2004–2005, a new generation emerged in Sweden. Four young dancers formed Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist, and Joel Mäki. They were young, hungry, and passionate about Locking, bringing new energy to the Swedish scene.",
+        "We travelled to Juste Debout in Paris in 2006, among other places, and it became clear that Swedish Locking was developing a new momentum and a stronger connection with the world beyond Sweden. Funky 4 Brothers made a major impact both at home and internationally."
+      ],
+      media: [
+        { src: "/media/about/funky-paris-2006.jpg", alt: "Funky 4 Brothers at Juste Debout in Paris in 2006", caption: "Funky 4 Brothers at Juste Debout in Paris, 2006." },
+        { src: "/media/about/paris-2006-funky-4-rob.jpg", alt: "Funky 4 Brothers with Robert Rob-One Wägar at Juste Debout in Paris in 2006", caption: "Funky 4 Brothers with Robert “Rob-One” Wägar at Juste Debout in Paris, 2006." }
       ]
     },
     {
@@ -316,7 +362,10 @@ export const aboutEn = {
       media: [
         { src: "/media/about/vegas-2011-don-skeeter-rob.jpg", alt: "Don Campbell, O.G. Skeeter Rabbit, and Robert Rob-One Wägar in Las Vegas in 2011", caption: "Don Campbell, O.G. Skeeter Rabbit, and Robert “Rob-One” Wägar in Las Vegas, 2011." },
         { src: "/media/about/generations-alpha-deputy-rob-tony.jpg", alt: "Alpha, Deputy, Robert Rob-One Wägar, and Tony GoGo at Generations", caption: "Alpha, Deputy, Robert “Rob-One” Wägar, and Tony GoGo at Generations in Los Angeles." },
-        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson and Robert Rob-One Wägar at Generations", caption: "Arnetta Johnson and Robert “Rob-One” Wägar at Generations in Los Angeles." }
+        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson and Robert Rob-One Wägar at Generations", caption: "Arnetta Johnson and Robert “Rob-One” Wägar at Generations in Los Angeles." },
+        { src: "/media/about/vegas-2011-group.jpg", alt: "Abdul, Robert Rob-One Wägar, Scoo B Doo, Nathan, Tash, and Jr Boogaloo in Las Vegas in 2011", caption: "Abdul, Robert “Rob-One” Wägar, Scoo B Doo, Nathan, Tash, and Jr Boogaloo in Las Vegas, 2011." },
+        { src: "/media/about/gogo-yoyo-brothers.jpg", alt: "GoGo and YoYo Brothers during the 2011 United States trip", caption: "GoGo and YoYo Brothers during the United States trip, 2011." },
+        { src: "/media/about/on-the-one-skeeter-caboose-tony-fluky-luke.jpg", alt: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo, and Fluky Luke at On The One", caption: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo, and Fluky Luke at On The One in Los Angeles, 2011." }
       ]
     },
     {
@@ -342,7 +391,7 @@ export const aboutEn = {
   dedication: [
     "Locking.se comes from the same curiosity that made me search for VHS tapes and ask older dancers about steps and stories in the 1990s. The site is dedicated to Locking — or Campbellocking, as it was originally named after Don Campbell’s personal way of dancing.",
     "From one person’s freestyle, something larger grew through an entire group of creative people. The dance travelled from clubs and social dance floors through Soul Train, the stage, television, film, and music, across the United States and eventually around the world.",
-    "Locking.se is my attempt to gather part of that history — not to freeze it or claim there is only one version, but because stories disappear if nobody asks, documents, and continues the conversation. I want to foreground people’s own stories and the dance as it truly is to me: energetic, funky, raw, playful, and created by people.",
+    "Locking.se is my attempt to gather part of that history — not to freeze it or claim there is only one version, but because stories disappear if nobody asks, documents, and continues the conversation. I want to foreground people’s own stories and the dance as it truly is to me: energetic, funky, raw, playful, and created within African American communities in the United States.",
     "From social dance floors and clubs to dance schools, battles, and major international events, I hope the site will keep growing with more interviews, perspectives, countries, and personal connections to Locking."
   ],
   acknowledgementsTitle: "People who have meant a great deal",
@@ -357,8 +406,10 @@ export const aboutEn = {
     "Locking has been part of my life since childhood and has given me friends, journeys, experiences, and encounters I could never have imagined when I first saw the dance on a television screen in Sweden.",
     "This is my story as I remember it today. I have certainly forgotten names, years, events, or people who should have been mentioned. If you are one of them, I apologise — I never intend to write anyone out of history.",
     "Please get in touch if something is missing, needs correcting, or if you have material and stories to contribute. Locking.se can and should continue to be updated.",
-    "More knowledge. More respect. More love and soul. Until death do us part.",
-    "— Robert “Rob-One” Wägar"
+    "More knowledge. More respect. More love and soul.",
+    "Keep on keepin’ on.",
+    "Educate before you Recreate.",
+    "/ Robert “Rob-One” Wägar"
   ]
 } as const;
 
@@ -397,28 +448,46 @@ export const aboutFr = {
       period: "Début des années 2000", title: "Funktastics, Funkademics et une scène en plein essor", paragraphs: [
         "Au début des années 2000, nous avons créé Funktastics, devenu ensuite Funkademics. Le groupe réunissait notamment Manne, Oskar, Charlie, Patrik, Isse, Karim, Lil-Putte et moi-même.",
         "Nous nous entraînions, nous produisions, enseignions et voyagions, tout en poursuivant surtout notre recherche sur le Locking. Durant cette période, le lien avec les origines de la danse s’est rapproché. Nous sommes entrés en contact avec Don Campbell lui-même."
-      ]
+      ],
+      media: [{ src: "/media/about/funkademics-performance.jpg", alt: "Funkademics sur scène", caption: "Funkademics sur scène." }]
     },
     {
       period: "2004", title: "Los Angeles a changé ma perspective", paragraphs: [
         "En 2004, nous sommes partis à Los Angeles. Nous avons suivi un cours avec Don Campbell, créateur du Campbellocking, et rencontré directement une réalité jusque-là connue surtout par des cassettes, des récits et des fragments d’information.",
         "Grâce à un contact de Charlie, nous avons également suivi un cours avec Chain Reaction, notamment T-Bopper et Cool Pockets. Nous avons rencontré Flo-Master et Sundance, et vu Tash, Jimmy Soul, P-Lock, Loose Caboose, Frank Ejara et bien d’autres danser dans les cercles.",
         "Le plus fort fut de nous retrouver dans la même pièce que les personnes derrière une grande partie de l’histoire que nous cherchions à comprendre. Un panel réunissait notamment Don Campbell, Greg « Campbellock Jr. » Pope, O.G. Skeeter Rabbit, Tony GoGo et les fils de Tony. Ce n’étaient plus des noms sur une VHS, mais des personnes devant nous, avec leurs voix, leurs récits, leurs personnalités et leurs perspectives différentes sur une même culture. Quelque chose a changé en moi ce jour-là."
+      ],
+      media: [
+        { src: "/media/about/los-angeles-2004-funkademics-don.jpg", alt: "Funkademics avec Don Campbell à Los Angeles en 2004", caption: "Funkademics avec Don Campbell à Los Angeles, 2004." },
+        { src: "/media/about/los-angeles-2004-oskar-manne-sundance-cracker-jack.jpg", alt: "Oskar, Manne, Sundance et Cracker Jack à Los Angeles en 2004", caption: "Oskar, Manne, Sundance et Cracker Jack à Los Angeles, 2004." },
+        { src: "/media/about/los-angeles-2004-chain-reaction.jpg", alt: "Chain Reaction avec Robert Rob-One Wägar, Oskar et Charlie à Los Angeles en 2004", caption: "Chain Reaction avec Robert « Rob-One » Wägar, Oskar et Charlie à Los Angeles, 2004." }
       ]
     },
     {
       period: "2004–2006", title: "De retour de LA — retour aux fondations", paragraphs: [
-        "Nous sommes revenus de Los Angeles profondément inspirés et avons consacré encore plus de temps à l’Original Style Locking : aux fondations, à la musique, au feeling et à l’histoire des mouvements. Il ne s’agissait plus seulement de savoir exécuter des pas. Je voulais comprendre pourquoi ils avaient cette forme, de qui ils venaient et dans quel contexte ils avaient grandi.",
-        "Au même moment, vers 2004–2005, une nouvelle génération apparaissait en Suède. Quatre jeunes danseurs ont formé Funky 4 Brothers : Alexander « A-Train » Dam, William Bois, Marcus B. Ahlmqvist et Joel Mäki. Jeunes, avides d’apprendre et passionnés par le Locking, ils ont apporté une énergie nouvelle à la scène suédoise.",
-        "Nous sommes notamment partis en France, et il est devenu évident que la scène suédoise gagnait un nouvel élan et renforçait son lien avec le reste du monde. Funky 4 Brothers a laissé une empreinte importante en Suède comme à l’international."
-      ],
-      media: [{ src: "/media/about/funky-paris-2006.jpg", alt: "Funky 4 Brothers réunis à Paris en 2006", caption: "Funky 4 Brothers à Paris, 2006." }]
+        "Nous sommes revenus de Los Angeles profondément inspirés et avons consacré encore plus de temps à l’Original Style Locking : aux fondations, à la musique, au feeling et à l’histoire des mouvements. Il ne s’agissait plus seulement de savoir exécuter des pas. Je voulais comprendre pourquoi ils avaient cette forme, de qui ils venaient et dans quel contexte ils avaient grandi."
+      ]
     },
     {
       period: "2005", title: "La naissance de FunkCamp", paragraphs: [
         "En 2005, Greg « Campbellock Jr. » Pope et O.G. Skeeter Rabbit sont venus pour la première fois en Suède. Nous pouvions apprendre directement auprès de deux personnes qui avaient vécu cette culture et participé à son histoire. C’est aussi l’année où j’ai créé FunkCamp.",
         "L’idée était simple : pour comprendre réellement le Locking, nous devions rencontrer celles et ceux qui l’avaient vécu, dansé, développé et transmis. Nous avions rencontré Don Campbell à Los Angeles l’année précédente, et plusieurs personnes nous avaient aussi recommandé d’apprendre auprès de Greg et Skeeter.",
         "FunkCamp n’a donc jamais été pour moi un simple stage de danse. C’est devenu un lieu de transmission. Les cours étaient essentiels, mais les conversations, les histoires, la musique, les jams et les moments entre les cours l’étaient tout autant. Écouter les personnes raconter leur version des événements donnait une compréhension très différente de la simple copie de mouvements vus en vidéo."
+      ],
+      mediaAfterParagraph: 0,
+      media: [
+        { src: "/media/about/funkcamp-2005-group.jpg", alt: "Les participants réunis lors du premier FunkCamp en 2005", caption: "Participants et invités réunis lors du premier FunkCamp, 2005." },
+        { src: "/media/about/funkcamp-2005-rob-greg-skeeter.jpg", alt: "Greg Campbellock Jr Pope, Robert Rob-One Wägar et O.G. Skeeter Rabbit à FunkCamp en 2005", caption: "Greg « Campbellock Jr. » Pope, Robert « Rob-One » Wägar et O.G. Skeeter Rabbit à FunkCamp, 2005." }
+      ]
+    },
+    {
+      period: "2004–2006", title: "Funky 4 Brothers et une nouvelle génération", paragraphs: [
+        "Au même moment, vers 2004–2005, une nouvelle génération apparaissait en Suède. Quatre jeunes danseurs ont formé Funky 4 Brothers : Alexander « A-Train » Dam, William Bois, Marcus B. Ahlmqvist et Joel Mäki. Jeunes, avides d’apprendre et passionnés par le Locking, ils ont apporté une énergie nouvelle à la scène suédoise.",
+        "Nous sommes notamment allés à Juste Debout à Paris en 2006, et il est devenu évident que la scène suédoise gagnait un nouvel élan et renforçait son lien avec le reste du monde. Funky 4 Brothers a laissé une empreinte importante en Suède comme à l’international."
+      ],
+      media: [
+        { src: "/media/about/funky-paris-2006.jpg", alt: "Funky 4 Brothers à Juste Debout à Paris en 2006", caption: "Funky 4 Brothers à Juste Debout, Paris, 2006." },
+        { src: "/media/about/paris-2006-funky-4-rob.jpg", alt: "Funky 4 Brothers avec Robert Rob-One Wägar à Juste Debout à Paris en 2006", caption: "Funky 4 Brothers avec Robert « Rob-One » Wägar à Juste Debout, Paris, 2006." }
       ]
     },
     {
@@ -437,7 +506,10 @@ export const aboutFr = {
       media: [
         { src: "/media/about/vegas-2011-don-skeeter-rob.jpg", alt: "Don Campbell, O.G. Skeeter Rabbit et Robert Rob-One Wägar à Las Vegas en 2011", caption: "Don Campbell, O.G. Skeeter Rabbit et Robert « Rob-One » Wägar à Las Vegas, 2011." },
         { src: "/media/about/generations-alpha-deputy-rob-tony.jpg", alt: "Alpha, Deputy, Robert Rob-One Wägar et Tony GoGo à Generations", caption: "Alpha, Deputy, Robert « Rob-One » Wägar et Tony GoGo à Generations, Los Angeles." },
-        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson et Robert Rob-One Wägar à Generations", caption: "Arnetta Johnson et Robert « Rob-One » Wägar à Generations, Los Angeles." }
+        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson et Robert Rob-One Wägar à Generations", caption: "Arnetta Johnson et Robert « Rob-One » Wägar à Generations, Los Angeles." },
+        { src: "/media/about/vegas-2011-group.jpg", alt: "Abdul, Robert Rob-One Wägar, Scoo B Doo, Nathan, Tash et Jr Boogaloo à Las Vegas en 2011", caption: "Abdul, Robert « Rob-One » Wägar, Scoo B Doo, Nathan, Tash et Jr Boogaloo à Las Vegas, 2011." },
+        { src: "/media/about/gogo-yoyo-brothers.jpg", alt: "GoGo et YoYo Brothers pendant le voyage aux États-Unis en 2011", caption: "GoGo et YoYo Brothers pendant le voyage aux États-Unis, 2011." },
+        { src: "/media/about/on-the-one-skeeter-caboose-tony-fluky-luke.jpg", alt: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo et Fluky Luke à On The One", caption: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo et Fluky Luke à On The One, Los Angeles, 2011." }
       ]
     },
     {
@@ -459,7 +531,7 @@ export const aboutFr = {
   dedication: [
     "Locking.se vient de la même curiosité qui me poussait, dans les années 1990, à chercher des cassettes VHS et à interroger des danseurs plus âgés sur les pas et les histoires. Le site est consacré au Locking — ou Campbellocking, nom donné à l’origine d’après la manière personnelle de danser de Don Campbell.",
     "À partir du freestyle d’une personne, quelque chose de plus grand a émergé grâce à tout un groupe de créateurs. La danse est passée des clubs et pistes de danse sociales à Soul Train, à la scène, à la télévision, au cinéma et à la musique, avant de parcourir les États-Unis puis le monde.",
-    "Locking.se est ma tentative de rassembler une partie de cette histoire. Non pour la figer ni affirmer qu’il n’en existe qu’une version, mais parce que les récits disparaissent si personne ne pose de questions, ne documente et ne poursuit la conversation. Je veux mettre en avant les témoignages des personnes et la danse telle qu’elle est réellement pour moi : énergique, funky, brute, ludique et créée par des êtres humains.",
+    "Locking.se est ma tentative de rassembler une partie de cette histoire. Non pour la figer ni affirmer qu’il n’en existe qu’une version, mais parce que les récits disparaissent si personne ne pose de questions, ne documente et ne poursuit la conversation. Je veux mettre en avant les témoignages des personnes et la danse telle qu’elle est réellement pour moi : énergique, funky, brute, ludique et créée au sein des communautés afro-américaines aux États-Unis.",
     "Des pistes de danse sociales et des clubs aux écoles, battles et grands événements internationaux, j’espère que le site continuera de grandir avec davantage d’entretiens, de perspectives, de pays et de liens personnels avec le Locking."
   ],
   acknowledgementsTitle: "Les personnes qui ont beaucoup compté",
@@ -474,8 +546,10 @@ export const aboutFr = {
     "Le Locking fait partie de ma vie depuis l’enfance et m’a donné des amis, des voyages, des expériences et des rencontres que je n’aurais jamais pu imaginer lorsque j’ai vu cette danse pour la première fois sur un écran de télévision en Suède.",
     "Voici mon histoire telle que je m’en souviens aujourd’hui. J’ai certainement oublié des noms, des années, des événements ou des personnes qui auraient dû être cités. Si vous en faites partie, je vous présente mes excuses : mon intention n’est jamais d’effacer qui que ce soit de l’histoire.",
     "N’hésitez pas à nous contacter s’il manque quelque chose, si une correction est nécessaire ou si vous possédez des documents et des récits à partager. Locking.se peut et doit continuer à évoluer.",
-    "Plus de savoir. Plus de respect. Plus d’amour et de soul. Jusqu’à ce que la mort nous sépare.",
-    "— Robert « Rob-One » Wägar"
+    "Plus de savoir. Plus de respect. Plus d’amour et de soul.",
+    "Keep on keepin’ on.",
+    "Educate before you Recreate.",
+    "/ Robert « Rob-One » Wägar"
   ]
 } as const;
 
@@ -514,28 +588,46 @@ export const aboutFi = {
       period: "2000-luvun alku", title: "Funktastics, Funkademics ja kasvava scene", paragraphs: [
         "Perustimme 2000-luvun alussa Funktasticsin, josta tuli myöhemmin Funkademics. Ryhmään kuuluivat muun muassa minä, Manne, Oskar, Charlie, Patrik, Isse, Karim ja Lil-Putte.",
         "Harjoittelimme, esiinnyimme, opetimme ja matkustimme, mutta ennen kaikkea jatkoimme syvemmän Locking-tiedon etsimistä. Samalla yhteys tanssin alkuperään alkoi tulla lähemmäksi. Saimme yhteyden Don Campbelliin."
-      ]
+      ],
+      media: [{ src: "/media/about/funkademics-performance.jpg", alt: "Funkademics esiintymässä", caption: "Funkademics esiintymässä." }]
     },
     {
       period: "2004", title: "Los Angeles muutti näkökulmaa", paragraphs: [
         "Matkustimme Los Angelesiin vuonna 2004. Pääsimme Don Campbellin, Campbellockingin luojan, tunnille ja kohtasimme henkilökohtaisesti todellisuuden, jonka olimme aiemmin tunteneet lähinnä videonauhojen, kertomusten ja tiedonmurusten kautta.",
         "Charlien saaman kontaktin kautta pääsimme myös Chain Reactionin tunnille, jota pitivät muun muassa T-Bopper ja Cool Pockets. Tapasimme Flo-Masterin ja Sundancen sekä näimme Tashin, Jimmy Soulin, P-Lockin, Loose Caboosen, Frank Ejaran ja monien muiden tanssivan ringeissä.",
         "Voimakkainta oli olla ensimmäistä kertaa samassa huoneessa niin monen ymmärtämämme historian taustalla olevan ihmisen kanssa. Paneelissa olivat mukana muun muassa Don Campbell, Greg ”Campbellock Jr.” Pope, O.G. Skeeter Rabbit, Tony GoGo ja Tonyn pojat. He eivät enää olleet nimiä VHS-nauhalla, vaan edessämme olevia ihmisiä omine äänineen, tarinoineen, persoonallisuuksineen ja erilaisine näkökulmineen samaan kulttuuriin. Jokin muuttui minussa siellä."
+      ],
+      media: [
+        { src: "/media/about/los-angeles-2004-funkademics-don.jpg", alt: "Funkademics ja Don Campbell Los Angelesissa vuonna 2004", caption: "Funkademics ja Don Campbell Los Angelesissa, 2004." },
+        { src: "/media/about/los-angeles-2004-oskar-manne-sundance-cracker-jack.jpg", alt: "Oskar, Manne, Sundance ja Cracker Jack Los Angelesissa vuonna 2004", caption: "Oskar, Manne, Sundance ja Cracker Jack Los Angelesissa, 2004." },
+        { src: "/media/about/los-angeles-2004-chain-reaction.jpg", alt: "Chain Reaction, Robert Rob-One Wägar, Oskar ja Charlie Los Angelesissa vuonna 2004", caption: "Chain Reaction, Robert ”Rob-One” Wägar, Oskar ja Charlie Los Angelesissa, 2004." }
       ]
     },
     {
       period: "2004–2006", title: "Kotiin LA:sta — takaisin perusteisiin", paragraphs: [
-        "Palasimme Los Angelesista valtavan inspiroituneina ja käytimme entistä enemmän aikaa Original Style Lockingiin: perusteisiin, musiikkiin, tunteeseen ja liikkeiden historiaan. Pelkkä askelten osaaminen ei enää riittänyt. Halusin ymmärtää, miksi ne näyttivät sellaisilta kuin näyttivät, keneltä ne tulivat ja millaisessa yhteydessä ne olivat kasvaneet.",
-        "Samaan aikaan, vuosina 2004–2005, Ruotsissa nousi uusi sukupolvi. Neljä nuorta tanssijaa perusti Funky 4 Brothersin: Alexander ”A-Train” Dam, William Bois, Marcus B. Ahlmqvist ja Joel Mäki. He olivat nuoria, nälkäisiä ja intohimoisia Lockingia kohtaan ja toivat Ruotsin sceneen uutta energiaa.",
-        "Matkustimme muun muassa Ranskaan, ja kävi selväksi, että Ruotsin Locking-scene sai aivan uudenlaista liikettä ja yhteyksiä ulkomaailmaan. Funky 4 Brothers jätti suuren jäljen sekä kotimaassa että kansainvälisesti."
-      ],
-      media: [{ src: "/media/about/funky-paris-2006.jpg", alt: "Funky 4 Brothers yhdessä Pariisissa vuonna 2006", caption: "Funky 4 Brothers Pariisissa, 2006." }]
+        "Palasimme Los Angelesista valtavan inspiroituneina ja käytimme entistä enemmän aikaa Original Style Lockingiin: perusteisiin, musiikkiin, tunteeseen ja liikkeiden historiaan. Pelkkä askelten osaaminen ei enää riittänyt. Halusin ymmärtää, miksi ne näyttivät sellaisilta kuin näyttivät, keneltä ne tulivat ja millaisessa yhteydessä ne olivat kasvaneet."
+      ]
     },
     {
       period: "2005", title: "FunkCamp syntyy", paragraphs: [
         "Vuonna 2005 Greg ”Campbellock Jr.” Pope ja O.G. Skeeter Rabbit tulivat ensimmäistä kertaa Ruotsiin. Saimme oppia suoraan kahdelta ihmiseltä, jotka olivat eläneet kulttuuria ja olleet osa sen historiaa. Samana vuonna perustin FunkCampin.",
         "Ajatus oli yksinkertainen: jos halusimme todella ymmärtää Lockingia, meidän oli tavattava ihmiset, jotka olivat eläneet, tanssineet ja kehittäneet sitä sekä kuljettaneet historiaa eteenpäin. Olimme tavanneet Don Campbellin Los Angelesissa edellisenä vuonna, ja useat ihmiset olivat myös suositelleet opiskelua Gregin ja Skeeterin johdolla.",
         "FunkCamp ei siksi koskaan ollut minulle pelkkä tanssileiri, vaan tiedon välittymisen paikka. Tunnit olivat keskeisiä, mutta yhtä tärkeitä olivat keskustelut, tarinat, musiikki, jamit ja tuntien välinen aika. Ihmisten omien kertomusten kuuleminen antoi aivan toisenlaisen ymmärryksen kuin liikkeiden kopioiminen videolta."
+      ],
+      mediaAfterParagraph: 0,
+      media: [
+        { src: "/media/about/funkcamp-2005-group.jpg", alt: "Osallistujat kokoontuneina ensimmäisellä FunkCampilla vuonna 2005", caption: "Osallistujat ja vieraat ensimmäisellä FunkCampilla, 2005." },
+        { src: "/media/about/funkcamp-2005-rob-greg-skeeter.jpg", alt: "Greg Campbellock Jr Pope, Robert Rob-One Wägar ja O.G. Skeeter Rabbit FunkCampilla vuonna 2005", caption: "Greg ”Campbellock Jr.” Pope, Robert ”Rob-One” Wägar ja O.G. Skeeter Rabbit FunkCampilla, 2005." }
+      ]
+    },
+    {
+      period: "2004–2006", title: "Funky 4 Brothers ja uusi sukupolvi", paragraphs: [
+        "Samaan aikaan, vuosina 2004–2005, Ruotsissa nousi uusi sukupolvi. Neljä nuorta tanssijaa perusti Funky 4 Brothersin: Alexander ”A-Train” Dam, William Bois, Marcus B. Ahlmqvist ja Joel Mäki. He olivat nuoria, nälkäisiä ja intohimoisia Lockingia kohtaan ja toivat Ruotsin sceneen uutta energiaa.",
+        "Matkustimme muun muassa Juste Debout -tapahtumaan Pariisiin vuonna 2006, ja kävi selväksi, että Ruotsin Locking-scene sai aivan uudenlaista liikettä ja yhteyksiä ulkomaailmaan. Funky 4 Brothers jätti suuren jäljen sekä kotimaassa että kansainvälisesti."
+      ],
+      media: [
+        { src: "/media/about/funky-paris-2006.jpg", alt: "Funky 4 Brothers Juste Debout -tapahtumassa Pariisissa vuonna 2006", caption: "Funky 4 Brothers Juste Debout -tapahtumassa Pariisissa, 2006." },
+        { src: "/media/about/paris-2006-funky-4-rob.jpg", alt: "Funky 4 Brothers ja Robert Rob-One Wägar Juste Debout -tapahtumassa Pariisissa vuonna 2006", caption: "Funky 4 Brothers ja Robert ”Rob-One” Wägar Juste Debout -tapahtumassa Pariisissa, 2006." }
       ]
     },
     {
@@ -554,7 +646,10 @@ export const aboutFi = {
       media: [
         { src: "/media/about/vegas-2011-don-skeeter-rob.jpg", alt: "Don Campbell, O.G. Skeeter Rabbit ja Robert Rob-One Wägar Las Vegasissa vuonna 2011", caption: "Don Campbell, O.G. Skeeter Rabbit ja Robert ”Rob-One” Wägar Las Vegasissa, 2011." },
         { src: "/media/about/generations-alpha-deputy-rob-tony.jpg", alt: "Alpha, Deputy, Robert Rob-One Wägar ja Tony GoGo Generationsissa", caption: "Alpha, Deputy, Robert ”Rob-One” Wägar ja Tony GoGo Generationsissa Los Angelesissa." },
-        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson ja Robert Rob-One Wägar Generationsissa", caption: "Arnetta Johnson ja Robert ”Rob-One” Wägar Generationsissa Los Angelesissa." }
+        { src: "/media/about/generations-arnetta-rob.jpg", alt: "Arnetta Johnson ja Robert Rob-One Wägar Generationsissa", caption: "Arnetta Johnson ja Robert ”Rob-One” Wägar Generationsissa Los Angelesissa." },
+        { src: "/media/about/vegas-2011-group.jpg", alt: "Abdul, Robert Rob-One Wägar, Scoo B Doo, Nathan, Tash ja Jr Boogaloo Las Vegasissa vuonna 2011", caption: "Abdul, Robert ”Rob-One” Wägar, Scoo B Doo, Nathan, Tash ja Jr Boogaloo Las Vegasissa, 2011." },
+        { src: "/media/about/gogo-yoyo-brothers.jpg", alt: "GoGo ja YoYo Brothers Yhdysvaltain-matkalla vuonna 2011", caption: "GoGo ja YoYo Brothers Yhdysvaltain-matkalla, 2011." },
+        { src: "/media/about/on-the-one-skeeter-caboose-tony-fluky-luke.jpg", alt: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo ja Fluky Luke On The One -tapahtumassa", caption: "O.G. Skeeter Rabbit, Loose Caboose, Tony GoGo ja Fluky Luke On The One -tapahtumassa Los Angelesissa, 2011." }
       ]
     },
     {
@@ -576,7 +671,7 @@ export const aboutFi = {
   dedication: [
     "Locking.se syntyy samasta uteliaisuudesta, joka sai minut 1990-luvulla etsimään VHS-nauhoja ja kysymään vanhemmilta tanssijoilta askelista ja tarinoista. Sivusto on omistettu Lockingille eli Campbellockingille, joksi tanssia alun perin kutsuttiin Don Campbellin henkilökohtaisen tanssitavan mukaan.",
     "Yhden ihmisen henkilökohtaisesta freestylesta kasvoi kokonaisen luovan ihmisjoukon kautta jotakin suurempaa. Tanssi levisi klubeilta ja sosiaalisilta tanssilattioilta Soul Trainin, näyttämön, television, elokuvien ja musiikin kautta eri puolille Yhdysvaltoja ja lopulta maailmaa.",
-    "Locking.se on yritykseni koota osa tästä historiasta. Tarkoitus ei ole jäädyttää sitä tai väittää, että siitä olisi vain yksi versio. Tarinat katoavat, jos kukaan ei kysy, dokumentoi ja jatka keskustelua. Haluan nostaa esiin ihmisten omia kertomuksia ja tanssin sellaisena kuin se minulle todella on: energisenä, funkyna, raakana, leikkisänä ja ihmisten luomana.",
+    "Locking.se on yritykseni koota osa tästä historiasta. Tarkoitus ei ole jäädyttää sitä tai väittää, että siitä olisi vain yksi versio. Tarinat katoavat, jos kukaan ei kysy, dokumentoi ja jatka keskustelua. Haluan nostaa esiin ihmisten omia kertomuksia ja tanssin sellaisena kuin se minulle todella on: energisenä, funkyna, raakana, leikkisänä ja Yhdysvaltain afroamerikkalaisissa yhteisöissä luotuna.",
     "Sosiaalisilta tanssilattioilta ja klubeilta tanssikouluihin, battleihin ja suuriin kansainvälisiin tapahtumiin. Toivon sivuston kasvavan uusilla haastatteluilla, näkökulmilla, mailla ja ihmisten henkilökohtaisilla yhteyksillä Lockingiin."
   ],
   acknowledgementsTitle: "Ihmiset, jotka ovat merkinneet paljon",
@@ -591,7 +686,9 @@ export const aboutFi = {
     "Locking on ollut elämässäni lapsuudesta lähtien. Se on antanut minulle ystäviä, matkoja, kokemuksia ja kohtaamisia, joita en olisi voinut kuvitellakaan nähdessäni tanssin ensimmäistä kertaa television ruudulla Ruotsissa.",
     "Tämä on tarinani sellaisena kuin muistan sen tänään. Olen varmasti unohtanut nimiä, vuosilukuja, tapahtumia tai ihmisiä, jotka olisi pitänyt mainita. Jos olet yksi heistä, pyydän anteeksi — tarkoitukseni ei ole koskaan kirjoittaa ketään pois historiasta.",
     "Ota mielellään yhteyttä, jos jotakin puuttuu tai pitää korjata tai jos sinulla on aineistoa ja tarinoita jaettavaksi. Locking.se voi ja sen pitää jatkaa päivittymistä.",
-    "Lisää tietoa. Lisää kunnioitusta. Lisää rakkautta ja soulia. Kunnes kuolema meidät erottaa.",
-    "— Robert ”Rob-One” Wägar"
+    "Lisää tietoa. Lisää kunnioitusta. Lisää rakkautta ja soulia.",
+    "Keep on keepin’ on.",
+    "Educate before you Recreate.",
+    "/ Robert ”Rob-One” Wägar"
   ]
 } as const;

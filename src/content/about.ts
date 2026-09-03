@@ -12,6 +12,7 @@ export type JourneySection = {
   title: string;
   paragraphs: readonly string[];
   media?: readonly AboutMedia[];
+  mediaAfterParagraph?: number;
 };
 
 export type AboutStory = {

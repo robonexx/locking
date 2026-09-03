@@ -9,6 +9,11 @@ type HistoryStory = {
     period: string;
     title: string;
     paragraphs: string[];
+    video?: {
+      src: string;
+      title: string;
+      caption: string;
+    };
   }>;
   worldTitle: string;
   world: string[];
@@ -45,6 +50,11 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
           'Den 2 oktober 1971 började Soul Train sändas nationellt från Los Angeles. Programmet gav dansarna och musiken en scen inför en mycket större publik. Locks, points, hand slaps, splits och starka individuella karaktärer blev synliga långt utanför de klubbar där stilen hade vuxit fram.',
           'TV-exponeringen spred inspiration, men en bild på en skärm kunde inte bära hela den sociala kunskapen. Därför behöver stegen alltid förstås tillsammans med människorna, platserna, musiken och den kultur som gav dem mening.',
         ],
+        video: {
+          src: '/media/history/don-campbell-damita-jo-don-cornelius.mp4',
+          title: 'Intervju med Don Campbell och Damita Jo Freeman',
+          caption: 'Don “Campbellock” Campbell och Damita Jo Freeman intervjuas av Don Cornelius, 1971.',
+        },
       },
       {
         period: '1972–1973',
@@ -116,6 +126,11 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
           'On October 2, 1971, Soul Train began its national run from Los Angeles. The program gave the dancers and the music a much larger stage. Locks, points, hand slaps, splits and strong individual characters became visible far beyond the clubs where the style had grown.',
           'Television spread inspiration, but an image on a screen could not carry all of the social knowledge. The steps therefore belong together with the people, places, music and culture that gave them meaning.',
         ],
+        video: {
+          src: '/media/history/don-campbell-damita-jo-don-cornelius.mp4',
+          title: 'Interview with Don Campbell and Damita Jo Freeman',
+          caption: 'Don “Campbellock” Campbell and Damita Jo Freeman interviewed by Don Cornelius, 1971.',
+        },
       },
       {
         period: '1972–1973',
@@ -187,6 +202,11 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
           'Le 2 octobre 1971, Soul Train a commencé sa diffusion nationale depuis Los Angeles. L’émission a offert aux danseurs et à la musique une scène bien plus vaste. Locks, points, hand slaps, splits et personnages très affirmés sont devenus visibles bien au-delà des clubs où le style s’était développé.',
           'La télévision a diffusé l’inspiration, mais une image à l’écran ne pouvait transmettre tout le savoir social. Les pas sont donc indissociables des personnes, des lieux, de la musique et de la culture qui leur ont donné leur sens.',
         ],
+        video: {
+          src: '/media/history/don-campbell-damita-jo-don-cornelius.mp4',
+          title: 'Entretien avec Don Campbell et Damita Jo Freeman',
+          caption: 'Don « Campbellock » Campbell et Damita Jo Freeman, interviewés par Don Cornelius en 1971.',
+        },
       },
       {
         period: '1972–1973',

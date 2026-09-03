@@ -34,7 +34,7 @@ export function AboutPage({ lang }: { lang: Locale }) {
         </p>
         <h2>{story.continuationTitle}</h2>
         {story.continuation.map((paragraph, index) => (
-          <p className={index >= story.continuation.length - 2 ? styles.signoff : undefined} key={paragraph}>
+          <p className={index >= story.continuation.length - 3 ? styles.signoff : undefined} key={paragraph}>
             {paragraph}
           </p>
         ))}

@@ -172,7 +172,12 @@ export const lockingHistoryFi = {
       "paragraphs": [
         "2. lokakuuta 1971 Soul Train aloitti valtakunnallisen juoksunsa Los Angeles. Ohjelma antoi tanssijoille ja musiikille paljon laajemman näyttämön. Lukot, points, hand slaps, splits ja vahvat yksittäiset hahmot näkyivät kauas niiden klubien ulkopuolella, joissa tyyli oli kasvanut.",
         "Televisio levitti inspiraatiota, mutta kuva ruudulla ei voinut viedä kaikkea sosiaalista tietoa. Askelmat kuuluvat siis yhteen niiden merkityksen antaneiden ihmisten, paikkojen, musiikin ja kulttuurin kanssa."
-      ]
+      ],
+      "video": {
+        "src": "/media/history/don-campbell-damita-jo-don-cornelius.mp4",
+        "title": "Don Campbellin ja Damita Jo Freemanin haastattelu",
+        "caption": "Don ”Campbellock” Campbell ja Damita Jo Freeman Don Corneliuksen haastattelussa vuonna 1971."
+      }
     },
     {
       "period": "1972–1973",
