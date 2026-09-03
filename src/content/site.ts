@@ -155,7 +155,7 @@ export const contentPages: ContentPage[] = [
     source: 'social-party.md',
     image: '/media/socialdance.png',
     kicker: { sv: 'Före scenen fanns festen', en: 'Before the stage, there was the party' },
-    title: { sv: 'Sociala partydanser', en: 'Social party dances' },
+    title: { sv: 'Social & Party Dances', en: 'Social & Party Dances' },
     summary: {
       sv: 'Danserna, musiken och de sociala rummen som lade grunden till uttrycket.',
       en: 'The dances, music and social spaces that laid the foundation for the form.',
