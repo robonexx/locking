@@ -1,5 +1,4 @@
 import { Reveal } from '@/components/Reveal';
-import { StoryIntro } from '@/components/StoryIntro';
 import { StoryTimeline } from '@/components/StoryTimeline';
 import { aboutStory } from '@/content/about';
 import type { Locale } from '@/lib/i18n';
@@ -10,14 +9,15 @@ export function AboutPage({ lang }: { lang: Locale }) {
 
   return (
     <div>
-      <StoryIntro>{story.intro}</StoryIntro>
+      <Reveal className={styles.intro}>
+        {story.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+      </Reveal>
       <StoryTimeline sections={story.sections} />
 
       <Reveal as="section" className={styles.dedication}>
         <p className="eyebrow eyebrow-dark">Locking / Campbellocking</p>
         <h2>{story.dedicationTitle}</h2>
         {story.dedication.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        <p className={styles.closing}>{story.closing}</p>
       </Reveal>
 
       <Reveal as="section" className={styles.tribute}>
@@ -26,6 +26,18 @@ export function AboutPage({ lang }: { lang: Locale }) {
         </p>
         <h2>{story.acknowledgementsTitle}</h2>
         {story.acknowledgements.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+      </Reveal>
+
+      <Reveal as="section" className={styles.continuation}>
+        <p className="eyebrow eyebrow-dark">
+          {lang === 'sv' ? 'Framåt / Fortsättning' : lang === 'fr' ? 'La suite / L’avenir' : lang === 'fi' ? 'Jatkoa / Tulevaisuus' : 'Looking ahead / To be continued'}
+        </p>
+        <h2>{story.continuationTitle}</h2>
+        {story.continuation.map((paragraph, index) => (
+          <p className={index >= story.continuation.length - 2 ? styles.signoff : undefined} key={paragraph}>
+            {paragraph}
+          </p>
+        ))}
       </Reveal>
     </div>
   );

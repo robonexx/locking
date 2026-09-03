@@ -1,3 +1,17 @@
+.intro {
+  max-width: 860px;
+  margin: 0 0 70px;
+}
+
+.intro p {
+  margin: 0 0 1em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.85rem);
+  line-height: 1.45;
+}
+
+.intro p:first-child { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+
 .dedication {
   margin-top: 90px;
   padding: clamp(30px, 6vw, 70px);
@@ -7,7 +21,8 @@
 }
 
 .dedication h2,
-.tribute h2 {
+.tribute h2,
+.continuation h2 {
   margin: 0 0 20px;
   font-family: var(--display);
   font-size: clamp(2.4rem, 5vw, 4.4rem);
@@ -15,8 +30,9 @@
   text-transform: uppercase;
 }
 
-.dedication > p:not(:global(.eyebrow), .closing),
-.tribute > p:not(:global(.eyebrow)) {
+.dedication > p:not(:global(.eyebrow)),
+.tribute > p:not(:global(.eyebrow)),
+.continuation > p:not(:global(.eyebrow), .signoff) {
   position: relative;
   z-index: 1;
   max-width: 760px;
@@ -54,10 +70,22 @@
   line-height: 0.92;
 }
 
-.closing {
-  margin: 38px 0 0;
+.continuation {
+  margin-top: 100px;
+  padding: clamp(30px, 6vw, 70px);
+  background: var(--white);
+  border: 2px solid var(--ink);
+  box-shadow: 12px 12px 0 var(--violet);
+}
+
+.continuation h2 { margin-bottom: 30px; }
+
+.signoff {
+  margin: 28px 0 0;
   font-family: var(--display);
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1.55rem, 4vw, 3rem);
   line-height: 1;
   text-transform: uppercase;
 }
+
+.signoff + .signoff { margin-top: 14px; }
