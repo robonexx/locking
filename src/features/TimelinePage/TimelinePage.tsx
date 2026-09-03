@@ -18,11 +18,11 @@ export function TimelinePage({ lang }: { lang: Locale }) {
     <div>
       <Reveal as="section" className={styles.intro}>
         <p className="eyebrow eyebrow-dark">
-          {lang === 'sv' ? 'Källkarta / 1970–2007' : lang === 'fr' ? 'Diagramme source / 1970–2007' : 'Source map / 1970–2007'}
+          {lang === 'sv' ? 'Källkarta / 1970–2007' : lang === 'fr' ? 'Diagramme source / 1970–2007' : lang === 'fi' ? 'Lähdekaavio / 1970–2007' : 'Source map / 1970–2007'}
         </p>
         <h2>{copy.introTitle}</h2>
         {copy.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        <div className={styles.legend} aria-label={lang === 'sv' ? 'Förklaring' : lang === 'fr' ? 'Légende' : 'Legend'}>
+        <div className={styles.legend} aria-label={lang === 'sv' ? 'Förklaring' : lang === 'fr' ? 'Légende' : lang === 'fi' ? 'Selite' : 'Legend'}>
           <span><Star aria-hidden="true" />{copy.keyEventLabel}</span>
           <span><GitBranch aria-hidden="true" />{copy.branchLabel}</span>
         </div>

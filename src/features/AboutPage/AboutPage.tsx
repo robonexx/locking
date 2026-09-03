@@ -22,7 +22,7 @@ export function AboutPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={styles.tribute}>
         <p className="eyebrow">
-          {lang === 'sv' ? 'Kunskap / Berättelser / Respekt' : lang === 'fr' ? 'Savoir / Histoires / Respect' : 'Knowledge / Stories / Respect'}
+          {lang === 'sv' ? 'Kunskap / Berättelser / Respekt' : lang === 'fr' ? 'Savoir / Histoires / Respect' : lang === 'fi' ? 'Tieto / Tarinat / Kunnioitus' : 'Knowledge / Stories / Respect'}
         </p>
         <h2>{story.acknowledgementsTitle}</h2>
         {story.acknowledgements.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}

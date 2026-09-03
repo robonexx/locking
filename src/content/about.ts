@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { aboutFi } from './fi.generated';
 
 type JourneySection = {
   period: string;
@@ -170,4 +171,5 @@ export const aboutStory: Record<Locale, AboutStory> = {
       'Merci pour le savoir, le travail et l’inspiration.',
     ],
   },
+  fi: aboutFi,
 };

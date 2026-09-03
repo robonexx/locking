@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { memorialFi } from './fi.generated';
 
 export type MemorialPerson = {
   id: string;
@@ -211,4 +212,5 @@ export const memorial: Record<Locale, MemorialPage> = {
       },
     ],
   },
+  fi: memorialFi as MemorialPage,
 };

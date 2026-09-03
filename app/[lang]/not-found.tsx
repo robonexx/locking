@@ -13,6 +13,7 @@ export default function NotFound() {
     sv: { title: 'Sidan hittades inte', home: 'Till startsidan' },
     en: { title: 'Page not found', home: 'Back to the home page' },
     fr: { title: 'Page introuvable', home: 'Retour à l’accueil' },
+    fi: { title: 'Sivua ei löytynyt', home: 'Takaisin etusivulle' },
   }[lang];
 
   return (

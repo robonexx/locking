@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { campbellockJrFi } from './fi.generated';
 
 type Attribute = {
   title: string;
@@ -318,4 +319,5 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
     sourcesTitle: 'Sources et lectures complémentaires',
     sources,
   },
+  fi: campbellockJrFi,
 };

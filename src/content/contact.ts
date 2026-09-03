@@ -34,4 +34,15 @@ Vous avez des remarques ou des corrections, une histoire à partager, ou vous so
 Une future section de Locking.se permettra à différents pays et scènes locales de raconter leur propre histoire. L’objectif est de rassembler des récits, des dates clés et des événements sous forme de chronologies locales, puis de les relier afin de montrer comment le Locking a voyagé et évolué à travers le monde.
 
 Vous pouvez dès maintenant nous envoyer des informations sur votre pays ou votre ville : les personnes qui ont contribué à établir la scène, les crews, les événements, l’enseignement, les rencontres avec les pionniers, ainsi que des sources, des images et des dates approximatives. Nous distinguerons clairement les pionniers de la période fondatrice du Locking à Los Angeles de celles et ceux qui ont ensuite ouvert la voie sur les scènes locales d’autres pays.`,
+  fi: `## Yhteystiedot
+
+Onko sinulla palautetta tai korjauksia, tarina kerrottavana tai kiinnostusta yhteistyöhön? Lähetä meille sähköpostia.
+
+**Sähköposti:** [funkcampswe@gmail.com](mailto:funkcampswe@gmail.com?subject=Locking.se%20-%20Palaute%2C%20tarina%20tai%20yhteisty%C3%B6)
+
+## Jaa paikallinen Locking-historiasi
+
+Locking.se-sivuston tuleva osa antaa eri maille ja paikallisille sceneille tilaa kertoa oma historiansa. Tavoitteena on kerätä tarinoita, tärkeitä vuosilukuja ja tapahtumia paikallisiksi aikajanoiksi ja myöhemmin yhdistää ne näyttämään, miten Locking on kulkenut ja kehittynyt eri puolilla maailmaa.
+
+Voit jo nyt lähettää aineistoa omasta maastasi tai kaupungistasi: sceneä rakentaneista ihmisistä, crew’eistä, tapahtumista, opetuksesta, pioneerien kohtaamisista sekä lähteistä, kuvista ja likimääräisistä vuosiluvuista. Teemme selvän eron Lockingin alkuperäisen Los Angelesin aikakauden pioneerien ja myöhemmin muiden maiden paikallisia scenejä rakentaneiden pioneerien välille.`,
 };

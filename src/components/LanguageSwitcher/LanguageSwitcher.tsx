@@ -11,12 +11,14 @@ const languageNames: Record<Locale, string> = {
   sv: 'Svenska',
   en: 'English',
   fr: 'Français',
+  fi: 'Suomi',
 };
 
 const chooserLabels: Record<Locale, string> = {
   sv: 'Välj språk',
   en: 'Choose language',
   fr: 'Choisir la langue',
+  fi: 'Valitse kieli',
 };
 
 export function LanguageSwitcher({ lang }: { lang: Locale }) {

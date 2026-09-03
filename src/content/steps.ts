@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n';
 import type { DanceStep } from '@/lib/content';
+import { stepsStoryFi } from './fi.generated';
 
 type MovementFamily = {
   title: string;
@@ -151,6 +152,7 @@ export const stepsStory: Record<Locale, StepsStory> = {
     listNote: 'Les noms et les attributions peuvent varier selon la tradition orale et les sources proches des participants. Lorsque les éléments disponibles ne suffisent pas, l’attribution reste donc ouverte. Cette liste pourra être enrichie à mesure que de nouvelles informations seront documentées.',
     sourcesTitle: 'Sources et lectures complémentaires',
   },
+  fi: stepsStoryFi,
 };
 
 export const stepsSources = [

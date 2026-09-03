@@ -25,7 +25,7 @@ export function HistoryPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={`${styles.panel} ${styles.world}`}>
         <p className="eyebrow eyebrow-dark">
-          {lang === 'sv' ? 'Los Angeles → världen' : lang === 'fr' ? 'Los Angeles → le monde' : 'Los Angeles → the world'}
+          {lang === 'sv' ? 'Los Angeles → världen' : lang === 'fr' ? 'Los Angeles → le monde' : lang === 'fi' ? 'Los Angeles → maailma' : 'Los Angeles → the world'}
         </p>
         <h2>{story.worldTitle}</h2>
         {story.world.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
@@ -33,7 +33,7 @@ export function HistoryPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={`${styles.panel} ${styles.context}`}>
         <p className="eyebrow">
-          {lang === 'sv' ? 'Erkännande / Kontext' : lang === 'fr' ? 'Reconnaissance / Contexte' : 'Credit / Context'}
+          {lang === 'sv' ? 'Erkännande / Kontext' : lang === 'fr' ? 'Reconnaissance / Contexte' : lang === 'fi' ? 'Tunnustus / Konteksti' : 'Credit / Context'}
         </p>
         <h2>{story.distinctionTitle}</h2>
         {story.distinction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}

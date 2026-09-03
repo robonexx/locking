@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { theLockersFi } from './fi.generated';
 
 type LockersSection = {
   period: string;
@@ -284,4 +285,5 @@ export const theLockersStory: Record<Locale, LockersStory> = {
     sourcesTitle: 'Sources et lectures complémentaires',
     sources,
   },
+  fi: theLockersFi,
 };

@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { lockingHistoryFi } from './fi.generated';
 
 type HistoryStory = {
   intro: string;
@@ -233,4 +234,5 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
       { label: 'Campbellock.dance', url: 'https://campbellock.dance/' },
     ],
   },
+  fi: lockingHistoryFi,
 };

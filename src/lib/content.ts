@@ -21,11 +21,12 @@ export type DanceStep = {
 const recoveryRoot = path.join(process.cwd(), 'content-recovery');
 
 export async function readRecoveredPage(fileName: string, lang: Locale = 'en') {
-  const sourcePath = lang === 'fr'
-    ? path.join(recoveryRoot, 'translations', 'fr', fileName)
+  const translatedLocale = lang === 'fr' || lang === 'fi' ? lang : null;
+  const sourcePath = translatedLocale
+    ? path.join(recoveryRoot, 'translations', translatedLocale, fileName)
     : path.join(recoveryRoot, 'pages', fileName);
   const value = await fs.readFile(sourcePath, 'utf8');
-  if (lang === 'fr') return value;
+  if (translatedLocale) return value;
   return value.replace(
     /^# .*?\n\nKälla:.*?\n\n> Automatiskt återvunnen originaltext\..*?\n\n/s,
     ''
@@ -37,10 +38,18 @@ async function readData<T>(fileName: string): Promise<T> {
   return JSON.parse(value) as T;
 }
 
-export function readPioneers() {
+export async function readPioneers(lang: Locale = 'en') {
+  if (lang === 'fi') {
+    const value = await fs.readFile(path.join(recoveryRoot, 'translations', 'fi', 'pioneers.json'), 'utf8');
+    return JSON.parse(value) as Pioneer[];
+  }
   return readData<Pioneer[]>('pioneers.json');
 }
 
-export function readDanceSteps() {
+export async function readDanceSteps(lang: Locale = 'en') {
+  if (lang === 'fi') {
+    const value = await fs.readFile(path.join(recoveryRoot, 'translations', 'fi', 'steps.json'), 'utf8');
+    return JSON.parse(value) as DanceStep[];
+  }
   return readData<DanceStep[]>('steps.json');
 }

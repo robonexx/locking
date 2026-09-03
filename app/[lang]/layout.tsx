@@ -16,6 +16,7 @@ export async function generateMetadata({
     sv: 'Locking.se – för lockers runt om i världen.',
     en: 'Locking.se – for the lockers around the world.',
     fr: 'Locking.se – pour les lockers du monde entier.',
+    fi: 'Locking.se – lockereille ympäri maailmaa.',
   };
 
   return {
@@ -26,7 +27,7 @@ export async function generateMetadata({
     },
     description: descriptions[lang],
     alternates: {
-      languages: { sv: '/sv', en: '/en', fr: '/fr' },
+      languages: { sv: '/sv', en: '/en', fr: '/fr', fi: '/fi' },
     },
   };
 }

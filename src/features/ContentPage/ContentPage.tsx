@@ -30,6 +30,7 @@ export async function getContentPageMetadata(params: LocaleParams, slug: string)
         sv: `/sv/${slug}`,
         en: `/en/${slug}`,
         fr: `/fr/${slug}`,
+        fi: `/fi/${slug}`,
       },
     },
   };
@@ -62,10 +63,10 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       content = <TheLockersPage lang={lang} />;
       break;
     case 'pioneers':
-      content = <PioneersPage pioneers={await readPioneers()} lang={lang} />;
+      content = <PioneersPage pioneers={await readPioneers(lang)} lang={lang} />;
       break;
     case 'steps-and-moves':
-      content = <StepsPage steps={await readDanceSteps()} lang={lang} />;
+      content = <StepsPage steps={await readDanceSteps(lang)} lang={lang} />;
       break;
     case 'timeline':
       content = <TimelinePage lang={lang} />;
