@@ -1,4 +1,4 @@
-export const locales = ['sv', 'en', 'fr', 'fi', 'ko'] as const;
+export const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja'] as const;
 export type Locale = (typeof locales)[number];
 
 export const languageTags = {
@@ -7,6 +7,7 @@ export const languageTags = {
   fr: 'fr',
   fi: 'fi',
   ko: 'ko-KR',
+  ja: 'ja-JP',
 } satisfies Record<Locale, string>;
 
 export const defaultLocale: Locale = 'sv';
@@ -75,5 +76,17 @@ export const ui = {
     stories: '인터뷰 & 기사',
     contact: '연락처',
     readMore: '페이지 둘러보기',
+  },
+  ja: {
+    skip: '本文へ移動',
+    menu: 'メニュー',
+    close: 'メニューを閉じる',
+    home: 'ホーム',
+    about: 'このサイトについて',
+    history: '歴史',
+    knowledge: '資料',
+    stories: 'インタビュー & 記事',
+    contact: 'お問い合わせ',
+    readMore: 'ページを見る',
   },
 } satisfies Record<Locale, Record<string, string>>;

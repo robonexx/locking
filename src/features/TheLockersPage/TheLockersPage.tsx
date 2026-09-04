@@ -25,7 +25,7 @@ export function TheLockersPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={styles.members}>
         <p className="eyebrow eyebrow-dark">
-          {lang === 'sv' ? 'De sju originalmedlemmarna' : lang === 'fr' ? 'Les sept membres originaux' : lang === 'fi' ? 'Seitsemän alkuperäisjäsentä' : lang === 'ko' ? '오리지널 7명' : 'Original seven'}
+          {lang === 'sv' ? 'De sju originalmedlemmarna' : lang === 'fr' ? 'Les sept membres originaux' : lang === 'fi' ? 'Seitsemän alkuperäisjäsentä' : lang === 'ko' ? '오리지널 7명' : lang === 'ja' ? 'オリジナル7人' : 'Original seven'}
         </p>
         <h2>{story.membersTitle}</h2>
         <p>{story.membersIntro}</p>
@@ -36,7 +36,7 @@ export function TheLockersPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={styles.fabulous}>
         <p className="eyebrow">
-          {lang === 'sv' ? 'Namn / Erkännande / Kontext' : lang === 'fr' ? 'Nom / Reconnaissance / Contexte' : lang === 'fi' ? 'Nimi / Tunnustus / Konteksti' : lang === 'ko' ? '이름 / 크레딧 / 맥락' : 'Name / Credit / Context'}
+          {lang === 'sv' ? 'Namn / Erkännande / Kontext' : lang === 'fr' ? 'Nom / Reconnaissance / Contexte' : lang === 'fi' ? 'Nimi / Tunnustus / Konteksti' : lang === 'ko' ? '이름 / 크레딧 / 맥락' : lang === 'ja' ? '名前 / クレジット / 文脈' : 'Name / Credit / Context'}
         </p>
         <h2>{story.fabulousTitle}</h2>
         {story.fabulous.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}

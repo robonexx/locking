@@ -1,0 +1,188 @@
+[
+  {
+    "name": "BASIC LOCK",
+    "desc": "Basic Lockは、音楽のビートに合わせて腕の動きをためらうように止めたり、フリーズさせたりする動きです。Don Campbellが1960年代末から1970年代初頭、当時人気のソーシャルダンスだったFunky Chickenを試している中で、一瞬止まったり固まったように見える動きを生み出しました。こうした止まりはlocks、またはlocking upと呼ばれるようになりました。その後Leo “Fluky Luke” Williamsonは、両手の外側を腰に当て、肘を前へロックする独特のlockを見せ、これは“Leo Lock”として知られるようになりました。",
+    "creator": "Don Campbellock Campbell",
+    "id": "1"
+  },
+  {
+    "name": "GIVING OR ASKING FOR FIVE",
+    "desc": "ダンスをしながら、二人の間、または自分自身との同意や共感を表すhand slapです。Don Campbellはlocksとソーシャルダンスの間にこの動きを入れました。Fiveを交わす行為はDonがダンスへ取り入れるずっと以前から、アフリカ系アメリカ人コミュニティで承認や共感を表す伝統的なジェスチャーでした。人々が良いムーブを見て笑顔で反応すると、Donや他のパイオニアは手を差し出してfiveを受けることがあり、手のひらを合わせることはその承認に応える意味を持ちました。Giving Fiveは、良いことが起きたことを一緒に認めるジェスチャーです。",
+    "by": "",
+    "id": "2"
+  },
+  {
+    "name": "LOCKING POINTS",
+    "desc": "後にUncle Sam pointsとも呼ばれました。アメリカ軍の募集ポスターでUncle Samが見る人へ指を向けるイメージと結びついた名称です。友人やパートナーを指さすことは、アフリカ系アメリカ人コミュニティでもメッセージや承認を伝えるジェスチャーであり、離れた相手への挨拶にも使われていました。Don Campbellが自分のダンスへ取り入れる以前から存在していたジェスチャーです。伝えられている話では、Donが踊っている最中、テーブルにいた女性が彼の独特なスタイルを見て笑ったため、Donが人々が普段するように彼女を指さし、「あなたを見た」という意味を伝えたことが初期Locking pointになったといわれます。その後、他のパイオニアがdouble、triple pointsを加え、ロッキングの流れをさらに滑らかにしました。",
+    "by": "",
+    "id": "3"
+  },
+  {
+    "name": "HAND CLAPS",
+    "desc": "Back hand clapsとback-front hand clapsは、初期ロッキングの非常に基本的な要素でした。突然止まり、また始める方法で、pacingの中で単独で行ったり、他のムーブの間でよく使われたりしました。Donは初期のwrist rollsも自分のスタイルに取り入れました。その後、wrist rollsと他のムーブのさまざまな組み合わせがback-front hand clapsの前に配置されるようになり、ダンスの連続性と発展に貢献しました。",
+    "by": "",
+    "id": "4"
+  },
+  {
+    "name": "UPLOCK",
+    "desc": "UPLOCK、現在ではMuscle Manとも呼ばれる動きは、通常ロッキングのムーブを始めるときに両腕を上へ投げ上げるように使います。ストリートで“Hey”“What’s up?”と挨拶するジェスチャーのように、自分の存在を知らせるannouncementの性格があります。",
+    "by": "",
+    "id": "5,"
+  },
+  {
+    "name": "THE DON CAMPBELL WALK",
+    "desc": "Don Campbellが作ったsliding step型の移動ムーブで、locksやstuntsの間に前へ進むときに使いました。",
+    "by": "",
+    "id": "6"
+  },
+  {
+    "name": "THE FUNKY GUITAR",
+    "desc": "音楽のリズムに合わせ、ギターを弾く姿を真似するジェスチャー系のムーブです。LockerLegendsでは、Damita Jo Freemanの初期Soul Train出演や、Don Campbellとカップルで踊る場面にこの動きを記録しています。",
+    "by": "",
+    "id": "6b"
+  },
+  {
+    "name": "THE SCOOBY DOO",
+    "desc": "Jimmy “Scooby Doo” Fosterが作りました。基本のScooby Dooは、両手を使ったuplock announcementからkick、stepへつながります。",
+    "by": "",
+    "id": "7"
+  },
+  {
+    "name": "THE SCOOBOT",
+    "desc": "これもJimmy “Scooby Doo” Fosterが作った独特のステップです。",
+    "by": "",
+    "id": "8"
+  },
+  {
+    "name": "THE HITCHHIKE",
+    "desc": "ヒッチハイクを真似する動きです。親指を立てたまま横へ移動し、Rocksteadyのファンキーなhip grooveを組み合わせます。",
+    "by": "",
+    "id": "9"
+  },
+  {
+    "name": "THE SCOOBY WALK",
+    "desc": "Jimmy Foster特有の歩き方で、GregがPimp Walkと呼んでいた動きに似ています。",
+    "by": "",
+    "id": "10"
+  },
+  {
+    "name": "THE PIMP WALK",
+    "desc": "Greg “Campbellock Jr.” Popeが作りました。Gregがロッキングへ加えたさまざまなムーブは、スタイルの自由な流れと連続性を作ることに貢献しました。彼はScoobotをhop型の動きに変化させることもしました。上で触れたSneekやStop N Go（Quickies）のようなムーブはJimmy “Scooby Doo” FosterがGreg Campbellock Jr.のアイデアとともに作り、多くのムーブの名前はDamita Jo Freemanが付けました。",
+    "by": "",
+    "id": "11"
+  },
+  {
+    "name": "SNEEK",
+    "desc": "SneekはソウルダンスBreakdownの変形でした。上半身を左右にひねりながら外側の腕を上げ、何かを探すようなジェスチャーをします。その後The Lockersは、商業パフォーマンスでカメラアングルにより見えやすくするため、内側の腕を使う形を発展させました。",
+    "by": "",
+    "id": "12"
+  },
+  {
+    "name": "QUICKIES /STOP N GO",
+    "desc": "Quickies、またはStop N Goは、古いSara Walkのムーブを変形する形で発展しました。素早い動きは、ゴムのように跳ね上がるカートゥーンキャラクターの動きを思わせます。",
+    "by": "",
+    "id": "13"
+  },
+  {
+    "name": "THE SKEETERRABBIT",
+    "desc": "James “Skeeter Rabbit” Higginsが作りました。Nicholas Brothersのshuffleの動きと、ストリート遊びのhopscotchからインスピレーションを受けました。SkeeterがScooby Dooの終わりにこの動きを付けたことで連続したムーブになり、さまざまな形へ発展させて使いました。他のパイオニアもSkeeter Rabbit shuffleのバリエーションを作りました。1970年代中頃にはストリートギャング文化のダンスムーブがロッキングと混ざり、Crip WalkがSkeeter Rabbitのフィニッシュとして入る例があり、Michael “Peekaboo” FrenkeとLeo “Shaboo” Walkerがこの流れと関連して言及されています。",
+    "by": "",
+    "id": "14"
+  },
+  {
+    "name": "HAT TWIRLES",
+    "desc": "Hat twirlsはロッキングへ入る以前から多くのエンターテイナーが使っていた動きでした。複数のロッキングダンサーが自分たちのスタイルに取り入れ、とくに“Sneaky T”とJohn “Okie Doke” Wilsonが知られています。その後Don Campbellの代表的なシグネチャーの一つになりましたが、基本のhat spinは1974年、The Lockers最初の大規模ツアー中にSkeeter RabbitがDonへ教えたと記録されています。",
+    "by": "",
+    "id": "15"
+  },
+  {
+    "name": "THE WHICH A WAY",
+    "desc": "Leo “Fluky Luke” WilliamsonがWhich-A-Wayをロッキングのシグネチャームーブとして発展させました。ただし元々はDamita Jo Freemanが作ったソーシャル・パーティーダンスのステップで、彼女はFlukyよりゆっくり腰を回す変形スタイルを使っていました。彼女は自分のバージョンを“DJ Which-A-Way”と呼び、複数のSoul Train映像で確認できます。",
+    "by": "",
+    "id": "16"
+  },
+  {
+    "name": "THE LEO LOCK",
+    "desc": "Leo Lockは、Leoや他の柔軟性の高いロッカーが手を腰に置き、肘を前へ向けた状態で腕をlockする動きです。",
+    "by": "",
+    "id": "17"
+  },
+  {
+    "name": "LEO WALK",
+    "desc": "Leo Walkは、左右へステップを踏みながらrockingする移動ムーブです。",
+    "by": "",
+    "id": "18"
+  },
+  {
+    "name": "KILLING ROACHES / SLAPPING ROACHES / CATCHING ROACHES",
+    "desc": "床の近くで音楽のリズムに合わせて床を手で叩き、虫を捕まえたり殺したりするように表現するジェスチャーです。Killing Roaches、Slapping Roaches、Catching Roachesなど複数の名称が使われてきました。記録と用語が一致しないため、ここでは一人の創作者を断定していません。",
+    "by": "",
+    "id": "19"
+  },
+  {
+    "name": "THE SLOW MOTION",
+    "desc": "Fred “Mr. Penguin” Berryがロッキングへ取り入れました。Slow Motionはマイムの影響を受けたロッキングの変形表現で、すべての動きをゆっくりにし、顔の表情を強調します。",
+    "by": "",
+    "id": "20"
+  },
+  {
+    "name": "THE VOLKSWAGON",
+    "desc": "Volkswagonはマニュアル車の運転からインスピレーションを受けたムーブです。ギアを変え、車が前へ跳ねるような感覚を音楽のリズムに合わせて真似します。",
+    "by": "",
+    "id": "21"
+  },
+  {
+    "name": "THE HELICOPTOR",
+    "desc": "The Helicopterは、Mr. Penguinが周囲の全員を一続きの動きで指し、認め、挨拶するやり方です。",
+    "by": "",
+    "id": "22"
+  },
+  {
+    "name": "THE KEEPA RUNNIN",
+    "desc": "GoGo BrothersのTony LewisとBuddy Lombardが作りました。Keepa Runninはkick、step、slideを組み合わせたフットワーク・ムーブです。",
+    "by": "",
+    "id": "23"
+  },
+  {
+    "name": "The Sara Walk",
+    "desc": "Sara Walkは、前後へpacingしながら移動するムーブです。",
+    "by": "",
+    "id": "24"
+  },
+  {
+    "name": "THE SUPER FLY",
+    "desc": "帽子を使うムーブで、頭を振りながらブンブン飛ぶハエを真似します。",
+    "by": "",
+    "id": "25"
+  },
+  {
+    "name": "THE “ALPHA”",
+    "desc": "Alpha Omega Andersonが作り、自分自身のロッキングスタイルへ取り入れた、後ろへ倒れながらhandspringするようなフロアムーブです。素早く回転するcorkscrew styleのロッキングムーブも含まれました。",
+    "by": "",
+    "id": "26"
+  },
+  {
+    "name": "STUNTS & SPLITS",
+    "desc": "Half splitsはロッキング以前からNicholas Brothers、Sammy Davis Jr. Trioなどの歌手、ダンサー、グループがパフォーマンスで使っていました。1960〜70年代にはJames Brownがhalf splitを大きく大衆化しました。彼のステージダンスやステップはアフリカ系アメリカ人のソーシャル・パーティーで広く真似され、half splitsやThe Alligatorのようなフロアムーブが含まれていました。Camel WalkやMashed Potatoのようなムーブも彼のパフォーマンスから取り入れられました。その影響は非常に大きなものでした。Don Campbellもパーティーダンスの流れの中で、ソーシャルダンスとlocksの間にhalf splitsやknee dropsを繰り返し使いました。Kick splitsはDon Campbellがロッキングへ取り入れましたが、それ以前からJames Brown、タップダンサー、パーティーダンサーたちが使っていました。High-flying knee drops、running knee drops、Swan DiveもDonのスタイルの一部になりました。",
+    "by": "",
+    "id": "27"
+  },
+  {
+    "name": "BUTT DROPS",
+    "desc": "John “Sambo Lock” McCloudが作った、ダイナミックで大胆なstuntです。ダンサーがジャンプして両脚を前へ伸ばし、音楽のビートへ正確に合わせてお尻で着地します。",
+    "by": "",
+    "id": "28"
+  },
+  {
+    "name": "LOCKING HAND SHAKES",
+    "desc": "Soul Train Dance ContestでDamita Jo FreemanとJimmy “Scooby Doo” Fosterが一緒に行ったものが初期の例として記録されています。一部のLocking handshakesはGreg “Campbellock Jr.” Popeが作り、Greg Campbellock Jr.とFluky Lukeが最初に見せたと伝えられています（Wattstax映像参照）。GoGo Brothersも複数の異なるハンドシェイクを取り入れました。こうしたハンドシェイクは、都市部のストリートで使われていたunity handshakesを表現したものです。",
+    "by": "",
+    "id": "29"
+  },
+  {
+    "name": "THE ROBOT",
+    "desc": "技術的にはRobotそのものはlockではありませんが、Don CampbellとCharles “Robot” Washingtonの関係を通じて、Robotingは長い間ロッキングの歴史とともに存在してきました。ロッキングが発展する過程と商業的ロッキング・パフォーマンスの両方に含まれたことで、二つの形式はつながり続けました。Charles “Robot” WashingtonはRobotを一つのダンスとして、そしてロッキング・サブカルチャーの中へ紹介した中心人物として記録されています。",
+    "by": "",
+    "id": "30"
+  }
+]

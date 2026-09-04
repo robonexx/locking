@@ -22,7 +22,7 @@ export function AboutPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={styles.tribute}>
         <p className="eyebrow">
-          {lang === 'sv' ? 'Kunskap / Berättelser / Respekt' : lang === 'fr' ? 'Savoir / Histoires / Respect' : lang === 'fi' ? 'Tieto / Tarinat / Kunnioitus' : lang === 'ko' ? '지식 / 이야기 / 존중' : 'Knowledge / Stories / Respect'}
+          {lang === 'sv' ? 'Kunskap / Berättelser / Respekt' : lang === 'fr' ? 'Savoir / Histoires / Respect' : lang === 'fi' ? 'Tieto / Tarinat / Kunnioitus' : lang === 'ko' ? '지식 / 이야기 / 존중' : lang === 'ja' ? '知識 / 物語 / 敬意' : 'Knowledge / Stories / Respect'}
         </p>
         <h2>{story.acknowledgementsTitle}</h2>
         {story.acknowledgements.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
@@ -30,7 +30,7 @@ export function AboutPage({ lang }: { lang: Locale }) {
 
       <Reveal as="section" className={styles.continuation}>
         <p className="eyebrow eyebrow-dark">
-          {lang === 'sv' ? 'Framåt / Fortsättning' : lang === 'fr' ? 'La suite / L’avenir' : lang === 'fi' ? 'Jatkoa / Tulevaisuus' : lang === 'ko' ? '앞으로 / 계속되는 이야기' : 'Looking ahead / To be continued'}
+          {lang === 'sv' ? 'Framåt / Fortsättning' : lang === 'fr' ? 'La suite / L’avenir' : lang === 'fi' ? 'Jatkoa / Tulevaisuus' : lang === 'ko' ? '앞으로 / 계속되는 이야기' : lang === 'ja' ? 'これから / 続いていく物語' : 'Looking ahead / To be continued'}
         </p>
         <h2>{story.continuationTitle}</h2>
         {story.continuation.map((paragraph, index) => (
