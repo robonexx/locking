@@ -14,6 +14,7 @@ export default function NotFound() {
     en: { title: 'Page not found', home: 'Back to the home page' },
     fr: { title: 'Page introuvable', home: 'Retour à l’accueil' },
     fi: { title: 'Sivua ei löytynyt', home: 'Takaisin etusivulle' },
+    ko: { title: '페이지를 찾을 수 없습니다', home: '홈으로 돌아가기' },
   }[lang];
 
   return (

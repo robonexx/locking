@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
-import { locales, type Locale } from '@/lib/i18n';
+import { languageTags, locales, type Locale } from '@/lib/i18n';
 import styles from './LanguageSwitcher.module.css';
 
 const languageNames: Record<Locale, string> = {
@@ -12,6 +12,7 @@ const languageNames: Record<Locale, string> = {
   en: 'English',
   fr: 'Français',
   fi: 'Suomi',
+  ko: '한국어',
 };
 
 const chooserLabels: Record<Locale, string> = {
@@ -19,6 +20,7 @@ const chooserLabels: Record<Locale, string> = {
   en: 'Choose language',
   fr: 'Choisir la langue',
   fi: 'Valitse kieli',
+  ko: '언어 선택',
 };
 
 export function LanguageSwitcher({ lang }: { lang: Locale }) {
@@ -67,8 +69,8 @@ export function LanguageSwitcher({ lang }: { lang: Locale }) {
                 <Link
                   className={locale === lang ? styles.current : undefined}
                   href={href}
-                  hrefLang={locale}
-                  lang={locale}
+                  hrefLang={languageTags[locale]}
+                  lang={languageTags[locale]}
                   aria-current={locale === lang ? 'page' : undefined}
                   onClick={() => setOpen(false)}
                 >

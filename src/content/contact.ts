@@ -45,4 +45,15 @@ Onko sinulla palautetta tai korjauksia, tarina kerrottavana tai kiinnostusta yht
 Locking.se-sivuston tuleva osa antaa eri maille ja paikallisille sceneille tilaa kertoa oma historiansa. Tavoitteena on kerätä tarinoita, tärkeitä vuosilukuja ja tapahtumia paikallisiksi aikajanoiksi ja myöhemmin yhdistää ne näyttämään, miten Locking on kulkenut ja kehittynyt eri puolilla maailmaa.
 
 Voit jo nyt lähettää aineistoa omasta maastasi tai kaupungistasi: sceneä rakentaneista ihmisistä, crew’eistä, tapahtumista, opetuksesta, pioneerien kohtaamisista sekä lähteistä, kuvista ja likimääräisistä vuosiluvuista. Teemme selvän eron Lockingin alkuperäisen Los Angelesin aikakauden pioneerien ja myöhemmin muiden maiden paikallisia scenejä rakentaneiden pioneerien välille.`,
+  ko: `## 연락처
+
+피드백이나 정정할 내용이 있거나, 나누고 싶은 이야기가 있거나, 협업에 관심이 있으신가요? 이메일로 연락해 주세요.
+
+**이메일:** [funkcampswe@gmail.com](mailto:funkcampswe@gmail.com?subject=Locking.se%20-%20%ED%94%BC%EB%93%9C%EB%B0%B1%2C%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20%EB%98%90%EB%8A%94%20%ED%98%91%EC%97%85)
+
+## 여러분의 지역 락킹 역사를 나눠 주세요
+
+Locking.se의 앞으로의 한 부분에서는 여러 나라와 지역 신(scene)이 각자의 역사를 직접 이야기할 수 있는 공간을 만들 예정입니다. 이야기, 중요한 연도와 사건을 지역별 타임라인으로 모으고, 장기적으로는 이를 서로 연결해 락킹이 전 세계로 어떻게 전해지고 발전했는지 보여 주는 것이 목표입니다.
+
+지금도 여러분의 나라나 도시에 관한 자료를 보내 주실 수 있습니다. 지역 신을 세우는 데 기여한 사람들, 크루, 이벤트, 교육, 파이오니어들과의 만남, 출처, 사진, 대략적인 연도 등이 모두 포함될 수 있습니다. 우리는 락킹의 오리지널 로스앤젤레스 시대 파이오니어들과, 이후 다른 나라에서 지역 신을 개척한 사람들을 명확히 구분해서 소개할 것입니다.`,
 };

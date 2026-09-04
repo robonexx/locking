@@ -13,7 +13,7 @@ import { TheLockersPage } from '@/features/TheLockersPage';
 import { TimelinePage } from '@/features/TimelinePage';
 import { pageBySlug } from '@/content/site';
 import { readDanceSteps, readPioneers, readRecoveredPage } from '@/lib/content';
-import { isLocale } from '@/lib/i18n';
+import { isLocale, languageTags, locales } from '@/lib/i18n';
 import styles from './ContentPage.module.css';
 
 export type LocaleParams = Promise<{ lang: string }>;
@@ -27,13 +27,10 @@ export async function getContentPageMetadata(params: LocaleParams, slug: string)
     description: page.summary[lang],
     alternates: {
       canonical: `/${lang}/${slug}`,
-      languages: {
-        sv: `/sv/${slug}`,
-        en: `/en/${slug}`,
-        fr: `/fr/${slug}`,
-        fi: `/fi/${slug}`,
-        'x-default': `/sv/${slug}`,
-      },
+      languages: Object.fromEntries([
+        ...locales.map((locale) => [languageTags[locale], `/${locale}/${slug}`]),
+        ['x-default', `/sv/${slug}`],
+      ]),
     },
   };
 }

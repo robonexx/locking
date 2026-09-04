@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n';
 import { aboutEn, aboutFi, aboutFr, aboutSv } from './about.generated';
+import { aboutKo } from './ko.generated';
 
 export type AboutMedia = {
   src: string;
@@ -31,4 +32,5 @@ export const aboutStory: Record<Locale, AboutStory> = {
   en: aboutEn,
   fr: aboutFr,
   fi: aboutFi,
+  ko: aboutKo,
 };

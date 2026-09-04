@@ -8,6 +8,7 @@ export function SiteFooter({ lang }: { lang: Locale }) {
     en: { line: 'For the lockers around the world.', about: 'About the site', contact: 'Contact' },
     fr: { line: 'Pour les lockers du monde entier.', about: 'À propos du site', contact: 'Contact' },
     fi: { line: 'Lockereille ympäri maailmaa.', about: 'Tietoa sivustosta', contact: 'Yhteystiedot' },
+    ko: { line: '전 세계 락커들을 위해.', about: '사이트 소개', contact: '연락처' },
   }[lang];
 
   return (

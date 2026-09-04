@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { contentPages } from '@/content/site';
-import { defaultLocale, locales } from '@/lib/i18n';
+import { defaultLocale, languageTags, locales } from '@/lib/i18n';
 
 const siteUrl = 'https://locking.se';
 const paths = ['', ...contentPages.map((page) => `/${page.slug}`)];
@@ -12,7 +12,7 @@ function localizedUrl(locale: string, path: string) {
 export default function sitemap(): MetadataRoute.Sitemap {
   return paths.flatMap((path) => {
     const languages = Object.fromEntries([
-      ...locales.map((locale) => [locale, localizedUrl(locale, path)]),
+      ...locales.map((locale) => [languageTags[locale], localizedUrl(locale, path)]),
       ['x-default', localizedUrl(defaultLocale, path)],
     ]);
 

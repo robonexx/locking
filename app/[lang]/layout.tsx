@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
-import { isLocale, locales, ui } from '@/lib/i18n';
+import { isLocale, languageTags, locales, ui } from '@/lib/i18n';
 import '../globals.css';
 
 export async function generateMetadata({
@@ -17,6 +17,7 @@ export async function generateMetadata({
     en: 'Locking.se – for the lockers around the world.',
     fr: 'Locking.se – pour les lockers du monde entier.',
     fi: 'Locking.se – lockereille ympäri maailmaa.',
+    ko: 'Locking.se – 전 세계 락커들을 위해.',
   };
 
   return {
@@ -28,7 +29,10 @@ export async function generateMetadata({
     description: descriptions[lang],
     alternates: {
       canonical: `/${lang}`,
-      languages: { sv: '/sv', en: '/en', fr: '/fr', fi: '/fi', 'x-default': '/sv' },
+      languages: Object.fromEntries([
+        ...locales.map((locale) => [languageTags[locale], `/${locale}`]),
+        ['x-default', '/sv'],
+      ]),
     },
   };
 }
@@ -45,7 +49,7 @@ export default async function LocaleLayout({
   if (!isLocale(lang)) notFound();
 
   return (
-    <html lang={lang}>
+    <html lang={languageTags[lang]}>
       <body>
         <a className="skip-link" href="#main-content">
           {ui[lang].skip}

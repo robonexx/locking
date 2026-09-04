@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n';
 import { timelineFi } from './fi.generated';
+import { timelineKo } from './ko.generated';
 
 export type TimelineEvent = {
   period: string;
@@ -520,6 +521,7 @@ export const timelineContent: Record<Locale, TimelineContent> = {
     ],
   },
   fi: timelineFi as TimelineContent,
+  ko: timelineKo as TimelineContent,
 };
 
 export const timelineSources = [

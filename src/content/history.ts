@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n';
 import { lockingHistoryFi } from './fi.generated';
+import { lockingHistoryKo } from './ko.generated';
 
 type HistoryStory = {
   intro: string;
@@ -255,4 +256,5 @@ export const lockingHistory: Record<Locale, HistoryStory> = {
     ],
   },
   fi: lockingHistoryFi,
+  ko: lockingHistoryKo,
 };

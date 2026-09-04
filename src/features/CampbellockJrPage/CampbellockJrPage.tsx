@@ -69,7 +69,7 @@ export function CampbellockJrPage({ lang }: { lang: Locale }) {
             <a href="/media/campbellock-jr/four-attributes.jpg" target="_blank" rel="noreferrer">
               <Image
                 src="/media/campbellock-jr/four-attributes.jpg"
-                alt={lang === 'sv' ? 'Greg Campbellock Jr:s dokument The 4 attributes of Locking' : lang === 'fr' ? 'Le document The 4 attributes of Locking de Greg Campbellock Jr.' : lang === 'fi' ? 'Greg Campbellock Jr:n dokumentti The 4 attributes of Locking' : 'Greg Campbellock Jr.’s document The 4 attributes of Locking'}
+                alt={lang === 'sv' ? 'Greg Campbellock Jr:s dokument The 4 attributes of Locking' : lang === 'fr' ? 'Le document The 4 attributes of Locking de Greg Campbellock Jr.' : lang === 'fi' ? 'Greg Campbellock Jr:n dokumentti The 4 attributes of Locking' : lang === 'ko' ? 'Greg Campbellock Jr.의 문서 The 4 attributes of Locking' : 'Greg Campbellock Jr.’s document The 4 attributes of Locking'}
                 width={1834}
                 height={3969}
                 sizes="(max-width: 860px) calc(100vw - 40px), 42vw"
@@ -115,7 +115,7 @@ export function CampbellockJrPage({ lang }: { lang: Locale }) {
           <a href="/media/campbellock-jr/funky-style.jpg" target="_blank" rel="noreferrer">
             <Image
               src="/media/campbellock-jr/funky-style.jpg"
-              alt={lang === 'sv' ? 'Greg Campbellock Jr:s diagram BC plus EC plus precision moves with music equals Funky Style' : lang === 'fr' ? 'Le diagramme de Greg Campbellock Jr. : BC plus EC plus precision moves with music égale Funky Style' : lang === 'fi' ? 'Greg Campbellock Jr:n kaavio: BC plus EC plus precision moves with music on yhtä kuin Funky Style' : 'Greg Campbellock Jr.’s diagram: BC plus EC plus precision moves with music equals Funky Style'}
+              alt={lang === 'sv' ? 'Greg Campbellock Jr:s diagram BC plus EC plus precision moves with music equals Funky Style' : lang === 'fr' ? 'Le diagramme de Greg Campbellock Jr. : BC plus EC plus precision moves with music égale Funky Style' : lang === 'fi' ? 'Greg Campbellock Jr:n kaavio: BC plus EC plus precision moves with music on yhtä kuin Funky Style' : lang === 'ko' ? 'Greg Campbellock Jr.의 도표: BC + EC + 음악에 맞춘 precision moves = Funky Style' : 'Greg Campbellock Jr.’s diagram: BC plus EC plus precision moves with music equals Funky Style'}
               width={1783}
               height={2805}
               sizes="(max-width: 860px) calc(100vw - 40px), 36vw"

@@ -1,5 +1,6 @@
 const base = process.env.SITE_URL ?? 'http://localhost:3000';
-const locales = ['sv', 'en', 'fr', 'fi'];
+const locales = ['sv', 'en', 'fr', 'fi', 'ko'];
+const languageTags = { sv: 'sv', en: 'en', fr: 'fr', fi: 'fi', ko: 'ko-KR' };
 const slugs = [
   '',
   'about',
@@ -34,7 +35,8 @@ for (const pathname of pages) {
   const lang = body.match(/<html lang="([^"]+)/)?.[1] ?? '-';
   const headingCount = (body.match(/<h1/g) ?? []).length;
 
-  const expectedLang = pathname.split('/')[1];
+  const locale = pathname.split('/')[1];
+  const expectedLang = languageTags[locale];
   if (
     response.status !== expected
     || (pathname !== '/' && (headingCount !== 1 || lang !== expectedLang))
