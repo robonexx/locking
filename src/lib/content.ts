@@ -26,9 +26,13 @@ export async function readRecoveredPage(fileName: string, lang: Locale = 'en') {
     ? path.join(recoveryRoot, 'translations', translatedLocale, fileName)
     : path.join(recoveryRoot, 'pages', fileName);
   const value = await fs.readFile(sourcePath, 'utf8');
-  if (translatedLocale) return value;
-  return value.replace(
+  const content = translatedLocale ? value : value.replace(
     /^# .*?\n\nKälla:.*?\n\n> Automatiskt återvunnen originaltext\..*?\n\n/s,
+    ''
+  );
+
+  return content.replace(
+    /^(?:#{1,6}\s*)?[^\r\n]*LockerLegends[^\r\n]*(?:\r?\n){1,2}/i,
     ''
   );
 }

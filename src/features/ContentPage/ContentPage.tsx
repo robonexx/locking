@@ -77,7 +77,7 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       content = null;
       break;
     default:
-      content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source, lang) : ''} lang={lang} />;
+      content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source, lang) : ''} />;
   }
 
   return (

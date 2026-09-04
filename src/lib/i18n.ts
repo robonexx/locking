@@ -18,9 +18,6 @@ export const ui = {
     knowledge: 'Kunskap',
     stories: 'Intervjuer & artiklar',
     contact: 'Kontakt',
-    sourceLabel: 'Originalmaterial',
-    sourceNotice:
-      'Detta är återvunnet engelskt källmaterial. Språk och benämningar bearbetas varsamt, medan sakuppgifter fortfarande behöver faktagranskas.',
     readMore: 'Utforska sidan',
   },
   en: {
@@ -33,9 +30,6 @@ export const ui = {
     knowledge: 'Knowledge',
     stories: 'Interviews & articles',
     contact: 'Contact',
-    sourceLabel: 'Original material',
-    sourceNotice:
-      'This is recovered source copy. Language and terminology are being reviewed with care; historical claims still require fact-checking.',
     readMore: 'Explore the page',
   },
   fr: {
@@ -48,9 +42,6 @@ export const ui = {
     knowledge: 'Ressources',
     stories: 'Entretiens & articles',
     contact: 'Contact',
-    sourceLabel: 'Matériau d’origine',
-    sourceNotice:
-      'Cette page est traduite à partir du texte d’archive récupéré. La langue et la terminologie sont examinées avec soin ; les affirmations historiques doivent encore être vérifiées.',
     readMore: 'Découvrir la page',
   },
   fi: {
@@ -63,9 +54,6 @@ export const ui = {
     knowledge: 'Tietopankki',
     stories: 'Haastattelut ja artikkelit',
     contact: 'Yhteystiedot',
-    sourceLabel: 'Alkuperäisaineisto',
-    sourceNotice:
-      'Tämä sivu on käännetty talteen otetusta arkistotekstistä. Kieltä ja terminologiaa tarkistetaan huolellisesti; historialliset väitteet on vielä tarkistettava.',
     readMore: 'Tutustu sivuun',
   },
 } satisfies Record<Locale, Record<string, string>>;

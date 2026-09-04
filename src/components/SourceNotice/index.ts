@@ -1,1 +1,0 @@
-export { SourceNotice } from './SourceNotice';
