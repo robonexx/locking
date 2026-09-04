@@ -18,18 +18,22 @@ export type DanceStep = {
   id: string;
 };
 
-const recoveryRoot = path.join(process.cwd(), 'content-recovery');
+const localizedContentRoot = path.join(process.cwd(), 'src', 'content', 'locales');
 
-export async function readRecoveredPage(fileName: string, lang: Locale = 'en') {
-  const translatedLocale = lang === 'fr' || lang === 'fi' || lang === 'ko' ? lang : null;
-  const sourcePath = translatedLocale
-    ? path.join(recoveryRoot, 'translations', translatedLocale, fileName)
-    : path.join(recoveryRoot, 'pages', fileName);
+type ContentLocale = Exclude<Locale, 'sv'>;
+
+function resolveContentLocale(lang: Locale): ContentLocale {
+  return lang === 'sv' ? 'en' : lang;
+}
+
+export async function readLocalizedPage(fileName: string, lang: Locale = 'en') {
+  const contentLocale = resolveContentLocale(lang);
+  const sourcePath = path.join(localizedContentRoot, contentLocale, fileName);
   const value = await fs.readFile(sourcePath, 'utf8');
-  const content = translatedLocale ? value : value.replace(
+  const content = contentLocale === 'en' ? value.replace(
     /^# .*?\n\nKälla:.*?\n\n> Automatiskt återvunnen originaltext\..*?\n\n/s,
     ''
-  );
+  ) : value;
 
   return content.replace(
     /^(?:#{1,6}\s*)?[^\r\n]*LockerLegends[^\r\n]*(?:\r?\n){1,2}/i,
@@ -37,23 +41,17 @@ export async function readRecoveredPage(fileName: string, lang: Locale = 'en') {
   );
 }
 
-async function readData<T>(fileName: string): Promise<T> {
-  const value = await fs.readFile(path.join(recoveryRoot, 'data', fileName), 'utf8');
+async function readData<T>(fileName: string, lang: ContentLocale = 'en'): Promise<T> {
+  const value = await fs.readFile(path.join(localizedContentRoot, lang, fileName), 'utf8');
   return JSON.parse(value) as T;
 }
 
 export async function readPioneers(lang: Locale = 'en') {
-  if (lang === 'fi' || lang === 'ko') {
-    const value = await fs.readFile(path.join(recoveryRoot, 'translations', lang, 'pioneers.json'), 'utf8');
-    return JSON.parse(value) as Pioneer[];
-  }
-  return readData<Pioneer[]>('pioneers.json');
+  const contentLocale = lang === 'fi' || lang === 'ko' ? lang : 'en';
+  return readData<Pioneer[]>('pioneers.json', contentLocale);
 }
 
 export async function readDanceSteps(lang: Locale = 'en') {
-  if (lang === 'fi' || lang === 'ko') {
-    const value = await fs.readFile(path.join(recoveryRoot, 'translations', lang, 'steps.json'), 'utf8');
-    return JSON.parse(value) as DanceStep[];
-  }
-  return readData<DanceStep[]>('steps.json');
+  const contentLocale = lang === 'fi' || lang === 'ko' ? lang : 'en';
+  return readData<DanceStep[]>('steps.json', contentLocale);
 }

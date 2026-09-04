@@ -7,12 +7,12 @@ import { ContactPage } from '@/features/ContactPage';
 import { HistoryPage } from '@/features/HistoryPage';
 import { MemorialPage } from '@/features/MemorialPage';
 import { PioneersPage } from '@/features/PioneersPage';
-import { RecoveredPage } from '@/features/RecoveredPage';
+import { MarkdownPage } from '@/features/MarkdownPage';
 import { StepsPage } from '@/features/StepsPage';
 import { TheLockersPage } from '@/features/TheLockersPage';
 import { TimelinePage } from '@/features/TimelinePage';
 import { pageBySlug } from '@/content/site';
-import { readDanceSteps, readPioneers, readRecoveredPage } from '@/lib/content';
+import { readDanceSteps, readLocalizedPage, readPioneers } from '@/lib/content';
 import { isLocale, languageTags, locales } from '@/lib/i18n';
 import styles from './ContentPage.module.css';
 
@@ -74,7 +74,7 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       content = null;
       break;
     default:
-      content = <RecoveredPage content={page.source ? await readRecoveredPage(page.source, lang) : ''} />;
+      content = <MarkdownPage content={page.source ? await readLocalizedPage(page.source, lang) : ''} />;
   }
 
   return (

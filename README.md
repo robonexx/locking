@@ -60,10 +60,10 @@ app/
 src/
   components/       återanvändbara komponenter med egna CSS Modules
   features/         större sidvyer och deras lokala CSS Modules
-  content/          svenskt och engelskt redaktionellt innehåll
+  content/          flerspråkigt redaktionellt innehåll och lokala textfiler
   lib/              innehållsläsning och språkstöd
 public/media/       statiska bilder som används av sidan
-content-recovery/   räddat Markdown- och JSON-innehåll från 2022
+content-recovery/   tillfälligt referensmaterial från 2022
 ```
 
 `app` är Next.js App Router och innehåller projektets publika routes. Mappar i parentes organiserar koden men syns inte i URL:en. Exempelvis blir `app/[lang]/(pages)/history/page.tsx` fortfarande `/sv/history`.
@@ -72,9 +72,9 @@ content-recovery/   räddat Markdown- och JSON-innehåll från 2022
 
 ## Innehåll
 
-Det räddade originalinnehållet ligger i [`content-recovery`](./content-recovery). Appen läser Markdown- och JSON-filerna vid bygget, så de historiska sidorna behöver ingen databas.
+Det innehåll som används av appen ligger i [`src/content`](./src/content). Lokaliserade Markdown- och JSON-filer finns under `src/content/locales`, så de historiska sidorna behöver ingen databas.
 
-Originalmaterialet är i huvudsak på engelska. Svensk navigering, sidrubriker och introduktioner finns redan. Längre historiska texter behöver översättas och faktagranskas innan den svenska versionen är färdig för publicering.
+`content-recovery` är endast tillfälligt referensmaterial från det äldre projektet och används inte längre av produktionsbygget. Mappen kan tas bort när den återstående arkivgranskningen är klar.
 
 ## Media
 
@@ -86,7 +86,7 @@ CMS:et är avgränsat till intervjuer, artiklar och eventuella nyheter på start
 
 ## Publicering
 
-Filerna i `public/media` och `content-recovery` krävs av den nuvarande produktionbuilden och ska finnas med i GitHub-repot. Byggcache, installerade paket, lokala miljövariabler och det uppackade gamla projektet är exkluderade i `.gitignore`.
+Filerna i `public/media` och `src/content` krävs av den nuvarande produktionsbuilden och ska finnas med i GitHub-repot. Byggcache, installerade paket, lokala miljövariabler och det uppackade gamla projektet är exkluderade i `.gitignore`.
 
 Innan push:
 

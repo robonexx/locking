@@ -10,7 +10,7 @@ This is the new, independent Locking / Campbellocking website for `locking.se`. 
 - React and TypeScript in strict mode
 - CSS Modules for component- and page-specific styling
 - Global CSS only for design tokens, resets and genuinely shared utilities
-- Swedish is the primary locale; English is the current secondary locale
+- Swedish is the primary locale; additional locales are stored alongside it in the main project
 
 ## Project structure
 
@@ -18,8 +18,8 @@ This is the new, independent Locking / Campbellocking website for `locking.se`. 
 - Route groups such as `(home)` and `(pages)` may organize routes without changing public URLs.
 - `src/features/` contains page-level implementations.
 - `src/components/ComponentName/` contains reusable components. Keep the component, its CSS Module and its public `index.ts` together.
-- `src/content/` contains curated bilingual content and navigation metadata.
-- `content-recovery/` contains text and structured data recovered from the 2022 project. It is currently required at build time and must remain committed.
+- `src/content/` contains curated multilingual content, localized Markdown/JSON and navigation metadata.
+- `content-recovery/` is temporary reference material recovered from the 2022 project. Production code must not depend on it; remove it after the remaining archive audit is complete.
 - `public/media/` contains all images required by the current site and must remain committed.
 - `legacy-import/` is reference material only and must not be committed.
 
