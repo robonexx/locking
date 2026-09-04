@@ -10,6 +10,7 @@ export function SiteFooter({ lang }: { lang: Locale }) {
     fi: { line: 'Lockereille ympäri maailmaa.', about: 'Tietoa sivustosta', contact: 'Yhteystiedot' },
     ko: { line: '전 세계 락커들을 위해.', about: '사이트 소개', contact: '연락처' },
     ja: { line: '世界中のロッカーのために。', about: 'サイトについて', contact: 'お問い合わせ' },
+    zh: { line: '为世界各地的 Locker 而设。', about: '关于本站', contact: '联系' },
   }[lang];
 
   return (

@@ -47,11 +47,11 @@ async function readData<T>(fileName: string, lang: ContentLocale = 'en'): Promis
 }
 
 export async function readPioneers(lang: Locale = 'en') {
-  const contentLocale = lang === 'fi' || lang === 'ko' || lang === 'ja' ? lang : 'en';
+  const contentLocale = lang === 'fi' || lang === 'ko' || lang === 'ja' || lang === 'zh' ? lang : 'en';
   return readData<Pioneer[]>('pioneers.json', contentLocale);
 }
 
 export async function readDanceSteps(lang: Locale = 'en') {
-  const contentLocale = lang === 'fi' || lang === 'ko' || lang === 'ja' ? lang : 'en';
+  const contentLocale = lang === 'fi' || lang === 'ko' || lang === 'ja' || lang === 'zh' ? lang : 'en';
   return readData<DanceStep[]>('steps.json', contentLocale);
 }

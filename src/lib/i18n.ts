@@ -1,4 +1,4 @@
-export const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja'] as const;
+export const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja', 'zh'] as const;
 export type Locale = (typeof locales)[number];
 
 export const languageTags = {
@@ -8,6 +8,7 @@ export const languageTags = {
   fi: 'fi',
   ko: 'ko-KR',
   ja: 'ja-JP',
+  zh: 'zh-CN',
 } satisfies Record<Locale, string>;
 
 export const defaultLocale: Locale = 'sv';
@@ -88,5 +89,17 @@ export const ui = {
     stories: 'インタビュー & 記事',
     contact: 'お問い合わせ',
     readMore: 'ページを見る',
+  },
+  zh: {
+    skip: '跳到主要内容',
+    menu: '菜单',
+    close: '关闭菜单',
+    home: '首页',
+    about: '关于本站',
+    history: '历史',
+    knowledge: '知识',
+    stories: '访谈与文章',
+    contact: '联系',
+    readMore: '查看页面',
   },
 } satisfies Record<Locale, Record<string, string>>;

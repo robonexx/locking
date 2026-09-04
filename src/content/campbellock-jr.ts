@@ -2,6 +2,7 @@ import type { Locale } from '@/lib/i18n';
 import { campbellockJrFi } from './fi.generated';
 import { campbellockJrKo } from './ko.generated';
 import { campbellockJrJa } from './ja.generated';
+import { campbellockJrZh } from './zh.generated';
 
 type Attribute = {
   title: string;
@@ -324,4 +325,5 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
   fi: campbellockJrFi,
   ko: campbellockJrKo,
   ja: campbellockJrJa,
+  zh: campbellockJrZh,
 };

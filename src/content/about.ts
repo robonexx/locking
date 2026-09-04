@@ -2,6 +2,7 @@ import type { Locale } from '@/lib/i18n';
 import { aboutEn, aboutFi, aboutFr, aboutSv } from './about.generated';
 import { aboutKo } from './ko.generated';
 import { aboutJa } from './ja.generated';
+import { aboutZh } from './zh.generated';
 
 export type AboutMedia = {
   src: string;
@@ -35,4 +36,5 @@ export const aboutStory: Record<Locale, AboutStory> = {
   fi: aboutFi,
   ko: aboutKo,
   ja: aboutJa,
+  zh: aboutZh,
 };

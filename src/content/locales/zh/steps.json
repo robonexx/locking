@@ -1,0 +1,188 @@
+[
+  {
+    "name": "BASIC LOCK",
+    "desc": "Basic Lock 是一种随着音乐节拍让手臂动作突然停住、像冻结一样定格的动作。1960年代末至1970年代初，Don Campbell 在尝试当时流行的社交舞 Funky Chicken 时，形成了这种瞬间停顿、像卡住一样的动作。这些停顿后来被称为 locks 或 locking up。之后，Leo “Fluky Luke” Williamson 展示了一种独特的 lock：把双手外侧放在腰间，让双肘向前锁住，这种形式后来被称为“Leo Lock”。",
+    "creator": "Don Campbellock Campbell",
+    "id": "1"
+  },
+  {
+    "name": "GIVING OR ASKING FOR FIVE",
+    "desc": "这是一种在跳舞过程中表达两个人之间认同、共鸣或鼓励的 hand slap。Don Campbell 会把这种动作放在 locks 和社交舞之间。Give Five 在 Don 把它带入舞蹈之前很久，就已经是美国非裔社区中表达认可与共鸣的传统手势。当人们看到一个精彩动作并笑着回应时，Don 和其他先驱有时会伸出手接受 five；掌心相碰，就是对这种认可的回应。Giving Five 本质上是一种共同确认“刚才发生了好事”的 gesture。",
+    "by": "",
+    "id": "2"
+  },
+  {
+    "name": "LOCKING POINTS",
+    "desc": "后来也被称为 Uncle Sam points，这个名称让人联想到美国征兵海报中 Uncle Sam 指向观看者的形象。在美国非裔社区里，用手指向朋友或舞伴本来就是传递信息与认可的 gesture，也可用于向远处的人打招呼；它在 Don Campbell 把它纳入舞蹈之前已经存在。流传的故事是：Don 跳舞时，桌旁一位女性看到他独特的风格后笑了，于是 Don 像人们平常那样指向她，表达“我看到你了”的意思，这被认为是早期 Locking point 的来源之一。之后其他先驱加入 double、triple points，让 Locking 的动作连接更加流畅。",
+    "by": "",
+    "id": "3"
+  },
+  {
+    "name": "HAND CLAPS",
+    "desc": "Back hand claps 与 back-front hand claps 是早期 Locking 非常基础的元素。它们可以作为突然停住再重新开始的方式，单独用于 pacing，也经常放在不同动作之间。Don 也把早期 wrist rolls 纳入自己的风格。后来，wrist rolls 与其他动作的不同组合被放在 back-front hand claps 前面，进一步帮助舞蹈形成连续性并继续发展。",
+    "by": "",
+    "id": "4"
+  },
+  {
+    "name": "UPLOCK",
+    "desc": "UPLOCK，如今也常被称为 Muscle Man，通常在开始一组 Locking 动作时把双臂向上抛起。它带有一种 announcement 的感觉，就像街头用“Hey”或“What’s up?”打招呼一样，明确告诉周围的人：我在这里。",
+    "by": "",
+    "id": "5,"
+  },
+  {
+    "name": "THE DON CAMPBELL WALK",
+    "desc": "Don Campbell 创造的一种 sliding step 移动动作，用于在 locks 与 stunts 之间向前移动。",
+    "by": "",
+    "id": "6"
+  },
+  {
+    "name": "THE FUNKY GUITAR",
+    "desc": "一种随着音乐节奏模仿弹吉他的 gesture-based move。LockerLegends 在 Damita Jo Freeman 早期 Soul Train 出演，以及她与 Don Campbell 双人共舞的影像中记录到了这个动作。",
+    "by": "",
+    "id": "6b"
+  },
+  {
+    "name": "THE SCOOBY DOO",
+    "desc": "由 Jimmy “Scooby Doo” Foster 创造。基本 Scooby Doo 从双手做 uplock announcement 开始，然后连接 kick 与 step。",
+    "by": "",
+    "id": "7"
+  },
+  {
+    "name": "THE SCOOBOT",
+    "desc": "同样是 Jimmy “Scooby Doo” Foster 创造的独特舞步。",
+    "by": "",
+    "id": "8"
+  },
+  {
+    "name": "THE HITCHHIKE",
+    "desc": "模仿搭便车动作的舞步。舞者保持拇指竖起并向侧面移动，同时结合 Rocksteady 式的 funky hip groove。",
+    "by": "",
+    "id": "9"
+  },
+  {
+    "name": "THE SCOOBY WALK",
+    "desc": "Jimmy Foster 特有的一种走法，与 Greg 所称的 Pimp Walk 有相似之处。",
+    "by": "",
+    "id": "10"
+  },
+  {
+    "name": "THE PIMP WALK",
+    "desc": "由 Greg “Campbellock Jr.” Pope 创造。Greg 为 Locking 加入的多种动作，帮助这门舞蹈形成更自由、连续的 flow。他也会把 Scoobot 变化成 hop 型动作。上文提到的 Sneek、Stop N Go（Quickies）等动作，则由 Jimmy “Scooby Doo” Foster 在 Greg Campbellock Jr. 的想法影响下发展；许多动作名称是由 Damita Jo Freeman 命名。",
+    "by": "",
+    "id": "11"
+  },
+  {
+    "name": "SNEEK",
+    "desc": "Sneek 是 Soul dance Breakdown 的一种变形。舞者左右扭转上半身，同时抬起外侧手臂，做出像是在寻找什么的 gesture。之后 The Lockers 为了让商业舞台上的摄影角度更容易看清动作，又发展出使用内侧手臂的版本。",
+    "by": "",
+    "id": "12"
+  },
+  {
+    "name": "QUICKIES /STOP N GO",
+    "desc": "Quickies，也叫 Stop N Go，是在旧 Sara Walk 动作基础上变化发展出来的。快速弹回的感觉让人联想到像橡胶一样跳起的卡通角色。",
+    "by": "",
+    "id": "13"
+  },
+  {
+    "name": "THE SKEETERRABBIT",
+    "desc": "由 James “Skeeter Rabbit” Higgins 创造。动作受到 Nicholas Brothers 的 shuffle，以及街头游戏 hopscotch 的启发。Skeeter 把这个动作接在 Scooby Doo 结尾后，使它成为连续的组合，并进一步发展出多种形式。其他先驱后来也创造了 Skeeter Rabbit shuffle 的变化。到1970年代中期，街头 gang culture 的某些 dance move 也开始与 Locking 混合；例如 Crip Walk 有时会被放在 Skeeter Rabbit 结尾，Michael “Peekaboo” Frenke 与 Leo “Shaboo” Walker 常在这条发展脉络中被提到。",
+    "by": "",
+    "id": "14"
+  },
+  {
+    "name": "HAT TWIRLES",
+    "desc": "Hat twirls 在进入 Locking 之前就已经被许多表演者使用。多位 Locking 舞者把它吸收进自己的风格，其中“Sneaky T”和 John “Okie Doke” Wilson 尤其以帽子动作闻名。后来它成为 Don Campbell 的代表性 signature 之一，不过记录称，基本 hat spin 是1974年 The Lockers 第一次大型巡演期间，由 Skeeter Rabbit 教给 Don 的。",
+    "by": "",
+    "id": "15"
+  },
+  {
+    "name": "THE WHICH A WAY",
+    "desc": "Leo “Fluky Luke” Williamson 把 Which-A-Way 发展成 Locking 的 signature move。不过它最初来自 Damita Jo Freeman 创造的社交派对舞步；她的版本速度更慢，并加入更明显的腰部旋转。她把自己的版本称为“DJ Which-A-Way”，在多段 Soul Train 影像中可以看到。",
+    "by": "",
+    "id": "16"
+  },
+  {
+    "name": "THE LEO LOCK",
+    "desc": "Leo Lock 是 Leo 以及其他柔韧性很高的 Locker 使用的一种 lock：双手放在腰间，同时让肘部朝前锁住。",
+    "by": "",
+    "id": "17"
+  },
+  {
+    "name": "LEO WALK",
+    "desc": "Leo Walk 是一种左右踏步并保持 rocking 感的移动动作。",
+    "by": "",
+    "id": "18"
+  },
+  {
+    "name": "KILLING ROACHES / SLAPPING ROACHES / CATCHING ROACHES",
+    "desc": "一种靠近地面进行的 gesture：舞者随着音乐节奏用手拍地，表现得像在抓或拍死虫子。历史上曾使用 Killing Roaches、Slapping Roaches、Catching Roaches 等多个名称。由于不同记录与术语并不完全一致，这里不把它归功于单一创作者。",
+    "by": "",
+    "id": "19"
+  },
+  {
+    "name": "THE SLOW MOTION",
+    "desc": "由 Fred “Mr. Penguin” Berry 带入 Locking。Slow Motion 是受 mime 影响的 Locking 表达方式，把所有动作放慢，并强化面部表情。",
+    "by": "",
+    "id": "20"
+  },
+  {
+    "name": "THE VOLKSWAGON",
+    "desc": "Volkswagon 是受手动挡汽车驾驶启发的动作。舞者模仿换挡以及汽车向前顿挫的感觉，并把它准确放进音乐节奏中。",
+    "by": "",
+    "id": "21"
+  },
+  {
+    "name": "THE HELICOPTOR",
+    "desc": "The Helicopter 是 Mr. Penguin 用一个连续动作依次指向、认可并向周围所有人打招呼的方式。",
+    "by": "",
+    "id": "22"
+  },
+  {
+    "name": "THE KEEPA RUNNIN",
+    "desc": "由 GoGo Brothers 的 Tony Lewis 与 Buddy Lombard 创造。Keepa Runnin 是把 kick、step 与 slide 结合起来的 footwork move。",
+    "by": "",
+    "id": "23"
+  },
+  {
+    "name": "The Sara Walk",
+    "desc": "Sara Walk 是一种在前后 pacing 的同时进行移动的动作。",
+    "by": "",
+    "id": "24"
+  },
+  {
+    "name": "THE SUPER FLY",
+    "desc": "一个使用帽子的动作：舞者摇动头部，模仿一只嗡嗡飞动的苍蝇。",
+    "by": "",
+    "id": "25"
+  },
+  {
+    "name": "THE “ALPHA”",
+    "desc": "由 Alpha Omega Anderson 创造并加入个人 Locking 风格，是一种向后倒下、类似 handspring 的地板动作。他的风格中也包括快速旋转、corkscrew style 的 Locking move。",
+    "by": "",
+    "id": "26"
+  },
+  {
+    "name": "STUNTS & SPLITS",
+    "desc": "在 Locking 出现之前，Nicholas Brothers、Sammy Davis Jr. Trio 等歌手、舞者和团体就已经在表演中使用 half splits。1960—70年代，James Brown 极大地把 half split 推向大众。他的舞台舞蹈与舞步在美国非裔社交派对中被广泛模仿，其中包括 half splits、The Alligator 等地板动作；Camel Walk、Mashed Potato 等动作也因他的表演而被更多人吸收，影响非常巨大。Don Campbell 同样在派对舞蹈语境中，经常把 half splits 与 knee drops 放在社交舞与 locks 之间。Kick splits 是由 Don Campbell 带入 Locking 的，但此前 James Brown、tap dancer 与 party dancer 就已经使用。High-flying knee drops、running knee drops 与 Swan Dive 也成为 Don 个人风格的一部分。",
+    "by": "",
+    "id": "27"
+  },
+  {
+    "name": "BUTT DROPS",
+    "desc": "由 John “Sambo Lock” McCloud 创造，是一种大胆而富有冲击力的 stunt。舞者跳起后把双腿向前伸直，并准确踩着音乐节拍以臀部落地。",
+    "by": "",
+    "id": "28"
+  },
+  {
+    "name": "LOCKING HAND SHAKES",
+    "desc": "Damita Jo Freeman 与 Jimmy “Scooby Doo” Foster 在 Soul Train Dance Contest 中一起完成的动作，是较早被记录下来的例子之一。部分 Locking handshakes 由 Greg “Campbellock Jr.” Pope 创造，据传 Greg Campbellock Jr. 与 Fluky Luke 是最早展示其中一些版本的人（参见 Wattstax 影像）。GoGo Brothers 也发展并使用了多个不同 handshake。这些动作反映了城市街头用于表达 unity 的 handshakes。",
+    "by": "",
+    "id": "29"
+  },
+  {
+    "name": "THE ROBOT",
+    "desc": "严格来说，Robot 本身并不是一个 lock，但通过 Don Campbell 与 Charles “Robot” Washington 的关系，Roboting 长期与 Locking 的历史交织在一起。它既出现在 Locking 的发展过程中，也出现在商业化 Locking 表演里，因此两种形式一直保持联系。Charles “Robot” Washington 被记录为把 Robot 作为独立舞蹈、同时也把它带入 Locking 亚文化的重要人物。",
+    "by": "",
+    "id": "30"
+  }
+]

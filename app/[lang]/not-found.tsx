@@ -16,6 +16,7 @@ export default function NotFound() {
     fi: { title: 'Sivua ei löytynyt', home: 'Takaisin etusivulle' },
     ko: { title: '페이지를 찾을 수 없습니다', home: '홈으로 돌아가기' },
     ja: { title: 'ページが見つかりません', home: 'ホームへ戻る' },
+    zh: { title: '页面未找到', home: '返回首页' },
   }[lang];
 
   return (

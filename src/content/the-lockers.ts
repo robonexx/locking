@@ -2,6 +2,7 @@ import type { Locale } from '@/lib/i18n';
 import { theLockersFi } from './fi.generated';
 import { theLockersKo } from './ko.generated';
 import { theLockersJa } from './ja.generated';
+import { theLockersZh } from './zh.generated';
 
 type LockersSection = {
   period: string;
@@ -290,4 +291,5 @@ export const theLockersStory: Record<Locale, LockersStory> = {
   fi: theLockersFi,
   ko: theLockersKo,
   ja: theLockersJa,
+  zh: theLockersZh,
 };

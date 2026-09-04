@@ -14,6 +14,7 @@ const languageNames: Record<Locale, string> = {
   fi: 'Suomi',
   ko: '한국어',
   ja: '日本語',
+  zh: '简体中文',
 };
 
 const chooserLabels: Record<Locale, string> = {
@@ -23,6 +24,7 @@ const chooserLabels: Record<Locale, string> = {
   fi: 'Valitse kieli',
   ko: '언어 선택',
   ja: '言語を選択',
+  zh: '选择语言',
 };
 
 export function LanguageSwitcher({ lang }: { lang: Locale }) {

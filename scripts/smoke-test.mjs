@@ -1,6 +1,6 @@
 const base = process.env.SITE_URL ?? 'http://localhost:3000';
-const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja'];
-const languageTags = { sv: 'sv', en: 'en', fr: 'fr', fi: 'fi', ko: 'ko-KR', ja: 'ja-JP' };
+const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja', 'zh'];
+const languageTags = { sv: 'sv', en: 'en', fr: 'fr', fi: 'fi', ko: 'ko-KR', ja: 'ja-JP', zh: 'zh-CN' };
 const slugs = [
   '',
   'about',

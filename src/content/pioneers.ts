@@ -142,7 +142,7 @@ const frenchCopy: Record<string, Partial<PioneerCopy> & Pick<PioneerCopy, 'desc'
 };
 
 export function getPioneerCopy(pioneer: Pioneer, lang: Locale): PioneerCopy {
-  if (lang === 'en' || lang === 'fi' || lang === 'ko' || lang === 'ja') return pioneer;
+  if (lang === 'en' || lang === 'fi' || lang === 'ko' || lang === 'ja' || lang === 'zh') return pioneer;
 
   const translation = (lang === 'fr' ? frenchCopy : swedishCopy)[pioneer.id];
   return {

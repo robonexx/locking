@@ -3,6 +3,7 @@ import type { DanceStep } from '@/lib/content';
 import { stepsStoryFi } from './fi.generated';
 import { stepsStoryKo } from './ko.generated';
 import { stepsStoryJa } from './ja.generated';
+import { stepsStoryZh } from './zh.generated';
 
 type MovementFamily = {
   title: string;
@@ -157,6 +158,7 @@ export const stepsStory: Record<Locale, StepsStory> = {
   fi: stepsStoryFi,
   ko: stepsStoryKo,
   ja: stepsStoryJa,
+  zh: stepsStoryZh,
 };
 
 export const stepsSources = [
