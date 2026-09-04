@@ -1,6 +1,8 @@
 import type { Locale } from '@/lib/i18n';
 import type { DanceStep } from '@/lib/content';
 import { stepsStoryFi } from './fi.generated';
+import { stepsStoryEs } from './es.generated';
+import { stepsStoryPt } from './pt.generated';
 import { stepsStoryKo } from './ko.generated';
 import { stepsStoryJa } from './ja.generated';
 import { stepsStoryZh } from './zh.generated';
@@ -156,6 +158,8 @@ export const stepsStory: Record<Locale, StepsStory> = {
     sourcesTitle: 'Sources et lectures complémentaires',
   },
   fi: stepsStoryFi,
+  es: stepsStoryEs,
+  pt: stepsStoryPt,
   ko: stepsStoryKo,
   ja: stepsStoryJa,
   zh: stepsStoryZh,

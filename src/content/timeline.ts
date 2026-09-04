@@ -1,5 +1,7 @@
 import type { Locale } from '@/lib/i18n';
 import { timelineFi } from './fi.generated';
+import { timelineEs } from './es.generated';
+import { timelinePt } from './pt.generated';
 import { timelineKo } from './ko.generated';
 import { timelineJa } from './ja.generated';
 import { timelineZh } from './zh.generated';
@@ -523,6 +525,8 @@ export const timelineContent: Record<Locale, TimelineContent> = {
     ],
   },
   fi: timelineFi as TimelineContent,
+  es: timelineEs as TimelineContent,
+  pt: timelinePt as TimelineContent,
   ko: timelineKo as TimelineContent,
   ja: timelineJa as TimelineContent,
   zh: timelineZh as TimelineContent,

@@ -49,6 +49,14 @@ export const aboutSv = {
       ]
     },
     {
+      "period": "Rinkeby / 1990-talet–2002",
+      "title": "Ett kollektiv, träning och fler VHS-band",
+      "paragraphs": [
+        "Under 1990-talet hängde jag med två b-boys i Rinkeby, Carlito och Elvis, aka Jam-One. Från ungefär 1999 till 2002 bodde vi också tillsammans i ett kollektiv. Båda var inspirerande att träna med, även om jag själv inte var b-boy.",
+        "Elvis reste mycket och hade en hel del VHS-band som vi tittade på tillsammans. I klippen såg jag ännu mer som inspirerade mig inom Locking: bland andra Stene, Lock-Smith, Warren och Anthony, men också flera franska dansare, däribland Junior Almeida och Mohamed från Vagabond Crew."
+      ]
+    },
+    {
       "period": "Tidigt 2000-tal",
       "title": "Funktastics, Funkademics och en växande scen",
       "paragraphs": [
@@ -114,7 +122,7 @@ export const aboutSv = {
       "title": "Funky 4 Brothers och en ny generation",
       "paragraphs": [
         "Ungefär samtidigt, under 2004–2005, växte en ny generation fram i Sverige.",
-        "Fyra unga dansare bildade Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist och Joel Mäki.",
+        "Fyra unga dansare bildade Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Markus B. Almqvist och Joel Mäki.",
         "De var unga, hungriga och passionerade för Locking och gav den svenska scenen en ny energi. Vi reste bland annat till Juste Debout i Paris 2006, och det blev tydligt att den svenska Locking-scenen började få en helt annan rörelse och kontakt med världen utanför Sverige.",
         "De kom att göra ett stort avtryck, inte bara här hemma utan även internationellt."
       ],
@@ -128,7 +136,9 @@ export const aboutSv = {
       "title": "20 år av FunkCamp",
       "paragraphs": [
         "Mellan 2005 och 2025 arrangerade jag FunkCamp med en lång rad gäster från Sverige och resten av världen.",
-        "Genom åren har campet haft gäster som bland andra Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik “Prime” Helge, A-Train, Arvidos, Lock-Smith och Samantha Haynes.",
+        "Genom åren har campet haft gäster som bland andra Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik “Prime” Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes, Yared Cederlund, Markus B. Almqvist och William Bois.",
+        "En person som förtjänar ett särskilt omnämnande är Emanuel “Funky Asparagus” Schütt. Han har varit med på varje camp och är som min högra hand. Genom åren har han både delat med sig av sin kunskap och hjälpt till med allt runt omkring.",
+        "Manne är, i mina ögon, en av Sveriges bästa lockers genom tiderna. Det finns ingen som representerar stilen med större precision. Vill du lära dig Locking, då är det Manne som gäller.",
         "Det som började som ett sätt att föra kunskap närmare den svenska scenen växte till en mötesplats för generationer av lockers.",
         "2025 markerade 20 år av FunkCamp. Det blev den största upplagan dittills och var då tänkt som ett avslut.",
         "Men ibland är man tydligen inte färdig bara för att man säger att man är färdig.",
@@ -287,6 +297,14 @@ export const aboutEn = {
       ]
     },
     {
+      period: "Rinkeby / the 1990s–2002",
+      title: "A collective, training, and more VHS tapes",
+      paragraphs: [
+        "During the 1990s, I spent time with two b-boys in Rinkeby, Carlito and Elvis, aka Jam-One. From around 1999 to 2002, we also lived together in a collective. Both were inspiring to train with, even though I was not a b-boy myself.",
+        "Elvis travelled a lot and had a large collection of VHS tapes that we watched together. The footage gave me even more inspiration for my Locking: dancers including Stene, Lock-Smith, Warren, and Anthony, as well as several French dancers, among them Junior Almeida and Mohamed from Vagabond Crew."
+      ]
+    },
+    {
       period: "Early 2000s",
       title: "Funktastics, Funkademics, and a growing scene",
       paragraphs: [
@@ -334,7 +352,7 @@ export const aboutEn = {
       period: "2004–2006",
       title: "Funky 4 Brothers and a new generation",
       paragraphs: [
-        "At the same time, around 2004–2005, a new generation emerged in Sweden. Four young dancers formed Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Marcus B. Ahlmqvist, and Joel Mäki. They were young, hungry, and passionate about Locking, bringing new energy to the Swedish scene.",
+        "At the same time, around 2004–2005, a new generation emerged in Sweden. Four young dancers formed Funky 4 Brothers: Alexander “A-Train” Dam, William Bois, Markus B. Almqvist, and Joel Mäki. They were young, hungry, and passionate about Locking, bringing new energy to the Swedish scene.",
         "We travelled to Juste Debout in Paris in 2006, among other places, and it became clear that Swedish Locking was developing a new momentum and a stronger connection with the world beyond Sweden. Funky 4 Brothers made a major impact both at home and internationally."
       ],
       media: [
@@ -346,7 +364,9 @@ export const aboutEn = {
       period: "2005–2027",
       title: "Twenty years of FunkCamp",
       paragraphs: [
-        "Between 2005 and 2025 I organised FunkCamp with a long list of guests from Sweden and around the world, including Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik “Prime” Helge, A-Train, Arvidos, Lock-Smith, and Samantha Haynes.",
+        "Between 2005 and 2025 I organised FunkCamp with a long list of guests from Sweden and around the world, including Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik “Prime” Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes, Yared Cederlund, Markus B. Almqvist, and William Bois.",
+        "One person deserves special mention: Emanuel “Funky Asparagus” Schütt. He has been part of every camp and is like my right-hand man. Over the years, he has both shared his knowledge and helped with everything behind the scenes.",
+        "In my eyes, Manne is one of Sweden’s greatest lockers of all time. No one represents the style with greater precision. If you want to learn Locking, Manne is the one to turn to.",
         "What began as a way to bring knowledge closer to the Swedish scene grew into a meeting place for generations of lockers. The 2025 edition marked twenty years of FunkCamp. It was the largest edition yet and was intended as a conclusion.",
         "But sometimes you are not finished simply because you say you are. FunkCamp returns in 2027, and the next chapter will include Khan from Korea."
       ]
@@ -445,6 +465,12 @@ export const aboutFr = {
       ]
     },
     {
+      period: "Rinkeby / années 1990–2002", title: "Une colocation, des entraînements et d’autres VHS", paragraphs: [
+        "Pendant les années 1990, je fréquentais deux b-boys à Rinkeby, Carlito et Elvis, aka Jam-One. D’environ 1999 à 2002, nous avons aussi vécu ensemble en colocation. Tous deux étaient très stimulants comme partenaires d’entraînement, même si je n’étais pas moi-même b-boy.",
+        "Elvis voyageait beaucoup et possédait de nombreuses cassettes VHS que nous regardions ensemble. Ces images m’ont encore davantage inspiré dans mon Locking : on y voyait notamment Stene, Lock-Smith, Warren et Anthony, mais aussi plusieurs danseurs français, dont Junior Almeida et Mohamed de Vagabond Crew."
+      ]
+    },
+    {
       period: "Début des années 2000", title: "Funktastics, Funkademics et une scène en plein essor", paragraphs: [
         "Au début des années 2000, nous avons créé Funktastics, devenu ensuite Funkademics. Le groupe réunissait notamment Manne, Oskar, Charlie, Patrik, Isse, Karim, Lil-Putte et moi-même.",
         "Nous nous entraînions, nous produisions, enseignions et voyagions, tout en poursuivant surtout notre recherche sur le Locking. Durant cette période, le lien avec les origines de la danse s’est rapproché. Nous sommes entrés en contact avec Don Campbell lui-même."
@@ -482,7 +508,7 @@ export const aboutFr = {
     },
     {
       period: "2004–2006", title: "Funky 4 Brothers et une nouvelle génération", paragraphs: [
-        "Au même moment, vers 2004–2005, une nouvelle génération apparaissait en Suède. Quatre jeunes danseurs ont formé Funky 4 Brothers : Alexander « A-Train » Dam, William Bois, Marcus B. Ahlmqvist et Joel Mäki. Jeunes, avides d’apprendre et passionnés par le Locking, ils ont apporté une énergie nouvelle à la scène suédoise.",
+        "Au même moment, vers 2004–2005, une nouvelle génération apparaissait en Suède. Quatre jeunes danseurs ont formé Funky 4 Brothers : Alexander « A-Train » Dam, William Bois, Markus B. Almqvist et Joel Mäki. Jeunes, avides d’apprendre et passionnés par le Locking, ils ont apporté une énergie nouvelle à la scène suédoise.",
         "Nous sommes notamment allés à Juste Debout à Paris en 2006, et il est devenu évident que la scène suédoise gagnait un nouvel élan et renforçait son lien avec le reste du monde. Funky 4 Brothers a laissé une empreinte importante en Suède comme à l’international."
       ],
       media: [
@@ -492,7 +518,9 @@ export const aboutFr = {
     },
     {
       period: "2005–2027", title: "Vingt ans de FunkCamp", paragraphs: [
-        "Entre 2005 et 2025, j’ai organisé FunkCamp avec de nombreux invités venus de Suède et du monde entier, parmi lesquels Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik « Prime » Helge, A-Train, Arvidos, Lock-Smith et Samantha Haynes.",
+        "Entre 2005 et 2025, j’ai organisé FunkCamp avec de nombreux invités venus de Suède et du monde entier, parmi lesquels Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik « Prime » Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes, Yared Cederlund, Markus B. Almqvist et William Bois.",
+        "Une personne mérite une mention particulière : Emanuel « Funky Asparagus » Schütt. Il a participé à chaque camp et il est comme mon bras droit. Au fil des années, il a partagé son savoir tout en aidant dans tout ce qui entourait l’événement.",
+        "À mes yeux, Manne est l’un des meilleurs lockers de toute l’histoire de la Suède. Personne ne représente ce style avec plus de précision. Si vous voulez apprendre le Locking, c’est vers Manne qu’il faut vous tourner.",
         "Ce qui avait commencé comme un moyen de rapprocher le savoir de la scène suédoise est devenu un lieu de rencontre entre générations de lockers. L’édition 2025 a célébré les vingt ans de FunkCamp. Ce fut la plus grande édition, alors pensée comme la dernière.",
         "Mais dire que l’on a terminé ne signifie pas toujours que l’on a vraiment terminé. FunkCamp reviendra en 2027, avec notamment Khan de Corée dans ce nouveau chapitre."
       ]
@@ -585,6 +613,12 @@ export const aboutFi = {
       ]
     },
     {
+      period: "Rinkeby / 1990-luku–2002", title: "Kommuuni, harjoittelua ja lisää VHS-nauhoja", paragraphs: [
+        "1990-luvulla vietin aikaa Rinkebyssä kahden b-boyn, Carliton ja Elvisin eli Jam-Onen, kanssa. Noin vuosina 1999–2002 asuimme myös yhdessä kommuunissa. Molemmat olivat inspiroivia harjoittelukumppaneita, vaikka en itse ollut b-boy.",
+        "Elvis matkusteli paljon, ja hänellä oli runsaasti VHS-nauhoja, joita katsoimme yhdessä. Näin nauhoilla lisää Lockingiani inspiroinutta materiaalia: muun muassa Steneä, Lock-Smithiä, Warrenia ja Anthonya sekä useita ranskalaisia tanssijoita, heidän joukossaan Junior Almeida ja Mohamed Vagabond Crew’sta."
+      ]
+    },
+    {
       period: "2000-luvun alku", title: "Funktastics, Funkademics ja kasvava scene", paragraphs: [
         "Perustimme 2000-luvun alussa Funktasticsin, josta tuli myöhemmin Funkademics. Ryhmään kuuluivat muun muassa minä, Manne, Oskar, Charlie, Patrik, Isse, Karim ja Lil-Putte.",
         "Harjoittelimme, esiinnyimme, opetimme ja matkustimme, mutta ennen kaikkea jatkoimme syvemmän Locking-tiedon etsimistä. Samalla yhteys tanssin alkuperään alkoi tulla lähemmäksi. Saimme yhteyden Don Campbelliin."
@@ -622,7 +656,7 @@ export const aboutFi = {
     },
     {
       period: "2004–2006", title: "Funky 4 Brothers ja uusi sukupolvi", paragraphs: [
-        "Samaan aikaan, vuosina 2004–2005, Ruotsissa nousi uusi sukupolvi. Neljä nuorta tanssijaa perusti Funky 4 Brothersin: Alexander ”A-Train” Dam, William Bois, Marcus B. Ahlmqvist ja Joel Mäki. He olivat nuoria, nälkäisiä ja intohimoisia Lockingia kohtaan ja toivat Ruotsin sceneen uutta energiaa.",
+        "Samaan aikaan, vuosina 2004–2005, Ruotsissa nousi uusi sukupolvi. Neljä nuorta tanssijaa perusti Funky 4 Brothersin: Alexander ”A-Train” Dam, William Bois, Markus B. Almqvist ja Joel Mäki. He olivat nuoria, nälkäisiä ja intohimoisia Lockingia kohtaan ja toivat Ruotsin sceneen uutta energiaa.",
         "Matkustimme muun muassa Juste Debout -tapahtumaan Pariisiin vuonna 2006, ja kävi selväksi, että Ruotsin Locking-scene sai aivan uudenlaista liikettä ja yhteyksiä ulkomaailmaan. Funky 4 Brothers jätti suuren jäljen sekä kotimaassa että kansainvälisesti."
       ],
       media: [
@@ -632,7 +666,9 @@ export const aboutFi = {
     },
     {
       period: "2005–2027", title: "Kaksikymmentä vuotta FunkCampia", paragraphs: [
-        "Järjestin FunkCampia vuosina 2005–2025 pitkän ruotsalaisten ja kansainvälisten vieraiden joukon kanssa. Mukana olivat muun muassa Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik ”Prime” Helge, A-Train, Arvidos, Lock-Smith ja Samantha Haynes.",
+        "Järjestin FunkCampia vuosina 2005–2025 pitkän ruotsalaisten ja kansainvälisten vieraiden joukon kanssa. Mukana olivat muun muassa Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik ”Prime” Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes, Yared Cederlund, Markus B. Almqvist ja William Bois.",
+        "Yksi henkilö ansaitsee erityismaininnan: Emanuel ”Funky Asparagus” Schütt. Hän on ollut mukana jokaisella campilla ja on kuin oikea käteni. Vuosien mittaan hän on sekä jakanut tietämystään että auttanut kaikessa tapahtuman ympärillä.",
+        "Minun silmissäni Manne on yksi Ruotsin kaikkien aikojen parhaista lockereista. Kukaan ei edusta tyyliä yhtä tarkasti kuin hän. Jos haluat oppia Lockingia, Manne on oikea henkilö.",
         "Tavasta tuoda tietoa lähemmäksi Ruotsin sceneä kasvoi eri locker-sukupolvien kohtaamispaikka. Vuosi 2025 merkitsi FunkCampin 20-vuotisjuhlaa. Se oli siihen asti suurin tapahtuma ja silloin tarkoitettu viimeiseksi.",
         "Joskus työ ei kuitenkaan lopu vain sillä, että sanoo sen loppuvan. FunkCamp palaa vuonna 2027, ja seuraavassa luvussa on mukana muun muassa Khan Koreasta."
       ]

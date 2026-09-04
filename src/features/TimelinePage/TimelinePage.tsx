@@ -18,11 +18,11 @@ export function TimelinePage({ lang }: { lang: Locale }) {
     <div>
       <Reveal as="section" className={styles.intro}>
         <p className="eyebrow eyebrow-dark">
-          {lang === 'sv' ? 'Källkarta / 1970–2007' : lang === 'fr' ? 'Diagramme source / 1970–2007' : lang === 'fi' ? 'Lähdekaavio / 1970–2007' : lang === 'ko' ? '자료 차트 / 1970–2007' : lang === 'ja' ? '資料チャート / 1970–2007' : lang === 'zh' ? '资料图 / 1970–2007' : 'Source map / 1970–2007'}
+          {lang === 'sv' ? 'Källkarta / 1970–2007' : lang === 'fr' ? 'Diagramme source / 1970–2007' : lang === 'fi' ? 'Lähdekaavio / 1970–2007' : lang === 'es' ? 'Mapa fuente / 1970–2007' : lang === 'pt' ? 'Mapa da fonte / 1970–2007' : lang === 'ko' ? '자료 차트 / 1970–2007' : lang === 'ja' ? '資料チャート / 1970–2007' : lang === 'zh' ? '资料图 / 1970–2007' : 'Source map / 1970–2007'}
         </p>
         <h2>{copy.introTitle}</h2>
         {copy.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        <div className={styles.legend} aria-label={lang === 'sv' ? 'Förklaring' : lang === 'fr' ? 'Légende' : lang === 'fi' ? 'Selite' : lang === 'ko' ? '범례' : lang === 'ja' ? '凡例' : lang === 'zh' ? '图例' : 'Legend'}>
+        <div className={styles.legend} aria-label={lang === 'sv' ? 'Förklaring' : lang === 'fr' ? 'Légende' : lang === 'fi' ? 'Selite' : lang === 'es' ? 'Leyenda' : lang === 'pt' ? 'Legenda' : lang === 'ko' ? '범례' : lang === 'ja' ? '凡例' : lang === 'zh' ? '图例' : 'Legend'}>
           <span><Star aria-hidden="true" />{copy.keyEventLabel}</span>
           <span><GitBranch aria-hidden="true" />{copy.branchLabel}</span>
         </div>

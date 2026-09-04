@@ -36,6 +36,14 @@ export const aboutKo = {
       ]
     },
     {
+      period: "Rinkeby / 1990년대–2002년",
+      title: "공동생활, 연습, 그리고 더 많은 VHS 테이프",
+      paragraphs: [
+        "1990년대에 저는 Rinkeby에서 두 명의 b-boy인 Carlito와 Elvis, aka Jam-One과 어울렸습니다. 1999년경부터 2002년까지는 함께 공동생활도 했습니다. 저는 b-boy가 아니었지만, 두 사람 모두 함께 연습하며 많은 영감을 받을 수 있는 사람들이었습니다.",
+        "Elvis는 여행을 많이 다녔고, 우리가 함께 보곤 했던 VHS 테이프도 많이 가지고 있었습니다. 그 영상에서 Stene, Lock-Smith, Warren, Anthony를 비롯해 Vagabond Crew의 Junior Almeida와 Mohamed 등 여러 프랑스 댄서들을 보며 Locking에 대한 더 많은 영감을 얻었습니다."
+      ]
+    },
+    {
       period: "2000년대 초",
       title: "Funktastics, Funkademics, 그리고 성장하는 신",
       paragraphs: [
@@ -83,7 +91,7 @@ export const aboutKo = {
       period: "2004–2006",
       title: "Funky 4 Brothers와 새로운 세대",
       paragraphs: [
-        "동시에 2004–2005년 무렵 스웨덴에는 새로운 세대가 등장했습니다. 네 명의 젊은 댄서 Alexander ‘A-Train’ Dam, William Bois, Marcus B. Ahlmqvist, Joel Mäki가 Funky 4 Brothers를 결성했습니다. 젊고, 배움에 목말라 있었으며, 락킹에 대한 열정으로 스웨덴 신에 새로운 에너지를 가져왔습니다.",
+        "동시에 2004–2005년 무렵 스웨덴에는 새로운 세대가 등장했습니다. 네 명의 젊은 댄서 Alexander ‘A-Train’ Dam, William Bois, Markus B. Almqvist, Joel Mäki가 Funky 4 Brothers를 결성했습니다. 젊고, 배움에 목말라 있었으며, 락킹에 대한 열정으로 스웨덴 신에 새로운 에너지를 가져왔습니다.",
         "우리는 2006년 Paris의 Juste Debout 등을 함께 찾았습니다. 그 무렵 스웨덴 락킹이 새로운 추진력을 얻고, 스웨덴 바깥의 세계와 더 강하게 연결되고 있다는 것이 분명해졌습니다. Funky 4 Brothers는 국내와 해외 모두에서 큰 영향을 남겼습니다."
       ],
       media: [
@@ -95,7 +103,9 @@ export const aboutKo = {
       period: "2005–2027",
       title: "FunkCamp 20년",
       paragraphs: [
-        "2005년부터 2025년까지 저는 Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik ‘Prime’ Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes 등 스웨덴과 세계 여러 지역의 수많은 게스트와 함께 FunkCamp를 열었습니다.",
+        "2005년부터 2025년까지 저는 Greg Campbellock Jr. Pope, O.G. Skeeter Rabbit, Tony GoGo, Loose Caboose, P-Lock, Willow Evann, Anthony Edwards, Damon Frost, Patrik ‘Prime’ Helge, A-Train, Arvidos, Lock-Smith, Samantha Haynes, Yared Cederlund, Markus B. Almqvist, William Bois 등 스웨덴과 세계 여러 지역의 수많은 게스트와 함께 FunkCamp를 열었습니다.",
+        "특별히 언급하고 싶은 사람은 Emanuel ‘Funky Asparagus’ Schütt입니다. 그는 모든 캠프에 함께했고 제 오른팔 같은 존재입니다. 수년 동안 자신의 지식을 나누는 한편 캠프 곳곳의 일을 도왔습니다.",
+        "제가 보기에 Manne는 스웨덴 역사상 최고의 락커 중 한 명입니다. 그보다 더 정확하게 이 스타일을 표현할 수 있는 사람은 없습니다. Locking을 배우고 싶다면 Manne가 답입니다.",
         "스웨덴 신에 지식을 더 가까이 가져오자는 생각에서 출발한 FunkCamp는 여러 세대의 락커가 만나는 장소로 성장했습니다. 2025년 에디션은 FunkCamp 20주년이었고, 지금까지 가장 큰 규모였으며 마지막 행사로 생각하고 있었습니다.",
         "하지만 끝났다고 말한다고 해서 정말 끝나는 것은 아닐 때도 있습니다. FunkCamp는 2027년에 돌아오며, 다음 장에는 한국의 Khan도 함께할 예정입니다."
       ]

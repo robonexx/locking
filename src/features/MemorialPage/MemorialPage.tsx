@@ -19,7 +19,7 @@ export function MemorialPage({ lang }: { lang: Locale }) {
         <section className={styles.group} key={group}>
           <Reveal distance="short">
             <p className="eyebrow eyebrow-dark">
-              {lang === 'sv' ? 'R.I.P. / För alltid i groovet' : lang === 'fr' ? 'R.I.P. / À jamais dans le groove' : lang === 'fi' ? 'R.I.P. / Ikuisesti groovessa' : lang === 'ko' ? 'R.I.P. / 영원히 그루브 속에' : lang === 'ja' ? 'R.I.P. / 永遠にグルーヴの中に' : lang === 'zh' ? 'R.I.P. / 永远留在 groove 中' : 'R.I.P. / Forever in the groove'}
+              {lang === 'sv' ? 'R.I.P. / För alltid i groovet' : lang === 'fr' ? 'R.I.P. / À jamais dans le groove' : lang === 'fi' ? 'R.I.P. / Ikuisesti groovessa' : lang === 'es' ? 'R.I.P. / Para siempre en el groove' : lang === 'pt' ? 'R.I.P. / Para sempre no groove' : lang === 'ko' ? 'R.I.P. / 영원히 그루브 속에' : lang === 'ja' ? 'R.I.P. / 永遠にグルーヴの中に' : lang === 'zh' ? 'R.I.P. / 永远留在 groove 中' : 'R.I.P. / Forever in the groove'}
             </p>
             <h2 className={styles.groupTitle}>
               {group === 'pioneer' ? page.pioneersTitle : page.inspirationsTitle}

@@ -1,4 +1,4 @@
-export const locales = ['sv', 'en', 'fr', 'fi', 'ko', 'ja', 'zh'] as const;
+export const locales = ['sv', 'en', 'fr', 'fi', 'es', 'pt', 'ko', 'ja', 'zh'] as const;
 export type Locale = (typeof locales)[number];
 
 export const languageTags = {
@@ -6,6 +6,8 @@ export const languageTags = {
   en: 'en',
   fr: 'fr',
   fi: 'fi',
+  es: 'es-419',
+  pt: 'pt-BR',
   ko: 'ko-KR',
   ja: 'ja-JP',
   zh: 'zh-CN',
@@ -65,6 +67,30 @@ export const ui = {
     stories: 'Haastattelut ja artikkelit',
     contact: 'Yhteystiedot',
     readMore: 'Tutustu sivuun',
+  },
+  es: {
+    skip: 'Ir al contenido principal',
+    menu: 'Menú',
+    close: 'Cerrar menú',
+    home: 'Inicio',
+    about: 'Acerca de',
+    history: 'Historia',
+    knowledge: 'Conocimiento',
+    stories: 'Entrevistas y artículos',
+    contact: 'Contacto',
+    readMore: 'Ver página',
+  },
+  pt: {
+    skip: 'Ir para o conteúdo principal',
+    menu: 'Menu',
+    close: 'Fechar menu',
+    home: 'Início',
+    about: 'Sobre',
+    history: 'História',
+    knowledge: 'Conhecimento',
+    stories: 'Entrevistas e artigos',
+    contact: 'Contato',
+    readMore: 'Explorar a página',
   },
   ko: {
     skip: '본문으로 건너뛰기',

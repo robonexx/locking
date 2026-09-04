@@ -1,5 +1,7 @@
 import type { Locale } from '@/lib/i18n';
 import { campbellockJrFi } from './fi.generated';
+import { campbellockJrEs } from './es.generated';
+import { campbellockJrPt } from './pt.generated';
 import { campbellockJrKo } from './ko.generated';
 import { campbellockJrJa } from './ja.generated';
 import { campbellockJrZh } from './zh.generated';
@@ -323,6 +325,8 @@ export const campbellockJrStory: Record<Locale, CampbellockJrStory> = {
     sources,
   },
   fi: campbellockJrFi,
+  es: campbellockJrEs,
+  pt: campbellockJrPt,
   ko: campbellockJrKo,
   ja: campbellockJrJa,
   zh: campbellockJrZh,

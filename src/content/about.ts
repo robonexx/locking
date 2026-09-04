@@ -1,5 +1,7 @@
 import type { Locale } from '@/lib/i18n';
 import { aboutEn, aboutFi, aboutFr, aboutSv } from './about.generated';
+import { aboutEs } from './es.generated';
+import { aboutPt } from './pt.generated';
 import { aboutKo } from './ko.generated';
 import { aboutJa } from './ja.generated';
 import { aboutZh } from './zh.generated';
@@ -34,6 +36,8 @@ export const aboutStory: Record<Locale, AboutStory> = {
   en: aboutEn,
   fr: aboutFr,
   fi: aboutFi,
+  es: aboutEs,
+  pt: aboutPt,
   ko: aboutKo,
   ja: aboutJa,
   zh: aboutZh,

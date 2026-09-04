@@ -36,6 +36,14 @@ export const aboutJa = {
       ]
     },
     {
+      period: "Rinkeby / 1990年代–2002年",
+      title: "共同生活、練習、そしてさらに多くのVHS",
+      paragraphs: [
+        "1990年代、私はRinkebyでCarlitoとElvis aka Jam-Oneという二人のb-boyとよく一緒に過ごしていました。1999年頃から2002年までは、共同生活もしていました。私自身はb-boyではありませんでしたが、二人とも一緒に練習すると大きな刺激をもらえる存在でした。",
+        "Elvisは各地を旅し、私たちが一緒によく見ていたVHSテープをたくさん持っていました。その映像にあったStene、Lock-Smith、Warren、Anthony、そしてVagabond CrewのJunior AlmeidaとMohamedをはじめとするフランスのダンサーたちから、私はLockingへのさらなるインスピレーションを得ました。"
+      ]
+    },
+    {
       period: "2000年代初頭",
       title: "Funktastics、Funkademics、そして成長するシーン",
       paragraphs: [
@@ -83,7 +91,7 @@ export const aboutJa = {
       period: "2004–2006",
       title: "Funky 4 Brothersと新しい世代",
       paragraphs: [
-        "同じ頃、2004〜2005年あたりにスウェーデンでは新しい世代が現れました。4人の若いダンサー、Alexander ‘A-Train’ Dam、William Bois、Marcus B. Ahlmqvist、Joel MäkiがFunky 4 Brothersを結成しました。若く、学ぶことに飢え、ロッキングへの情熱によってスウェーデンのシーンへ新しいエネルギーを持ち込みました。",
+        "同じ頃、2004〜2005年あたりにスウェーデンでは新しい世代が現れました。4人の若いダンサー、Alexander ‘A-Train’ Dam、William Bois、Markus B. Almqvist、Joel MäkiがFunky 4 Brothersを結成しました。若く、学ぶことに飢え、ロッキングへの情熱によってスウェーデンのシーンへ新しいエネルギーを持ち込みました。",
         "私たちは2006年のParis、Juste Deboutなどへ一緒に行きました。その頃には、スウェーデンのロッキングが新しい勢いを得て、国外の世界とより強くつながっていることがはっきりしていました。Funky 4 Brothersは国内外で大きな影響を残しました。"
       ],
       media: [
@@ -95,7 +103,9 @@ export const aboutJa = {
       period: "2005–2027",
       title: "FunkCamp 20年",
       paragraphs: [
-        "2005年から2025年まで、私はGreg Campbellock Jr. Pope、O.G. Skeeter Rabbit、Tony GoGo、Loose Caboose、P-Lock、Willow Evann、Anthony Edwards、Damon Frost、Patrik ‘Prime’ Helge、A-Train、Arvidos、Lock-Smith、Samantha Haynesなど、スウェーデンと世界各地から多くのゲストを迎えてFunkCampを開催しました。",
+        "2005年から2025年まで、私はGreg Campbellock Jr. Pope、O.G. Skeeter Rabbit、Tony GoGo、Loose Caboose、P-Lock、Willow Evann、Anthony Edwards、Damon Frost、Patrik ‘Prime’ Helge、A-Train、Arvidos、Lock-Smith、Samantha Haynes、Yared Cederlund、Markus B. Almqvist、William Boisなど、スウェーデンと世界各地から多くのゲストを迎えてFunkCampを開催しました。",
+        "特に触れておきたいのが、Emanuel ‘Funky Asparagus’ Schüttです。彼はすべてのキャンプに参加し、私の右腕のような存在です。長年にわたり、自分の知識を伝えながら、イベントを支えるさまざまな仕事も手伝ってくれました。",
+        "私にとってManneは、スウェーデン史上最高のロッカーの一人です。彼以上に正確にこのスタイルを表現できる人はいません。Lockingを学びたいなら、Manneです。",
         "スウェーデンのシーンへ知識をもっと近づけたいという考えから始まったFunkCampは、複数世代のロッカーが出会う場所へ成長しました。2025年版はFunkCamp 20周年で、それまでで最大規模となり、最後のイベントにするつもりでもありました。",
         "でも、終わりだと言ったからといって本当に終わるとは限りません。FunkCampは2027年に戻ってきます。そして次の章には韓国のKhanも加わる予定です。"
       ]

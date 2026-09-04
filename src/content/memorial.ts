@@ -1,5 +1,7 @@
 import type { Locale } from '@/lib/i18n';
 import { memorialFi } from './fi.generated';
+import { memorialEs } from './es.generated';
+import { memorialPt } from './pt.generated';
 import { memorialKo } from './ko.generated';
 import { memorialJa } from './ja.generated';
 import { memorialZh } from './zh.generated';
@@ -216,6 +218,8 @@ export const memorial: Record<Locale, MemorialPage> = {
     ],
   },
   fi: memorialFi as MemorialPage,
+  es: memorialEs as MemorialPage,
+  pt: memorialPt as MemorialPage,
   ko: memorialKo as MemorialPage,
   ja: memorialJa as MemorialPage,
   zh: memorialZh as MemorialPage,

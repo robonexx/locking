@@ -36,6 +36,14 @@ export const aboutZh = {
       ]
     },
     {
+      period: "Rinkeby / 1990年代–2002年",
+      title: "共同生活、练习与更多 VHS",
+      paragraphs: [
+        "1990年代，我常和 Rinkeby 的两位 b-boy——Carlito 和 Elvis，aka Jam-One——一起相处。大约从1999年到2002年，我们还住在同一处合住房里。虽然我自己不是 b-boy，但和他们两人一起练习都让我很受启发。",
+        "Elvis 经常旅行，也收藏了许多 VHS，我们常常一起观看。从那些影像中，我获得了更多 Locking 方面的灵感，其中有 Stene、Lock-Smith、Warren、Anthony，也有不少法国舞者，包括 Vagabond Crew 的 Junior Almeida 和 Mohamed。"
+      ]
+    },
+    {
       period: "2000年代初",
       title: "Funktastics、Funkademics，以及不断成长的场景",
       paragraphs: [
@@ -83,7 +91,7 @@ export const aboutZh = {
       period: "2004–2006",
       title: "Funky 4 Brothers 与新一代",
       paragraphs: [
-        "差不多在2004—2005年，瑞典出现了新一代舞者。四位年轻舞者 Alexander ‘A-Train’ Dam、William Bois、Marcus B. Ahlmqvist、Joel Mäki 组成了 Funky 4 Brothers。他们年轻、渴望学习，也因为对 Locking 的热情给瑞典场景带来了新的能量。",
+        "差不多在2004—2005年，瑞典出现了新一代舞者。四位年轻舞者 Alexander ‘A-Train’ Dam、William Bois、Markus B. Almqvist、Joel Mäki 组成了 Funky 4 Brothers。他们年轻、渴望学习，也因为对 Locking 的热情给瑞典场景带来了新的能量。",
         "我们一起去了2006年的 Paris、Juste Debout 等活动。到那个时候已经很明显，瑞典 Locking 正获得新的动力，与国外的世界连接得越来越紧密。Funky 4 Brothers 在瑞典国内与国际上都留下了很大影响。"
       ],
       media: [
@@ -95,7 +103,9 @@ export const aboutZh = {
       period: "2005–2027",
       title: "FunkCamp 20年",
       paragraphs: [
-        "从2005到2025年，我通过 FunkCamp 邀请了来自瑞典和世界各地的许多嘉宾，包括 Greg Campbellock Jr. Pope、O.G. Skeeter Rabbit、Tony GoGo、Loose Caboose、P-Lock、Willow Evann、Anthony Edwards、Damon Frost、Patrik ‘Prime’ Helge、A-Train、Arvidos、Lock-Smith、Samantha Haynes 等。",
+        "从2005到2025年，我通过 FunkCamp 邀请了来自瑞典和世界各地的许多嘉宾，包括 Greg Campbellock Jr. Pope、O.G. Skeeter Rabbit、Tony GoGo、Loose Caboose、P-Lock、Willow Evann、Anthony Edwards、Damon Frost、Patrik ‘Prime’ Helge、A-Train、Arvidos、Lock-Smith、Samantha Haynes、Yared Cederlund、Markus B. Almqvist、William Bois 等。",
+        "有一个人尤其值得单独提到：Emanuel ‘Funky Asparagus’ Schütt。他参加了每一届 camp，是我最得力的搭档。多年来，他不仅分享了自己的知识，也帮助处理活动前前后后的各种事务。",
+        "在我看来，Manne 是瑞典有史以来最优秀的 Locker 之一。没有人能比他更精准地呈现这种风格。如果你想学 Locking，找 Manne 就对了。",
         "FunkCamp 最初只是希望把更多知识带近瑞典场景，后来慢慢成长为不同世代 Locker 可以相遇的地方。2025年是 FunkCamp 20周年，也是至今规模最大的一届。我原本也打算让它成为最后一次。",
         "但说结束，并不一定真的意味着结束。FunkCamp 将在2027年回归，而下一章还计划邀请来自韩国的 Khan。"
       ]

@@ -21,7 +21,7 @@ export const aboutFi = {
       "title": "Los Angeles ja Funkcampin alku",
       "paragraphs": [
         "Vuonna 2005 matkustimme Yhdysvaltoihin opiskelemaan Don Campbellin ja muiden pioneerien kanssa Los Angelesissa. Samana syksynä perustimme Funkcamp-tapahtuman. Siitä tuli kohtaamispaikka Lockingista syvästi kiinnostuneille ihmisille eri puolilta Ruotsia ja ajan myötä myös muualta maailmasta.",
-        "Jotkut meistä, jotka veivät tämän intohimon syvemmälle tyylin perusteisiin ja juuriin, olivat Emenuell Schutt, Oskar Pitre, Chalire Prag ja Patrik Helge. Myös monet muut ansaitsevat maininnan, mukaan lukien Isse Omari, Karim Carlsson, Joe Jobe ja Benke."
+        "Jotkut meistä, jotka veivät tämän intohimon syvemmälle tyylin perusteisiin ja juuriin, olivat Emanuel Schütt, Oskar Pitre, Chalire Prag ja Patrik Helge. Myös monet muut ansaitsevat maininnan, mukaan lukien Isse Omari, Karim Carlsson, Joe Jobe ja Benke."
       ]
     },
     {

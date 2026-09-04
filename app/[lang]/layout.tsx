@@ -17,6 +17,8 @@ export async function generateMetadata({
     en: 'Locking.se – for the lockers around the world.',
     fr: 'Locking.se – pour les lockers du monde entier.',
     fi: 'Locking.se – lockereille ympäri maailmaa.',
+    es: 'Locking.se – para lockers de todo el mundo.',
+    pt: 'Locking.se – para lockers do mundo inteiro.',
     ko: 'Locking.se – 전 세계 락커들을 위해.',
     ja: 'Locking.se – 世界中のロッカーのために。',
     zh: 'Locking.se – 为世界各地的 Locker 而设。',
