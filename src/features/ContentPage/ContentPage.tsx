@@ -9,6 +9,7 @@ import { MemorialPage } from '@/features/MemorialPage';
 import { PioneersPage } from '@/features/PioneersPage';
 import { MarkdownPage } from '@/features/MarkdownPage';
 import { StepsPage } from '@/features/StepsPage';
+import { SkeeterRabbitPage } from '@/features/SkeeterRabbitPage';
 import { TheLockersPage } from '@/features/TheLockersPage';
 import { TimelinePage } from '@/features/TimelinePage';
 import { pageBySlug } from '@/content/site';
@@ -51,6 +52,9 @@ export async function ContentPage({ params, slug }: { params: LocaleParams; slug
       break;
     case 'the-line-captain':
       content = <CampbellockJrPage lang={lang} />;
+      break;
+    case 'the-legacy-keeper':
+      content = <SkeeterRabbitPage lang={lang} />;
       break;
     case 'history':
       content = <HistoryPage lang={lang} />;

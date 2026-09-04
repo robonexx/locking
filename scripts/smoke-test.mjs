@@ -15,6 +15,7 @@ const slugs = [
   'steps-and-moves',
   'stories',
   'terminology',
+  'the-legacy-keeper',
   'the-line-captain',
   'the-lockers',
   'timeline',

@@ -9,9 +9,10 @@ import styles from './HomePage.module.css';
 const primarySlugs = ['history', 'soul-train', 'pioneers'] as const;
 
 const featuredSlugs = [
+  'the-legacy-keeper',
+  'the-line-captain',
   'steps-and-moves',
   'groups-and-dancers',
-  'the-line-captain',
   'the-lockers',
   'gogo-brothers',
 ] as const;
